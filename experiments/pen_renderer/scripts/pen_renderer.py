@@ -44,15 +44,21 @@ class PenRenderer:
     def _resolve_asset_path(self, rel_url):
         if not rel_url:
             return None
-        clean_url = rel_url.replace("./", "").replace("/", os.sep)
+        clean_url = rel_url.replace("./", "").replace("../", "").replace("/", os.sep)
+        # 1. 优先尝试 experiments/shared
+        shared_dir = os.path.abspath(os.path.join(self.base_dir, "..", "shared"))
+        shared_path = os.path.join(shared_dir, clean_url)
+        if os.path.exists(shared_path):
+            return shared_path
+        # 2. 尝试 self.base_dir
         full_path = os.path.join(self.base_dir, clean_url)
         if os.path.exists(full_path):
             return full_path
-        # 尝试相对于工作区根目录
+        # 3. 尝试相对于工作区根目录
         workspace_path = os.path.abspath(os.path.join(self.base_dir, "..", "..", clean_url))
         if os.path.exists(workspace_path):
             return workspace_path
-        return full_path
+        return shared_path
 
     def render_scene(self, template_path, manifest_path_or_dict, output_pen_path=None, output_png_path=None):
         """
@@ -397,5 +403,22 @@ class PenRenderer:
             r = int(hex_str[0] * 2, 16)
             g = int(hex_str[1] * 2, 16)
             b = int(hex_str[2] * 2, 16)
-            return (r, g, b, 255)
         return (255, 255, 255, 255)
+
+if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser(description="PenRenderer CLI")
+    parser.add_argument("--template", default="experiments/pen_renderer/report_5p_master.pen", help="Path to .pen master template")
+    parser.add_argument("--manifest", required=True, help="Path to scene manifest JSON")
+    parser.add_argument("--output", required=True, help="Path to output PNG")
+    parser.add_argument("--output-pen", default=None, help="Optional path to output derived .pen")
+    args = parser.parse_args()
+
+    renderer = PenRenderer()
+    meta = renderer.render_scene(
+        template_path=args.template,
+        manifest_path_or_dict=args.manifest,
+        output_pen_path=args.output_pen,
+        output_png_path=args.output
+    )
+    print(json.dumps(meta, indent=2, ensure_ascii=False))
