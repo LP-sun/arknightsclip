@@ -26,13 +26,19 @@ class PenRenderer:
         self.font_yahei_bold_path = os.path.join(font_dir, "msyhbd.ttc")
         self.font_impact_path = os.path.join(font_dir, "impact.ttf")
         self.font_arial_path = os.path.join(font_dir, "arial.ttf")
+        self.font_bahnschrift_path = os.path.join(font_dir, "bahnschrift.ttf")
+        self.font_simhei_path = os.path.join(font_dir, "simhei.ttf")
 
     def _get_font(self, font_family, font_size, font_weight="normal"):
         size = int(font_size)
         try:
-            if "Impact" in font_family:
+            if "Bahnschrift" in font_family or "DIN" in font_family or "Bender" in font_family or "Oswald" in font_family:
+                return ImageFont.truetype(self.font_bahnschrift_path, size)
+            elif "Impact" in font_family:
                 return ImageFont.truetype(self.font_impact_path, size)
-            elif "YaHei" in font_family or "Microsoft" in font_family or "SimHei" in font_family:
+            elif "SimHei" in font_family:
+                return ImageFont.truetype(self.font_simhei_path, size)
+            elif "YaHei" in font_family or "Microsoft" in font_family or "Sans" in font_family:
                 if font_weight == "bold":
                     return ImageFont.truetype(self.font_yahei_bold_path, size)
                 return ImageFont.truetype(self.font_yahei_path, size)
@@ -129,9 +135,16 @@ class PenRenderer:
         if not scene:
             raise ValueError("未在模板中找到 ROOT_REPORT_SCENE 节点！")
 
-        # 1. 替换中央干员大立绘
+        # 1. 替换中央干员大立绘、背景代号水印与档案面板
+        op_id = operator_info.get("id", "")
+        op_name = operator_info.get("name", "")
+        op_codename = "EXUSIAI" if "angel" in op_id else ("SIEGE" if "siege" in op_id else op_id.split("_")[-1].upper())
+        op_class = "CLASS // SNIPER (速射狙击)" if "angel" in op_id else ("CLASS // VANGUARD (先锋干员)" if "siege" in op_id else "CLASS // OPERATOR")
+        op_num = "103" if "angel" in op_id else ("002" if "siege" in op_id else "001")
+
         for child in scene.get("children", []):
-            if child.get("id") == "OPERATOR_FULL_ART":
+            cid = child.get("id")
+            if cid == "OPERATOR_FULL_ART":
                 full_art_url = operator_info.get("full_art")
                 if full_art_url:
                     child["fill"] = {
@@ -139,6 +152,19 @@ class PenRenderer:
                         "url": full_art_url,
                         "mode": "fill"
                     }
+            elif cid == "BG_CODENAME_WATERMARK":
+                child["content"] = op_codename
+            elif cid == "OPERATOR_DOSSIER_PANEL":
+                for d_child in child.get("children", []):
+                    did = d_child.get("id")
+                    if did == "OP_CN_NAME":
+                        d_child["content"] = " ".join(list(op_name))
+                    elif did == "OP_EN_NAME":
+                        d_child["content"] = op_codename
+                    elif did == "CLASS_TAG":
+                        d_child["content"] = op_class
+                    elif did == "REG_CODE":
+                        d_child["content"] = f"RHODES ISLAND ARCHIVE · NO. {op_num}/138"
 
         # 2. 更新五个 Instance 节点 (P1 ~ P5)
         for p_key in ["P1", "P2", "P3", "P4", "P5"]:
@@ -258,14 +284,44 @@ class PenRenderer:
                 self._render_node(comp_node, canvas, offset_x=x, offset_y=y, components=components, overrides=inst_descendants)
             return
 
-        # 处理 Frame 与 Rectangle
-        if node_type in ["frame", "rectangle"]:
+        # 处理 Line
+        if node_type == "line":
+            stroke = active_props.get("stroke", {})
+            s_color = self._parse_color(stroke.get("color", "#FFFFFF"))
+            s_width = int(active_props.get("strokeWidth", 1))
+            x1 = x + active_props.get("x1", 0)
+            y1 = y + active_props.get("y1", 0)
+            x2 = x + active_props.get("x2", w)
+            y2 = y + active_props.get("y2", h)
+            draw = ImageDraw.Draw(canvas)
+            draw.line([(x1, y1), (x2, y2)], fill=s_color, width=s_width)
+            return
+
+        # 处理 Frame 与 Rectangle 与 Polygon
+        if node_type in ["frame", "rectangle", "polygon"]:
             fill = active_props.get("fill")
             stroke = active_props.get("stroke")
             corner_radius = active_props.get("cornerRadius", 0)
             clip = active_props.get("clip", False)
+            points = active_props.get("points")
+            shadow = active_props.get("shadow")
+            opacity = active_props.get("opacity", 1.0)
 
-            # 创建图层用于可能的圆角/clipping
+            # 硬质阴影渲染 (Hard offset shadow)
+            if shadow and (w > 0 and h > 0):
+                sh_col = self._parse_color(shadow.get("color", "#00000088"))
+                sh_ox = int(shadow.get("offsetX", 4))
+                sh_oy = int(shadow.get("offsetY", 4))
+                sh_layer = Image.new('RGBA', (w, h), (0, 0, 0, 0))
+                sh_draw = ImageDraw.Draw(sh_layer)
+                if points:
+                    pts = [(int(p[0]), int(p[1])) for p in points]
+                    sh_draw.polygon(pts, fill=sh_col)
+                else:
+                    sh_draw.rounded_rectangle([0, 0, w, h], radius=corner_radius, fill=sh_col)
+                canvas.paste(sh_layer, (x + sh_ox, y + sh_oy), sh_layer)
+
+            # 创建图层用于可能的裁剪/渲染
             layer = Image.new('RGBA', (w, h), (0, 0, 0, 0))
             draw = ImageDraw.Draw(layer)
 
@@ -275,7 +331,11 @@ class PenRenderer:
                 if f_type == "color":
                     c_hex = fill.get("color", "#000000")
                     rgba = self._parse_color(c_hex)
-                    draw.rounded_rectangle([0, 0, w, h], radius=corner_radius, fill=rgba)
+                    if points:
+                        pts = [(int(p[0]), int(p[1])) for p in points]
+                        draw.polygon(pts, fill=rgba)
+                    else:
+                        draw.rounded_rectangle([0, 0, w, h], radius=corner_radius, fill=rgba)
                 elif f_type == "gradient":
                     # 线性垂直渐变渲染
                     self._render_linear_gradient(layer, fill, w, h)
@@ -292,24 +352,25 @@ class PenRenderer:
             if stroke:
                 s_color = self._parse_color(stroke.get("color", "#FFFFFF"))
                 s_width = int(active_props.get("strokeWidth", 1))
-                draw.rounded_rectangle([0, 0, w, h], radius=corner_radius, outline=s_color, width=s_width)
+                if points:
+                    pts = [(int(p[0]), int(p[1])) for p in points]
+                    draw.polygon(pts, outline=s_color, width=s_width)
+                else:
+                    draw.rounded_rectangle([0, 0, w, h], radius=corner_radius, outline=s_color, width=s_width)
 
-            # 3. 递归渲染子元素到当前 layer (或直接到 canvas)
+            # 3. 递归渲染子元素到当前 layer
             children = active_props.get("children", [])
             if children:
-                # 如果有 flexbox layout="vertical"
                 layout = active_props.get("layout")
                 if layout == "vertical":
                     cur_y = 0
                     gap = active_props.get("gap", 0)
                     for child in children:
                         child_h = child.get("height", 0)
-                        # 水平对齐居中
                         child_w = child.get("width", 0)
                         align = active_props.get("alignItems", "start")
                         child_x = (w - child_w) // 2 if align == "center" else child.get("x", 0)
                         self._render_node(child, layer, offset_x=child_x, offset_y=cur_y, components=components, overrides=overrides)
-                        # 文本元素高度推断
                         if child.get("type") == "text":
                             cur_y += child.get("fontSize", 14) + gap
                         else:
@@ -318,11 +379,23 @@ class PenRenderer:
                     for child in children:
                         self._render_node(child, layer, offset_x=0, offset_y=0, components=components, overrides=overrides)
 
-            # 4. 如果有圆角 clip 遮罩
-            if clip and corner_radius > 0:
+            # 4. 遮罩裁切 (Mask clip)
+            if opacity < 1.0:
+                # 调节透明度
+                r, g, b, a = layer.split()
+                a = a.point(lambda p: int(p * opacity))
+                layer = Image.merge('RGBA', (r, g, b, a))
+
+            if clip:
                 mask = Image.new('L', (w, h), 0)
                 mask_draw = ImageDraw.Draw(mask)
-                mask_draw.rounded_rectangle([0, 0, w, h], radius=corner_radius, fill=255)
+                if points:
+                    pts = [(int(p[0]), int(p[1])) for p in points]
+                    mask_draw.polygon(pts, fill=255)
+                elif corner_radius > 0:
+                    mask_draw.rounded_rectangle([0, 0, w, h], radius=corner_radius, fill=255)
+                else:
+                    mask_draw.rectangle([0, 0, w, h], fill=255)
                 canvas.paste(layer, (x, y), mask)
             else:
                 canvas.paste(layer, (x, y), layer)
@@ -334,16 +407,22 @@ class PenRenderer:
             font_weight = active_props.get("fontWeight", "normal")
             fill_color = self._parse_color(active_props.get("fill", "#FFFFFF"))
             
+            # 若包含非 ASCII 字符（如中文或 ★ 符号），但选用了无 CJK 字形的西文字体，则自动回退到 YaHei 避免豆腐块
+            has_non_ascii = any(ord(c) > 127 for c in content)
+            if has_non_ascii and any(f in font_family for f in ["Bahnschrift", "Impact", "Arial", "Bender", "Oswald", "DIN"]):
+                font_family = "Microsoft YaHei"
+
             font = self._get_font(font_family, font_size, font_weight)
             draw = ImageDraw.Draw(canvas)
             
             # 计算文字对齐
             text_align = active_props.get("textAlign", "left")
+            text_w = draw.textlength(content, font=font)
+            parent_w = active_props.get("width", text_w)
             if text_align == "center":
-                # 如果指定了宽度，居中
-                text_w = draw.textlength(content, font=font)
-                parent_w = active_props.get("width", text_w)
                 tx = x + (parent_w - text_w) / 2
+            elif text_align == "right":
+                tx = x + parent_w - text_w
             else:
                 tx = x
             draw.text((tx, y), content, font=font, fill=fill_color)

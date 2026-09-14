@@ -109,18 +109,6 @@
               "fontFamily": "Bahnschrift",
               "fontSize": 14,
               "fill": "#FFD800"
-            },
-            {
-              "id": "ARCHIVE_CODE",
-              "type": "text",
-              "x": 10,
-              "y": 158,
-              "width": 90,
-              "textAlign": "center",
-              "content": "RHODES-DOC",
-              "fontFamily": "Bahnschrift",
-              "fontSize": 9,
-              "fill": "#5A6578"
             }
           ]
         },
@@ -147,7 +135,7 @@
           "height": 180,
           "fill": {
             "type": "color",
-            "color": "#1A1D24"
+            "color": "#252930"
           },
           "children": [
             {
@@ -173,7 +161,7 @@
               "fontFamily": "Bahnschrift",
               "fontSize": 30,
               "fontWeight": "bold",
-              "fill": "#FFD800"
+              "fill": "#FFFFFF"
             }
           ]
         },
@@ -303,33 +291,20 @@
           "height": 180,
           "fill": {
             "type": "color",
-            "color": "#E5E7EB"
+            "color": "#EFF1F4"
           },
           "children": [
             {
               "id": "NO_INFO_TITLE",
               "type": "text",
               "x": 0,
-              "y": 68,
+              "y": 75,
               "width": 315,
               "textAlign": "center",
-              "content": "/// NO DATA // NOT ACQUIRED ///",
+              "content": "- - -  NO INFO  - - -",
               "fontFamily": "Bahnschrift",
-              "fontSize": 13,
-              "fontWeight": "bold",
-              "fill": "#4B5563"
-            },
-            {
-              "id": "NO_INFO_SUB",
-              "type": "text",
-              "x": 0,
-              "y": 92,
-              "width": 315,
-              "textAlign": "center",
-              "content": "档案数据库暂无当前干员调用凭证",
-              "fontFamily": "Microsoft YaHei",
-              "fontSize": 11,
-              "fill": "#9CA3AF"
+              "fontSize": 15,
+              "fill": "#8D8D8D"
             }
           ]
         }
@@ -441,18 +416,6 @@
               "fontFamily": "Bahnschrift",
               "fontSize": 14,
               "fill": "#FFD800"
-            },
-            {
-              "id": "ARCHIVE_CODE",
-              "type": "text",
-              "x": 10,
-              "y": 158,
-              "width": 90,
-              "textAlign": "center",
-              "content": "RHODES-DOC",
-              "fontFamily": "Bahnschrift",
-              "fontSize": 9,
-              "fill": "#5A6578"
             }
           ]
         },
@@ -479,7 +442,7 @@
           "height": 180,
           "fill": {
             "type": "color",
-            "color": "#1A1D24"
+            "color": "#252930"
           },
           "children": [
             {
@@ -505,7 +468,7 @@
               "fontFamily": "Bahnschrift",
               "fontSize": 30,
               "fontWeight": "bold",
-              "fill": "#FFD800"
+              "fill": "#FFFFFF"
             }
           ]
         },
@@ -635,33 +598,20 @@
           "height": 180,
           "fill": {
             "type": "color",
-            "color": "#E5E7EB"
+            "color": "#EFF1F4"
           },
           "children": [
             {
               "id": "NO_INFO_TITLE",
               "type": "text",
               "x": 0,
-              "y": 68,
+              "y": 75,
               "width": 315,
               "textAlign": "center",
-              "content": "/// NO DATA // NOT ACQUIRED ///",
+              "content": "- - -  NO INFO  - - -",
               "fontFamily": "Bahnschrift",
-              "fontSize": 13,
-              "fontWeight": "bold",
-              "fill": "#4B5563"
-            },
-            {
-              "id": "NO_INFO_SUB",
-              "type": "text",
-              "x": 0,
-              "y": 92,
-              "width": 315,
-              "textAlign": "center",
-              "content": "档案数据库暂无当前干员调用凭证",
-              "fontFamily": "Microsoft YaHei",
-              "fontSize": 11,
-              "fill": "#9CA3AF"
+              "fontSize": 15,
+              "fill": "#8D8D8D"
             }
           ]
         }
@@ -702,23 +652,12 @@
               "type": "text",
               "x": 0,
               "y": 32,
-              "content": "明日方舟六星干员报菜名 · 五人战术核验系统 (v1.5 终极正统档案排版)",
+              "content": "明日方舟六星干员报菜名 · 五人战术核验系统 (v1.2 指向性切角卡)",
               "fontFamily": "Microsoft YaHei",
               "fontSize": 13,
               "fill": "#0098DC"
             }
           ]
-        },
-        {
-          "id": "BG_CODENAME_WATERMARK",
-          "type": "text",
-          "x": 650,
-          "y": 400,
-          "content": "EXUSIAI",
-          "fontFamily": "Bahnschrift",
-          "fontSize": 180,
-          "fontWeight": "bold",
-          "fill": "#00000010"
         },
         {
           "id": "OPERATOR_FULL_ART",
@@ -767,156 +706,6 @@
           "ref": "comp_player_card_right",
           "x": 1420,
           "y": 560
-        },
-        {
-          "id": "OPERATOR_DOSSIER_PANEL",
-          "type": "frame",
-          "x": 1420,
-          "y": 760,
-          "width": 460,
-          "height": 260,
-          "fill": {
-            "type": "color",
-            "color": "#1A1D23F2"
-          },
-          "stroke": {
-            "type": "color",
-            "color": "#0098DC"
-          },
-          "strokeWidth": 2,
-          "shadow": {
-            "color": "#00000088",
-            "offsetX": 6,
-            "offsetY": 6
-          },
-          "children": [
-            {
-              "id": "ACCENT_BAR",
-              "type": "frame",
-              "x": 0,
-              "y": 0,
-              "width": 8,
-              "height": 260,
-              "fill": {
-                "type": "color",
-                "color": "#FFD800"
-              }
-            },
-            {
-              "id": "TAG_HEADER",
-              "type": "text",
-              "x": 25,
-              "y": 20,
-              "content": "// RHODES ISLAND PERSONNEL DOSSIER // 战术干员主档",
-              "fontFamily": "Microsoft YaHei",
-              "fontSize": 12,
-              "fill": "#0098DC"
-            },
-            {
-              "id": "OP_CN_NAME",
-              "type": "text",
-              "x": 25,
-              "y": 48,
-              "content": "能 天 使",
-              "fontFamily": "Microsoft YaHei",
-              "fontSize": 34,
-              "fontWeight": "bold",
-              "fill": "#FFFFFF"
-            },
-            {
-              "id": "OP_EN_NAME",
-              "type": "text",
-              "x": 25,
-              "y": 96,
-              "content": "EXUSIAI",
-              "fontFamily": "Bahnschrift",
-              "fontSize": 20,
-              "fontWeight": "bold",
-              "fill": "#CBD5E1"
-            },
-            {
-              "id": "DIVIDER_LINE",
-              "type": "line",
-              "x": 25,
-              "y": 130,
-              "width": 400,
-              "height": 0,
-              "stroke": {
-                "color": "#334155"
-              },
-              "strokeWidth": 1
-            },
-            {
-              "id": "CLASS_TAG",
-              "type": "text",
-              "x": 25,
-              "y": 148,
-              "content": "CLASS // SNIPER (速射狙击)",
-              "fontFamily": "Microsoft YaHei",
-              "fontSize": 13,
-              "fill": "#94A3B8"
-            },
-            {
-              "id": "RARITY_TAG",
-              "type": "text",
-              "x": 25,
-              "y": 172,
-              "content": "RARITY // ★★★★★★",
-              "fontFamily": "Microsoft YaHei",
-              "fontSize": 15,
-              "fill": "#FFD800"
-            },
-            {
-              "id": "REG_CODE",
-              "type": "text",
-              "x": 25,
-              "y": 208,
-              "content": "RHODES ISLAND ARCHIVE · NO. 103/138",
-              "fontFamily": "Bahnschrift",
-              "fontSize": 11,
-              "fill": "#64748B"
-            }
-          ]
-        },
-        {
-          "id": "CH_TL",
-          "type": "text",
-          "x": 40,
-          "y": 22,
-          "content": "[ + ]  RHODES-OS VER 5.2.0  //  TAC-VERIFY",
-          "fontFamily": "Bahnschrift",
-          "fontSize": 11,
-          "fill": "#64748B"
-        },
-        {
-          "id": "CH_TR",
-          "type": "text",
-          "x": 1660,
-          "y": 22,
-          "content": "TACTICAL MONITOR // 24 FPS  [REC]",
-          "fontFamily": "Bahnschrift",
-          "fontSize": 11,
-          "fill": "#64748B"
-        },
-        {
-          "id": "CH_BL",
-          "type": "text",
-          "x": 40,
-          "y": 1050,
-          "content": "RESTRICTED ACCESS // FOR DOCTOR EYES ONLY",
-          "fontFamily": "Bahnschrift",
-          "fontSize": 11,
-          "fill": "#64748B"
-        },
-        {
-          "id": "CH_BR",
-          "type": "text",
-          "x": 1660,
-          "y": 1050,
-          "content": "SYSTEM STATUS: ACTIVE [OK]",
-          "fontFamily": "Bahnschrift",
-          "fontSize": 11,
-          "fill": "#0098DC"
         }
       ]
     }

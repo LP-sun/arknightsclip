@@ -738,35 +738,344 @@
           "type": "ref",
           "ref": "comp_player_card_left",
           "x": 40,
-          "y": 170
+          "y": 170,
+          "descendants": {
+            "DOCTOR_AVATAR": {
+              "fill": {
+                "type": "image",
+                "url": "assets/players/P1.png",
+                "mode": "fill"
+              }
+            },
+            "DOCTOR_NAME": {
+              "content": "爱花"
+            },
+            "DOCTOR_LEVEL": {
+              "content": "LV. 106"
+            },
+            "OPERATOR_CARD": {
+              "enabled": true,
+              "fill": {
+                "type": "image",
+                "url": "assets/ui/card_crop_angel.png",
+                "mode": "fill"
+              }
+            },
+            "STATE_DECOR_PANEL": {
+              "enabled": true
+            },
+            "LV_LABEL": {
+              "enabled": true
+            },
+            "OPERATOR_LEVEL": {
+              "enabled": true,
+              "content": "90"
+            },
+            "ELITE_0": {
+              "enabled": false
+            },
+            "ELITE_1": {
+              "enabled": false
+            },
+            "ELITE_2": {
+              "enabled": true
+            },
+            "POTENTIAL_1": {
+              "enabled": false
+            },
+            "POTENTIAL_2": {
+              "enabled": false
+            },
+            "POTENTIAL_3": {
+              "enabled": false
+            },
+            "POTENTIAL_4": {
+              "enabled": false
+            },
+            "POTENTIAL_5": {
+              "enabled": false
+            },
+            "POTENTIAL_6": {
+              "enabled": true
+            },
+            "NO_INFO": {
+              "enabled": false
+            }
+          }
         },
         {
           "id": "P2",
           "type": "ref",
           "ref": "comp_player_card_left",
           "x": 40,
-          "y": 440
+          "y": 440,
+          "descendants": {
+            "DOCTOR_AVATAR": {
+              "fill": {
+                "type": "image",
+                "url": "assets/players/P2.png",
+                "mode": "fill"
+              }
+            },
+            "DOCTOR_NAME": {
+              "content": "咯吱吱"
+            },
+            "DOCTOR_LEVEL": {
+              "content": "LV. 91"
+            },
+            "OPERATOR_CARD": {
+              "enabled": true,
+              "fill": {
+                "type": "image",
+                "url": "assets/ui/card_crop_angel.png",
+                "mode": "fill"
+              }
+            },
+            "STATE_DECOR_PANEL": {
+              "enabled": true
+            },
+            "LV_LABEL": {
+              "enabled": true
+            },
+            "OPERATOR_LEVEL": {
+              "enabled": true,
+              "content": "70"
+            },
+            "ELITE_0": {
+              "enabled": false
+            },
+            "ELITE_1": {
+              "enabled": false
+            },
+            "ELITE_2": {
+              "enabled": true
+            },
+            "POTENTIAL_1": {
+              "enabled": true
+            },
+            "POTENTIAL_2": {
+              "enabled": false
+            },
+            "POTENTIAL_3": {
+              "enabled": false
+            },
+            "POTENTIAL_4": {
+              "enabled": false
+            },
+            "POTENTIAL_5": {
+              "enabled": false
+            },
+            "POTENTIAL_6": {
+              "enabled": false
+            },
+            "NO_INFO": {
+              "enabled": false
+            }
+          }
         },
         {
           "id": "P3",
           "type": "ref",
           "ref": "comp_player_card_left",
           "x": 40,
-          "y": 710
+          "y": 710,
+          "descendants": {
+            "DOCTOR_AVATAR": {
+              "fill": {
+                "type": "image",
+                "url": "assets/players/P3.png",
+                "mode": "fill"
+              }
+            },
+            "DOCTOR_NAME": {
+              "content": "东城"
+            },
+            "DOCTOR_LEVEL": {
+              "content": "LV. 120"
+            },
+            "OPERATOR_CARD": {
+              "enabled": false
+            },
+            "STATE_DECOR_PANEL": {
+              "enabled": false
+            },
+            "LV_LABEL": {
+              "enabled": false
+            },
+            "OPERATOR_LEVEL": {
+              "enabled": false
+            },
+            "ELITE_0": {
+              "enabled": false
+            },
+            "ELITE_1": {
+              "enabled": false
+            },
+            "ELITE_2": {
+              "enabled": false
+            },
+            "POTENTIAL_1": {
+              "enabled": false
+            },
+            "POTENTIAL_2": {
+              "enabled": false
+            },
+            "POTENTIAL_3": {
+              "enabled": false
+            },
+            "POTENTIAL_4": {
+              "enabled": false
+            },
+            "POTENTIAL_5": {
+              "enabled": false
+            },
+            "POTENTIAL_6": {
+              "enabled": false
+            },
+            "NO_INFO": {
+              "enabled": true
+            }
+          }
         },
         {
           "id": "P4",
           "type": "ref",
           "ref": "comp_player_card_right",
           "x": 1420,
-          "y": 290
+          "y": 290,
+          "descendants": {
+            "DOCTOR_AVATAR": {
+              "fill": {
+                "type": "image",
+                "url": "assets/players/P4.png",
+                "mode": "fill"
+              }
+            },
+            "DOCTOR_NAME": {
+              "content": "HMI"
+            },
+            "DOCTOR_LEVEL": {
+              "content": "LV. 120"
+            },
+            "OPERATOR_CARD": {
+              "enabled": true,
+              "fill": {
+                "type": "image",
+                "url": "assets/ui/card_crop_angel.png",
+                "mode": "fill"
+              }
+            },
+            "STATE_DECOR_PANEL": {
+              "enabled": true
+            },
+            "LV_LABEL": {
+              "enabled": true
+            },
+            "OPERATOR_LEVEL": {
+              "enabled": true,
+              "content": "50"
+            },
+            "ELITE_0": {
+              "enabled": false
+            },
+            "ELITE_1": {
+              "enabled": true
+            },
+            "ELITE_2": {
+              "enabled": false
+            },
+            "POTENTIAL_1": {
+              "enabled": false
+            },
+            "POTENTIAL_2": {
+              "enabled": false
+            },
+            "POTENTIAL_3": {
+              "enabled": true
+            },
+            "POTENTIAL_4": {
+              "enabled": false
+            },
+            "POTENTIAL_5": {
+              "enabled": false
+            },
+            "POTENTIAL_6": {
+              "enabled": false
+            },
+            "NO_INFO": {
+              "enabled": false
+            }
+          }
         },
         {
           "id": "P5",
           "type": "ref",
           "ref": "comp_player_card_right",
           "x": 1420,
-          "y": 560
+          "y": 560,
+          "descendants": {
+            "DOCTOR_AVATAR": {
+              "fill": {
+                "type": "image",
+                "url": "assets/players/P5.png",
+                "mode": "fill"
+              }
+            },
+            "DOCTOR_NAME": {
+              "content": "LEO"
+            },
+            "DOCTOR_LEVEL": {
+              "content": "LV. 110"
+            },
+            "OPERATOR_CARD": {
+              "enabled": true,
+              "fill": {
+                "type": "image",
+                "url": "assets/ui/card_crop_angel.png",
+                "mode": "fill"
+              }
+            },
+            "STATE_DECOR_PANEL": {
+              "enabled": true
+            },
+            "LV_LABEL": {
+              "enabled": true
+            },
+            "OPERATOR_LEVEL": {
+              "enabled": true,
+              "content": "90"
+            },
+            "ELITE_0": {
+              "enabled": false
+            },
+            "ELITE_1": {
+              "enabled": false
+            },
+            "ELITE_2": {
+              "enabled": true
+            },
+            "POTENTIAL_1": {
+              "enabled": false
+            },
+            "POTENTIAL_2": {
+              "enabled": true
+            },
+            "POTENTIAL_3": {
+              "enabled": false
+            },
+            "POTENTIAL_4": {
+              "enabled": false
+            },
+            "POTENTIAL_5": {
+              "enabled": false
+            },
+            "POTENTIAL_6": {
+              "enabled": false
+            },
+            "NO_INFO": {
+              "enabled": false
+            }
+          }
         },
         {
           "id": "OPERATOR_DOSSIER_PANEL",

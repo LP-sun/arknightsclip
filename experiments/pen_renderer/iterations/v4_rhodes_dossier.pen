@@ -702,7 +702,7 @@
               "type": "text",
               "x": 0,
               "y": 32,
-              "content": "明日方舟六星干员报菜名 · 五人战术核验系统 (v1.5 终极正统档案排版)",
+              "content": "明日方舟六星干员报菜名 · 五人战术核验系统 (v1.4 档案右下平衡)",
               "fontFamily": "Microsoft YaHei",
               "fontSize": 13,
               "fill": "#0098DC"
@@ -877,46 +877,6 @@
               "fill": "#64748B"
             }
           ]
-        },
-        {
-          "id": "CH_TL",
-          "type": "text",
-          "x": 40,
-          "y": 22,
-          "content": "[ + ]  RHODES-OS VER 5.2.0  //  TAC-VERIFY",
-          "fontFamily": "Bahnschrift",
-          "fontSize": 11,
-          "fill": "#64748B"
-        },
-        {
-          "id": "CH_TR",
-          "type": "text",
-          "x": 1660,
-          "y": 22,
-          "content": "TACTICAL MONITOR // 24 FPS  [REC]",
-          "fontFamily": "Bahnschrift",
-          "fontSize": 11,
-          "fill": "#64748B"
-        },
-        {
-          "id": "CH_BL",
-          "type": "text",
-          "x": 40,
-          "y": 1050,
-          "content": "RESTRICTED ACCESS // FOR DOCTOR EYES ONLY",
-          "fontFamily": "Bahnschrift",
-          "fontSize": 11,
-          "fill": "#64748B"
-        },
-        {
-          "id": "CH_BR",
-          "type": "text",
-          "x": 1660,
-          "y": 1050,
-          "content": "SYSTEM STATUS: ACTIVE [OK]",
-          "fontFamily": "Bahnschrift",
-          "fontSize": 11,
-          "fill": "#0098DC"
         }
       ]
     }
