@@ -1,0 +1,194 @@
+{
+  "slot_1": {
+    "position": "left",
+    "order": 1,
+    "doctor_name": "爱花",
+    "doctor_title": "Dr.覆羽惊春 爱花#6915",
+    "doctor_level": 106,
+    "card_layer": "卡面/卡面01",
+    "unowned_layer": "卡面/- - - NO INFO - - -",
+    "elite_group": "精英等级/01",
+    "potential_group": "潜能/01",
+    "level_group": "角色等级/111",
+    "card_bounds": [
+      -42,
+      193,
+      721,
+      365
+    ],
+    "doctor_bounds": [
+      0,
+      193,
+      157,
+      365
+    ]
+  },
+  "slot_2": {
+    "position": "left",
+    "order": 2,
+    "doctor_name": "咯吱吱",
+    "doctor_title": "Dr.格吱吱 #5882",
+    "doctor_level": 91,
+    "card_layer": "卡面/卡面02",
+    "unowned_layer": "卡面/图层 32",
+    "elite_group": "精英等级/02",
+    "potential_group": "潜能/02",
+    "level_group": "角色等级/222",
+    "card_bounds": [
+      -42,
+      407,
+      721,
+      579
+    ],
+    "doctor_bounds": [
+      0,
+      407,
+      157,
+      579
+    ]
+  },
+  "slot_3": {
+    "position": "left",
+    "order": 3,
+    "doctor_name": "东城",
+    "doctor_title": "Dr.东城 #1412",
+    "doctor_level": 120,
+    "card_layer": "卡面/卡面03",
+    "unowned_layer": "卡面/图层 35",
+    "elite_group": "精英等级/03",
+    "potential_group": "潜能/03",
+    "level_group": "角色等级/333",
+    "card_bounds": [
+      -42,
+      621,
+      721,
+      793
+    ],
+    "doctor_bounds": [
+      0,
+      621,
+      157,
+      793
+    ]
+  },
+  "slot_4": {
+    "position": "left",
+    "order": 4,
+    "doctor_name": "狐狸",
+    "doctor_title": "Dr.养只狐狸吧 #5427",
+    "doctor_level": 95,
+    "card_layer": "卡面/卡面04",
+    "unowned_layer": "卡面/图层 37",
+    "elite_group": "精英等级/04",
+    "potential_group": "潜能/04",
+    "level_group": "角色等级/444",
+    "card_bounds": [
+      -42,
+      835,
+      721,
+      1007
+    ],
+    "doctor_bounds": [
+      0,
+      835,
+      157,
+      1007
+    ]
+  },
+  "slot_5": {
+    "position": "right",
+    "order": 5,
+    "doctor_name": "HMI",
+    "doctor_title": "Dr.HMi #5348",
+    "doctor_level": 120,
+    "card_layer": "卡面/卡面05",
+    "unowned_layer": "卡面/图层 33",
+    "elite_group": "精英等级/05",
+    "potential_group": "潜能/05",
+    "level_group": "角色等级/555",
+    "card_bounds": [
+      1186,
+      107,
+      1949,
+      279
+    ],
+    "doctor_bounds": [
+      1763,
+      107,
+      1920,
+      279
+    ]
+  },
+  "slot_6": {
+    "position": "right",
+    "order": 6,
+    "doctor_name": "LEO",
+    "doctor_title": "Dr.Leo #6088",
+    "doctor_level": 110,
+    "card_layer": "卡面/卡面06",
+    "unowned_layer": "卡面/图层 36",
+    "elite_group": "精英等级/06",
+    "potential_group": "潜能/06",
+    "level_group": "角色等级/666",
+    "card_bounds": [
+      1186,
+      321,
+      1949,
+      493
+    ],
+    "doctor_bounds": [
+      1763,
+      321,
+      1920,
+      493
+    ]
+  },
+  "slot_7": {
+    "position": "right",
+    "order": 7,
+    "doctor_name": "RODA",
+    "doctor_title": "Dr.Radagast #7113",
+    "doctor_level": 106,
+    "card_layer": "卡面/卡面07",
+    "unowned_layer": "卡面/图层 38",
+    "elite_group": "精英等级/07",
+    "potential_group": "潜能/07",
+    "level_group": "角色等级/777",
+    "card_bounds": [
+      1186,
+      535,
+      1949,
+      707
+    ],
+    "doctor_bounds": [
+      1763,
+      535,
+      1920,
+      707
+    ]
+  },
+  "slot_8": {
+    "position": "right",
+    "order": 8,
+    "doctor_name": "骑士",
+    "doctor_title": "Dr.罗德尔骑士 #0222",
+    "doctor_level": 98,
+    "card_layer": "卡面/卡面08",
+    "unowned_layer": "卡面/图层 34",
+    "elite_group": "精英等级/08",
+    "potential_group": "潜能/08",
+    "level_group": "角色等级/888",
+    "card_bounds": [
+      1186,
+      749,
+      1949,
+      921
+    ],
+    "doctor_bounds": [
+      1763,
+      749,
+      1920,
+      921
+    ]
+  }
+}

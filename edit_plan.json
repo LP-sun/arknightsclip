@@ -1,0 +1,3053 @@
+{
+  "project_name": "明日方舟_六星干员报菜名",
+  "timeline_name": "明日方舟五周年_六星干员报菜名_节奏卡点全合成",
+  "timeline_fps": 24.0,
+  "total_duration_frames": 4470,
+  "track_rules": {
+    "V1": "主视频 (Generated Comparison Clips - Strict 24fps Grid)",
+    "V2": "B-roll / Reference (Sample Video for Verification)",
+    "V3": "基础 graphic",
+    "V4": "人物/信息卡",
+    "V5": "标题/logo",
+    "A1": "主配乐 (Background Music - 月行水上)",
+    "A2": "参考音频 (Sample Video Audio)"
+  },
+  "clips": [
+    {
+      "asset_id": "graphic_title_intro",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\title_000_intro.png",
+      "track": "V1",
+      "overlay_track": "V5",
+      "start_frame": 0,
+      "duration_frames": 50,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "五周年开篇片头标题卡"
+    },
+    {
+      "asset_id": "graphic_op_001_nts",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_001_nts.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 50,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.001 能天使 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_002_tjzw",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_002_tjzw.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 74,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.002 推进之王 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_003_yflt",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_003_yflt.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 98,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.003 伊芙利特 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_004_ayfl",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_004_ayfl.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 122,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.004 艾雅法拉 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_005_ajln",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_005_ajln.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 146,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.005 安洁莉娜 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_006_sl",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_006_sl.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 170,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.006 闪灵 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_007_yy",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_007_yy.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 194,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.007 夜莺 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_008_xx",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_008_xx.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 218,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.008 星熊 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_009_sly",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_009_sly.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 242,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.009 塞雷娅 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_010_yh",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_010_yh.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 266,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.010 银灰 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_011_skd",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_011_skd.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 290,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.011 斯卡蒂 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_012_chen",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_012_chen.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 314,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.012 陈 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_013_hei",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_013_hei.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 338,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.013 黑 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_014_hlg",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_014_hlg.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 362,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.014 赫拉格 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_015_mzl",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_015_mzl.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 386,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.015 麦哲伦 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_016_mstm",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_016_mstm.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 410,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.016 莫斯提马 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_017_huang",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_017_huang.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 434,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.017 煌 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_018_a",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_018_a.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 458,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.018 阿 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_019_nian",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_019_nian.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 482,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.019 年 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_020_keb",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_020_keb.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 506,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.020 刻俄柏 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_021_fd",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_021_fd.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 530,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.021 风笛 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_022_ky",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_022_ky.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 554,
+      "duration_frames": 98,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "slow_push_zoom",
+        "start_scale": 1.0,
+        "end_scale": 1.05,
+        "fade_in_frames": 4,
+        "fade_out_frames": 4
+      },
+      "reason": "No.022 傀影 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_023_wd",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_023_wd.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 652,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.023 温蒂 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_024_w",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_024_w.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 676,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.024 W 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_025_zl",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_025_zl.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 700,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.025 早露 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_026_ll1",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_026_ll1.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 724,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.026 铃兰 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_027_jc",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_027_jc.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 748,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.027 棘刺 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_028_sr",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_028_sr.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 772,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.028 森蚺 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_029_42",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_029_42.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 796,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.029 史尔特尔 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_030_xg",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_030_xg.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 820,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.030 瑕光 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_031_ny",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_031_ny.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 844,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.031 泥岩 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_032_mdx",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_032_mdx.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 868,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.032 迷迭香 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_033_shan",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_033_shan.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 892,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.033 山 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_034_kx",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_034_kx.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 916,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.034 空弦 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_035_ce",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_035_ce.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 940,
+      "duration_frames": 46,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.035 嵯峨 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_036_xi",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_036_xi.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 986,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.036 夕 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_037_hj2",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_037_hj2.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 1010,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.037 灰烬 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_038_yk",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_038_yk.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 1034,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.038 异客 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_039_gldy",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_039_gldy.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 1058,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.039 歌蕾蒂娅 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_040_kex",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_040_kex.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 1082,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.040 凯尔希 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_041_zxskd",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_041_zxskd.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 1106,
+      "duration_frames": 194,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "slow_push_zoom",
+        "start_scale": 1.0,
+        "end_scale": 1.05,
+        "fade_in_frames": 4,
+        "fade_out_frames": 4
+      },
+      "reason": "No.041 浊心斯卡蒂 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_042_knla",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_042_knla.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 1300,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.042 卡涅利安 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_043_pls",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_043_pls.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 1324,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.043 帕拉斯 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_044_sy1",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_044_sy1.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 1348,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.044 水月 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_045_jrwlc",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_045_jrwlc.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 1372,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.045 假日威龙陈 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_046_ql",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_046_ql.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 1396,
+      "duration_frames": 123,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "slow_push_zoom",
+        "start_scale": 1.0,
+        "end_scale": 1.05,
+        "fade_in_frames": 4,
+        "fade_out_frames": 4
+      },
+      "reason": "No.046 琴柳 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_047_yy1",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_047_yy1.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 1519,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.047 远牙 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_048_yw",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_048_yw.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 1543,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.048 焰尾 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_049_174",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_049_174.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 1567,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.049 耀骑士临光 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_050_lz",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_050_lz.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 1591,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.050 灵知 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_051_ll",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_051_ll.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 1615,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.051 老鲤 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_052_ling",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_052_ling.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 1639,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.052 令 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_053_cs",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_053_cs.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 1663,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.053 澄闪 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_054_fymt",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_054_fymt.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 1687,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.054 菲亚梅塔 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_055_hj",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_055_hj.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 1711,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.055 号角 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_056_lm",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_056_lm.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 1735,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.056 流明 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_057_aln",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_057_aln.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 1759,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.057 艾丽妮 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_058_gmyls",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_058_gmyls.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 1783,
+      "duration_frames": 321,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "slow_push_zoom",
+        "start_scale": 1.0,
+        "end_scale": 1.05,
+        "fade_in_frames": 4,
+        "fade_out_frames": 4
+      },
+      "reason": "No.058 归溟幽灵鲨 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_059_hj1",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_059_hj1.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2104,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.059 黑键 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_060_dlc",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_060_dlc.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2128,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.060 多萝西 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_061_hx",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_061_hx.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2152,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.061 鸿雪 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_062_bljwe",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_062_bljwe.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2176,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.062 百炼嘉维尔 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_063_men",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_063_men.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2200,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.063 玛恩纳 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_064_bt",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_064_bt.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2224,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.064 白铁 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_065_sy",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_065_sy.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2248,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.065 伺夜 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_066_cz",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_066_cz.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2272,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.066 斥罪 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_067_jmdkss",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_067_jmdkss.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2296,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.067 缄默德克萨斯 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_068_yywc",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_068_yywc.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2320,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.068 焰影苇草 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_069_lin",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_069_lin.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2344,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.069 林 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_070_cy",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_070_cy.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2368,
+      "duration_frames": 118,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "slow_push_zoom",
+        "start_scale": 1.0,
+        "end_scale": 1.05,
+        "fade_in_frames": 4,
+        "fade_out_frames": 4
+      },
+      "reason": "No.070 重岳 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_071_qiubai",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_071_qiubai.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2486,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.071 仇白 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_072_qlryd",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_072_qlryd.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2510,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.072 麒麟X夜刀 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_073_yns",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_073_yns.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2534,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.073 伊内丝 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_074_cyhm",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_074_cyhm.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2558,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.074 淬羽赫默 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_075_hehy",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_075_hehy.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2582,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.075 霍尔海雅 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_076_mess",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_076_mess.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2606,
+      "duration_frames": 124,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "slow_push_zoom",
+        "start_scale": 1.0,
+        "end_scale": 1.05,
+        "fade_in_frames": 4,
+        "fade_out_frames": 4
+      },
+      "reason": "No.076 缪尔赛思 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_077_syszr",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_077_syszr.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2730,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.077 圣约送葬人 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_078_tf",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_078_tf.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2754,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.078 提丰 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_079_llshy",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_079_llshy.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2778,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.079 琳琅诗怀雅 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_080_cjayfl",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_080_cjayfl.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2802,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.080 纯烬艾雅法拉 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_081_dhjxk",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_081_dhjxk.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2826,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.081 涤火杰西卡 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_082_hdl",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_082_hdl.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2850,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.082 赫德雷 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_083_zs",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_083_zs.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2874,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.083 止颂 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_084_vvan",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_084_vvan.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2898,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.084 薇薇安娜 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_085_sx",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_085_sx.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2922,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.085 塑心 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_086_jian",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_086_jian.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2946,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.086 锏 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_087_ray",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_087_ray.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2970,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.087 莱伊 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_088_zl1",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_088_zl1.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 2994,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.088 左乐 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_089_shu",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_089_shu.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3018,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.089 黍 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_090_ela",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_090_ela.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3042,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.090 艾拉 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_091_askl",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_091_askl.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3066,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.091 阿斯卡纶 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_092_mw",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_092_mw.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3090,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.092 魔王 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_093_logos",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_093_logos.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3114,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.093 逻各斯 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_094_wsde",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_094_wsde.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3138,
+      "duration_frames": 71,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "slow_push_zoom",
+        "start_scale": 1.0,
+        "end_scale": 1.05,
+        "fade_in_frames": 4,
+        "fade_out_frames": 4
+      },
+      "reason": "No.094 维什戴尔 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_095_ulbian",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_095_ulbian.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3209,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.095 乌尔比安 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_096_niff",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_096_niff.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3233,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.096 妮芙 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_097_narentuya",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_097_narentuya.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3257,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.097 娜仁图亚 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_098_pepe",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_098_pepe.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3281,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.098 佩佩 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_099_marusil",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_099_marusil.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3305,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.099 玛露希尔 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_100_vina_vic",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_100_vina_vic.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3329,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.100 维娜维多利亚 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_101_crownslayer",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_101_crownslayer.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3353,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.101 弑君者 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_102_rendong",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_102_rendong.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3377,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.102 忍冬 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_103_lapland_alt",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_103_lapland_alt.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3401,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.103 荒芜拉普兰德 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_104_thorns_alt",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_104_thorns_alt.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3425,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.104 隐星棘刺 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_105_zhuhuang",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_105_zhuhuang.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3449,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.105 烛煌 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_106_yu",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_106_yu.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3473,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.106 余 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_107_indelexi",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_107_indelexi.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3497,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.107 隐德来希 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_108_simao",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_108_simao.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3521,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.108 死芒 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_109_mon3tr",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_109_mon3tr.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3545,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.109 Mon3tr 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_110_blender",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_110_blender.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3569,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.110 信仰搅拌机 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_111_lemuan",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_111_lemuan.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3593,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.111 蕾缪安 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_112_nts_alt",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_112_nts_alt.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3617,
+      "duration_frames": 95,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "slow_push_zoom",
+        "start_scale": 1.0,
+        "end_scale": 1.05,
+        "fade_in_frames": 4,
+        "fade_out_frames": 4
+      },
+      "reason": "No.112 新约能天使 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_113_dionysus",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_113_dionysus.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3712,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.113 酒神 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_114_jingzhe_alt",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_114_jingzhe_alt.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3736,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.114 司霆惊蛰 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_115_arc",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_115_arc.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3760,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.115 电弧 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_116_yao",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_116_yao.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3784,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.116 遥 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_117_hoshiguma_alt",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_117_hoshiguma_alt.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3808,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.117 斩业星熊 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_118_sakiko",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_118_sakiko.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3832,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.118 丰川祥子 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_119_zhenyan",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_119_zhenyan.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3856,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.119 真言 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_120_starstone_alt",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_120_starstone_alt.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3880,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.120 溯光星源 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_121_pramanix_alt",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_121_pramanix_alt.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3904,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.121 圣聆初雪 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_122_silverash_alt",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_122_silverash_alt.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3928,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.122 凛御银灰 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_123_nasti",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_123_nasti.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3952,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.123 娜斯提 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_124_titi",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_124_titi.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 3976,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.124 缇缇 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_125_chen_alt2",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_125_chen_alt2.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 4000,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.125 赤刃明霄陈 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_126_wang",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_126_wang.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 4024,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.126 望 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_127_bellone",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_127_bellone.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 4048,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.127 贝洛内 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_128_zima_alt",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_128_zima_alt.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 4072,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.128 怒潮凛冬 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_129_viyi",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_129_viyi.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 4096,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.129 维伊 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_130_closure",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_130_closure.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 4120,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.130 可露希尔 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_131_kex_alt",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_131_kex_alt.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 4144,
+      "duration_frames": 185,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "slow_push_zoom",
+        "start_scale": 1.0,
+        "end_scale": 1.05,
+        "fade_in_frames": 4,
+        "fade_out_frames": 4
+      },
+      "reason": "No.131 凯尔希·思衡托 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_132_zilan_alt",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_132_zilan_alt.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 4329,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.132 焰狐龙梓兰 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_133_myuin",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_133_myuin.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 4353,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.133 谬因 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_134_machinist",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_134_machinist.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 4377,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.134 机械师 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_135_shanbi",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_135_shanbi.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 4401,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.135 珊比 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_136_angelina_alt",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_136_angelina_alt.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 4425,
+      "duration_frames": 24,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.136 予愿安洁莉娜 节拍精准卡点渲染"
+    },
+    {
+      "asset_id": "graphic_op_137_makoto",
+      "file": "E:\\明日方舟报菜名\\generated\\graphics\\op_137_makoto.png",
+      "track": "V1",
+      "overlay_track": "V4",
+      "start_frame": 4449,
+      "duration_frames": 21,
+      "position": {
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "scale_x": 1.0,
+        "scale_y": 1.0
+      },
+      "animation": {
+        "type": "cut",
+        "start_scale": 1.0,
+        "end_scale": 1.0,
+        "fade_in_frames": 0,
+        "fade_out_frames": 0
+      },
+      "reason": "No.137 结城理 节拍精准卡点渲染"
+    }
+  ]
+}

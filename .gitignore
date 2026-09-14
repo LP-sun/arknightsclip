@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large media files
+*.mov
+*.mp4
+*.avi
+*.mkv
+*.wmv
+*.wav
+*.mp3
+*.flac
+
+# Design & template source files (>2GB)
+psd模板/
+*.psd
+*.psb
+
+# Generated & rendered outputs
+generated/
+archive/
+scratch/
+.history/
+明日方舟报菜名/
+
+# Large visual reports
+reports/*.png
+
+# Excel temporary lock files
+~$*
+
+# Environment and OS files
+.env
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

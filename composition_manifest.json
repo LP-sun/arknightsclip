@@ -1,0 +1,5376 @@
+{
+  "version": "2.0.0",
+  "timeline_fps": 24.0,
+  "total_scenes": 59,
+  "scenes": [
+    {
+      "scene_id": "001_能天使",
+      "operator_name": "能天使",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "能天使",
+          "elite": 2,
+          "level": 90,
+          "potential": 2
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "能天使",
+          "elite": 2,
+          "level": 90,
+          "potential": 2
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "能天使",
+          "elite": 2,
+          "level": 25,
+          "potential": 3
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "能天使",
+          "elite": 2,
+          "level": 90,
+          "potential": 6
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "能天使",
+          "elite": 2,
+          "level": 60,
+          "potential": 4
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "能天使",
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "能天使",
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        }
+      ],
+      "psd_file": "能天使.psd"
+    },
+    {
+      "scene_id": "002_推王",
+      "operator_name": "推王",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "推王",
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "推王",
+          "elite": 2,
+          "level": 73,
+          "potential": 2
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "推王",
+          "elite": 2,
+          "level": 50,
+          "potential": 5
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "推王",
+          "elite": 2,
+          "level": 90,
+          "potential": 3
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "推王",
+          "elite": 2,
+          "level": 46,
+          "potential": 3
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "推王",
+          "elite": 2,
+          "level": 50,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "推王",
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ],
+      "psd_file": "推王.psd"
+    },
+    {
+      "scene_id": "003_小火龙",
+      "operator_name": "小火龙",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "小火龙",
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "小火龙",
+          "elite": 2,
+          "level": 80,
+          "potential": 2
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "小火龙",
+          "elite": 2,
+          "level": 80,
+          "potential": 3
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "小火龙",
+          "elite": 2,
+          "level": 22,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "小火龙",
+          "elite": 2,
+          "level": 90,
+          "potential": 5
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "小火龙",
+          "elite": 2,
+          "level": 70,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "小火龙",
+          "elite": 2,
+          "level": 45,
+          "potential": 4
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "小火龙",
+          "elite": 2,
+          "level": 63,
+          "potential": 1
+        }
+      ],
+      "psd_file": "小火龙.psd"
+    },
+    {
+      "scene_id": "004_小羊",
+      "operator_name": "小羊",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "小羊",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "小羊",
+          "elite": 2,
+          "level": 90,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "小羊",
+          "elite": 2,
+          "level": 90,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "小羊",
+          "elite": 2,
+          "level": 20,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "小羊",
+          "elite": 2,
+          "level": 90,
+          "potential": 3
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "小羊",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "小羊",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "小羊",
+          "elite": 2,
+          "level": 63,
+          "potential": 1
+        }
+      ],
+      "psd_file": "小羊.psd"
+    },
+    {
+      "scene_id": "005_洁哥",
+      "operator_name": "洁哥",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "洁哥",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "洁哥",
+          "elite": 2,
+          "level": 50,
+          "potential": 3
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "洁哥",
+          "elite": 2,
+          "level": 20,
+          "potential": 2
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "洁哥",
+          "elite": 2,
+          "level": 90,
+          "potential": 6
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "洁哥",
+          "elite": 2,
+          "level": 60,
+          "potential": 3
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "洁哥",
+          "elite": 2,
+          "level": 26,
+          "potential": 3
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "洁哥",
+          "elite": 1,
+          "level": 60,
+          "potential": 2
+        }
+      ],
+      "psd_file": "洁哥.psd"
+    },
+    {
+      "scene_id": "006_闪灵",
+      "operator_name": "闪灵",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "闪灵",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "闪灵",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "闪灵",
+          "elite": 2,
+          "level": 50,
+          "potential": 4
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "闪灵",
+          "elite": 1,
+          "level": 80,
+          "potential": 2
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "闪灵",
+          "elite": 2,
+          "level": 60,
+          "potential": 4
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "闪灵",
+          "elite": 2,
+          "level": 54,
+          "potential": 3
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "闪灵",
+          "elite": 2,
+          "level": 1,
+          "potential": 2
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "闪灵",
+          "elite": 1,
+          "level": 60,
+          "potential": 3
+        }
+      ],
+      "psd_file": "闪灵.psd"
+    },
+    {
+      "scene_id": "007_夜莺",
+      "operator_name": "夜莺",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "夜莺",
+          "elite": 2,
+          "level": 65,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "夜莺",
+          "elite": 2,
+          "level": 80,
+          "potential": 4
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "夜莺",
+          "elite": 2,
+          "level": 22,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "夜莺",
+          "elite": 2,
+          "level": 80,
+          "potential": 6
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "夜莺",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "夜莺",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "夜莺",
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        }
+      ],
+      "psd_file": "夜莺 psd.psd"
+    },
+    {
+      "scene_id": "008_星熊",
+      "operator_name": "星熊",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "星熊",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "星熊",
+          "elite": 2,
+          "level": 90,
+          "potential": 4
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "星熊",
+          "elite": 2,
+          "level": 70,
+          "potential": 4
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "星熊",
+          "elite": 2,
+          "level": 22,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "星熊",
+          "elite": 2,
+          "level": 90,
+          "potential": 4
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "星熊",
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        }
+      ],
+      "psd_file": "星熊.psd"
+    },
+    {
+      "scene_id": "009_赛爹",
+      "operator_name": "赛爹",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "赛爹",
+          "elite": 2,
+          "level": 60,
+          "potential": 4
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "赛爹",
+          "elite": 2,
+          "level": 90,
+          "potential": 5
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "赛爹",
+          "elite": 2,
+          "level": 80,
+          "potential": 6
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "赛爹",
+          "elite": 2,
+          "level": 60,
+          "potential": 3
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "赛爹",
+          "elite": 2,
+          "level": 90,
+          "potential": 4
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "赛爹",
+          "elite": 2,
+          "level": 50,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "赛爹",
+          "elite": 2,
+          "level": 70,
+          "potential": 4
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "赛爹",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        }
+      ],
+      "psd_file": "赛爹.psd"
+    },
+    {
+      "scene_id": "010_银灰",
+      "operator_name": "银灰",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "银灰",
+          "elite": 2,
+          "level": 50,
+          "potential": 3
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "银灰",
+          "elite": 2,
+          "level": 90,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "银灰",
+          "elite": 2,
+          "level": 90,
+          "potential": 2
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "银灰",
+          "elite": 2,
+          "level": 90,
+          "potential": 6
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "银灰",
+          "elite": 2,
+          "level": 70,
+          "potential": 3
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "银灰",
+          "elite": 2,
+          "level": 60,
+          "potential": 4
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "银灰",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        }
+      ],
+      "psd_file": "银灰.psd"
+    },
+    {
+      "scene_id": "011_斯卡蒂",
+      "operator_name": "斯卡蒂",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "斯卡蒂",
+          "elite": 2,
+          "level": 50,
+          "potential": 2
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "斯卡蒂",
+          "elite": 1,
+          "level": 1,
+          "potential": 3
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "斯卡蒂",
+          "elite": 2,
+          "level": 40,
+          "potential": 6
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "斯卡蒂",
+          "elite": 2,
+          "level": 62,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "斯卡蒂",
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "斯卡蒂",
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ],
+      "psd_file": "斯卡蒂.psd"
+    },
+    {
+      "scene_id": "012_陈",
+      "operator_name": "陈",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "陈",
+          "elite": 1,
+          "level": 1,
+          "potential": 3
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "陈",
+          "elite": 2,
+          "level": 1,
+          "potential": 3
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "陈",
+          "elite": 2,
+          "level": 90,
+          "potential": 5
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "陈",
+          "elite": 1,
+          "level": 80,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "陈",
+          "elite": 2,
+          "level": 80,
+          "potential": 3
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "陈",
+          "elite": 2,
+          "level": 35,
+          "potential": 2
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "陈",
+          "elite": 1,
+          "level": 80,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "陈",
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ],
+      "psd_file": "陈.psd"
+    },
+    {
+      "scene_id": "013_黑",
+      "operator_name": "黑",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "黑",
+          "elite": 2,
+          "level": 60,
+          "potential": 3
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "黑",
+          "elite": 2,
+          "level": 80,
+          "potential": 2
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "黑",
+          "elite": 2,
+          "level": 80,
+          "potential": 3
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "黑",
+          "elite": 2,
+          "level": 42,
+          "potential": 2
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "黑",
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ],
+      "psd_file": "黑.psd"
+    },
+    {
+      "scene_id": "014_赫拉格",
+      "operator_name": "赫拉格",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "赫拉格",
+          "elite": 2,
+          "level": 30,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "赫拉格",
+          "elite": 2,
+          "level": 50,
+          "potential": 3
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "赫拉格",
+          "elite": 2,
+          "level": 50,
+          "potential": 2
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "赫拉格",
+          "elite": 2,
+          "level": 45,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "赫拉格",
+          "elite": 2,
+          "level": 44,
+          "potential": 2
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "赫拉格",
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ],
+      "psd_file": "赫拉格.psd"
+    },
+    {
+      "scene_id": "015_麦哲伦",
+      "operator_name": "麦哲伦",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "麦哲伦",
+          "elite": 2,
+          "level": 30,
+          "potential": 3
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "麦哲伦",
+          "elite": 1,
+          "level": 80,
+          "potential": 2
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "麦哲伦",
+          "elite": 2,
+          "level": 50,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "麦哲伦",
+          "elite": 0,
+          "level": 1,
+          "potential": 2
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "麦哲伦",
+          "elite": 2,
+          "level": 30,
+          "potential": 2
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "麦哲伦",
+          "elite": 2,
+          "level": 27,
+          "potential": 3
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "麦哲伦",
+          "elite": 0,
+          "level": 1,
+          "potential": 2
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "麦哲伦",
+          "elite": 1,
+          "level": 60,
+          "potential": 1
+        }
+      ],
+      "psd_file": "麦哲伦.psd"
+    },
+    {
+      "scene_id": "016_小莫",
+      "operator_name": "小莫",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "小莫",
+          "elite": 1,
+          "level": 1,
+          "potential": 2
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "小莫",
+          "elite": 1,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "小莫",
+          "elite": 2,
+          "level": 50,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "小莫",
+          "elite": 2,
+          "level": 50,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "小莫",
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "小莫",
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ],
+      "psd_file": "小莫.psd"
+    },
+    {
+      "scene_id": "017_煌",
+      "operator_name": "煌",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "煌",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "煌",
+          "elite": 2,
+          "level": 80,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "煌",
+          "elite": 2,
+          "level": 80,
+          "potential": 3
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "煌",
+          "elite": 2,
+          "level": 90,
+          "potential": 5
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "煌",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "煌",
+          "elite": 2,
+          "level": 90,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "煌",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        }
+      ],
+      "psd_file": "煌.psd"
+    },
+    {
+      "scene_id": "018_阿",
+      "operator_name": "阿",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "阿",
+          "elite": 2,
+          "level": 65,
+          "potential": 2
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "阿",
+          "elite": 2,
+          "level": 60,
+          "potential": 3
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "阿",
+          "elite": 2,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "阿",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "阿",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "阿",
+          "elite": 0,
+          "level": 1,
+          "potential": 2
+        }
+      ],
+      "psd_file": "a.psd"
+    },
+    {
+      "scene_id": "019_年",
+      "operator_name": "年",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "年",
+          "elite": 2,
+          "level": 30,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "年",
+          "elite": 2,
+          "level": 40,
+          "potential": 2
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "年",
+          "elite": 2,
+          "level": 30,
+          "potential": 2
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "年",
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ],
+      "psd_file": "年.psd"
+    },
+    {
+      "scene_id": "020_小刻",
+      "operator_name": "小刻",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "小刻",
+          "elite": 2,
+          "level": 75,
+          "potential": 2
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "小刻",
+          "elite": 2,
+          "level": 50,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "小刻",
+          "elite": 2,
+          "level": 90,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "小刻",
+          "elite": 2,
+          "level": 36,
+          "potential": 2
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "小刻",
+          "elite": 2,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "小刻",
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ],
+      "psd_file": "小刻.psd"
+    },
+    {
+      "scene_id": "021_风笛",
+      "operator_name": "风笛",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "风笛",
+          "elite": 2,
+          "level": 60,
+          "potential": 3
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "风笛",
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "风笛",
+          "elite": 2,
+          "level": 80,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "风笛",
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "风笛",
+          "elite": 2,
+          "level": 90,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "风笛",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "风笛",
+          "elite": 2,
+          "level": 60,
+          "potential": 3
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "风笛",
+          "elite": 2,
+          "level": 63,
+          "potential": 1
+        }
+      ],
+      "psd_file": "风笛.psd"
+    },
+    {
+      "scene_id": "022_魁影",
+      "operator_name": "魁影",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "魁影",
+          "elite": 2,
+          "level": 80,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "魁影",
+          "elite": 2,
+          "level": 80,
+          "potential": 2
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "魁影",
+          "elite": 2,
+          "level": 90,
+          "potential": 4
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "魁影",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "魁影",
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "魁影",
+          "elite": 2,
+          "level": 60,
+          "potential": 3
+        }
+      ],
+      "psd_file": "魁影.psd"
+    },
+    {
+      "scene_id": "023_温蒂",
+      "operator_name": "温蒂",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "温蒂",
+          "elite": 2,
+          "level": 50,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "温蒂",
+          "elite": 1,
+          "level": 63,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "温蒂",
+          "elite": 2,
+          "level": 1,
+          "potential": 2
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "温蒂",
+          "elite": 2,
+          "level": 30,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "温蒂",
+          "elite": 2,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "温蒂",
+          "elite": 0,
+          "level": 1,
+          "potential": 2
+        }
+      ],
+      "psd_file": "温蒂.psd"
+    },
+    {
+      "scene_id": "024_W",
+      "operator_name": "W",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "W",
+          "elite": 2,
+          "level": 40,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "W",
+          "elite": 2,
+          "level": 50,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "W",
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "W",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "W",
+          "elite": 2,
+          "level": 30,
+          "potential": 3
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "W",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        }
+      ],
+      "psd_file": "Wpsd.psd"
+    },
+    {
+      "scene_id": "025_早露",
+      "operator_name": "早露",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "早露",
+          "elite": 2,
+          "level": 30,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "早露",
+          "elite": 0,
+          "level": 1,
+          "potential": 2
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "早露",
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "早露",
+          "elite": 2,
+          "level": 40,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "早露",
+          "elite": 0,
+          "level": 50,
+          "potential": 1
+        }
+      ],
+      "psd_file": "早露.psd"
+    },
+    {
+      "scene_id": "026_铃兰",
+      "operator_name": "铃兰",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "铃兰",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "铃兰",
+          "elite": 2,
+          "level": 64,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "铃兰",
+          "elite": 2,
+          "level": 50,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "铃兰",
+          "elite": 2,
+          "level": 20,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "铃兰",
+          "elite": 2,
+          "level": 75,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "铃兰",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "铃兰",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        }
+      ],
+      "psd_file": "铃兰.psd"
+    },
+    {
+      "scene_id": "027_棘刺",
+      "operator_name": "棘刺",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "棘刺",
+          "elite": 2,
+          "level": 50,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "棘刺",
+          "elite": 2,
+          "level": 80,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "棘刺",
+          "elite": 2,
+          "level": 90,
+          "potential": 4
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "棘刺",
+          "elite": 2,
+          "level": 80,
+          "potential": 2
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "棘刺",
+          "elite": 2,
+          "level": 90,
+          "potential": 2
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "棘刺",
+          "elite": 2,
+          "level": 68,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "棘刺",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "棘刺",
+          "elite": 2,
+          "level": 60,
+          "potential": 4
+        }
+      ],
+      "psd_file": "棘刺.psd"
+    },
+    {
+      "scene_id": "028_森染",
+      "operator_name": "森染",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "森染",
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "森染",
+          "elite": 2,
+          "level": 1,
+          "potential": 2
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "森染",
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "森染",
+          "elite": 2,
+          "level": 1,
+          "potential": 3
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "森染",
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ],
+      "psd_file": "森然.psd"
+    },
+    {
+      "scene_id": "029_42",
+      "operator_name": "42",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "42",
+          "elite": 2,
+          "level": 50,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "42",
+          "elite": 2,
+          "level": 75,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "42",
+          "elite": 2,
+          "level": 90,
+          "potential": 2
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "42",
+          "elite": 2,
+          "level": 50,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "42",
+          "elite": 2,
+          "level": 90,
+          "potential": 2
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "42",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "42",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "42",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        }
+      ],
+      "psd_file": "42.psd"
+    },
+    {
+      "scene_id": "030_霞光",
+      "operator_name": "霞光",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "霞光",
+          "elite": 2,
+          "level": 30,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "霞光",
+          "elite": 2,
+          "level": 50,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "霞光",
+          "elite": 2,
+          "level": 20,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "霞光",
+          "elite": 2,
+          "level": 30,
+          "potential": 2
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "霞光",
+          "elite": 1,
+          "level": 80,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "霞光",
+          "elite": 2,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        }
+      ],
+      "psd_file": "霞光2.psd"
+    },
+    {
+      "scene_id": "031_泥岩",
+      "operator_name": "泥岩",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "泥岩",
+          "elite": 2,
+          "level": 60,
+          "potential": 3
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "泥岩",
+          "elite": 2,
+          "level": 70,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "泥岩",
+          "elite": 2,
+          "level": 80,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "泥岩",
+          "elite": 2,
+          "level": 70,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "泥岩",
+          "elite": 2,
+          "level": 90,
+          "potential": 4
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "泥岩",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "泥岩",
+          "elite": 2,
+          "level": 60,
+          "potential": 3
+        }
+      ],
+      "psd_file": "泥岩.psd"
+    },
+    {
+      "scene_id": "032_迷迭香",
+      "operator_name": "迷迭香",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "迷迭香",
+          "elite": 1,
+          "level": 40,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "迷迭香",
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "迷迭香",
+          "elite": 1,
+          "level": 80,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "迷迭香",
+          "elite": 1,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "迷迭香",
+          "elite": 2,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "迷迭香",
+          "elite": 1,
+          "level": 60,
+          "potential": 1
+        }
+      ],
+      "psd_file": "迷迭香.psd"
+    },
+    {
+      "scene_id": "033_山",
+      "operator_name": "山",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "山",
+          "elite": 2,
+          "level": 80,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "山",
+          "elite": 2,
+          "level": 90,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "山",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "山",
+          "elite": 2,
+          "level": 60,
+          "potential": 3
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "山",
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        }
+      ],
+      "psd_file": "山.psd"
+    },
+    {
+      "scene_id": "034_空弦",
+      "operator_name": "空弦",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "空弦",
+          "elite": 2,
+          "level": 30,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "空弦",
+          "elite": 1,
+          "level": 80,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "空弦",
+          "elite": 2,
+          "level": 50,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "空弦",
+          "elite": 2,
+          "level": 20,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "空弦",
+          "elite": 2,
+          "level": 40,
+          "potential": 4
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "空弦",
+          "elite": 2,
+          "level": 1,
+          "potential": 2
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        }
+      ],
+      "psd_file": "空弦.psd"
+    },
+    {
+      "scene_id": "035_嵯峨",
+      "operator_name": "嵯峨",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "嵯峨",
+          "elite": 2,
+          "level": 30,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "嵯峨",
+          "elite": 1,
+          "level": 80,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "嵯峨",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "嵯峨",
+          "elite": 1,
+          "level": 50,
+          "potential": 2
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "嵯峨",
+          "elite": 2,
+          "level": 20,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "嵯峨",
+          "elite": 2,
+          "level": 1,
+          "potential": 3
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "嵯峨",
+          "elite": 1,
+          "level": 60,
+          "potential": 2
+        }
+      ],
+      "psd_file": "嵯峨.psd"
+    },
+    {
+      "scene_id": "036_夕",
+      "operator_name": "夕",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "夕",
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "夕",
+          "elite": 2,
+          "level": 25,
+          "potential": 2
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "夕",
+          "elite": 2,
+          "level": 40,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "夕",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "夕",
+          "elite": 2,
+          "level": 63,
+          "potential": 1
+        }
+      ],
+      "psd_file": "夕.psd"
+    },
+    {
+      "scene_id": "037_灰烬",
+      "operator_name": "灰烬",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "灰烬",
+          "elite": 2,
+          "level": 30,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "灰烬",
+          "elite": 2,
+          "level": 16,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "灰烬",
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "灰烬",
+          "elite": 2,
+          "level": 90,
+          "potential": 2
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "灰烬",
+          "elite": 2,
+          "level": 35,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "灰烬",
+          "elite": 2,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        }
+      ],
+      "psd_file": "灰烬.psd"
+    },
+    {
+      "scene_id": "038_异客",
+      "operator_name": "异客",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "异客",
+          "elite": 2,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "异客",
+          "elite": 2,
+          "level": 50,
+          "potential": 2
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "异客",
+          "elite": 2,
+          "level": 70,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "异客",
+          "elite": 2,
+          "level": 80,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "异客",
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "异客",
+          "elite": 2,
+          "level": 60,
+          "potential": 3
+        }
+      ],
+      "psd_file": "异客.psd"
+    },
+    {
+      "scene_id": "039_浊心蒂",
+      "operator_name": "浊心蒂",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "浊心蒂",
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "浊心蒂",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "浊心蒂",
+          "elite": 2,
+          "level": 80,
+          "potential": 2
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "浊心蒂",
+          "elite": 2,
+          "level": 20,
+          "potential": 5
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "浊心蒂",
+          "elite": 2,
+          "level": 90,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "浊心蒂",
+          "elite": 2,
+          "level": 68,
+          "potential": 2
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "浊心蒂",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        }
+      ],
+      "psd_file": "浊蒂.psd"
+    },
+    {
+      "scene_id": "040_格雷迪娅",
+      "operator_name": "格雷迪娅",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "格雷迪娅",
+          "elite": 2,
+          "level": 30,
+          "potential": 6
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "格雷迪娅",
+          "elite": 1,
+          "level": 80,
+          "potential": 6
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "格雷迪娅",
+          "elite": 1,
+          "level": 1,
+          "potential": 6
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "格雷迪娅",
+          "elite": 1,
+          "level": 80,
+          "potential": 6
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "格雷迪娅",
+          "elite": 2,
+          "level": 1,
+          "potential": 6
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "格雷迪娅",
+          "elite": 2,
+          "level": 1,
+          "potential": 6
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "格雷迪娅",
+          "elite": 2,
+          "level": 1,
+          "potential": 6
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "格雷迪娅",
+          "elite": 0,
+          "level": 1,
+          "potential": 6
+        }
+      ],
+      "psd_file": "格雷迪娅.psd"
+    },
+    {
+      "scene_id": "041_凯尔希",
+      "operator_name": "凯尔希",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "凯尔希",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "凯尔希",
+          "elite": 1,
+          "level": 80,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "凯尔希",
+          "elite": 2,
+          "level": 80,
+          "potential": 3
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "凯尔希",
+          "elite": 2,
+          "level": 90,
+          "potential": 4
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "凯尔希",
+          "elite": 2,
+          "level": 1,
+          "potential": 3
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "凯尔希",
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        }
+      ],
+      "psd_file": "凯尔希.psd"
+    },
+    {
+      "scene_id": "042_卡姐",
+      "operator_name": "卡姐",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "卡姐",
+          "elite": 2,
+          "level": 50,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "卡姐",
+          "elite": 2,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "卡姐",
+          "elite": 2,
+          "level": 1,
+          "potential": 2
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "卡姐",
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ],
+      "psd_file": "卡姐.psd"
+    },
+    {
+      "scene_id": "043_帕拉斯",
+      "operator_name": "帕拉斯",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "帕拉斯",
+          "elite": 2,
+          "level": 11,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "帕拉斯",
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        }
+      ],
+      "psd_file": "帕拉斯.psd"
+    },
+    {
+      "scene_id": "044_水月",
+      "operator_name": "水月",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "水月",
+          "elite": 2,
+          "level": 30,
+          "potential": 2
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "水月",
+          "elite": 0,
+          "level": 1,
+          "potential": 2
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "水月",
+          "elite": 0,
+          "level": 50,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "水月",
+          "elite": 2,
+          "level": 9,
+          "potential": 2
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "水月",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "水月",
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ],
+      "psd_file": "水月.psd"
+    },
+    {
+      "scene_id": "045_水陈",
+      "operator_name": "水陈",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "水陈",
+          "elite": 2,
+          "level": 85,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "水陈",
+          "elite": 2,
+          "level": 90,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "水陈",
+          "elite": 2,
+          "level": 61,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "水陈",
+          "elite": 2,
+          "level": 90,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "水陈",
+          "elite": 2,
+          "level": 62,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "水陈",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "水陈",
+          "elite": 2,
+          "level": 72,
+          "potential": 1
+        }
+      ],
+      "psd_file": "水陈.psd"
+    },
+    {
+      "scene_id": "046_秦柳",
+      "operator_name": "秦柳",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "秦柳",
+          "elite": 2,
+          "level": 50,
+          "potential": 2
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "秦柳",
+          "elite": 2,
+          "level": 20,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "秦柳",
+          "elite": 2,
+          "level": 1,
+          "potential": 2
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "秦柳",
+          "elite": 2,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "秦柳",
+          "elite": 2,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        }
+      ],
+      "psd_file": "秦柳光.psd"
+    },
+    {
+      "scene_id": "047_远牙",
+      "operator_name": "远牙",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "远牙",
+          "elite": 2,
+          "level": 50,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "远牙",
+          "elite": 1,
+          "level": 1,
+          "potential": 2
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "远牙",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "远牙",
+          "elite": 2,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        }
+      ],
+      "psd_file": "远牙.psd"
+    },
+    {
+      "scene_id": "048_燕尾",
+      "operator_name": "燕尾",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "燕尾",
+          "elite": 2,
+          "level": 30,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "燕尾",
+          "elite": 1,
+          "level": 30,
+          "potential": 3
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "燕尾",
+          "elite": 2,
+          "level": 50,
+          "potential": 2
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "燕尾",
+          "elite": 2,
+          "level": 20,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "燕尾",
+          "elite": 1,
+          "level": 1,
+          "potential": 2
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "燕尾",
+          "elite": 1,
+          "level": 80,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "燕尾",
+          "elite": 2,
+          "level": 1,
+          "potential": 2
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "燕尾",
+          "elite": 0,
+          "level": 50,
+          "potential": 3
+        }
+      ],
+      "psd_file": "燕尾娅.psd"
+    },
+    {
+      "scene_id": "049_耀光",
+      "operator_name": "耀光",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "耀光",
+          "elite": 2,
+          "level": 80,
+          "potential": 3
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "耀光",
+          "elite": 2,
+          "level": 50,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "耀光",
+          "elite": 2,
+          "level": 35,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "耀光",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "耀光",
+          "elite": 2,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "耀光",
+          "elite": 2,
+          "level": 60,
+          "potential": 3
+        }
+      ],
+      "psd_file": "耀光.psd"
+    },
+    {
+      "scene_id": "050_灵芝",
+      "operator_name": "灵芝",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "灵芝",
+          "elite": 2,
+          "level": 15,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "灵芝",
+          "elite": 1,
+          "level": 80,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "灵芝",
+          "elite": 2,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "灵芝",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        }
+      ],
+      "psd_file": "灵芝.psd"
+    },
+    {
+      "scene_id": "051_老鲤鱼",
+      "operator_name": "老鲤鱼",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "老鲤鱼",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "老鲤鱼",
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "老鲤鱼",
+          "elite": 1,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "老鲤鱼",
+          "elite": 1,
+          "level": 47,
+          "potential": 2
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "老鲤鱼",
+          "elite": 2,
+          "level": 1,
+          "potential": 2
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "老鲤鱼",
+          "elite": 2,
+          "level": 40,
+          "potential": 2
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "老鲤鱼",
+          "elite": 2,
+          "level": 63,
+          "potential": 2
+        }
+      ],
+      "psd_file": "老李.psd"
+    },
+    {
+      "scene_id": "052_令",
+      "operator_name": "令",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "令",
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "令",
+          "elite": 1,
+          "level": 80,
+          "potential": 2
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "令",
+          "elite": 2,
+          "level": 80,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "令",
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "令",
+          "elite": 2,
+          "level": 80,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "令",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "令",
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "令",
+          "elite": 2,
+          "level": 90,
+          "potential": 6
+        }
+      ],
+      "psd_file": "令.psd"
+    },
+    {
+      "scene_id": "053_澄闪",
+      "operator_name": "澄闪",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "澄闪",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "澄闪",
+          "elite": 2,
+          "level": 80,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "澄闪",
+          "elite": 2,
+          "level": 22,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "澄闪",
+          "elite": 2,
+          "level": 90,
+          "potential": 2
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "澄闪",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "澄闪",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        }
+      ],
+      "psd_file": "澄海闪.psd"
+    },
+    {
+      "scene_id": "054_肥鸭",
+      "operator_name": "肥鸭",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "肥鸭",
+          "elite": 0,
+          "level": 50,
+          "potential": 2
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "肥鸭",
+          "elite": 2,
+          "level": 90,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "肥鸭",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "肥鸭",
+          "elite": 2,
+          "level": 72,
+          "potential": 1
+        }
+      ],
+      "psd_file": "菲雅.psd"
+    },
+    {
+      "scene_id": "055_号角",
+      "operator_name": "号角",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "号角",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "号角",
+          "elite": 2,
+          "level": 64,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "号角",
+          "elite": 2,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "号角",
+          "elite": 2,
+          "level": 40,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "号角",
+          "elite": 2,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "号角",
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ],
+      "psd_file": "号角.psd"
+    },
+    {
+      "scene_id": "056_归鲨",
+      "operator_name": "归鲨",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "归鲨",
+          "elite": 2,
+          "level": 65,
+          "potential": 2
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "归鲨",
+          "elite": 2,
+          "level": 80,
+          "potential": 3
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "归鲨",
+          "elite": 2,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "归鲨",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "归鲨",
+          "elite": 2,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "归鲨",
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ],
+      "psd_file": "归鲨.psd"
+    },
+    {
+      "scene_id": "057_刘明",
+      "operator_name": "刘明",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "刘明",
+          "elite": 2,
+          "level": 30,
+          "potential": 6
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": true,
+          "operator": "刘明",
+          "elite": 1,
+          "level": 80,
+          "potential": 6
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "刘明",
+          "elite": 2,
+          "level": 60,
+          "potential": 6
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "刘明",
+          "elite": 2,
+          "level": 22,
+          "potential": 6
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "刘明",
+          "elite": 2,
+          "level": 60,
+          "potential": 6
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "刘明",
+          "elite": 2,
+          "level": 60,
+          "potential": 6
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "刘明",
+          "elite": 2,
+          "level": 1,
+          "potential": 6
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "刘明",
+          "elite": 2,
+          "level": 63,
+          "potential": 6
+        }
+      ],
+      "psd_file": "刘明.psd"
+    },
+    {
+      "scene_id": "058_艾丽妮",
+      "operator_name": "艾丽妮",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": true,
+          "operator": "艾丽妮",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": true,
+          "operator": "艾丽妮",
+          "elite": 2,
+          "level": 80,
+          "potential": 2
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": true,
+          "operator": "艾丽妮",
+          "elite": 2,
+          "level": 22,
+          "potential": 3
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "艾丽妮",
+          "elite": 1,
+          "level": 80,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": true,
+          "operator": "艾丽妮",
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "艾丽妮",
+          "elite": 1,
+          "level": 68,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": true,
+          "operator": "艾丽妮",
+          "elite": 2,
+          "level": 72,
+          "potential": 3
+        }
+      ],
+      "psd_file": "艾丽妮.psd"
+    },
+    {
+      "scene_id": "059_黑键",
+      "operator_name": "黑键",
+      "doctor_info": {
+        "player_count": 8,
+        "source": "psd模板/只需要模板/能天使.psd:Layers[6,7,8]"
+      },
+      "slots": [
+        {
+          "slot": 1,
+          "slot_name": "slot_1",
+          "doctor": "爱花",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "slot_name": "slot_2",
+          "doctor": "咯吱吱",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "slot_name": "slot_3",
+          "doctor": "东城",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "slot_name": "slot_4",
+          "doctor": "狐狸",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "slot_name": "slot_5",
+          "doctor": "HMI",
+          "owned": true,
+          "operator": "黑键",
+          "elite": 1,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 6,
+          "slot_name": "slot_6",
+          "doctor": "LEO",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "slot_name": "slot_7",
+          "doctor": "RODA",
+          "owned": true,
+          "operator": "黑键",
+          "elite": 2,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "slot_name": "slot_8",
+          "doctor": "骑士",
+          "owned": false,
+          "operator": null,
+          "elite": 0,
+          "level": null,
+          "potential": 1
+        }
+      ],
+      "psd_file": "黑键.psd"
+    }
+  ]
+}
