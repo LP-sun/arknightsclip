@@ -27,6 +27,7 @@ scratch/
 
 # Large visual reports
 reports/*.png
+!reports/pen_ab_comparison.png
 
 # Excel temporary lock files
 ~$*
