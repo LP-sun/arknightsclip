@@ -27,6 +27,9 @@ scratch/
 
 # Large visual reports
 reports/*.png
+!reports/pen_ab_comparison.png
+!reports/pen_design_evolution_5_steps.png
+!reports/renderer_ab/*.png
 
 # Excel temporary lock files
 ~$*
@@ -37,3 +40,6 @@ reports/*.png
 Thumbs.db
 .vscode/
 .idea/
+node_modules/
+dist/
+experiments/stability_outputs/
