@@ -1,0 +1,64 @@
+# arknightsclip 项目全局配置文件
+# 本地运行使用，支持环境变量覆盖
+
+project_root: "."
+
+maa:
+  maacore_path: ""
+  adb_path: ""
+  adb_device: "127.0.0.1:16384"
+  template_dir: "maa_templates"
+  swipe:
+    start_x: 1550
+    start_y: 540
+    end_x: 350
+    end_y: 540
+    duration_ms: 800
+    settle_delay_sec: 1.5
+
+photoshop:
+  backend: "psd_tools"
+  exe_path: "C:\\Program Files\\Adobe\\Adobe Photoshop 2023\\Photoshop.exe"
+  master_template: "templates/psd/report_5p_master.psd"
+  schema_path: "templates/psd/report_5p_schema.json"
+
+davinci:
+  fps: 24.0
+  width: 1920
+  height: 1080
+  timeline_name: "明日方舟_六星干员报菜名_5人分层合成_v3"
+  reference_video:
+    enabled: false
+    path: "output_video.mp4"
+  audio:
+    bgm_path: "明日方舟五周年_六星干员报菜名_节奏卡点全合成.mov"
+
+pipeline:
+  player_count: 5
+  data_dir: "data"
+  assets_dir: "assets"
+  generated_dir: "generated"
+  reports_dir: "reports"
+  target_rarity: 6
+
+players:
+  - id: "P1"
+    display_name: "暮春之阳"
+    doctor_level: 120
+    avatar: "assets/players/P1.png"
+  - id: "P2"
+    display_name: "玩家2"
+    doctor_level: 120
+    avatar: "assets/players/P2.png"
+  - id: "P3"
+    display_name: "玩家3"
+    doctor_level: 120
+    avatar: "assets/players/P3.png"
+  - id: "P4"
+    display_name: "玩家4"
+    doctor_level: 120
+    avatar: "assets/players/P4.png"
+  - id: "P5"
+    display_name: "玩家5"
+    doctor_level: 120
+    avatar: "assets/players/P5.png"
