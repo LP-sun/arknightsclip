@@ -1,0 +1,43 @@
+# 架构与数据契约
+
+`arknightsclip` 将“玩家拥有的干员状态”和“用于画面合成的素材”分离保存，再用场景清单连接。这样可在不重复采集的情况下重新生成统计、卡片图形与时间线。
+
+## 模块边界
+
+| 模块 | 位置 | 职责 |
+| --- | --- | --- |
+| 配置 | `config.py` | 加载 YAML，解析相对项目根目录的路径。 |
+| 干员注册表 | `registry/` | 将识别结果归一为 `char_id`、中文名、职业和稀有度。 |
+| 采集与识别 | `maa/` | 经 MAA/ADB 获取仓库页，提取卡片及练度；支持从已保存页面离线回放。 |
+| 数据集 | `data/`、`models/player.py` | 合并每位玩家的原始结果，形成五人唯一事实源。 |
+| 素材解析 | `assets/` | 查找/同步干员立绘和玩家卡片切图，并检查缺失素材。 |
+| 场景构建 | `scene/`、`models/scene.py` | 为每位干员生成五个玩家槽位的 `SceneManifest`。 |
+| 时间线 | `timeline/` | 根据分层图形和时长配置生成 FCP7 XML 或 OTIO。 |
+
+## 关键文件与契约
+
+| 文件 | 生产者 | 消费者 | 约束 |
+| --- | --- | --- | --- |
+| `data/raw/<P?>/` | `collect-player` / `replay-operbox` | `merge-players` | 原始页面、识别状态和素材溯源；不要手工改写以免丢失审计依据。 |
+| `data/normalized/five_players.json` | `merge-players` | `analyze-group`、`build-manifests` | 五位玩家的规范化唯一事实源。 |
+| `assets/` | `sync-assets`、采集器 | `build-manifests`、渲染阶段 | 缺失立绘或卡片时应先补齐素材，不应用错误素材替代。 |
+| `data/manifests/<char_id>.json` | `build-manifests` | 图形/时间线阶段 | 每个玩家槽位必须满足拥有状态和 `no_info` 的互斥规则。 |
+| `reports/group_stats.*` | `analyze-group` | 人工审阅 | 统计的可读报告与 JSON 数据。 |
+| `reports/*.xml`、`reports/*.otio` | `export-timeline` | DaVinci Resolve / OTIO 工具 | 时间线按配置 FPS 生成；当前配置目标为 24 fps。 |
+
+## 场景状态规则
+
+`PlayerSlotState` 的呈现契约如下：
+
+- 已拥有：`own=true`、`no_info=false`；精英化为 0–2、潜能为 1–6、等级为 1–90，卡片素材可选。
+- 未拥有：`own=false`、`no_info=true`，且不得关联玩家卡片素材。
+
+这条规则让“未拥有”成为明确的画面状态，而非用其他干员或空数据伪装。
+
+## 外部系统
+
+- MAA/ADB：仅采集阶段需要；设备、ADB 和滑动参数配置在 `maa` 节。
+- Photoshop：PSD 实际渲染或技术验证需要；后端由 `photoshop.backend` 控制。
+- DaVinci Resolve：导入 XML/OTIO 后完成最终合成、调色、特效和交付渲染。
+
+根目录的早期脚本、`composition_manifest.json`、`edit_plan.json` 和归档媒体服务于历史制作，不是当前 CLI 的稳定接口。
