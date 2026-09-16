@@ -37,6 +37,22 @@ class AssetResolver:
         p = self.assets_root / char_id / "avatar.png"
         return p if p.exists() else None
 
+    def get_player_card_crop(self, char_id: str, player_id: str) -> Optional[Path]:
+        """获取玩家由 OperBox 采集的特定干员卡片切片 (198x447 Native Crop)"""
+        p = self.config.get_raw_player_dir(player_id) / "operbox" / "cards_raw" / f"{char_id}.png"
+        return p if p.exists() else None
+
+    def get_player_card_provenance(self, char_id: str, player_id: str) -> Optional[Dict]:
+        """获取玩家特定干员卡片切片的 Provenance 元数据"""
+        p = self.config.get_raw_player_dir(player_id) / "operbox" / "cards_raw" / f"{char_id}.json"
+        if not p.exists():
+            return None
+        try:
+            with open(p, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            return None
+
     def has_assets(self, char_id: str) -> bool:
         return self.get_full_art(char_id) is not None
 

@@ -34,6 +34,8 @@ from tests.test_operbox_schema import TestOperBoxSchema
 from tests.test_operbox_crop_selection import TestOperBoxCropSelection
 from tests.test_operbox_dedup import TestOperBoxDedup
 from tests.test_operbox_asset_state_join import TestOperBoxAssetStateJoin
+from tests.test_scene_builder import TestSceneBuilder
+from tests.test_fcpxml_timeline import TestTimelineGenerators
 
 def run_all():
     tests = [
@@ -50,6 +52,12 @@ def run_all():
     cfg = config()
     reg = registry(cfg)
 
+    # 初始化测试类
+    ts_builder = TestSceneBuilder()
+    ts_builder.setUp()
+    ts_timeline = TestTimelineGenerators()
+    ts_timeline.setUp()
+
     tests_with_fixtures = [
         ("test_registry_resolution", lambda: test_registry_resolution(reg)),
         ("test_asset_resolver_validation", lambda: test_asset_resolver_validation(cfg, reg)),
@@ -62,6 +70,10 @@ def run_all():
         ("test_operbox_candidate_dedup", lambda: TestOperBoxDedup().test_candidate_dedup_best_selection()),
         ("test_operbox_state_asset_join", lambda: TestOperBoxAssetStateJoin().test_state_and_asset_join_integrity()),
         ("test_operbox_unowned_asset_null", lambda: TestOperBoxAssetStateJoin().test_unowned_operator_asset_is_null()),
+        ("test_scene_builder_contract", lambda: ts_builder.test_build_scene_contract()),
+        ("test_scene_builder_persistence", lambda: ts_builder.test_build_all_scenes_persistence()),
+        ("test_timeline_fcpxml_structure", lambda: ts_timeline.test_fcpxml_structure_and_integrity()),
+        ("test_timeline_otio_generation", lambda: ts_timeline.test_otio_generation()),
     ]
 
     passed = 0

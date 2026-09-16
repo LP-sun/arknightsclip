@@ -57,6 +57,16 @@ def main():
     # 6. spike-psd
     subparsers.add_parser("spike-psd", help="运行 Photoshop 单槽位动态操作 Spike")
 
+    # 7. build-manifests
+    p_manifest = subparsers.add_parser("build-manifests", help="批量生成各干员的五人槽位 SceneManifest 场景渲染清单")
+    p_manifest.add_argument("--output", default=None, help="SceneManifest 保存目录 (默认 data/manifests/)")
+
+    # 8. export-timeline
+    p_timeline = subparsers.add_parser("export-timeline", help="导出 24.0 fps 分层时间线工程 (FCP7 XML / OTIO)")
+    p_timeline.add_argument("--format", choices=["fcpxml", "otio", "all"], default="fcpxml", help="时间线格式")
+    p_timeline.add_argument("--output", default=None, help="自定义输出文件路径")
+    p_timeline.add_argument("--name", default="明日方舟_六星干员报菜名_PSD分层母版合成_v2", help="时间线名称")
+
     args = parser.parse_args()
     if not args.command:
         parser.print_help()
@@ -140,6 +150,27 @@ def main():
         print(f"[CLI] Photoshop Spike 完成: {report['status']}")
         for f in report["verified_features"]:
             print(f"  ✓ {f}")
+
+    elif args.command == "build-manifests":
+        from .scene.builder import SceneBuilder
+        sb = SceneBuilder(cfg, registry=reg)
+        out_dir = Path(args.output) if args.output else cfg.get_manifests_dir()
+        manifests = sb.build_all_scenes(save_dir=out_dir)
+        print(f"[CLI] 成功生成 {len(manifests)} 份场景渲染清单至: {out_dir}")
+
+    elif args.command == "export-timeline":
+        from .timeline.fcpxml_generator import FCPXMLGenerator
+        from .timeline.otio_generator import OTIOGenerator
+        if args.format in ["fcpxml", "all"]:
+            xml_gen = FCPXMLGenerator(cfg)
+            out_xml = Path(args.output) if (args.output and args.format == "fcpxml") else None
+            xml_path = xml_gen.build_timeline_xml(output_xml=out_xml, timeline_name=args.name)
+            print(f"[CLI] FCP7 XML 时间线导出成功: {xml_path}")
+        if args.format in ["otio", "all"]:
+            otio_gen = OTIOGenerator(cfg)
+            out_otio = Path(args.output) if (args.output and args.format == "otio") else None
+            otio_path = otio_gen.build_timeline_otio(timeline_name=args.name, output_path=out_otio)
+            print(f"[CLI] OTIO 时间线导出成功: {otio_path}")
 
 if __name__ == "__main__":
     main()

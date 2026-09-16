@@ -1,0 +1,49 @@
+{
+  "operator_id": "char_003_kalts",
+  "operator_name": "凯尔希",
+  "rarity": 6,
+  "profession": "MEDIC",
+  "full_art_path": "E:\\明日方舟报菜名\\assets\\operators\\char_003_kalts\\full.png",
+  "players": {
+    "P1": {
+      "own": true,
+      "elite": 1,
+      "level": 50,
+      "potential": 1,
+      "no_info": false,
+      "card_asset_path": null
+    },
+    "P2": {
+      "own": true,
+      "elite": 1,
+      "level": 50,
+      "potential": 1,
+      "no_info": false,
+      "card_asset_path": null
+    },
+    "P3": {
+      "own": true,
+      "elite": 1,
+      "level": 50,
+      "potential": 1,
+      "no_info": false,
+      "card_asset_path": null
+    },
+    "P4": {
+      "own": true,
+      "elite": 1,
+      "level": 50,
+      "potential": 1,
+      "no_info": false,
+      "card_asset_path": null
+    },
+    "P5": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    }
+  }
+}

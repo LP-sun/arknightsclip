@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arknightsclip"
+version = "2.0.0"
+description = "Automated pipeline for Arknights name-recitation video production"
+readme = "README.md"
+authors = [
+    { name = "LP-sun" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pillow",
+    "numpy",
+    "psd-tools",
+    "openpyxl",
+    "opencv-python",
+    "opentimelineio"
+]
+
+[project.scripts]
+arknightsclip = "arknightsclip.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

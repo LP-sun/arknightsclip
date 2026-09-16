@@ -3,7 +3,7 @@
 """
 
 from dataclasses import dataclass, field
-from typing import Dict, Any
+from typing import Dict, Any, Optional
 
 @dataclass
 class PlayerSlotState:
@@ -12,11 +12,13 @@ class PlayerSlotState:
     level: int = 1
     potential: int = 1
     no_info: bool = False
+    card_asset_path: Optional[str] = None
 
     def __post_init__(self):
         # 自动满足互斥条件
         if not self.own:
             self.no_info = True
+            self.card_asset_path = None
 
     def validate(self) -> bool:
         if self.own:
@@ -31,6 +33,8 @@ class PlayerSlotState:
         else:
             if not self.no_info:
                 return False
+            if self.card_asset_path is not None:
+                return False
         return True
 
     def to_dict(self) -> Dict[str, Any]:
@@ -40,6 +44,7 @@ class PlayerSlotState:
             "level": self.level,
             "potential": self.potential,
             "no_info": self.no_info,
+            "card_asset_path": self.card_asset_path,
         }
 
     @classmethod
@@ -50,6 +55,7 @@ class PlayerSlotState:
             level=data.get("level", 1),
             potential=data.get("potential", 1),
             no_info=data.get("no_info", not data.get("own", True)),
+            card_asset_path=data.get("card_asset_path"),
         )
 
 @dataclass

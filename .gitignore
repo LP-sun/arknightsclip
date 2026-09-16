@@ -37,3 +37,6 @@ reports/*.png
 Thumbs.db
 .vscode/
 .idea/
+*.egg-info/
+external/
+
