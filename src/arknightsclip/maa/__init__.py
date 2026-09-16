@@ -1,15 +1,14 @@
-from .adapter import MaaAcquisitionAdapter
-from .maacore_client import MaaCoreAdapter
-from .fallback_recognizer import FallbackOperBoxRecognizer
-from .collector import PlayerCollector
+"""
+MAA (MaaAssistantArknights) 仓库采集与识别模块
+唯一正式生产实现：
+- OperBoxCollector
+- OperBoxAnalyzer
+"""
+
 from .operbox_analyzer import OperBoxAnalyzer
 from .operbox_collector import OperBoxCollector
 
 __all__ = [
-    "MaaAcquisitionAdapter",
-    "MaaCoreAdapter",
-    "FallbackOperBoxRecognizer",
-    "PlayerCollector",
     "OperBoxAnalyzer",
     "OperBoxCollector",
 ]

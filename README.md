@@ -4,7 +4,7 @@
 
 ## 当前入口与仓库状态
 
-当前维护入口是 `src/arknightsclip/` 提供的 `arknightsclip` CLI。根目录的 `run_full_autonomous_pipeline.py`、`maa_game_pipeline.py` 等脚本，以及 `archive/` 中的内容，属于早期制作/交付记录；它们可以用于追溯，但不应作为新增功能的默认接口。
+当前维护入口是 `src/arknightsclip/` 提供的 `arknightsclip` CLI，干员仓库采集与识别的唯一正式生产实现为 `src/arknightsclip/maa/operbox_collector.py` 与 `operbox_analyzer.py`。早期根目录脚本已统一归档至 `archive/legacy_collection_pipeline/`，仅作为历史记录追溯。
 
 截至本次整理，`python tests/run_tests.py` 已通过 23 项核心测试，覆盖数据模型、OperBox 解析、素材关联、场景清单和 24 fps 时间线生成。
 

@@ -121,7 +121,7 @@ class OperBoxAnalyzer:
                     'potential': ConfidenceScore(potential, pot_conf, 'tmpl_potential'),
                     'level': ConfidenceScore(level, lvl_conf, 'ocr_level'),
                 },
-                source='MaaCore OperBoxImageAnalyzer',
+                source='maa_compatible_operbox',
                 needs_review=(reg_entry is None or lvl_conf < 0.6)
             )
             states.append(state)
