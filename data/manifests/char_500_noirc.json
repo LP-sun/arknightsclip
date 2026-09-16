@@ -1,0 +1,49 @@
+{
+  "operator_id": "char_500_noirc",
+  "operator_name": "黑角",
+  "rarity": 2,
+  "profession": "TANK",
+  "full_art_path": "",
+  "players": {
+    "P1": {
+      "own": true,
+      "elite": 0,
+      "level": 1,
+      "potential": 6,
+      "no_info": false,
+      "card_asset_path": "E:\\明日方舟报菜名\\data\\raw\\P1\\operbox\\cards_raw\\char_500_noirc.png"
+    },
+    "P2": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    },
+    "P3": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    },
+    "P4": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    },
+    "P5": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    }
+  }
+}

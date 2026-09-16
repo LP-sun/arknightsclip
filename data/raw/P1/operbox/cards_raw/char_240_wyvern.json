@@ -1,0 +1,20 @@
+{
+  "char_id": "char_240_wyvern",
+  "name": "香草",
+  "scan_id": "20260917_P1",
+  "player_id": "P1",
+  "source_page": "page_0005.png",
+  "page_index": 5,
+  "card_index": 2,
+  "roi": [
+    301,
+    80,
+    132,
+    298
+  ],
+  "capture_timestamp": "2026-09-17T00:34:13.934413",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": 1.0,
+  "candidate_count": 1,
+  "selected_reason": "best_crop"
+}

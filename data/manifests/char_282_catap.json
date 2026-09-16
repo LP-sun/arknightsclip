@@ -1,0 +1,49 @@
+{
+  "operator_id": "char_282_catap",
+  "operator_name": "空爆",
+  "rarity": 3,
+  "profession": "SNIPER",
+  "full_art_path": "",
+  "players": {
+    "P1": {
+      "own": true,
+      "elite": 0,
+      "level": 1,
+      "potential": 6,
+      "no_info": false,
+      "card_asset_path": "E:\\明日方舟报菜名\\data\\raw\\P1\\operbox\\cards_raw\\char_282_catap.png"
+    },
+    "P2": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    },
+    "P3": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    },
+    "P4": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    },
+    "P5": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    }
+  }
+}

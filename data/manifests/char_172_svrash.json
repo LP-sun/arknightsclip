@@ -1,0 +1,49 @@
+{
+  "operator_id": "char_172_svrash",
+  "operator_name": "银灰",
+  "rarity": 6,
+  "profession": "WARRIOR",
+  "full_art_path": "E:\\明日方舟报菜名\\assets\\operators\\char_172_svrash\\full.png",
+  "players": {
+    "P1": {
+      "own": true,
+      "elite": 2,
+      "level": 60,
+      "potential": 1,
+      "no_info": false,
+      "card_asset_path": "E:\\明日方舟报菜名\\data\\raw\\P1\\operbox\\cards_raw\\char_172_svrash.png"
+    },
+    "P2": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    },
+    "P3": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    },
+    "P4": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    },
+    "P5": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    }
+  }
+}

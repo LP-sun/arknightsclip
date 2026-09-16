@@ -7,26 +7,26 @@
   "players": {
     "P1": {
       "own": true,
-      "elite": 1,
-      "level": 50,
+      "elite": 0,
+      "level": 1,
       "potential": 1,
       "no_info": false,
       "card_asset_path": null
     },
     "P2": {
-      "own": true,
-      "elite": 1,
-      "level": 50,
+      "own": false,
+      "elite": 0,
+      "level": 1,
       "potential": 1,
-      "no_info": false,
+      "no_info": true,
       "card_asset_path": null
     },
     "P3": {
-      "own": true,
-      "elite": 1,
-      "level": 50,
+      "own": false,
+      "elite": 0,
+      "level": 1,
       "potential": 1,
-      "no_info": false,
+      "no_info": true,
       "card_asset_path": null
     },
     "P4": {
@@ -38,11 +38,11 @@
       "card_asset_path": null
     },
     "P5": {
-      "own": true,
-      "elite": 1,
-      "level": 50,
+      "own": false,
+      "elite": 0,
+      "level": 1,
       "potential": 1,
-      "no_info": false,
+      "no_info": true,
       "card_asset_path": null
     }
   }

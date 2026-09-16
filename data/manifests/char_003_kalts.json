@@ -7,34 +7,34 @@
   "players": {
     "P1": {
       "own": true,
-      "elite": 1,
-      "level": 50,
-      "potential": 1,
+      "elite": 2,
+      "level": 66,
+      "potential": 2,
       "no_info": false,
-      "card_asset_path": null
+      "card_asset_path": "E:\\明日方舟报菜名\\data\\raw\\P1\\operbox\\cards_raw\\char_003_kalts.png"
     },
     "P2": {
-      "own": true,
-      "elite": 1,
-      "level": 50,
+      "own": false,
+      "elite": 0,
+      "level": 1,
       "potential": 1,
-      "no_info": false,
+      "no_info": true,
       "card_asset_path": null
     },
     "P3": {
-      "own": true,
-      "elite": 1,
-      "level": 50,
+      "own": false,
+      "elite": 0,
+      "level": 1,
       "potential": 1,
-      "no_info": false,
+      "no_info": true,
       "card_asset_path": null
     },
     "P4": {
-      "own": true,
-      "elite": 1,
-      "level": 50,
+      "own": false,
+      "elite": 0,
+      "level": 1,
       "potential": 1,
-      "no_info": false,
+      "no_info": true,
       "card_asset_path": null
     },
     "P5": {
