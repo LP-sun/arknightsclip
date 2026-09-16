@@ -1,0 +1,64 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "operator": {
+    "id": "char_103_angel",
+    "name": "能天使",
+    "full_art": "assets/operators/char_103_angel/full.png",
+    "card_crop": "assets/ui/card_crop_angel.png"
+  },
+  "players": {
+    "P1": {
+      "display_name": "爱花",
+      "doctor_title": "Dr.爱花 #1051",
+      "doctor_level": 96,
+      "avatar": "assets/players/P1.png",
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1
+    },
+    "P2": {
+      "display_name": "咯吱吱",
+      "doctor_title": "Dr.咯吱吱 #1052",
+      "doctor_level": 97,
+      "avatar": "assets/players/P2.png",
+      "own": true,
+      "elite": 1,
+      "level": 85,
+      "potential": 2
+    },
+    "P3": {
+      "display_name": "东城",
+      "doctor_title": "Dr.东城 #1053",
+      "doctor_level": 98,
+      "avatar": "assets/players/P3.png",
+      "own": true,
+      "elite": 2,
+      "level": 40,
+      "potential": 3
+    },
+    "P4": {
+      "display_name": "HMI",
+      "doctor_title": "Dr.HMI #1054",
+      "doctor_level": 99,
+      "avatar": "assets/players/P4.png",
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1
+    },
+    "P5": {
+      "display_name": "LEO",
+      "doctor_title": "Dr.LEO #1055",
+      "doctor_level": 100,
+      "avatar": "assets/players/P5.png",
+      "own": true,
+      "elite": 1,
+      "level": 50,
+      "potential": 5
+    }
+  }
+}
