@@ -1,0 +1,49 @@
+{
+  "operator_id": "char_1019_siege2",
+  "operator_name": "维娜·维多利亚",
+  "rarity": 6,
+  "profession": "WARRIOR",
+  "full_art_path": "",
+  "players": {
+    "P1": {
+      "own": true,
+      "elite": 2,
+      "level": 88,
+      "potential": 3,
+      "no_info": false,
+      "card_asset_path": null
+    },
+    "P2": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    },
+    "P3": {
+      "own": true,
+      "elite": 2,
+      "level": 88,
+      "potential": 3,
+      "no_info": false,
+      "card_asset_path": null
+    },
+    "P4": {
+      "own": true,
+      "elite": 2,
+      "level": 88,
+      "potential": 3,
+      "no_info": false,
+      "card_asset_path": null
+    },
+    "P5": {
+      "own": true,
+      "elite": 2,
+      "level": 88,
+      "potential": 3,
+      "no_info": false,
+      "card_asset_path": null
+    }
+  }
+}

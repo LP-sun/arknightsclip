@@ -1,0 +1,43 @@
+{
+  "input": "E:\\明日方舟报菜名\\psd2pen\\inputs\\five_operators.json",
+  "input_sha256": "b1190fc213c44fca43ebda7d0ccee9658c73dd3bf6fb1d4cfbc89aca472ac188",
+  "catalog_sha256": "c630c7cc914e57b3a2f69d0b4151e6a4376db079910a5bc8451967bcc99d6c48",
+  "status": "prepared_not_rendered",
+  "commands": [
+    {
+      "operator": "能天使",
+      "filePath": "E:\\明日方舟报菜名\\psd2pen\\character_cards_8slot.pen",
+      "inputFile": "E:\\明日方舟报菜名\\psd2pen\\delivery\\json_pipeline_smoke\\能天使.pencil.js",
+      "outputDirectory": "E:/明日方舟报菜名/psd2pen/delivery/json_pipeline_smoke/能天使",
+      "frameName": "JSON_BATCH_b1190fc213c4_能天使"
+    },
+    {
+      "operator": "推王",
+      "filePath": "E:\\明日方舟报菜名\\psd2pen\\character_cards_8slot.pen",
+      "inputFile": "E:\\明日方舟报菜名\\psd2pen\\delivery\\json_pipeline_smoke\\推王.pencil.js",
+      "outputDirectory": "E:/明日方舟报菜名/psd2pen/delivery/json_pipeline_smoke/推王",
+      "frameName": "JSON_BATCH_b1190fc213c4_推王"
+    },
+    {
+      "operator": "小火龙",
+      "filePath": "E:\\明日方舟报菜名\\psd2pen\\character_cards_8slot.pen",
+      "inputFile": "E:\\明日方舟报菜名\\psd2pen\\delivery\\json_pipeline_smoke\\小火龙.pencil.js",
+      "outputDirectory": "E:/明日方舟报菜名/psd2pen/delivery/json_pipeline_smoke/小火龙",
+      "frameName": "JSON_BATCH_b1190fc213c4_小火龙"
+    },
+    {
+      "operator": "小羊",
+      "filePath": "E:\\明日方舟报菜名\\psd2pen\\character_cards_8slot.pen",
+      "inputFile": "E:\\明日方舟报菜名\\psd2pen\\delivery\\json_pipeline_smoke\\小羊.pencil.js",
+      "outputDirectory": "E:/明日方舟报菜名/psd2pen/delivery/json_pipeline_smoke/小羊",
+      "frameName": "JSON_BATCH_b1190fc213c4_小羊"
+    },
+    {
+      "operator": "洁哥",
+      "filePath": "E:\\明日方舟报菜名\\psd2pen\\character_cards_8slot.pen",
+      "inputFile": "E:\\明日方舟报菜名\\psd2pen\\delivery\\json_pipeline_smoke\\洁哥.pencil.js",
+      "outputDirectory": "E:/明日方舟报菜名/psd2pen/delivery/json_pipeline_smoke/洁哥",
+      "frameName": "JSON_BATCH_b1190fc213c4_洁哥"
+    }
+  ]
+}

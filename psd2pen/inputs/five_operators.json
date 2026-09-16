@@ -1,0 +1,351 @@
+{
+  "version": 1,
+  "operators": [
+    {
+      "name": "能天使",
+      "slots": [
+        {
+          "slot": 1,
+          "player": "爱花",
+          "owned": false,
+          "elite": null,
+          "level": null,
+          "potential": null
+        },
+        {
+          "slot": 2,
+          "player": "咯咯枝",
+          "owned": true,
+          "elite": 1,
+          "level": 90,
+          "potential": 2
+        },
+        {
+          "slot": 3,
+          "player": "东城",
+          "owned": true,
+          "elite": 2,
+          "level": 90,
+          "potential": 2
+        },
+        {
+          "slot": 4,
+          "player": "狐狸",
+          "owned": true,
+          "elite": 2,
+          "level": 25,
+          "potential": 3
+        },
+        {
+          "slot": 5,
+          "player": "hmi",
+          "owned": true,
+          "elite": 1,
+          "level": 90,
+          "potential": 6
+        },
+        {
+          "slot": 6,
+          "player": "leo",
+          "owned": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 4
+        },
+        {
+          "slot": 7,
+          "player": "rada",
+          "owned": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "slot": 8,
+          "player": "骑士",
+          "owned": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        }
+      ]
+    },
+    {
+      "name": "推王",
+      "slots": [
+        {
+          "slot": 1,
+          "player": "爱花",
+          "owned": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "slot": 2,
+          "player": "咯咯枝",
+          "owned": true,
+          "elite": 1,
+          "level": 73,
+          "potential": 2
+        },
+        {
+          "slot": 3,
+          "player": "东城",
+          "owned": true,
+          "elite": 1,
+          "level": 50,
+          "potential": 5
+        },
+        {
+          "slot": 4,
+          "player": "狐狸",
+          "owned": false,
+          "elite": null,
+          "level": null,
+          "potential": null
+        },
+        {
+          "slot": 5,
+          "player": "hmi",
+          "owned": true,
+          "elite": 2,
+          "level": 90,
+          "potential": 3,
+          "note": "User confirmed missing D8 as elite 2 from original PSD"
+        },
+        {
+          "slot": 6,
+          "player": "leo",
+          "owned": true,
+          "elite": 1,
+          "level": 46,
+          "potential": 3
+        },
+        {
+          "slot": 7,
+          "player": "rada",
+          "owned": true,
+          "elite": 1,
+          "level": 50,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "player": "骑士",
+          "owned": true,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "name": "小火龙",
+      "slots": [
+        {
+          "slot": 1,
+          "player": "爱花",
+          "owned": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "slot": 2,
+          "player": "咯咯枝",
+          "owned": true,
+          "elite": 1,
+          "level": 80,
+          "potential": 2
+        },
+        {
+          "slot": 3,
+          "player": "东城",
+          "owned": true,
+          "elite": 1,
+          "level": 80,
+          "potential": 3
+        },
+        {
+          "slot": 4,
+          "player": "狐狸",
+          "owned": true,
+          "elite": 2,
+          "level": 22,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "player": "hmi",
+          "owned": true,
+          "elite": 2,
+          "level": 90,
+          "potential": 5
+        },
+        {
+          "slot": 6,
+          "player": "leo",
+          "owned": true,
+          "elite": 1,
+          "level": 70,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "player": "rada",
+          "owned": true,
+          "elite": 2,
+          "level": 45,
+          "potential": 4
+        },
+        {
+          "slot": 8,
+          "player": "骑士",
+          "owned": true,
+          "elite": 2,
+          "level": 63,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "name": "小羊",
+      "slots": [
+        {
+          "slot": 1,
+          "player": "爱花",
+          "owned": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "player": "咯咯枝",
+          "owned": true,
+          "elite": 2,
+          "level": 90,
+          "potential": 1
+        },
+        {
+          "slot": 3,
+          "player": "东城",
+          "owned": true,
+          "elite": 2,
+          "level": 90,
+          "potential": 1
+        },
+        {
+          "slot": 4,
+          "player": "狐狸",
+          "owned": true,
+          "elite": 2,
+          "level": 20,
+          "potential": 1
+        },
+        {
+          "slot": 5,
+          "player": "hmi",
+          "owned": true,
+          "elite": 2,
+          "level": 90,
+          "potential": 3
+        },
+        {
+          "slot": 6,
+          "player": "leo",
+          "owned": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 7,
+          "player": "rada",
+          "owned": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 8,
+          "player": "骑士",
+          "owned": true,
+          "elite": 2,
+          "level": 63,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "name": "洁哥",
+      "slots": [
+        {
+          "slot": 1,
+          "player": "爱花",
+          "owned": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "slot": 2,
+          "player": "咯咯枝",
+          "owned": false,
+          "elite": null,
+          "level": null,
+          "potential": null
+        },
+        {
+          "slot": 3,
+          "player": "东城",
+          "owned": true,
+          "elite": 2,
+          "level": 50,
+          "potential": 3
+        },
+        {
+          "slot": 4,
+          "player": "狐狸",
+          "owned": true,
+          "elite": 2,
+          "level": 20,
+          "potential": 2
+        },
+        {
+          "slot": 5,
+          "player": "hmi",
+          "owned": true,
+          "elite": 2,
+          "level": 90,
+          "potential": 6
+        },
+        {
+          "slot": 6,
+          "player": "leo",
+          "owned": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 3
+        },
+        {
+          "slot": 7,
+          "player": "rada",
+          "owned": true,
+          "elite": 2,
+          "level": 26,
+          "potential": 3
+        },
+        {
+          "slot": 8,
+          "player": "骑士",
+          "owned": true,
+          "elite": 1,
+          "level": 60,
+          "potential": 2
+        }
+      ]
+    }
+  ]
+}

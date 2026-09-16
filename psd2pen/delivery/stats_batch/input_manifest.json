@@ -1,0 +1,971 @@
+{
+  "source": "统计.xlsx",
+  "sheet": "Sheet1",
+  "range": "A1:G29",
+  "xlsx_sha256": "83ba21f9fe1acf49d64e9a2666618138cdf01a25085de2b98d3ab1dd61885d3c",
+  "jobs": [
+    {
+      "name": "能天使",
+      "slots": [
+        {
+          "slot": 1,
+          "player": "爱花",
+          "owned": false,
+          "elite": null,
+          "level": null,
+          "potential": null,
+          "cells": [
+            "C4",
+            "C13",
+            "C22"
+          ],
+          "override": null,
+          "art": null
+        },
+        {
+          "slot": 2,
+          "player": "咯咯枝",
+          "owned": true,
+          "elite": 1,
+          "level": 90,
+          "potential": 2,
+          "cells": [
+            "C5",
+            "C14",
+            "C23"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/01_slot02.png",
+            "bbox": [
+              37,
+              401,
+              727,
+              605
+            ],
+            "source_layer": "图层 32"
+          }
+        },
+        {
+          "slot": 3,
+          "player": "东城",
+          "owned": true,
+          "elite": 2,
+          "level": 90,
+          "potential": 2,
+          "cells": [
+            "C6",
+            "C15",
+            "C24"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/01_slot03.png",
+            "bbox": [
+              63,
+              582,
+              847,
+              876
+            ],
+            "source_layer": "图层 35"
+          }
+        },
+        {
+          "slot": 4,
+          "player": "狐狸",
+          "owned": true,
+          "elite": 2,
+          "level": 25,
+          "potential": 3,
+          "cells": [
+            "C7",
+            "C16",
+            "C25"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/01_slot04.png",
+            "bbox": [
+              60,
+              795,
+              866,
+              1108
+            ],
+            "source_layer": "图层 37"
+          }
+        },
+        {
+          "slot": 5,
+          "player": "hmi",
+          "owned": true,
+          "elite": 1,
+          "level": 90,
+          "potential": 6,
+          "cells": [
+            "C8",
+            "C17",
+            "C26"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/01_slot05.png",
+            "bbox": [
+              1090,
+              103,
+              1780,
+              307
+            ],
+            "source_layer": "图层 33"
+          }
+        },
+        {
+          "slot": 6,
+          "player": "leo",
+          "owned": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 4,
+          "cells": [
+            "C9",
+            "C18",
+            "C27"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/01_slot06.png",
+            "bbox": [
+              1126,
+              282,
+              1910,
+              576
+            ],
+            "source_layer": "图层 36"
+          }
+        },
+        {
+          "slot": 7,
+          "player": "rada",
+          "owned": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 2,
+          "cells": [
+            "C10",
+            "C19",
+            "C28"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/01_slot07.png",
+            "bbox": [
+              1123,
+              498,
+              1929,
+              811
+            ],
+            "source_layer": "图层 38"
+          }
+        },
+        {
+          "slot": 8,
+          "player": "骑士",
+          "owned": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 2,
+          "cells": [
+            "C11",
+            "C20",
+            "C29"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/01_slot08.png",
+            "bbox": [
+              1094,
+              746,
+              1784,
+              950
+            ],
+            "source_layer": "图层 34"
+          }
+        }
+      ],
+      "psd_sha256": "c4a2f791c43ac613e1a71d2e035018eb4ecd6c054adea951bb29730c32cc226b"
+    },
+    {
+      "name": "推王",
+      "slots": [
+        {
+          "slot": 1,
+          "player": "爱花",
+          "owned": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 2,
+          "cells": [
+            "D4",
+            "D13",
+            "D22"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/02_slot01.png",
+            "bbox": [
+              49,
+              135,
+              948,
+              435
+            ],
+            "source_layer": "图层 39"
+          }
+        },
+        {
+          "slot": 2,
+          "player": "咯咯枝",
+          "owned": true,
+          "elite": 1,
+          "level": 73,
+          "potential": 2,
+          "cells": [
+            "D5",
+            "D14",
+            "D23"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/02_slot02.png",
+            "bbox": [
+              63,
+              335,
+              848,
+              641
+            ],
+            "source_layer": "图层 40"
+          }
+        },
+        {
+          "slot": 3,
+          "player": "东城",
+          "owned": true,
+          "elite": 1,
+          "level": 50,
+          "potential": 5,
+          "cells": [
+            "D6",
+            "D15",
+            "D24"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/02_slot03.png",
+            "bbox": [
+              63,
+              550,
+              848,
+              856
+            ],
+            "source_layer": "图层 41"
+          }
+        },
+        {
+          "slot": 4,
+          "player": "狐狸",
+          "owned": false,
+          "elite": null,
+          "level": null,
+          "potential": null,
+          "cells": [
+            "D7",
+            "D16",
+            "D25"
+          ],
+          "override": null,
+          "art": null
+        },
+        {
+          "slot": 5,
+          "player": "hmi",
+          "owned": true,
+          "elite": 2,
+          "level": 90,
+          "potential": 3,
+          "cells": [
+            "D8",
+            "D17",
+            "D26"
+          ],
+          "override": "User confirmed missing D8 as elite 2 from original PSD",
+          "art": {
+            "url": "assets/stats_batch/02_slot05.png",
+            "bbox": [
+              1043,
+              77,
+              1894,
+              307
+            ],
+            "source_layer": "图层 43"
+          }
+        },
+        {
+          "slot": 6,
+          "player": "leo",
+          "owned": true,
+          "elite": 1,
+          "level": 46,
+          "potential": 3,
+          "cells": [
+            "D9",
+            "D18",
+            "D27"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/02_slot06.png",
+            "bbox": [
+              1113,
+              250,
+              1898,
+              556
+            ],
+            "source_layer": "图层 42"
+          }
+        },
+        {
+          "slot": 7,
+          "player": "rada",
+          "owned": true,
+          "elite": 1,
+          "level": 50,
+          "potential": 1,
+          "cells": [
+            "D10",
+            "D19",
+            "D28"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/02_slot07.png",
+            "bbox": [
+              1045,
+              504,
+              1896,
+              734
+            ],
+            "source_layer": "图层 44"
+          }
+        },
+        {
+          "slot": 8,
+          "player": "骑士",
+          "owned": true,
+          "elite": 0,
+          "level": 1,
+          "potential": 1,
+          "cells": [
+            "D11",
+            "D20",
+            "D29"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/02_slot08.png",
+            "bbox": [
+              1105,
+              728,
+              1825,
+              989
+            ],
+            "source_layer": "图层 45"
+          }
+        }
+      ],
+      "psd_sha256": "18572087061247268af181b78a0e8945a20574c489fdd0212d5fd2296ace9e2c"
+    },
+    {
+      "name": "小火龙",
+      "slots": [
+        {
+          "slot": 1,
+          "player": "爱花",
+          "owned": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 2,
+          "cells": [
+            "E4",
+            "E13",
+            "E22"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/03_slot01.png",
+            "bbox": [
+              21,
+              168,
+              946,
+              435
+            ],
+            "source_layer": "图层 46"
+          }
+        },
+        {
+          "slot": 2,
+          "player": "咯咯枝",
+          "owned": true,
+          "elite": 1,
+          "level": 80,
+          "potential": 2,
+          "cells": [
+            "E5",
+            "E14",
+            "E23"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/03_slot02.png",
+            "bbox": [
+              -35,
+              327,
+              877,
+              657
+            ],
+            "source_layer": "图层 50"
+          }
+        },
+        {
+          "slot": 3,
+          "player": "东城",
+          "owned": true,
+          "elite": 1,
+          "level": 80,
+          "potential": 3,
+          "cells": [
+            "E6",
+            "E15",
+            "E24"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/03_slot03.png",
+            "bbox": [
+              57,
+              598,
+              730,
+              809
+            ],
+            "source_layer": "图层 52"
+          }
+        },
+        {
+          "slot": 4,
+          "player": "狐狸",
+          "owned": true,
+          "elite": 2,
+          "level": 22,
+          "potential": 1,
+          "cells": [
+            "E7",
+            "E16",
+            "E25"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/03_slot04.png",
+            "bbox": [
+              21,
+              809,
+              946,
+              1076
+            ],
+            "source_layer": "图层 47"
+          }
+        },
+        {
+          "slot": 5,
+          "player": "hmi",
+          "owned": true,
+          "elite": 2,
+          "level": 90,
+          "potential": 5,
+          "cells": [
+            "E8",
+            "E17",
+            "E26"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/03_slot05.png",
+            "bbox": [
+              987,
+              27,
+              1899,
+              357
+            ],
+            "source_layer": "图层 51"
+          }
+        },
+        {
+          "slot": 6,
+          "player": "leo",
+          "owned": true,
+          "elite": 1,
+          "level": 70,
+          "potential": 1,
+          "cells": [
+            "E9",
+            "E18",
+            "E27"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/03_slot06.png",
+            "bbox": [
+              1080,
+              303,
+              1893,
+              526
+            ],
+            "source_layer": "图层 53"
+          }
+        },
+        {
+          "slot": 7,
+          "player": "rada",
+          "owned": true,
+          "elite": 2,
+          "level": 45,
+          "potential": 4,
+          "cells": [
+            "E10",
+            "E19",
+            "E28"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/03_slot07.png",
+            "bbox": [
+              1045,
+              509,
+              1970,
+              776
+            ],
+            "source_layer": "图层 48"
+          }
+        },
+        {
+          "slot": 8,
+          "player": "骑士",
+          "owned": true,
+          "elite": 2,
+          "level": 63,
+          "potential": 1,
+          "cells": [
+            "E11",
+            "E20",
+            "E29"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/03_slot08.png",
+            "bbox": [
+              1045,
+              723,
+              1970,
+              990
+            ],
+            "source_layer": "图层 49"
+          }
+        }
+      ],
+      "psd_sha256": "6682e33be52f2434ab7e4b2d4dcf5cdf96614fe31496b2b640974495b5f7c1db"
+    },
+    {
+      "name": "小羊",
+      "slots": [
+        {
+          "slot": 1,
+          "player": "爱花",
+          "owned": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 1,
+          "cells": [
+            "F4",
+            "F13",
+            "F22"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/04_slot01.png",
+            "bbox": [
+              55,
+              179,
+              790,
+              399
+            ],
+            "source_layer": "图层 61"
+          }
+        },
+        {
+          "slot": 2,
+          "player": "咯咯枝",
+          "owned": true,
+          "elite": 2,
+          "level": 90,
+          "potential": 1,
+          "cells": [
+            "F5",
+            "F14",
+            "F23"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/04_slot02.png",
+            "bbox": [
+              55,
+              392,
+              790,
+              612
+            ],
+            "source_layer": "图层 60"
+          }
+        },
+        {
+          "slot": 3,
+          "player": "东城",
+          "owned": true,
+          "elite": 2,
+          "level": 90,
+          "potential": 1,
+          "cells": [
+            "F6",
+            "F15",
+            "F24"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/04_slot03.png",
+            "bbox": [
+              55,
+              606,
+              790,
+              826
+            ],
+            "source_layer": "图层 59"
+          }
+        },
+        {
+          "slot": 4,
+          "player": "狐狸",
+          "owned": true,
+          "elite": 2,
+          "level": 20,
+          "potential": 1,
+          "cells": [
+            "F7",
+            "F16",
+            "F25"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/04_slot04.png",
+            "bbox": [
+              55,
+              820,
+              790,
+              1040
+            ],
+            "source_layer": "图层 58"
+          }
+        },
+        {
+          "slot": 5,
+          "player": "hmi",
+          "owned": true,
+          "elite": 2,
+          "level": 90,
+          "potential": 3,
+          "cells": [
+            "F8",
+            "F17",
+            "F26"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/04_slot05.png",
+            "bbox": [
+              1080,
+              91,
+              1815,
+              311
+            ],
+            "source_layer": "图层 57"
+          }
+        },
+        {
+          "slot": 6,
+          "player": "leo",
+          "owned": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 1,
+          "cells": [
+            "F9",
+            "F18",
+            "F27"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/04_slot06.png",
+            "bbox": [
+              1079,
+              307,
+              1814,
+              527
+            ],
+            "source_layer": "图层 56"
+          }
+        },
+        {
+          "slot": 7,
+          "player": "rada",
+          "owned": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 1,
+          "cells": [
+            "F10",
+            "F19",
+            "F28"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/04_slot07.png",
+            "bbox": [
+              1079,
+              521,
+              1814,
+              741
+            ],
+            "source_layer": "图层 55"
+          }
+        },
+        {
+          "slot": 8,
+          "player": "骑士",
+          "owned": true,
+          "elite": 2,
+          "level": 63,
+          "potential": 1,
+          "cells": [
+            "F11",
+            "F20",
+            "F29"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/04_slot08.png",
+            "bbox": [
+              1080,
+              741,
+              1893,
+              959
+            ],
+            "source_layer": "图层 54"
+          }
+        }
+      ],
+      "psd_sha256": "0b2c63ded626f4895300de5e71d9bac088f62d82332357966482eb1baedf289a"
+    },
+    {
+      "name": "洁哥",
+      "slots": [
+        {
+          "slot": 1,
+          "player": "爱花",
+          "owned": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 1,
+          "cells": [
+            "G4",
+            "G13",
+            "G22"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/05_slot01.png",
+            "bbox": [
+              31,
+              177,
+              743,
+              407
+            ],
+            "source_layer": "图层 62"
+          }
+        },
+        {
+          "slot": 2,
+          "player": "咯咯枝",
+          "owned": false,
+          "elite": null,
+          "level": null,
+          "potential": null,
+          "cells": [
+            "G5",
+            "G14",
+            "G23"
+          ],
+          "override": null,
+          "art": null
+        },
+        {
+          "slot": 3,
+          "player": "东城",
+          "owned": true,
+          "elite": 2,
+          "level": 50,
+          "potential": 3,
+          "cells": [
+            "G6",
+            "G15",
+            "G24"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/05_slot03.png",
+            "bbox": [
+              31,
+              606,
+              743,
+              836
+            ],
+            "source_layer": "图层 63"
+          }
+        },
+        {
+          "slot": 4,
+          "player": "狐狸",
+          "owned": true,
+          "elite": 2,
+          "level": 20,
+          "potential": 2,
+          "cells": [
+            "G7",
+            "G16",
+            "G25"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/05_slot04.png",
+            "bbox": [
+              31,
+              818,
+              743,
+              1048
+            ],
+            "source_layer": "图层 64"
+          }
+        },
+        {
+          "slot": 5,
+          "player": "hmi",
+          "owned": true,
+          "elite": 2,
+          "level": 90,
+          "potential": 6,
+          "cells": [
+            "G8",
+            "G17",
+            "G26"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/05_slot05.png",
+            "bbox": [
+              1070,
+              89,
+              1782,
+              319
+            ],
+            "source_layer": "图层 65"
+          }
+        },
+        {
+          "slot": 6,
+          "player": "leo",
+          "owned": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 3,
+          "cells": [
+            "G9",
+            "G18",
+            "G27"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/05_slot06.png",
+            "bbox": [
+              1070,
+              303,
+              1782,
+              533
+            ],
+            "source_layer": "图层 66"
+          }
+        },
+        {
+          "slot": 7,
+          "player": "rada",
+          "owned": true,
+          "elite": 2,
+          "level": 26,
+          "potential": 3,
+          "cells": [
+            "G10",
+            "G19",
+            "G28"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/05_slot07.png",
+            "bbox": [
+              1070,
+              517,
+              1782,
+              747
+            ],
+            "source_layer": "图层 67"
+          }
+        },
+        {
+          "slot": 8,
+          "player": "骑士",
+          "owned": true,
+          "elite": 1,
+          "level": 60,
+          "potential": 2,
+          "cells": [
+            "G11",
+            "G20",
+            "G29"
+          ],
+          "override": null,
+          "art": {
+            "url": "assets/stats_batch/05_slot08.png",
+            "bbox": [
+              1162,
+              744,
+              1789,
+              1022
+            ],
+            "source_layer": "图层 68"
+          }
+        }
+      ],
+      "psd_sha256": "82d5499bae5c34c0d63a6f827f3fbfd94bd6818f495fecdd396cf032fd555639"
+    }
+  ]
+}

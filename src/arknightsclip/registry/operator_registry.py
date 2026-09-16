@@ -1,0 +1,161 @@
+"""
+明日方舟干员官方注册表 (Operator Registry)
+建立全局唯一的 char_id 映射，支持官方中文名、英文名、常见缩写与别名消歧。
+"""
+
+import json
+from pathlib import Path
+from typing import Dict, List, Optional
+from ..models.operator import OperatorRegistryEntry
+
+COMMON_ALIASES: Dict[str, List[str]] = {
+    "char_103_angel": ["能天使", "阿能", "Exusiai"],
+    "char_010_chen": ["陈", "老陈", "Ch'en"],
+    "char_172_svrash": ["银灰", "银老板", "SilverAsh"],
+    "char_180_amgoat": ["艾雅法拉", "小羊", "Eyjafjalla"],
+    "char_202_demkni": ["塞雷娅", "塞妈", "Saria"],
+    "char_222_bpipe": ["风笛", "Bagpipe"],
+    "char_350_surtr": ["史尔特尔", "42", "42姐", "Surtr"],
+    "char_112_siege": ["推进之王", "推王", "Siege"],
+    "char_293_thorns": ["棘刺", "Thorns"],
+    "char_017_huang": ["煌", "Blaze"],
+    "char_426_billro": ["鸿雪", "Pozyomka"],
+    "char_400_weedy": ["温蒂", "Weedy"],
+    "char_113_cqbw": ["W", "Wpsd"],
+    "char_2013_cerber": ["刻俄柏", "小刻", "Ceobe"],
+    "char_2014_nian": ["年", "Nian"],
+    "char_2015_dusk": ["夕", "Dusk"],
+    "char_2023_ling": ["令", "Ling"],
+    "char_1012_skadi2": ["浊心斯卡蒂", "红蒂", "Skadi the Corrupting Heart"],
+    "char_1013_chen2": ["假日威龙陈", "水陈", "Ch'en the Holungday"],
+    "char_1014_nearl2": ["耀骑士临光", "异格临光", "Nearl the Radiant Knight"],
+    "char_1020_reed2": ["焰影苇草", "咒愈苇草", "Reed the Flame Shadow"],
+    "char_1021_kroos2": ["寒芒克洛丝"],
+    "char_1028_texas2": ["缄默德克萨斯", "翼德", "Texas the Omertosa"],
+    "char_1029_yato2": ["麒麟R夜刀", "夜刀异格"],
+    "char_1030_noirc2": ["火龙S黑角"],
+    "char_1031_slchan": ["纯烬艾雅法拉", "提丰羊"],
+    "char_249_mlynh": ["玛恩纳", "叔叔", "Młynar"],
+    "char_437_mizuki": ["水月", "Mizuki"],
+    "char_479_sleach": ["琴柳", "Saileach"],
+    "char_423_blemsh": ["瑕光", "Blemishine"],
+    "char_340_shwaz": ["黑", "Schwarz"],
+    "char_213_mostma": ["莫斯提马", "小莫", "Mostima"],
+    "char_263_skadi": ["斯卡蒂", "蒂蒂", "Skadi"],
+    "char_264_f12yin": ["山", "Mountain"],
+    "char_358_fasStandard": ["早露", "Rosa"],
+    "char_379_sisik": ["泥岩", "Mudrock"],
+    "char_456_ash": ["灰烬", "Ash"],
+    "char_436_whispr": ["空弦", "Archetto"],
+    "char_4016_heidi": ["海蒂", "Heidi"],
+    "char_4009_irene": ["艾丽妮", "Irene"],
+    "char_4025_aprot": ["黑键", "Ebenholz"],
+    "char_4039_horn": ["号角", "Horn"],
+    "char_4040_ebnhlz": ["黑键", "Ebenholz"],
+}
+
+class OperatorRegistry:
+    def __init__(self, registry_file: Optional[Path] = None):
+        self._entries: Dict[str, OperatorRegistryEntry] = {} # char_id -> Entry
+        self._name_to_id: Dict[str, str] = {}               # canonical_name / alias -> char_id
+        if registry_file and registry_file.exists():
+            self.load(registry_file)
+
+    def load(self, registry_file: Path):
+        with open(registry_file, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        for d in data.get("operators", []):
+            entry = OperatorRegistryEntry(
+                char_id=d["char_id"],
+                canonical_name_zh=d["canonical_name_zh"],
+                rarity=d.get("rarity", 6),
+                profession=d.get("profession", ""),
+                release_order=d.get("release_order", 0),
+                name_en=d.get("name_en", ""),
+                aliases=d.get("aliases", []),
+            )
+            self.register(entry)
+
+    def register(self, entry: OperatorRegistryEntry):
+        self._entries[entry.char_id] = entry
+        self._name_to_id[entry.canonical_name_zh] = entry.char_id
+        if entry.name_en:
+            self._name_to_id[entry.name_en.lower()] = entry.char_id
+        for alias in entry.aliases:
+            self._name_to_id[alias] = entry.char_id
+
+    def get_by_id(self, char_id: str) -> Optional[OperatorRegistryEntry]:
+        return self._entries.get(char_id)
+
+    def resolve(self, query: str) -> Optional[OperatorRegistryEntry]:
+        """根据 ID、官方中文名、英文名或别名多维度解析干员"""
+        q = query.strip()
+        if q in self._entries:
+            return self._entries[q]
+        if q in self._name_to_id:
+            return self._entries[self._name_to_id[q]]
+        if q.lower() in self._name_to_id:
+            return self._entries[self._name_to_id[q.lower()]]
+        # 模糊前缀匹配 (例如 '001_能天使' -> '能天使')
+        if "_" in q:
+            sub = q.split("_", 1)[1]
+            if sub in self._name_to_id:
+                return self._entries[self._name_to_id[sub]]
+        return None
+
+    def all_operators(self) -> List[OperatorRegistryEntry]:
+        return list(self._entries.values())
+
+    def export(self, target_file: Path):
+        data = {
+            "version": "1.0",
+            "total_operators": len(self._entries),
+            "operators": [
+                {
+                    "char_id": e.char_id,
+                    "canonical_name_zh": e.canonical_name_zh,
+                    "rarity": e.rarity,
+                    "profession": e.profession,
+                    "release_order": e.release_order,
+                    "name_en": e.name_en,
+                    "aliases": e.aliases,
+                }
+                for e in self._entries.values()
+            ],
+        }
+        target_file.parent.mkdir(parents=True, exist_ok=True)
+        with open(target_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+
+def build_registry_from_battle_data(battle_data_file: Path, target_output: Path) -> OperatorRegistry:
+    """从 MAA battle_data.json 编译官方权威干员注册表"""
+    with open(battle_data_file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    reg = OperatorRegistry()
+    chars = data.get("chars", {})
+    order = 1
+    for cid, cinfo in chars.items():
+        name = cinfo.get("name", "").strip()
+        prof = cinfo.get("profession", "")
+        rarity = cinfo.get("rarity", 0)
+        name_en = cinfo.get("name_en", "")
+
+        if not name or prof == "DRONE":
+            continue
+
+        aliases = list(COMMON_ALIASES.get(cid, []))
+        entry = OperatorRegistryEntry(
+            char_id=cid,
+            canonical_name_zh=name,
+            rarity=rarity,
+            profession=prof,
+            release_order=order,
+            name_en=name_en,
+            aliases=aliases,
+        )
+        reg.register(entry)
+        order += 1
+
+    reg.export(target_output)
+    return reg

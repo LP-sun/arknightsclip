@@ -1,0 +1,49 @@
+{
+  "operator_id": "char_1020_reed2",
+  "operator_name": "焰影苇草",
+  "rarity": 6,
+  "profession": "MEDIC",
+  "full_art_path": "",
+  "players": {
+    "P1": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    },
+    "P2": {
+      "own": true,
+      "elite": 1,
+      "level": 50,
+      "potential": 4,
+      "no_info": false,
+      "card_asset_path": null
+    },
+    "P3": {
+      "own": true,
+      "elite": 1,
+      "level": 50,
+      "potential": 4,
+      "no_info": false,
+      "card_asset_path": null
+    },
+    "P4": {
+      "own": true,
+      "elite": 1,
+      "level": 50,
+      "potential": 4,
+      "no_info": false,
+      "card_asset_path": null
+    },
+    "P5": {
+      "own": true,
+      "elite": 1,
+      "level": 50,
+      "potential": 4,
+      "no_info": false,
+      "card_asset_path": null
+    }
+  }
+}

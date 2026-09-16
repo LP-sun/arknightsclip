@@ -1,0 +1,3084 @@
+[
+  {
+    "path": "背景",
+    "kind": "pixel",
+    "bbox": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "42w5plpg2fl0e9y5pganpqb8g3pp1dr",
+    "kind": "pixel",
+    "bbox": [
+      -108,
+      -71,
+      1925,
+      1154
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "卡面",
+    "kind": "group",
+    "bbox": [
+      -42,
+      107,
+      1949,
+      1007
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "卡面/卡面01",
+    "kind": "smartobject",
+    "bbox": [
+      -42,
+      193,
+      721,
+      365
+    ],
+    "visible": true,
+    "opacity": 230,
+    "clipping": false,
+    "smartobject": {
+      "filename": "形状 316 1.psb",
+      "filetype": "8bpb"
+    },
+    "effects": "Effects(dropshadow stroke)",
+    "embedded_layers": [
+      {
+        "name": "形状 316 1",
+        "kind": "shape",
+        "bbox": [
+          -1,
+          -1,
+          764,
+          173
+        ]
+      }
+    ],
+    "nested_size": [
+      763,
+      172
+    ],
+    "vector_mask": "VectorMask(bbox=(0.00155216, 0.00688553, 0.998884, 0.99358) paths=1)",
+    "vector_paths": [
+      "ClosedPath(index=0, operation=1)"
+    ],
+    "knots": [
+      {
+        "anchor": [
+          0.006885528564453125,
+          0.005913674831390381
+        ],
+        "preceding": [
+          0.006885528564453125,
+          0.005913674831390381
+        ],
+        "leaving": [
+          0.006885528564453125,
+          0.005913674831390381
+        ]
+      },
+      {
+        "anchor": [
+          0.006885528564453125,
+          0.963991641998291
+        ],
+        "preceding": [
+          0.006885528564453125,
+          0.963991641998291
+        ],
+        "leaving": [
+          0.006885528564453125,
+          0.963991641998291
+        ]
+      },
+      {
+        "anchor": [
+          0.17253494262695312,
+          0.9988837242126465
+        ],
+        "preceding": [
+          0.17253494262695312,
+          0.9988837242126465
+        ],
+        "leaving": [
+          0.17253494262695312,
+          0.9988837242126465
+        ]
+      },
+      {
+        "anchor": [
+          0.9935796856880188,
+          0.8578616380691528
+        ],
+        "preceding": [
+          0.9935796856880188,
+          0.8578616380691528
+        ],
+        "leaving": [
+          0.9935796856880188,
+          0.8578616380691528
+        ]
+      },
+      {
+        "anchor": [
+          0.9935796856880188,
+          0.0015521645545959473
+        ],
+        "preceding": [
+          0.9935796856880188,
+          0.0015521645545959473
+        ],
+        "leaving": [
+          0.9935796856880188,
+          0.0015521645545959473
+        ]
+      }
+    ],
+    "transform": [
+      -42.0,
+      193.0,
+      721.0,
+      193.0,
+      721.0,
+      365.0,
+      -42.0,
+      365.0
+    ]
+  },
+  {
+    "path": "卡面/- - - NO INFO - - -",
+    "kind": "type",
+    "bbox": [
+      339,
+      274,
+      521,
+      290
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "- - - NO INFO - - -",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "卡面/卡面02",
+    "kind": "smartobject",
+    "bbox": [
+      -42,
+      407,
+      721,
+      579
+    ],
+    "visible": true,
+    "opacity": 230,
+    "clipping": false
+  },
+  {
+    "path": "卡面/图层 32",
+    "kind": "pixel",
+    "bbox": [
+      37,
+      401,
+      727,
+      605
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": true
+  },
+  {
+    "path": "卡面/- - - NO INFO - - -",
+    "kind": "type",
+    "bbox": [
+      339,
+      485,
+      521,
+      501
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "- - - NO INFO - - -",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "卡面/卡面03",
+    "kind": "smartobject",
+    "bbox": [
+      -42,
+      621,
+      721,
+      793
+    ],
+    "visible": true,
+    "opacity": 230,
+    "clipping": false
+  },
+  {
+    "path": "卡面/图层 35",
+    "kind": "pixel",
+    "bbox": [
+      63,
+      582,
+      847,
+      876
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": true
+  },
+  {
+    "path": "卡面/- - - NO INFO - - -",
+    "kind": "type",
+    "bbox": [
+      339,
+      699,
+      521,
+      715
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "- - - NO INFO - - -",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "卡面/卡面04",
+    "kind": "smartobject",
+    "bbox": [
+      -42,
+      835,
+      721,
+      1007
+    ],
+    "visible": true,
+    "opacity": 230,
+    "clipping": false
+  },
+  {
+    "path": "卡面/图层 37",
+    "kind": "pixel",
+    "bbox": [
+      60,
+      795,
+      866,
+      1108
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": true
+  },
+  {
+    "path": "卡面/- - - NO INFO - - -",
+    "kind": "type",
+    "bbox": [
+      337,
+      913,
+      519,
+      929
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "- - - NO INFO - - -",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "卡面/卡面05",
+    "kind": "smartobject",
+    "bbox": [
+      1186,
+      107,
+      1949,
+      279
+    ],
+    "visible": true,
+    "opacity": 230,
+    "clipping": false
+  },
+  {
+    "path": "卡面/图层 33",
+    "kind": "pixel",
+    "bbox": [
+      1090,
+      103,
+      1780,
+      307
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": true
+  },
+  {
+    "path": "卡面/- - - NO INFO - - -",
+    "kind": "type",
+    "bbox": [
+      1382,
+      186,
+      1564,
+      202
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "- - - NO INFO - - -",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "卡面/卡面06",
+    "kind": "smartobject",
+    "bbox": [
+      1186,
+      321,
+      1949,
+      493
+    ],
+    "visible": true,
+    "opacity": 230,
+    "clipping": false,
+    "smartobject": {
+      "filename": "形状 316 1.psb",
+      "filetype": "8bpb"
+    },
+    "effects": "Effects(dropshadow stroke)",
+    "embedded_layers": [
+      {
+        "name": "形状 316 1",
+        "kind": "shape",
+        "bbox": [
+          -1,
+          -1,
+          764,
+          173
+        ]
+      }
+    ],
+    "nested_size": [
+      763,
+      172
+    ],
+    "vector_mask": "VectorMask(bbox=(0.00155216, 0.00688553, 0.998884, 0.99358) paths=1)",
+    "vector_paths": [
+      "ClosedPath(index=0, operation=1)"
+    ],
+    "knots": [
+      {
+        "anchor": [
+          0.006885528564453125,
+          0.005913674831390381
+        ],
+        "preceding": [
+          0.006885528564453125,
+          0.005913674831390381
+        ],
+        "leaving": [
+          0.006885528564453125,
+          0.005913674831390381
+        ]
+      },
+      {
+        "anchor": [
+          0.006885528564453125,
+          0.963991641998291
+        ],
+        "preceding": [
+          0.006885528564453125,
+          0.963991641998291
+        ],
+        "leaving": [
+          0.006885528564453125,
+          0.963991641998291
+        ]
+      },
+      {
+        "anchor": [
+          0.17253494262695312,
+          0.9988837242126465
+        ],
+        "preceding": [
+          0.17253494262695312,
+          0.9988837242126465
+        ],
+        "leaving": [
+          0.17253494262695312,
+          0.9988837242126465
+        ]
+      },
+      {
+        "anchor": [
+          0.9935796856880188,
+          0.8578616380691528
+        ],
+        "preceding": [
+          0.9935796856880188,
+          0.8578616380691528
+        ],
+        "leaving": [
+          0.9935796856880188,
+          0.8578616380691528
+        ]
+      },
+      {
+        "anchor": [
+          0.9935796856880188,
+          0.0015521645545959473
+        ],
+        "preceding": [
+          0.9935796856880188,
+          0.0015521645545959473
+        ],
+        "leaving": [
+          0.9935796856880188,
+          0.0015521645545959473
+        ]
+      }
+    ],
+    "transform": [
+      1949.0,
+      493.0,
+      1186.0,
+      493.0,
+      1186.0,
+      321.0,
+      1949.0,
+      321.0
+    ]
+  },
+  {
+    "path": "卡面/图层 36",
+    "kind": "pixel",
+    "bbox": [
+      1126,
+      282,
+      1910,
+      576
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": true,
+    "asset": "assets\\psd_sources\\operator_e1.png",
+    "image_size": [
+      784,
+      294
+    ]
+  },
+  {
+    "path": "卡面/- - - NO INFO - - -",
+    "kind": "type",
+    "bbox": [
+      1382,
+      398,
+      1564,
+      414
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false,
+    "text": "- - - NO INFO - - -",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "卡面/卡面07",
+    "kind": "smartobject",
+    "bbox": [
+      1186,
+      535,
+      1949,
+      707
+    ],
+    "visible": true,
+    "opacity": 230,
+    "clipping": false
+  },
+  {
+    "path": "卡面/图层 38",
+    "kind": "pixel",
+    "bbox": [
+      1123,
+      498,
+      1929,
+      811
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": true,
+    "asset": "assets\\psd_sources\\operator_e2.png",
+    "image_size": [
+      806,
+      313
+    ]
+  },
+  {
+    "path": "卡面/- - - NO INFO - - -",
+    "kind": "type",
+    "bbox": [
+      1380,
+      612,
+      1562,
+      628
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false,
+    "text": "- - - NO INFO - - -",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "卡面/卡面08",
+    "kind": "smartobject",
+    "bbox": [
+      1186,
+      749,
+      1949,
+      921
+    ],
+    "visible": true,
+    "opacity": 230,
+    "clipping": false
+  },
+  {
+    "path": "卡面/图层 34",
+    "kind": "pixel",
+    "bbox": [
+      1094,
+      746,
+      1784,
+      950
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": true
+  },
+  {
+    "path": "卡面/- - - NO INFO - - -",
+    "kind": "type",
+    "bbox": [
+      1382,
+      830,
+      1564,
+      846
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "- - - NO INFO - - -",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "潜能",
+    "kind": "group",
+    "bbox": [
+      653,
+      222,
+      1253,
+      897
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/01",
+    "kind": "shape",
+    "bbox": [
+      653,
+      199,
+      711,
+      255
+    ],
+    "visible": false,
+    "opacity": 191,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜1",
+    "kind": "pixel",
+    "bbox": [
+      658,
+      204,
+      705,
+      248
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜2",
+    "kind": "pixel",
+    "bbox": [
+      657,
+      205,
+      705,
+      249
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜3",
+    "kind": "pixel",
+    "bbox": [
+      658,
+      204,
+      706,
+      249
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜4",
+    "kind": "pixel",
+    "bbox": [
+      657,
+      204,
+      705,
+      250
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜5",
+    "kind": "pixel",
+    "bbox": [
+      659,
+      203,
+      706,
+      250
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜6",
+    "kind": "pixel",
+    "bbox": [
+      659,
+      204,
+      705,
+      250
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/02",
+    "kind": "shape",
+    "bbox": [
+      653,
+      413,
+      711,
+      469
+    ],
+    "visible": true,
+    "opacity": 191,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜1",
+    "kind": "pixel",
+    "bbox": [
+      658,
+      418,
+      705,
+      462
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜2",
+    "kind": "pixel",
+    "bbox": [
+      657,
+      418,
+      705,
+      462
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜3",
+    "kind": "pixel",
+    "bbox": [
+      657,
+      418,
+      705,
+      463
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜4",
+    "kind": "pixel",
+    "bbox": [
+      657,
+      418,
+      705,
+      464
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜5",
+    "kind": "pixel",
+    "bbox": [
+      658,
+      418,
+      705,
+      465
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜6",
+    "kind": "pixel",
+    "bbox": [
+      658,
+      418,
+      704,
+      464
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/03",
+    "kind": "shape",
+    "bbox": [
+      653,
+      627,
+      711,
+      683
+    ],
+    "visible": true,
+    "opacity": 191,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜1",
+    "kind": "pixel",
+    "bbox": [
+      658,
+      632,
+      705,
+      676
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜2",
+    "kind": "pixel",
+    "bbox": [
+      657,
+      633,
+      705,
+      677
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜3",
+    "kind": "pixel",
+    "bbox": [
+      658,
+      632,
+      706,
+      677
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜4",
+    "kind": "pixel",
+    "bbox": [
+      657,
+      632,
+      705,
+      678
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜5",
+    "kind": "pixel",
+    "bbox": [
+      658,
+      632,
+      705,
+      679
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜6",
+    "kind": "pixel",
+    "bbox": [
+      659,
+      632,
+      705,
+      678
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/04",
+    "kind": "shape",
+    "bbox": [
+      653,
+      841,
+      711,
+      897
+    ],
+    "visible": true,
+    "opacity": 191,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜1",
+    "kind": "pixel",
+    "bbox": [
+      658,
+      847,
+      705,
+      891
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜2",
+    "kind": "pixel",
+    "bbox": [
+      657,
+      846,
+      705,
+      890
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜3",
+    "kind": "pixel",
+    "bbox": [
+      657,
+      846,
+      705,
+      891
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜4",
+    "kind": "pixel",
+    "bbox": [
+      658,
+      846,
+      706,
+      892
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜5",
+    "kind": "pixel",
+    "bbox": [
+      659,
+      845,
+      706,
+      892
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜6",
+    "kind": "pixel",
+    "bbox": [
+      659,
+      845,
+      705,
+      891
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/05",
+    "kind": "shape",
+    "bbox": [
+      1195,
+      222,
+      1253,
+      278
+    ],
+    "visible": true,
+    "opacity": 191,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜1",
+    "kind": "pixel",
+    "bbox": [
+      1200,
+      227,
+      1247,
+      271
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜2",
+    "kind": "pixel",
+    "bbox": [
+      1199,
+      227,
+      1247,
+      271
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜3",
+    "kind": "pixel",
+    "bbox": [
+      1199,
+      227,
+      1247,
+      272
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜4",
+    "kind": "pixel",
+    "bbox": [
+      1199,
+      227,
+      1247,
+      273
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜5",
+    "kind": "pixel",
+    "bbox": [
+      1200,
+      226,
+      1247,
+      273
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜6",
+    "kind": "pixel",
+    "bbox": [
+      1201,
+      227,
+      1247,
+      273
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/06",
+    "kind": "shape",
+    "bbox": [
+      1195,
+      436,
+      1253,
+      492
+    ],
+    "visible": true,
+    "opacity": 191,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜1",
+    "kind": "pixel",
+    "bbox": [
+      1200,
+      441,
+      1247,
+      485
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false,
+    "asset": "assets\\psd_sources\\potential1.png",
+    "image_size": [
+      47,
+      44
+    ]
+  },
+  {
+    "path": "潜能/潜2",
+    "kind": "pixel",
+    "bbox": [
+      1199,
+      442,
+      1247,
+      486
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false,
+    "asset": "assets\\psd_sources\\potential2.png",
+    "image_size": [
+      48,
+      44
+    ]
+  },
+  {
+    "path": "潜能/潜3",
+    "kind": "pixel",
+    "bbox": [
+      1199,
+      441,
+      1247,
+      486
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false,
+    "asset": "assets\\psd_sources\\potential3.png",
+    "image_size": [
+      48,
+      45
+    ]
+  },
+  {
+    "path": "潜能/潜4",
+    "kind": "pixel",
+    "bbox": [
+      1200,
+      441,
+      1248,
+      487
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "asset": "assets\\psd_sources\\potential4.png",
+    "image_size": [
+      48,
+      46
+    ]
+  },
+  {
+    "path": "潜能/潜5",
+    "kind": "pixel",
+    "bbox": [
+      1201,
+      440,
+      1248,
+      487
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false,
+    "asset": "assets\\psd_sources\\potential5.png",
+    "image_size": [
+      47,
+      47
+    ]
+  },
+  {
+    "path": "潜能/潜6",
+    "kind": "pixel",
+    "bbox": [
+      1201,
+      441,
+      1247,
+      487
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false,
+    "asset": "assets\\psd_sources\\potential6.png",
+    "image_size": [
+      46,
+      46
+    ]
+  },
+  {
+    "path": "潜能/07",
+    "kind": "shape",
+    "bbox": [
+      1195,
+      650,
+      1253,
+      706
+    ],
+    "visible": true,
+    "opacity": 191,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜1",
+    "kind": "pixel",
+    "bbox": [
+      1200,
+      656,
+      1247,
+      700
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜2",
+    "kind": "pixel",
+    "bbox": [
+      1199,
+      655,
+      1247,
+      699
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜3",
+    "kind": "pixel",
+    "bbox": [
+      1200,
+      655,
+      1248,
+      700
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜4",
+    "kind": "pixel",
+    "bbox": [
+      1199,
+      655,
+      1247,
+      701
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜5",
+    "kind": "pixel",
+    "bbox": [
+      1200,
+      654,
+      1247,
+      701
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜6",
+    "kind": "pixel",
+    "bbox": [
+      1201,
+      655,
+      1247,
+      701
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/08",
+    "kind": "shape",
+    "bbox": [
+      1195,
+      864,
+      1253,
+      920
+    ],
+    "visible": false,
+    "opacity": 191,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜1",
+    "kind": "pixel",
+    "bbox": [
+      1200,
+      869,
+      1247,
+      913
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜2",
+    "kind": "pixel",
+    "bbox": [
+      1199,
+      870,
+      1247,
+      914
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜3",
+    "kind": "pixel",
+    "bbox": [
+      1200,
+      869,
+      1248,
+      914
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜4",
+    "kind": "pixel",
+    "bbox": [
+      1200,
+      869,
+      1248,
+      915
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜5",
+    "kind": "pixel",
+    "bbox": [
+      1201,
+      868,
+      1248,
+      915
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "潜能/潜6",
+    "kind": "pixel",
+    "bbox": [
+      1201,
+      869,
+      1247,
+      915
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "精英等级",
+    "kind": "group",
+    "bbox": [
+      164,
+      111,
+      1755,
+      991
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/01",
+    "kind": "shape",
+    "bbox": [
+      164,
+      197,
+      255,
+      349
+    ],
+    "visible": true,
+    "opacity": 184,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/精0",
+    "kind": "pixel",
+    "bbox": [
+      169,
+      284,
+      250,
+      333
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/精一",
+    "kind": "pixel",
+    "bbox": [
+      169,
+      284,
+      250,
+      333
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/精二",
+    "kind": "pixel",
+    "bbox": [
+      172,
+      277,
+      248,
+      337
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/02",
+    "kind": "shape",
+    "bbox": [
+      164,
+      411,
+      255,
+      563
+    ],
+    "visible": true,
+    "opacity": 184,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/精0",
+    "kind": "pixel",
+    "bbox": [
+      169,
+      498,
+      250,
+      547
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/精一",
+    "kind": "pixel",
+    "bbox": [
+      169,
+      498,
+      250,
+      547
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/精二",
+    "kind": "pixel",
+    "bbox": [
+      172,
+      491,
+      248,
+      551
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/03",
+    "kind": "shape",
+    "bbox": [
+      164,
+      625,
+      255,
+      777
+    ],
+    "visible": true,
+    "opacity": 184,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/精0",
+    "kind": "pixel",
+    "bbox": [
+      169,
+      712,
+      250,
+      761
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/精一",
+    "kind": "pixel",
+    "bbox": [
+      169,
+      712,
+      250,
+      761
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/精二",
+    "kind": "pixel",
+    "bbox": [
+      172,
+      705,
+      248,
+      765
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/04",
+    "kind": "shape",
+    "bbox": [
+      164,
+      839,
+      255,
+      991
+    ],
+    "visible": true,
+    "opacity": 184,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/精0",
+    "kind": "pixel",
+    "bbox": [
+      169,
+      926,
+      250,
+      975
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/精一",
+    "kind": "pixel",
+    "bbox": [
+      169,
+      926,
+      250,
+      975
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/精二",
+    "kind": "pixel",
+    "bbox": [
+      172,
+      919,
+      248,
+      979
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/05",
+    "kind": "shape",
+    "bbox": [
+      1664,
+      111,
+      1755,
+      263
+    ],
+    "visible": true,
+    "opacity": 184,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/精0",
+    "kind": "pixel",
+    "bbox": [
+      1669,
+      198,
+      1750,
+      247
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/精一",
+    "kind": "pixel",
+    "bbox": [
+      1669,
+      198,
+      1750,
+      247
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/精二",
+    "kind": "pixel",
+    "bbox": [
+      1672,
+      191,
+      1748,
+      251
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/06",
+    "kind": "shape",
+    "bbox": [
+      1664,
+      325,
+      1755,
+      477
+    ],
+    "visible": true,
+    "opacity": 184,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/精0",
+    "kind": "pixel",
+    "bbox": [
+      1669,
+      412,
+      1750,
+      461
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false,
+    "asset": "assets\\psd_sources\\elite0.png",
+    "image_size": [
+      81,
+      49
+    ]
+  },
+  {
+    "path": "精英等级/精一",
+    "kind": "pixel",
+    "bbox": [
+      1669,
+      412,
+      1750,
+      461
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false,
+    "asset": "assets\\psd_sources\\elite1.png",
+    "image_size": [
+      81,
+      49
+    ]
+  },
+  {
+    "path": "精英等级/精二",
+    "kind": "pixel",
+    "bbox": [
+      1672,
+      405,
+      1748,
+      465
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "asset": "assets\\psd_sources\\elite2.png",
+    "image_size": [
+      76,
+      60
+    ]
+  },
+  {
+    "path": "精英等级/07",
+    "kind": "shape",
+    "bbox": [
+      1664,
+      539,
+      1755,
+      691
+    ],
+    "visible": true,
+    "opacity": 184,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/精0",
+    "kind": "pixel",
+    "bbox": [
+      1669,
+      626,
+      1750,
+      675
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/精一",
+    "kind": "pixel",
+    "bbox": [
+      1669,
+      626,
+      1750,
+      675
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/精二",
+    "kind": "pixel",
+    "bbox": [
+      1672,
+      619,
+      1748,
+      679
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/08",
+    "kind": "shape",
+    "bbox": [
+      1664,
+      753,
+      1755,
+      905
+    ],
+    "visible": true,
+    "opacity": 184,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/精0",
+    "kind": "pixel",
+    "bbox": [
+      1669,
+      840,
+      1750,
+      889
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/精一",
+    "kind": "pixel",
+    "bbox": [
+      1669,
+      840,
+      1750,
+      889
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "精英等级/精二",
+    "kind": "pixel",
+    "bbox": [
+      1672,
+      833,
+      1748,
+      893
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "角色等级",
+    "kind": "group",
+    "bbox": [
+      172,
+      120,
+      1747,
+      924
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "角色等级/111",
+    "kind": "pixel",
+    "bbox": [
+      172,
+      206,
+      248,
+      282
+    ],
+    "visible": false,
+    "opacity": 230,
+    "clipping": false
+  },
+  {
+    "path": "角色等级/60",
+    "kind": "type",
+    "bbox": [
+      185,
+      228,
+      233,
+      264
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false,
+    "text": "60",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "角色等级/LV",
+    "kind": "type",
+    "bbox": [
+      203,
+      219,
+      216,
+      227
+    ],
+    "visible": false,
+    "opacity": 255,
+    "clipping": false,
+    "text": "LV",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei', 'Script': 3, 'FontType': 1, 'Synthetic': 0},"
+  },
+  {
+    "path": "角色等级/222",
+    "kind": "pixel",
+    "bbox": [
+      172,
+      420,
+      248,
+      496
+    ],
+    "visible": true,
+    "opacity": 230,
+    "clipping": false
+  },
+  {
+    "path": "角色等级/60",
+    "kind": "type",
+    "bbox": [
+      185,
+      442,
+      233,
+      478
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "60",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "角色等级/LV",
+    "kind": "type",
+    "bbox": [
+      203,
+      433,
+      216,
+      441
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "LV",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei', 'Script': 3, 'FontType': 1, 'Synthetic': 0},"
+  },
+  {
+    "path": "角色等级/333",
+    "kind": "pixel",
+    "bbox": [
+      172,
+      634,
+      248,
+      710
+    ],
+    "visible": true,
+    "opacity": 230,
+    "clipping": false
+  },
+  {
+    "path": "角色等级/90",
+    "kind": "type",
+    "bbox": [
+      184,
+      656,
+      232,
+      692
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "90",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "角色等级/LV",
+    "kind": "type",
+    "bbox": [
+      203,
+      647,
+      216,
+      655
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "LV",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei', 'Script': 3, 'FontType': 1, 'Synthetic': 0},"
+  },
+  {
+    "path": "角色等级/444",
+    "kind": "pixel",
+    "bbox": [
+      172,
+      848,
+      248,
+      924
+    ],
+    "visible": true,
+    "opacity": 230,
+    "clipping": false
+  },
+  {
+    "path": "角色等级/25",
+    "kind": "type",
+    "bbox": [
+      185,
+      870,
+      233,
+      905
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "25",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "角色等级/LV",
+    "kind": "type",
+    "bbox": [
+      203,
+      861,
+      216,
+      869
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "LV",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei', 'Script': 3, 'FontType': 1, 'Synthetic': 0},"
+  },
+  {
+    "path": "角色等级/555",
+    "kind": "pixel",
+    "bbox": [
+      1671,
+      120,
+      1747,
+      196
+    ],
+    "visible": true,
+    "opacity": 230,
+    "clipping": false
+  },
+  {
+    "path": "角色等级/90",
+    "kind": "type",
+    "bbox": [
+      1684,
+      142,
+      1732,
+      178
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "90",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "角色等级/LV",
+    "kind": "type",
+    "bbox": [
+      1702,
+      133,
+      1715,
+      141
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "LV",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei', 'Script': 3, 'FontType': 1, 'Synthetic': 0},"
+  },
+  {
+    "path": "角色等级/666",
+    "kind": "pixel",
+    "bbox": [
+      1671,
+      334,
+      1747,
+      410
+    ],
+    "visible": true,
+    "opacity": 230,
+    "clipping": false
+  },
+  {
+    "path": "角色等级/60",
+    "kind": "type",
+    "bbox": [
+      1684,
+      356,
+      1732,
+      392
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "60",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "角色等级/LV",
+    "kind": "type",
+    "bbox": [
+      1702,
+      347,
+      1715,
+      355
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "LV",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei', 'Script': 3, 'FontType': 1, 'Synthetic': 0},"
+  },
+  {
+    "path": "角色等级/777",
+    "kind": "pixel",
+    "bbox": [
+      1671,
+      548,
+      1747,
+      624
+    ],
+    "visible": true,
+    "opacity": 230,
+    "clipping": false
+  },
+  {
+    "path": "角色等级/90",
+    "kind": "type",
+    "bbox": [
+      1684,
+      570,
+      1732,
+      606
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "90",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "角色等级/LV",
+    "kind": "type",
+    "bbox": [
+      1702,
+      561,
+      1715,
+      569
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "LV",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei', 'Script': 3, 'FontType': 1, 'Synthetic': 0},"
+  },
+  {
+    "path": "角色等级/888",
+    "kind": "pixel",
+    "bbox": [
+      1671,
+      762,
+      1747,
+      838
+    ],
+    "visible": true,
+    "opacity": 230,
+    "clipping": false
+  },
+  {
+    "path": "角色等级/80",
+    "kind": "type",
+    "bbox": [
+      1685,
+      784,
+      1735,
+      820
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "80",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "角色等级/LV",
+    "kind": "type",
+    "bbox": [
+      1702,
+      775,
+      1715,
+      783
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "LV",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei', 'Script': 3, 'FontType': 1, 'Synthetic': 0},"
+  },
+  {
+    "path": "博士 背景",
+    "kind": "group",
+    "bbox": [
+      0,
+      107,
+      1920,
+      1007
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "博士 背景/爱花",
+    "kind": "pixel",
+    "bbox": [
+      0,
+      193,
+      157,
+      365
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "博士 背景/d50n4h6f707snvkydbbi9rpwxb04goq",
+    "kind": "smartobject",
+    "bbox": [
+      -87,
+      -52,
+      1920,
+      1154
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": true
+  },
+  {
+    "path": "博士 背景/咯吱吱",
+    "kind": "pixel",
+    "bbox": [
+      0,
+      407,
+      157,
+      579
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "博士 背景/d50n4h6f707snvkydbbi9rpwxb04goq",
+    "kind": "smartobject",
+    "bbox": [
+      -88,
+      -73,
+      1923,
+      1138
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": true
+  },
+  {
+    "path": "博士 背景/东城",
+    "kind": "pixel",
+    "bbox": [
+      0,
+      621,
+      157,
+      793
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "博士 背景/d50n4h6f707snvkydbbi9rpwxb04goq",
+    "kind": "smartobject",
+    "bbox": [
+      -83,
+      -59,
+      1925,
+      1147
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": true
+  },
+  {
+    "path": "博士 背景/狐狸",
+    "kind": "pixel",
+    "bbox": [
+      0,
+      835,
+      157,
+      1007
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "博士 背景/d50n4h6f707snvkydbbi9rpwxb04goq",
+    "kind": "smartobject",
+    "bbox": [
+      -83,
+      -64,
+      1923,
+      1147
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": true
+  },
+  {
+    "path": "博士 背景/HMI",
+    "kind": "pixel",
+    "bbox": [
+      1763,
+      107,
+      1920,
+      279
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "博士 背景/d50n4h6f707snvkydbbi9rpwxb04goq",
+    "kind": "smartobject",
+    "bbox": [
+      13,
+      -68,
+      2025,
+      1138
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": true
+  },
+  {
+    "path": "博士 背景/LEO",
+    "kind": "pixel",
+    "bbox": [
+      1763,
+      321,
+      1920,
+      493
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "博士 背景/d50n4h6f707snvkydbbi9rpwxb04goq",
+    "kind": "smartobject",
+    "bbox": [
+      13,
+      -26,
+      2024,
+      1185
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": true
+  },
+  {
+    "path": "博士 背景/RODA",
+    "kind": "pixel",
+    "bbox": [
+      1763,
+      535,
+      1920,
+      707
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "博士 背景/d50n4h6f707snvkydbbi9rpwxb04goq",
+    "kind": "smartobject",
+    "bbox": [
+      0,
+      -107,
+      2006,
+      1104
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": true
+  },
+  {
+    "path": "博士 背景/骑士",
+    "kind": "pixel",
+    "bbox": [
+      1763,
+      749,
+      1920,
+      921
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "博士 背景/d50n4h6f707snvkydbbi9rpwxb04goq",
+    "kind": "smartobject",
+    "bbox": [
+      -42,
+      -73,
+      1964,
+      1138
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": true
+  },
+  {
+    "path": "头像",
+    "kind": "group",
+    "bbox": [
+      22,
+      119,
+      1898,
+      964
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "头像/爱花",
+    "kind": "shape",
+    "bbox": [
+      22,
+      202,
+      139,
+      319
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "头像/图层 1",
+    "kind": "pixel",
+    "bbox": [
+      -20,
+      183,
+      173,
+      354
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": true
+  },
+  {
+    "path": "头像/咯吱吱",
+    "kind": "shape",
+    "bbox": [
+      22,
+      418,
+      139,
+      535
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "头像/图层 16",
+    "kind": "pixel",
+    "bbox": [
+      -22,
+      415,
+      203,
+      561
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": true
+  },
+  {
+    "path": "头像/东城",
+    "kind": "shape",
+    "bbox": [
+      22,
+      633,
+      139,
+      750
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "头像/图层 19",
+    "kind": "pixel",
+    "bbox": [
+      -22,
+      622,
+      181,
+      774
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": true
+  },
+  {
+    "path": "头像/狐狸",
+    "kind": "shape",
+    "bbox": [
+      22,
+      847,
+      139,
+      964
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "头像/图层 20",
+    "kind": "pixel",
+    "bbox": [
+      -28,
+      835,
+      203,
+      1043
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": true
+  },
+  {
+    "path": "头像/HMI",
+    "kind": "shape",
+    "bbox": [
+      1781,
+      119,
+      1898,
+      236
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "头像/图层 25",
+    "kind": "pixel",
+    "bbox": [
+      1731,
+      100,
+      1958,
+      284
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": true
+  },
+  {
+    "path": "头像/LELO",
+    "kind": "shape",
+    "bbox": [
+      1781,
+      333,
+      1898,
+      450
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "头像/图层 27",
+    "kind": "pixel",
+    "bbox": [
+      1748,
+      316,
+      1910,
+      465
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": true
+  },
+  {
+    "path": "头像/图层 26",
+    "kind": "pixel",
+    "bbox": [
+      1736,
+      314,
+      1923,
+      468
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": true
+  },
+  {
+    "path": "头像/RADA",
+    "kind": "shape",
+    "bbox": [
+      1781,
+      547,
+      1898,
+      664
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "头像/图层 28",
+    "kind": "pixel",
+    "bbox": [
+      1748,
+      530,
+      1943,
+      702
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": true
+  },
+  {
+    "path": "头像/骑士",
+    "kind": "shape",
+    "bbox": [
+      1781,
+      761,
+      1898,
+      878
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "头像/图层 29",
+    "kind": "pixel",
+    "bbox": [
+      1741,
+      749,
+      1943,
+      930
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": true
+  },
+  {
+    "path": "博士等级",
+    "kind": "group",
+    "bbox": [
+      14,
+      116,
+      1907,
+      999
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "博士等级/Dr.覆羽惊春 爱花#6915",
+    "kind": "type",
+    "bbox": [
+      25,
+      319,
+      134,
+      357
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "Dr.覆羽惊春\r爱花#6915",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei-Bold', 'Script': 3, 'FontType': 1, 'Synthetic'"
+  },
+  {
+    "path": "博士等级/椭圆 1",
+    "kind": "shape",
+    "bbox": [
+      15,
+      201,
+      67,
+      253
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "博士等级/106",
+    "kind": "type",
+    "bbox": [
+      20,
+      214,
+      62,
+      235
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "106",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "博士等级/LV",
+    "kind": "type",
+    "bbox": [
+      36,
+      239,
+      46,
+      247
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "LV",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei', 'Script': 3, 'FontType': 1, 'Synthetic': 0},"
+  },
+  {
+    "path": "博士等级/Dr.格吱吱 #5882",
+    "kind": "type",
+    "bbox": [
+      36,
+      535,
+      125,
+      570
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "Dr.格吱吱\r#5882",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei-Bold', 'Script': 3, 'FontType': 1, 'Synthetic'"
+  },
+  {
+    "path": "博士等级/椭圆 1",
+    "kind": "shape",
+    "bbox": [
+      15,
+      416,
+      67,
+      468
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "博士等级/91",
+    "kind": "type",
+    "bbox": [
+      29,
+      429,
+      51,
+      449
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "91",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "博士等级/LV",
+    "kind": "type",
+    "bbox": [
+      36,
+      454,
+      46,
+      462
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "LV",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei', 'Script': 3, 'FontType': 1, 'Synthetic': 0},"
+  },
+  {
+    "path": "博士等级/Dr.东城 #1412",
+    "kind": "type",
+    "bbox": [
+      43,
+      750,
+      112,
+      785
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "Dr.东城\r#1412",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei-Bold', 'Script': 3, 'FontType': 1, 'Synthetic'"
+  },
+  {
+    "path": "博士等级/椭圆 1",
+    "kind": "shape",
+    "bbox": [
+      15,
+      630,
+      67,
+      682
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "博士等级/120",
+    "kind": "type",
+    "bbox": [
+      20,
+      643,
+      61,
+      664
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "120",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "博士等级/LV",
+    "kind": "type",
+    "bbox": [
+      36,
+      668,
+      46,
+      676
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "LV",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei', 'Script': 3, 'FontType': 1, 'Synthetic': 0},"
+  },
+  {
+    "path": "博士等级/Dr.养只狐狸吧 #5427",
+    "kind": "type",
+    "bbox": [
+      14,
+      964,
+      143,
+      999
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "Dr.养只狐狸吧\r#5427",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei-Bold', 'Script': 3, 'FontType': 1, 'Synthetic'"
+  },
+  {
+    "path": "博士等级/椭圆 1",
+    "kind": "shape",
+    "bbox": [
+      15,
+      844,
+      67,
+      896
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "博士等级/95",
+    "kind": "type",
+    "bbox": [
+      27,
+      857,
+      56,
+      877
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "95",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "博士等级/LV",
+    "kind": "type",
+    "bbox": [
+      36,
+      882,
+      46,
+      890
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "LV",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei', 'Script': 3, 'FontType': 1, 'Synthetic': 0},"
+  },
+  {
+    "path": "博士等级/Dr.HMi #5348",
+    "kind": "type",
+    "bbox": [
+      1802,
+      237,
+      1875,
+      271
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "Dr.HMi\r#5348",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei-Bold', 'Script': 3, 'FontType': 1, 'Synthetic'"
+  },
+  {
+    "path": "博士等级/椭圆 1",
+    "kind": "shape",
+    "bbox": [
+      1852,
+      116,
+      1904,
+      168
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "博士等级/120",
+    "kind": "type",
+    "bbox": [
+      1857,
+      129,
+      1898,
+      150
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "120",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "博士等级/LV",
+    "kind": "type",
+    "bbox": [
+      1873,
+      154,
+      1883,
+      162
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "LV",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei', 'Script': 3, 'FontType': 1, 'Synthetic': 0},"
+  },
+  {
+    "path": "博士等级/Dr.Leo #6088",
+    "kind": "type",
+    "bbox": [
+      1807,
+      451,
+      1872,
+      485
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "Dr.Leo\r#6088",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei-Bold', 'Script': 3, 'FontType': 1, 'Synthetic'"
+  },
+  {
+    "path": "博士等级/椭圆 1",
+    "kind": "shape",
+    "bbox": [
+      1852,
+      330,
+      1904,
+      382
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "博士等级/110",
+    "kind": "type",
+    "bbox": [
+      1859,
+      343,
+      1895,
+      364
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "110",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "博士等级/LV",
+    "kind": "type",
+    "bbox": [
+      1873,
+      368,
+      1883,
+      376
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "LV",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei', 'Script': 3, 'FontType': 1, 'Synthetic': 0},"
+  },
+  {
+    "path": "博士等级/Dr.Radagast #7113",
+    "kind": "type",
+    "bbox": [
+      1779,
+      665,
+      1901,
+      699
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "Dr.Radagast\r#7113",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei-Bold', 'Script': 3, 'FontType': 1, 'Synthetic'"
+  },
+  {
+    "path": "博士等级/椭圆 1",
+    "kind": "shape",
+    "bbox": [
+      1852,
+      544,
+      1904,
+      596
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "博士等级/106",
+    "kind": "type",
+    "bbox": [
+      1857,
+      557,
+      1899,
+      578
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "106",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "博士等级/LV",
+    "kind": "type",
+    "bbox": [
+      1873,
+      582,
+      1883,
+      590
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "LV",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei', 'Script': 3, 'FontType': 1, 'Synthetic': 0},"
+  },
+  {
+    "path": "博士等级/Dr.罗德尔骑士 #0222",
+    "kind": "type",
+    "bbox": [
+      1778,
+      878,
+      1907,
+      913
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "Dr.罗德尔骑士\r#0222",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei-Bold', 'Script': 3, 'FontType': 1, 'Synthetic'"
+  },
+  {
+    "path": "博士等级/椭圆 1",
+    "kind": "shape",
+    "bbox": [
+      1852,
+      758,
+      1904,
+      810
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false
+  },
+  {
+    "path": "博士等级/98",
+    "kind": "type",
+    "bbox": [
+      1864,
+      771,
+      1893,
+      791
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "98",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'Bahnschrift', 'Script': 0, 'FontType': 1, 'Synthetic': 0}, {'"
+  },
+  {
+    "path": "博士等级/LV",
+    "kind": "type",
+    "bbox": [
+      1873,
+      796,
+      1883,
+      804
+    ],
+    "visible": true,
+    "opacity": 255,
+    "clipping": false,
+    "text": "LV",
+    "font_resources": "{'KinsokuSet': [{'Name': 'PhotoshopKinsokuHard', 'NoStart': '、。，．・：；？！ー―’”）〕］｝〉》」』】ヽヾゝゞ々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ゛゜?!)]},.:;℃℉¢％‰', 'NoEnd': '‘“（〔［｛〈《「『【([{￥＄£＠§〒＃', 'Keep': '―‥', 'Hanging': '、。.,'}, {'Name': 'PhotoshopKinsokuSoft', 'NoStart': '、。，．・：；？！’”）〕］｝〉》」』】ヽヾゝゞ々', 'NoEnd': '‘“（〔［｛〈《「『【', 'Keep': '―‥', 'Hanging': '、。.,'}], 'MojiKumiSet': [{'InternalName': 'Photoshop6MojiKumiSet1'}, {'InternalName': 'Photoshop6MojiKumiSet2'}, {'InternalName': 'Photoshop6MojiKumiSet3'}, {'InternalName': 'Photoshop6MojiKumiSet4'}], 'TheNormalStyleSheet': 0, 'TheNormalParagraphSheet': 0, 'ParagraphSheetSet': [{'Name': '正常 RGB', 'DefaultStyleSheet': 0, 'Properties': {'Justification': 0, 'FirstLineIndent': 0.0, 'StartIndent': 0.0, 'EndIndent': 0.0, 'SpaceBefore': 0.0, 'SpaceAfter': 0.0, 'AutoHyphenate': True, 'HyphenatedWordSize': 6, 'PreHyphen': 2, 'PostHyphen': 2, 'ConsecutiveHyphens': 8, 'Zone': 36.0, 'WordSpacing': [0.8, 1.0, 1.33], 'LetterSpacing': [0.0, 0.0, 0.0], 'GlyphSpacing': [1.0, 1.0, 1.0], 'AutoLeading': 1.2, 'LeadingType': 0, 'Hanging': False, 'Burasagari': False, 'KinsokuOrder': 0, 'EveryLineComposer': False}}], 'StyleSheetSet': [{'Name': '正常 RGB', 'StyleSheetData': {'Font': 2, 'FontSize': 12.0, 'FauxBold': False, 'FauxItalic': False, 'AutoLeading': True, 'Leading': 0.0, 'HorizontalScale': 1.0, 'VerticalScale': 1.0, 'Tracking': 0, 'AutoKerning': True, 'Kerning': 0, 'BaselineShift': 0.0, 'FontCaps': 0, 'FontBaseline': 0, 'Underline': False, 'Strikethrough': False, 'Ligatures': True, 'DLigatures': False, 'BaselineDirection': 2, 'Tsume': 0.0, 'StyleRunAlignment': 2, 'Language': 0, 'NoBreak': False, 'FillColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'StrokeColor': {'Type': 1, 'Values': [1.0, 0.0, 0.0, 0.0]}, 'FillFlag': True, 'StrokeFlag': False, 'FillFirst': True, 'YUnderline': 1, 'OutlineWidth': 1.0, 'CharacterDirection': 0, 'HindiNumbers': False, 'Kashida': 1, 'DiacriticPos': 2}}], 'FontSet': [{'Name': 'MicrosoftYaHei', 'Script': 3, 'FontType': 1, 'Synthetic': 0},"
+  }
+]

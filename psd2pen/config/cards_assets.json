@@ -1,0 +1,419 @@
+{
+  "能天使": {
+    "2": {
+      "url": "assets/stats_batch/01_slot02.png",
+      "bbox": [
+        37,
+        401,
+        727,
+        605
+      ],
+      "source_layer": "图层 32",
+      "sha256": "286da7bfe3348204f519e3093b15d03abe33a324b8775ebb4f7c5a4ee38946ec"
+    },
+    "3": {
+      "url": "assets/stats_batch/01_slot03.png",
+      "bbox": [
+        63,
+        582,
+        847,
+        876
+      ],
+      "source_layer": "图层 35",
+      "sha256": "115f83d96a25c0c1e7a64b739d91451d702b5b4e16e30d6835113256f4cc6da2"
+    },
+    "4": {
+      "url": "assets/stats_batch/01_slot04.png",
+      "bbox": [
+        60,
+        795,
+        866,
+        1108
+      ],
+      "source_layer": "图层 37",
+      "sha256": "616b0d688e8ade27e21bf1ad52c3638d31cdd2c113898d441bc2fffc687634c4"
+    },
+    "5": {
+      "url": "assets/stats_batch/01_slot05.png",
+      "bbox": [
+        1090,
+        103,
+        1780,
+        307
+      ],
+      "source_layer": "图层 33",
+      "sha256": "286da7bfe3348204f519e3093b15d03abe33a324b8775ebb4f7c5a4ee38946ec"
+    },
+    "6": {
+      "url": "assets/stats_batch/01_slot06.png",
+      "bbox": [
+        1126,
+        282,
+        1910,
+        576
+      ],
+      "source_layer": "图层 36",
+      "sha256": "115f83d96a25c0c1e7a64b739d91451d702b5b4e16e30d6835113256f4cc6da2"
+    },
+    "7": {
+      "url": "assets/stats_batch/01_slot07.png",
+      "bbox": [
+        1123,
+        498,
+        1929,
+        811
+      ],
+      "source_layer": "图层 38",
+      "sha256": "616b0d688e8ade27e21bf1ad52c3638d31cdd2c113898d441bc2fffc687634c4"
+    },
+    "8": {
+      "url": "assets/stats_batch/01_slot08.png",
+      "bbox": [
+        1094,
+        746,
+        1784,
+        950
+      ],
+      "source_layer": "图层 34",
+      "sha256": "286da7bfe3348204f519e3093b15d03abe33a324b8775ebb4f7c5a4ee38946ec"
+    }
+  },
+  "推王": {
+    "1": {
+      "url": "assets/stats_batch/02_slot01.png",
+      "bbox": [
+        49,
+        135,
+        948,
+        435
+      ],
+      "source_layer": "图层 39",
+      "sha256": "66def74afc00b2ed295607a179b395fd7813a1b85a6714de3c3c9bbe67f03bf2"
+    },
+    "2": {
+      "url": "assets/stats_batch/02_slot02.png",
+      "bbox": [
+        63,
+        335,
+        848,
+        641
+      ],
+      "source_layer": "图层 40",
+      "sha256": "bc245033cda91e4eb1bb7f8ef00179a3ad13fb8d08813fb7e783cd918ec61971"
+    },
+    "3": {
+      "url": "assets/stats_batch/02_slot03.png",
+      "bbox": [
+        63,
+        550,
+        848,
+        856
+      ],
+      "source_layer": "图层 41",
+      "sha256": "bc245033cda91e4eb1bb7f8ef00179a3ad13fb8d08813fb7e783cd918ec61971"
+    },
+    "5": {
+      "url": "assets/stats_batch/02_slot05.png",
+      "bbox": [
+        1043,
+        77,
+        1894,
+        307
+      ],
+      "source_layer": "图层 43",
+      "sha256": "0f0a24c76c9811faacdb7e100635ddad0d75147d51c65566e70a6a3a4bacab23"
+    },
+    "6": {
+      "url": "assets/stats_batch/02_slot06.png",
+      "bbox": [
+        1113,
+        250,
+        1898,
+        556
+      ],
+      "source_layer": "图层 42",
+      "sha256": "bc245033cda91e4eb1bb7f8ef00179a3ad13fb8d08813fb7e783cd918ec61971"
+    },
+    "7": {
+      "url": "assets/stats_batch/02_slot07.png",
+      "bbox": [
+        1045,
+        504,
+        1896,
+        734
+      ],
+      "source_layer": "图层 44",
+      "sha256": "0f0a24c76c9811faacdb7e100635ddad0d75147d51c65566e70a6a3a4bacab23"
+    },
+    "8": {
+      "url": "assets/stats_batch/02_slot08.png",
+      "bbox": [
+        1105,
+        728,
+        1825,
+        989
+      ],
+      "source_layer": "图层 45",
+      "sha256": "1febc55d72f1c55c598d4c3256910404eb2be214551bd01e80a9d3a677434798"
+    }
+  },
+  "小火龙": {
+    "1": {
+      "url": "assets/stats_batch/03_slot01.png",
+      "bbox": [
+        21,
+        168,
+        946,
+        435
+      ],
+      "source_layer": "图层 46",
+      "sha256": "4a6d5aa88a864279189ac5d2437f0cb7c0dbe2846c0b6739a619006be75f6f74"
+    },
+    "2": {
+      "url": "assets/stats_batch/03_slot02.png",
+      "bbox": [
+        -35,
+        327,
+        877,
+        657
+      ],
+      "source_layer": "图层 50",
+      "sha256": "d31ea6f85a1927450ba2151ce7015da22289109686c4af67929514b7ff400bb3"
+    },
+    "3": {
+      "url": "assets/stats_batch/03_slot03.png",
+      "bbox": [
+        57,
+        598,
+        730,
+        809
+      ],
+      "source_layer": "图层 52",
+      "sha256": "b68eb0a4425bcfc74d7577c28e9da98f87b8e03e7cbdff1e7844de9e64292b53"
+    },
+    "4": {
+      "url": "assets/stats_batch/03_slot04.png",
+      "bbox": [
+        21,
+        809,
+        946,
+        1076
+      ],
+      "source_layer": "图层 47",
+      "sha256": "4a6d5aa88a864279189ac5d2437f0cb7c0dbe2846c0b6739a619006be75f6f74"
+    },
+    "5": {
+      "url": "assets/stats_batch/03_slot05.png",
+      "bbox": [
+        987,
+        27,
+        1899,
+        357
+      ],
+      "source_layer": "图层 51",
+      "sha256": "d31ea6f85a1927450ba2151ce7015da22289109686c4af67929514b7ff400bb3"
+    },
+    "6": {
+      "url": "assets/stats_batch/03_slot06.png",
+      "bbox": [
+        1080,
+        303,
+        1893,
+        526
+      ],
+      "source_layer": "图层 53",
+      "sha256": "e53a77b784403163da171e1cef7c045ac51492cc2ba4a309cc159f3a3fe4c92b"
+    },
+    "7": {
+      "url": "assets/stats_batch/03_slot07.png",
+      "bbox": [
+        1045,
+        509,
+        1970,
+        776
+      ],
+      "source_layer": "图层 48",
+      "sha256": "4a6d5aa88a864279189ac5d2437f0cb7c0dbe2846c0b6739a619006be75f6f74"
+    },
+    "8": {
+      "url": "assets/stats_batch/03_slot08.png",
+      "bbox": [
+        1045,
+        723,
+        1970,
+        990
+      ],
+      "source_layer": "图层 49",
+      "sha256": "4a6d5aa88a864279189ac5d2437f0cb7c0dbe2846c0b6739a619006be75f6f74"
+    }
+  },
+  "小羊": {
+    "1": {
+      "url": "assets/stats_batch/04_slot01.png",
+      "bbox": [
+        55,
+        179,
+        790,
+        399
+      ],
+      "source_layer": "图层 61",
+      "sha256": "cbe1f61a0d7e1f3b1791be4571adcaf2567f0bd2496a579231478e26f98eea22"
+    },
+    "2": {
+      "url": "assets/stats_batch/04_slot02.png",
+      "bbox": [
+        55,
+        392,
+        790,
+        612
+      ],
+      "source_layer": "图层 60",
+      "sha256": "cbe1f61a0d7e1f3b1791be4571adcaf2567f0bd2496a579231478e26f98eea22"
+    },
+    "3": {
+      "url": "assets/stats_batch/04_slot03.png",
+      "bbox": [
+        55,
+        606,
+        790,
+        826
+      ],
+      "source_layer": "图层 59",
+      "sha256": "cbe1f61a0d7e1f3b1791be4571adcaf2567f0bd2496a579231478e26f98eea22"
+    },
+    "4": {
+      "url": "assets/stats_batch/04_slot04.png",
+      "bbox": [
+        55,
+        820,
+        790,
+        1040
+      ],
+      "source_layer": "图层 58",
+      "sha256": "cbe1f61a0d7e1f3b1791be4571adcaf2567f0bd2496a579231478e26f98eea22"
+    },
+    "5": {
+      "url": "assets/stats_batch/04_slot05.png",
+      "bbox": [
+        1080,
+        91,
+        1815,
+        311
+      ],
+      "source_layer": "图层 57",
+      "sha256": "cbe1f61a0d7e1f3b1791be4571adcaf2567f0bd2496a579231478e26f98eea22"
+    },
+    "6": {
+      "url": "assets/stats_batch/04_slot06.png",
+      "bbox": [
+        1079,
+        307,
+        1814,
+        527
+      ],
+      "source_layer": "图层 56",
+      "sha256": "cbe1f61a0d7e1f3b1791be4571adcaf2567f0bd2496a579231478e26f98eea22"
+    },
+    "7": {
+      "url": "assets/stats_batch/04_slot07.png",
+      "bbox": [
+        1079,
+        521,
+        1814,
+        741
+      ],
+      "source_layer": "图层 55",
+      "sha256": "cbe1f61a0d7e1f3b1791be4571adcaf2567f0bd2496a579231478e26f98eea22"
+    },
+    "8": {
+      "url": "assets/stats_batch/04_slot08.png",
+      "bbox": [
+        1080,
+        741,
+        1893,
+        959
+      ],
+      "source_layer": "图层 54",
+      "sha256": "8d7f6ff025e276ddf0f9b453265e6f49d2e5d9399f0a7f60a191738beeb6876a"
+    }
+  },
+  "洁哥": {
+    "1": {
+      "url": "assets/stats_batch/05_slot01.png",
+      "bbox": [
+        31,
+        177,
+        743,
+        407
+      ],
+      "source_layer": "图层 62",
+      "sha256": "c893eaf727801efd93ddf755fc86097a91c87bcde9e83fd7314284d74ee00979"
+    },
+    "3": {
+      "url": "assets/stats_batch/05_slot03.png",
+      "bbox": [
+        31,
+        606,
+        743,
+        836
+      ],
+      "source_layer": "图层 63",
+      "sha256": "c893eaf727801efd93ddf755fc86097a91c87bcde9e83fd7314284d74ee00979"
+    },
+    "4": {
+      "url": "assets/stats_batch/05_slot04.png",
+      "bbox": [
+        31,
+        818,
+        743,
+        1048
+      ],
+      "source_layer": "图层 64",
+      "sha256": "c893eaf727801efd93ddf755fc86097a91c87bcde9e83fd7314284d74ee00979"
+    },
+    "5": {
+      "url": "assets/stats_batch/05_slot05.png",
+      "bbox": [
+        1070,
+        89,
+        1782,
+        319
+      ],
+      "source_layer": "图层 65",
+      "sha256": "c893eaf727801efd93ddf755fc86097a91c87bcde9e83fd7314284d74ee00979"
+    },
+    "6": {
+      "url": "assets/stats_batch/05_slot06.png",
+      "bbox": [
+        1070,
+        303,
+        1782,
+        533
+      ],
+      "source_layer": "图层 66",
+      "sha256": "c893eaf727801efd93ddf755fc86097a91c87bcde9e83fd7314284d74ee00979"
+    },
+    "7": {
+      "url": "assets/stats_batch/05_slot07.png",
+      "bbox": [
+        1070,
+        517,
+        1782,
+        747
+      ],
+      "source_layer": "图层 67",
+      "sha256": "c893eaf727801efd93ddf755fc86097a91c87bcde9e83fd7314284d74ee00979"
+    },
+    "8": {
+      "url": "assets/stats_batch/05_slot08.png",
+      "bbox": [
+        1162,
+        744,
+        1789,
+        1022
+      ],
+      "source_layer": "图层 68",
+      "sha256": "d980c9c94f509d7d414b68627a283dabe2a3ff0fdbe8eca1fffd05a9b14a85f8"
+    }
+  }
+}

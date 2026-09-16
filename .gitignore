@@ -36,10 +36,22 @@ reports/*.png
 
 # Environment and OS files
 .env
+config/project.yaml
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
-node_modules/
+*.egg-info/
+external/
+
+# Local JavaScript dependencies and Codex session state
+**/node_modules/
+.codex/
 dist/
 experiments/stability_outputs/
+
+# Reproducible renderer exports and intermediate spike screenshots
+reports/exported_frames/
+reports/spike_final/
+reports/spike_test_fixed/
+reports/spike_v2/

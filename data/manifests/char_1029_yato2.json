@@ -1,0 +1,49 @@
+{
+  "operator_id": "char_1029_yato2",
+  "operator_name": "麒麟R夜刀",
+  "rarity": 6,
+  "profession": "SPECIAL",
+  "full_art_path": "",
+  "players": {
+    "P1": {
+      "own": true,
+      "elite": 2,
+      "level": 82,
+      "potential": 2,
+      "no_info": false,
+      "card_asset_path": null
+    },
+    "P2": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    },
+    "P3": {
+      "own": true,
+      "elite": 2,
+      "level": 82,
+      "potential": 2,
+      "no_info": false,
+      "card_asset_path": null
+    },
+    "P4": {
+      "own": true,
+      "elite": 2,
+      "level": 82,
+      "potential": 2,
+      "no_info": false,
+      "card_asset_path": null
+    },
+    "P5": {
+      "own": true,
+      "elite": 2,
+      "level": 82,
+      "potential": 2,
+      "no_info": false,
+      "card_asset_path": null
+    }
+  }
+}
