@@ -15,7 +15,7 @@ import cv2
 import re
 import numpy as np
 from pathlib import Path
-from typing import List, Dict, Optional, Tuple
+from typing import List, Dict, Optional, Tuple, Any
 from ..config import ProjectConfig
 from ..models.operator import OperatorState, ConfidenceScore, RecognitionMethod
 from ..registry.operator_registry import OperatorRegistry
