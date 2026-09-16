@@ -26,6 +26,9 @@ Before editing:
 
 If `pencil` is unavailable, stop with `PENCIL_MCP_NOT_CONNECTED`.
 
+**硬性规则：无法连接 `pencil` MCP 时，请勿对任何 `.pen` 文件进行任何形式的修改。**
+不得直接编辑原始 JSON、使用脚本批量改写、通过其他渲染器替代修改，或让子代理绕过此限制；只能停止相关工作并报告 `PENCIL_MCP_NOT_CONNECTED`。
+
 Never silently substitute Pillow, React/CSS, direct raw `.pen` JSON mutation, or mouse-coordinate automation.
 
 ## Fidelity
