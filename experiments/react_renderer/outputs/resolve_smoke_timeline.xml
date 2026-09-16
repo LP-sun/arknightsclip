@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xmeml>
+<xmeml version="5">
+    <sequence>
+        <name>Renderer_Smoke_Test_Pen_vs_React</name>
+        <duration>240</duration>
+        <rate>
+            <timebase>24</timebase>
+            <ntsc>FALSE</ntsc>
+        </rate>
+        <media>
+            <video>
+                <format>
+                    <samplecharacteristics>
+                        <width>1920</width>
+                        <height>1080</height>
+                        <pixelaspectratio>square</pixelaspectratio>
+                        <rate>
+                            <timebase>24</timebase>
+                            <ntsc>FALSE</ntsc>
+                        </rate>
+                    </samplecharacteristics>
+                </format>
+                <!-- Track 1: Pen.dev Render (0 - 5s) -->
+                <track>
+                    <clipitem id="clipitem-pen">
+                        <name>Pen_Exusiai_Test</name>
+                        <duration>120</duration>
+                        <rate>
+                            <timebase>24</timebase>
+                            <ntsc>FALSE</ntsc>
+                        </rate>
+                        <start>0</start>
+                        <end>120</end>
+                        <in>0</in>
+                        <out>120</out>
+                        <file id="file-pen">
+                            <name>exusiai_test.png</name>
+                            <pathurl>file://localhost/E:/明日方舟报菜名/experiments/pen_renderer/outputs/exusiai_test.png</pathurl>
+                            <rate>
+                                <timebase>24</timebase>
+                                <ntsc>FALSE</ntsc>
+                            </rate>
+                            <duration>120</duration>
+                            <media>
+                                <video>
+                                    <samplecharacteristics>
+                                        <width>1920</width>
+                                        <height>1080</height>
+                                    </samplecharacteristics>
+                                </video>
+                            </media>
+                        </file>
+                    </clipitem>
+                    <!-- Track 1 Cont: React/CSS Render (5 - 10s) -->
+                    <clipitem id="clipitem-react">
+                        <name>React_Exusiai_Test</name>
+                        <duration>120</duration>
+                        <rate>
+                            <timebase>24</timebase>
+                            <ntsc>FALSE</ntsc>
+                        </rate>
+                        <start>120</start>
+                        <end>240</end>
+                        <in>0</in>
+                        <out>120</out>
+                        <file id="file-react">
+                            <name>exusiai_test.png</name>
+                            <pathurl>file://localhost/E:/明日方舟报菜名/experiments/react_renderer/outputs/exusiai_test.png</pathurl>
+                            <rate>
+                                <timebase>24</timebase>
+                                <ntsc>FALSE</ntsc>
+                            </rate>
+                            <duration>120</duration>
+                            <media>
+                                <video>
+                                    <samplecharacteristics>
+                                        <width>1920</width>
+                                        <height>1080</height>
+                                    </samplecharacteristics>
+                                </video>
+                            </media>
+                        </file>
+                    </clipitem>
+                </track>
+            </video>
+        </media>
+    </sequence>
+</xmeml>

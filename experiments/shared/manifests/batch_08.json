@@ -1,0 +1,64 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "operator": {
+    "id": "char_002_siege",
+    "name": "推进之王",
+    "full_art": "assets/operators/char_002_siege/full.png",
+    "card_crop": "assets/ui/card_crop_siege.png"
+  },
+  "players": {
+    "P1": {
+      "display_name": "爱花",
+      "doctor_title": "Dr.爱花 #1081",
+      "doctor_level": 105,
+      "avatar": "assets/players/P1.png",
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1
+    },
+    "P2": {
+      "display_name": "咯吱吱",
+      "doctor_title": "Dr.咯吱吱 #1082",
+      "doctor_level": 106,
+      "avatar": "assets/players/P2.png",
+      "own": true,
+      "elite": 1,
+      "level": 56,
+      "potential": 5
+    },
+    "P3": {
+      "display_name": "东城",
+      "doctor_title": "Dr.东城 #1083",
+      "doctor_level": 107,
+      "avatar": "assets/players/P3.png",
+      "own": true,
+      "elite": 2,
+      "level": 61,
+      "potential": 6
+    },
+    "P4": {
+      "display_name": "HMI",
+      "doctor_title": "Dr.HMI #1084",
+      "doctor_level": 108,
+      "avatar": "assets/players/P4.png",
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1
+    },
+    "P5": {
+      "display_name": "LEO",
+      "doctor_title": "Dr.LEO #1085",
+      "doctor_level": 109,
+      "avatar": "assets/players/P5.png",
+      "own": true,
+      "elite": 1,
+      "level": 71,
+      "potential": 2
+    }
+  }
+}
