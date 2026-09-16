@@ -3,6 +3,15 @@
 """
 
 import sys
+from pathlib import Path
+
+_project_root = Path(__file__).resolve().parent.parent
+_src_dir = _project_root / "src"
+if str(_project_root) not in sys.path:
+    sys.path.insert(0, str(_project_root))
+if str(_src_dir) not in sys.path:
+    sys.path.insert(0, str(_src_dir))
+
 import traceback
 from tests.test_data_models import (
     test_operator_registry_entry,
