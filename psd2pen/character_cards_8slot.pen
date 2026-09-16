@@ -2034,6 +2034,9 @@
               "enabled": false,
               "y": 76
             },
+            "xu45m": {
+              "name": "ELITE_BADGE"
+            },
             "vH1ov": {
               "fill": {
                 "type": "image",
@@ -2169,6 +2172,2671 @@
             },
             "r1nOvb": {
               "enabled": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "J6ti6",
+      "x": -1700,
+      "y": 3258,
+      "name": "STATS_BATCH_推王",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "layout": "none",
+      "children": [
+        {
+          "id": "B166p",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "STATS_推王_SLOT_01_爱花",
+          "x": 157,
+          "y": 187,
+          "descendants": {
+            "DLOWp": {
+              "enabled": true,
+              "x": -108,
+              "y": -52,
+              "width": 899,
+              "height": 300,
+              "viewBox": [
+                0,
+                0,
+                899,
+                300
+              ],
+              "geometry": "M108 59.184 L644.526 59.184 L671.148 87.676 L563.548 228.896 L108 228.896 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/02_slot01.png",
+                "mode": "stretch"
+              }
+            },
+            "B8gA3U": {
+              "enabled": false
+            },
+            "MxQrR": {
+              "enabled": false
+            },
+            "Q3ckUm": {
+              "enabled": true
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 15,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "QEG16": {
+              "enabled": true
+            },
+            "bFlti": {
+              "content": "60"
+            },
+            "coU5m": {
+              "enabled": true
+            },
+            "RB169": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential2.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "c3rGHE",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "STATS_推王_SLOT_02_咯咯枝",
+          "x": 157,
+          "y": 401,
+          "descendants": {
+            "DLOWp": {
+              "enabled": true,
+              "x": -94,
+              "y": -66,
+              "width": 785,
+              "height": 306,
+              "viewBox": [
+                0,
+                0,
+                785,
+                306
+              ],
+              "geometry": "M94 73.184 L630.526 73.184 L657.148 101.676 L549.548 242.896 L94 242.896 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/02_slot02.png",
+                "mode": "stretch"
+              }
+            },
+            "B8gA3U": {
+              "enabled": false
+            },
+            "MxQrR": {
+              "enabled": false
+            },
+            "Q3ckUm": {
+              "enabled": true
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite1.png",
+                "mode": "stretch"
+              },
+              "x": 12,
+              "y": 97,
+              "width": 81,
+              "height": 49
+            },
+            "QEG16": {
+              "enabled": true
+            },
+            "bFlti": {
+              "content": "73"
+            },
+            "coU5m": {
+              "enabled": true
+            },
+            "RB169": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential2.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "MdRv0",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "STATS_推王_SLOT_03_东城",
+          "x": 157,
+          "y": 615,
+          "descendants": {
+            "DLOWp": {
+              "enabled": true,
+              "x": -94,
+              "y": -65,
+              "width": 785,
+              "height": 306,
+              "viewBox": [
+                0,
+                0,
+                785,
+                306
+              ],
+              "geometry": "M94 72.184 L630.526 72.184 L657.148 100.676 L549.548 241.896 L94 241.896 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/02_slot03.png",
+                "mode": "stretch"
+              }
+            },
+            "B8gA3U": {
+              "enabled": false
+            },
+            "MxQrR": {
+              "enabled": false
+            },
+            "Q3ckUm": {
+              "enabled": true
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite1.png",
+                "mode": "stretch"
+              },
+              "x": 12,
+              "y": 97,
+              "width": 81,
+              "height": 49
+            },
+            "QEG16": {
+              "enabled": true
+            },
+            "bFlti": {
+              "content": "50"
+            },
+            "coU5m": {
+              "enabled": true
+            },
+            "RB169": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential5.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "PYsdF",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "STATS_推王_SLOT_04_狐狸",
+          "x": 157,
+          "y": 829,
+          "descendants": {
+            "DLOWp": {
+              "enabled": false
+            },
+            "B8gA3U": {
+              "enabled": true
+            },
+            "MxQrR": {
+              "enabled": true
+            },
+            "Q3ckUm": {
+              "enabled": false
+            },
+            "QEG16": {
+              "enabled": false
+            },
+            "coU5m": {
+              "enabled": false
+            }
+          }
+        },
+        {
+          "id": "F0FpYa",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "STATS_推王_SLOT_05_hmi",
+          "x": 1180,
+          "y": 101,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true,
+              "x": -137,
+              "y": -24,
+              "width": 851,
+              "height": 230,
+              "viewBox": [
+                0,
+                0,
+                851,
+                230
+              ],
+              "geometry": "M251.45 31.1 L721 31.1 L721 200.8 L170.5 200.8 L143.85 174.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/02_slot05.png",
+                "mode": "stretch"
+              }
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false
+            },
+            "xu45m": {
+              "enabled": true
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 492,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "90"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential3.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "AOUhE",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "STATS_推王_SLOT_06_leo",
+          "x": 1180,
+          "y": 315,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true,
+              "x": -67,
+              "y": -65,
+              "width": 785,
+              "height": 306,
+              "viewBox": [
+                0,
+                0,
+                785,
+                306
+              ],
+              "geometry": "M181.45 72.1 L651 72.1 L651 241.8 L100.5 241.8 L73.85 215.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/02_slot06.png",
+                "mode": "stretch"
+              }
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false
+            },
+            "xu45m": {
+              "enabled": true
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite1.png",
+                "mode": "stretch"
+              },
+              "x": 489,
+              "y": 97,
+              "width": 81,
+              "height": 49
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "46"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential3.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "lfhFX",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "STATS_推王_SLOT_07_rada",
+          "x": 1180,
+          "y": 529,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true,
+              "x": -135,
+              "y": -25,
+              "width": 851,
+              "height": 230,
+              "viewBox": [
+                0,
+                0,
+                851,
+                230
+              ],
+              "geometry": "M249.45 32.1 L719 32.1 L719 201.8 L168.5 201.8 L141.85 175.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/02_slot07.png",
+                "mode": "stretch"
+              }
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false
+            },
+            "xu45m": {
+              "enabled": true
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite1.png",
+                "mode": "stretch"
+              },
+              "x": 489,
+              "y": 97,
+              "width": 81,
+              "height": 49
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "50"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential1.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "WKax9",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "STATS_推王_SLOT_08_骑士",
+          "x": 1180,
+          "y": 743,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true,
+              "x": -75,
+              "y": -15,
+              "width": 720,
+              "height": 261,
+              "viewBox": [
+                0,
+                0,
+                720,
+                261
+              ],
+              "geometry": "M189.45 22.1 L659 22.1 L659 191.8 L108.5 191.8 L81.85 165.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/02_slot08.png",
+                "mode": "stretch"
+              }
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false
+            },
+            "xu45m": {
+              "enabled": true
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite0.png",
+                "mode": "stretch"
+              },
+              "x": 489,
+              "y": 97,
+              "width": 81,
+              "height": 49
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "1"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential1.png",
+                "mode": "fit"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "dgYqp",
+      "x": -1700,
+      "y": 4458,
+      "name": "STATS_BATCH_小火龙",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "layout": "none",
+      "children": [
+        {
+          "id": "KXmqF",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "STATS_小火龙_SLOT_01_爱花",
+          "x": 157,
+          "y": 187,
+          "descendants": {
+            "DLOWp": {
+              "enabled": true,
+              "x": -136,
+              "y": -19,
+              "width": 925,
+              "height": 267,
+              "viewBox": [
+                0,
+                0,
+                925,
+                267
+              ],
+              "geometry": "M136 26.184 L672.526 26.184 L699.148 54.676 L591.548 195.896 L136 195.896 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/03_slot01.png",
+                "mode": "stretch"
+              }
+            },
+            "B8gA3U": {
+              "enabled": false
+            },
+            "MxQrR": {
+              "enabled": false
+            },
+            "Q3ckUm": {
+              "enabled": true
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 15,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "QEG16": {
+              "enabled": true
+            },
+            "bFlti": {
+              "content": "60"
+            },
+            "coU5m": {
+              "enabled": true
+            },
+            "RB169": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential2.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "omEgr",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "STATS_小火龙_SLOT_02_咯咯枝",
+          "x": 157,
+          "y": 401,
+          "descendants": {
+            "DLOWp": {
+              "enabled": true,
+              "x": -192,
+              "y": -74,
+              "width": 912,
+              "height": 330,
+              "viewBox": [
+                0,
+                0,
+                912,
+                330
+              ],
+              "geometry": "M192 81.184 L728.526 81.184 L755.148 109.676 L647.548 250.896 L192 250.896 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/03_slot02.png",
+                "mode": "stretch"
+              }
+            },
+            "B8gA3U": {
+              "enabled": false
+            },
+            "MxQrR": {
+              "enabled": false
+            },
+            "Q3ckUm": {
+              "enabled": true
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite1.png",
+                "mode": "stretch"
+              },
+              "x": 12,
+              "y": 97,
+              "width": 81,
+              "height": 49
+            },
+            "QEG16": {
+              "enabled": true
+            },
+            "bFlti": {
+              "content": "80"
+            },
+            "coU5m": {
+              "enabled": true
+            },
+            "RB169": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential2.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "k24OzM",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "STATS_小火龙_SLOT_03_东城",
+          "x": 157,
+          "y": 615,
+          "descendants": {
+            "DLOWp": {
+              "enabled": true,
+              "x": -100,
+              "y": -17,
+              "width": 673,
+              "height": 211,
+              "viewBox": [
+                0,
+                0,
+                673,
+                211
+              ],
+              "geometry": "M100 24.184 L636.526 24.184 L663.148 52.676 L555.548 193.896 L100 193.896 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/03_slot03.png",
+                "mode": "stretch"
+              }
+            },
+            "B8gA3U": {
+              "enabled": false
+            },
+            "MxQrR": {
+              "enabled": false
+            },
+            "Q3ckUm": {
+              "enabled": true
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite1.png",
+                "mode": "stretch"
+              },
+              "x": 12,
+              "y": 97,
+              "width": 81,
+              "height": 49
+            },
+            "QEG16": {
+              "enabled": true
+            },
+            "bFlti": {
+              "content": "80"
+            },
+            "coU5m": {
+              "enabled": true
+            },
+            "RB169": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential3.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "YhguB",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "STATS_小火龙_SLOT_04_狐狸",
+          "x": 157,
+          "y": 829,
+          "descendants": {
+            "DLOWp": {
+              "enabled": true,
+              "x": -136,
+              "y": -20,
+              "width": 925,
+              "height": 267,
+              "viewBox": [
+                0,
+                0,
+                925,
+                267
+              ],
+              "geometry": "M136 27.184 L672.526 27.184 L699.148 55.676 L591.548 196.896 L136 196.896 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/03_slot04.png",
+                "mode": "stretch"
+              }
+            },
+            "B8gA3U": {
+              "enabled": false
+            },
+            "MxQrR": {
+              "enabled": false
+            },
+            "Q3ckUm": {
+              "enabled": true
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 15,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "QEG16": {
+              "enabled": true
+            },
+            "bFlti": {
+              "content": "22"
+            },
+            "coU5m": {
+              "enabled": true
+            },
+            "RB169": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential1.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "XP0PL",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "STATS_小火龙_SLOT_05_hmi",
+          "x": 1180,
+          "y": 101,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true,
+              "x": -193,
+              "y": -74,
+              "width": 912,
+              "height": 330,
+              "viewBox": [
+                0,
+                0,
+                912,
+                330
+              ],
+              "geometry": "M307.45 81.1 L777 81.1 L777 250.8 L226.5 250.8 L199.85 224.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/03_slot05.png",
+                "mode": "stretch"
+              }
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false
+            },
+            "xu45m": {
+              "enabled": true
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 492,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "90"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential5.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "KEeqb",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "STATS_小火龙_SLOT_06_leo",
+          "x": 1180,
+          "y": 315,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true,
+              "x": -100,
+              "y": -12,
+              "width": 813,
+              "height": 223,
+              "viewBox": [
+                0,
+                0,
+                813,
+                223
+              ],
+              "geometry": "M214.45 19.1 L684 19.1 L684 188.8 L133.5 188.8 L106.85 162.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/03_slot06.png",
+                "mode": "stretch"
+              }
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false
+            },
+            "xu45m": {
+              "enabled": true
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite1.png",
+                "mode": "stretch"
+              },
+              "x": 489,
+              "y": 97,
+              "width": 81,
+              "height": 49
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "70"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential1.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "akJ1g",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "STATS_小火龙_SLOT_07_rada",
+          "x": 1180,
+          "y": 529,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true,
+              "x": -135,
+              "y": -20,
+              "width": 925,
+              "height": 267,
+              "viewBox": [
+                0,
+                0,
+                925,
+                267
+              ],
+              "geometry": "M249.45 27.1 L719 27.1 L719 196.8 L168.5 196.8 L141.85 170.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/03_slot07.png",
+                "mode": "stretch"
+              }
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false
+            },
+            "xu45m": {
+              "enabled": true
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 492,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "45"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential4.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "gQxWU",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "STATS_小火龙_SLOT_08_骑士",
+          "x": 1180,
+          "y": 743,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true,
+              "x": -135,
+              "y": -20,
+              "width": 925,
+              "height": 267,
+              "viewBox": [
+                0,
+                0,
+                925,
+                267
+              ],
+              "geometry": "M249.45 27.1 L719 27.1 L719 196.8 L168.5 196.8 L141.85 170.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/03_slot08.png",
+                "mode": "stretch"
+              }
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false
+            },
+            "xu45m": {
+              "enabled": true
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 492,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "63"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential1.png",
+                "mode": "fit"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "jqvoS",
+      "x": -1700,
+      "y": 5658,
+      "name": "STATS_BATCH_小羊",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "layout": "none",
+      "children": [
+        {
+          "id": "r1Jd4H",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "STATS_小羊_SLOT_01_爱花",
+          "x": 157,
+          "y": 187,
+          "descendants": {
+            "DLOWp": {
+              "enabled": true,
+              "x": -102,
+              "y": -8,
+              "width": 735,
+              "height": 220,
+              "viewBox": [
+                0,
+                0,
+                735,
+                220
+              ],
+              "geometry": "M102 15.184000000000001 L638.526 15.184000000000001 L665.148 43.676 L557.548 184.896 L102 184.896 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/04_slot01.png",
+                "mode": "stretch"
+              }
+            },
+            "B8gA3U": {
+              "enabled": false
+            },
+            "MxQrR": {
+              "enabled": false
+            },
+            "Q3ckUm": {
+              "enabled": true
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 15,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "QEG16": {
+              "enabled": true
+            },
+            "bFlti": {
+              "content": "60"
+            },
+            "coU5m": {
+              "enabled": true
+            },
+            "RB169": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential1.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "bSYU0",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "STATS_小羊_SLOT_02_咯咯枝",
+          "x": 157,
+          "y": 401,
+          "descendants": {
+            "DLOWp": {
+              "enabled": true,
+              "x": -102,
+              "y": -9,
+              "width": 735,
+              "height": 220,
+              "viewBox": [
+                0,
+                0,
+                735,
+                220
+              ],
+              "geometry": "M102 16.184 L638.526 16.184 L665.148 44.676 L557.548 185.896 L102 185.896 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/04_slot02.png",
+                "mode": "stretch"
+              }
+            },
+            "B8gA3U": {
+              "enabled": false
+            },
+            "MxQrR": {
+              "enabled": false
+            },
+            "Q3ckUm": {
+              "enabled": true
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 15,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "QEG16": {
+              "enabled": true
+            },
+            "bFlti": {
+              "content": "90"
+            },
+            "coU5m": {
+              "enabled": true
+            },
+            "RB169": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential1.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "z5kmWT",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "STATS_小羊_SLOT_03_东城",
+          "x": 157,
+          "y": 615,
+          "descendants": {
+            "DLOWp": {
+              "enabled": true,
+              "x": -102,
+              "y": -9,
+              "width": 735,
+              "height": 220,
+              "viewBox": [
+                0,
+                0,
+                735,
+                220
+              ],
+              "geometry": "M102 16.184 L638.526 16.184 L665.148 44.676 L557.548 185.896 L102 185.896 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/04_slot03.png",
+                "mode": "stretch"
+              }
+            },
+            "B8gA3U": {
+              "enabled": false
+            },
+            "MxQrR": {
+              "enabled": false
+            },
+            "Q3ckUm": {
+              "enabled": true
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 15,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "QEG16": {
+              "enabled": true
+            },
+            "bFlti": {
+              "content": "90"
+            },
+            "coU5m": {
+              "enabled": true
+            },
+            "RB169": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential1.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "qSFZO",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "STATS_小羊_SLOT_04_狐狸",
+          "x": 157,
+          "y": 829,
+          "descendants": {
+            "DLOWp": {
+              "enabled": true,
+              "x": -102,
+              "y": -9,
+              "width": 735,
+              "height": 220,
+              "viewBox": [
+                0,
+                0,
+                735,
+                220
+              ],
+              "geometry": "M102 16.184 L638.526 16.184 L665.148 44.676 L557.548 185.896 L102 185.896 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/04_slot04.png",
+                "mode": "stretch"
+              }
+            },
+            "B8gA3U": {
+              "enabled": false
+            },
+            "MxQrR": {
+              "enabled": false
+            },
+            "Q3ckUm": {
+              "enabled": true
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 15,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "QEG16": {
+              "enabled": true
+            },
+            "bFlti": {
+              "content": "20"
+            },
+            "coU5m": {
+              "enabled": true
+            },
+            "RB169": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential1.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "RdKfl",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "STATS_小羊_SLOT_05_hmi",
+          "x": 1180,
+          "y": 101,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true,
+              "x": -100,
+              "y": -10,
+              "width": 735,
+              "height": 220,
+              "viewBox": [
+                0,
+                0,
+                735,
+                220
+              ],
+              "geometry": "M214.45 17.1 L684 17.1 L684 186.8 L133.5 186.8 L106.85 160.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/04_slot05.png",
+                "mode": "stretch"
+              }
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false
+            },
+            "xu45m": {
+              "enabled": true
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 492,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "90"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential3.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "Hb6SB",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "STATS_小羊_SLOT_06_leo",
+          "x": 1180,
+          "y": 315,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true,
+              "x": -101,
+              "y": -8,
+              "width": 735,
+              "height": 220,
+              "viewBox": [
+                0,
+                0,
+                735,
+                220
+              ],
+              "geometry": "M215.45 15.1 L685 15.1 L685 184.8 L134.5 184.8 L107.85 158.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/04_slot06.png",
+                "mode": "stretch"
+              }
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false
+            },
+            "xu45m": {
+              "enabled": true
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 492,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "60"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential1.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "zV3k8",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "STATS_小羊_SLOT_07_rada",
+          "x": 1180,
+          "y": 529,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true,
+              "x": -101,
+              "y": -8,
+              "width": 735,
+              "height": 220,
+              "viewBox": [
+                0,
+                0,
+                735,
+                220
+              ],
+              "geometry": "M215.45 15.1 L685 15.1 L685 184.8 L134.5 184.8 L107.85 158.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/04_slot07.png",
+                "mode": "stretch"
+              }
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false
+            },
+            "xu45m": {
+              "enabled": true
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 492,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "60"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential1.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "Z2T3D",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "STATS_小羊_SLOT_08_骑士",
+          "x": 1180,
+          "y": 743,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true,
+              "x": -100,
+              "y": -2,
+              "width": 813,
+              "height": 218,
+              "viewBox": [
+                0,
+                0,
+                813,
+                218
+              ],
+              "geometry": "M214.45 9.1 L684 9.1 L684 178.8 L133.5 178.8 L106.85 152.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/04_slot08.png",
+                "mode": "stretch"
+              }
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false
+            },
+            "xu45m": {
+              "enabled": true
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 492,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "63"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential1.png",
+                "mode": "fit"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "x8WgB1",
+      "x": -1700,
+      "y": 6858,
+      "name": "STATS_BATCH_洁哥",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "layout": "none",
+      "children": [
+        {
+          "id": "Si68t",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "STATS_洁哥_SLOT_01_爱花",
+          "x": 157,
+          "y": 187,
+          "descendants": {
+            "DLOWp": {
+              "enabled": true,
+              "x": -126,
+              "y": -10,
+              "width": 712,
+              "height": 230,
+              "viewBox": [
+                0,
+                0,
+                712,
+                230
+              ],
+              "geometry": "M126 17.184 L662.526 17.184 L689.148 45.676 L581.548 186.896 L126 186.896 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/05_slot01.png",
+                "mode": "stretch"
+              }
+            },
+            "B8gA3U": {
+              "enabled": false
+            },
+            "MxQrR": {
+              "enabled": false
+            },
+            "Q3ckUm": {
+              "enabled": true
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 15,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "QEG16": {
+              "enabled": true
+            },
+            "bFlti": {
+              "content": "60"
+            },
+            "coU5m": {
+              "enabled": true
+            },
+            "RB169": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential1.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "g0FXw",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "STATS_洁哥_SLOT_02_咯咯枝",
+          "x": 157,
+          "y": 401,
+          "descendants": {
+            "DLOWp": {
+              "enabled": false
+            },
+            "B8gA3U": {
+              "enabled": true
+            },
+            "MxQrR": {
+              "enabled": true
+            },
+            "Q3ckUm": {
+              "enabled": false
+            },
+            "QEG16": {
+              "enabled": false
+            },
+            "coU5m": {
+              "enabled": false
+            }
+          }
+        },
+        {
+          "id": "XjpOD",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "STATS_洁哥_SLOT_03_东城",
+          "x": 157,
+          "y": 615,
+          "descendants": {
+            "DLOWp": {
+              "enabled": true,
+              "x": -126,
+              "y": -9,
+              "width": 712,
+              "height": 230,
+              "viewBox": [
+                0,
+                0,
+                712,
+                230
+              ],
+              "geometry": "M126 16.184 L662.526 16.184 L689.148 44.676 L581.548 185.896 L126 185.896 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/05_slot03.png",
+                "mode": "stretch"
+              }
+            },
+            "B8gA3U": {
+              "enabled": false
+            },
+            "MxQrR": {
+              "enabled": false
+            },
+            "Q3ckUm": {
+              "enabled": true
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 15,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "QEG16": {
+              "enabled": true
+            },
+            "bFlti": {
+              "content": "50"
+            },
+            "coU5m": {
+              "enabled": true
+            },
+            "RB169": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential3.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "XNXQN",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "STATS_洁哥_SLOT_04_狐狸",
+          "x": 157,
+          "y": 829,
+          "descendants": {
+            "DLOWp": {
+              "enabled": true,
+              "x": -126,
+              "y": -11,
+              "width": 712,
+              "height": 230,
+              "viewBox": [
+                0,
+                0,
+                712,
+                230
+              ],
+              "geometry": "M126 18.184 L662.526 18.184 L689.148 46.676 L581.548 187.896 L126 187.896 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/05_slot04.png",
+                "mode": "stretch"
+              }
+            },
+            "B8gA3U": {
+              "enabled": false
+            },
+            "MxQrR": {
+              "enabled": false
+            },
+            "Q3ckUm": {
+              "enabled": true
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 15,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "QEG16": {
+              "enabled": true
+            },
+            "bFlti": {
+              "content": "20"
+            },
+            "coU5m": {
+              "enabled": true
+            },
+            "RB169": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential2.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "F6fZJ",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "STATS_洁哥_SLOT_05_hmi",
+          "x": 1180,
+          "y": 101,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true,
+              "x": -110,
+              "y": -12,
+              "width": 712,
+              "height": 230,
+              "viewBox": [
+                0,
+                0,
+                712,
+                230
+              ],
+              "geometry": "M224.45 19.1 L694 19.1 L694 188.8 L143.5 188.8 L116.85 162.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/05_slot05.png",
+                "mode": "stretch"
+              }
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false
+            },
+            "xu45m": {
+              "enabled": true
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 492,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "90"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential6.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "N9e9ZD",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "STATS_洁哥_SLOT_06_leo",
+          "x": 1180,
+          "y": 315,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true,
+              "x": -110,
+              "y": -12,
+              "width": 712,
+              "height": 230,
+              "viewBox": [
+                0,
+                0,
+                712,
+                230
+              ],
+              "geometry": "M224.45 19.1 L694 19.1 L694 188.8 L143.5 188.8 L116.85 162.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/05_slot06.png",
+                "mode": "stretch"
+              }
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false
+            },
+            "xu45m": {
+              "enabled": true
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 492,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "60"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential3.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "F7TmwW",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "STATS_洁哥_SLOT_07_rada",
+          "x": 1180,
+          "y": 529,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true,
+              "x": -110,
+              "y": -12,
+              "width": 712,
+              "height": 230,
+              "viewBox": [
+                0,
+                0,
+                712,
+                230
+              ],
+              "geometry": "M224.45 19.1 L694 19.1 L694 188.8 L143.5 188.8 L116.85 162.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/05_slot07.png",
+                "mode": "stretch"
+              }
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false
+            },
+            "xu45m": {
+              "enabled": true
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 492,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "26"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential3.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "pWCVG",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "STATS_洁哥_SLOT_08_骑士",
+          "x": 1180,
+          "y": 743,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true,
+              "x": -18,
+              "y": 1,
+              "width": 627,
+              "height": 278,
+              "viewBox": [
+                0,
+                0,
+                627,
+                278
+              ],
+              "geometry": "M132.45 6.1 L602 6.1 L602 175.8 L51.5 175.8 L24.85 149.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/05_slot08.png",
+                "mode": "stretch"
+              }
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false
+            },
+            "xu45m": {
+              "enabled": true
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite1.png",
+                "mode": "stretch"
+              },
+              "x": 489,
+              "y": 97,
+              "width": 81,
+              "height": 49
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "60"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential2.png",
+                "mode": "fit"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "XSBvg",
+      "x": -1700,
+      "y": 8058,
+      "name": "STATS_BATCH_能天使",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "layout": "none",
+      "children": [
+        {
+          "id": "k1tsE",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "STATS_能天使_SLOT_01_爱花",
+          "x": 157,
+          "y": 187,
+          "descendants": {
+            "DLOWp": {
+              "enabled": false
+            },
+            "B8gA3U": {
+              "enabled": true
+            },
+            "MxQrR": {
+              "enabled": true
+            },
+            "Q3ckUm": {
+              "enabled": false
+            },
+            "QEG16": {
+              "enabled": false
+            },
+            "coU5m": {
+              "enabled": false
+            }
+          }
+        },
+        {
+          "id": "E54MNY",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "STATS_能天使_SLOT_02_咯咯枝",
+          "x": 157,
+          "y": 401,
+          "descendants": {
+            "DLOWp": {
+              "enabled": true,
+              "x": -120,
+              "y": 0,
+              "width": 690,
+              "height": 204,
+              "viewBox": [
+                0,
+                0,
+                690,
+                204
+              ],
+              "geometry": "M120 7.184 L656.526 7.184 L683.148 35.676 L575.548 176.896 L120 176.896 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/01_slot02.png",
+                "mode": "stretch"
+              }
+            },
+            "B8gA3U": {
+              "enabled": false
+            },
+            "MxQrR": {
+              "enabled": false
+            },
+            "Q3ckUm": {
+              "enabled": true
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite1.png",
+                "mode": "stretch"
+              },
+              "x": 12,
+              "y": 97,
+              "width": 81,
+              "height": 49
+            },
+            "QEG16": {
+              "enabled": true
+            },
+            "bFlti": {
+              "content": "90"
+            },
+            "coU5m": {
+              "enabled": true
+            },
+            "RB169": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential2.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "e81hR",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "STATS_能天使_SLOT_03_东城",
+          "x": 157,
+          "y": 615,
+          "descendants": {
+            "DLOWp": {
+              "enabled": true,
+              "x": -94,
+              "y": -33,
+              "width": 784,
+              "height": 294,
+              "viewBox": [
+                0,
+                0,
+                784,
+                294
+              ],
+              "geometry": "M94 40.184 L630.526 40.184 L657.148 68.676 L549.548 209.896 L94 209.896 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/01_slot03.png",
+                "mode": "stretch"
+              }
+            },
+            "B8gA3U": {
+              "enabled": false
+            },
+            "MxQrR": {
+              "enabled": false
+            },
+            "Q3ckUm": {
+              "enabled": true
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 15,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "QEG16": {
+              "enabled": true
+            },
+            "bFlti": {
+              "content": "90"
+            },
+            "coU5m": {
+              "enabled": true
+            },
+            "RB169": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential2.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "ZGzzX",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "STATS_能天使_SLOT_04_狐狸",
+          "x": 157,
+          "y": 829,
+          "descendants": {
+            "DLOWp": {
+              "enabled": true,
+              "x": -97,
+              "y": -34,
+              "width": 806,
+              "height": 313,
+              "viewBox": [
+                0,
+                0,
+                806,
+                313
+              ],
+              "geometry": "M97 41.184 L633.526 41.184 L660.148 69.676 L552.548 210.896 L97 210.896 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/01_slot04.png",
+                "mode": "stretch"
+              }
+            },
+            "B8gA3U": {
+              "enabled": false
+            },
+            "MxQrR": {
+              "enabled": false
+            },
+            "Q3ckUm": {
+              "enabled": true
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 15,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "QEG16": {
+              "enabled": true
+            },
+            "bFlti": {
+              "content": "25"
+            },
+            "coU5m": {
+              "enabled": true
+            },
+            "RB169": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential3.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "hZabW",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "STATS_能天使_SLOT_05_hmi",
+          "x": 1180,
+          "y": 101,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true,
+              "x": -90,
+              "y": 2,
+              "width": 690,
+              "height": 204,
+              "viewBox": [
+                0,
+                0,
+                690,
+                204
+              ],
+              "geometry": "M204.45 5.1 L674 5.1 L674 174.8 L123.5 174.8 L96.85 148.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/01_slot05.png",
+                "mode": "stretch"
+              }
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false
+            },
+            "xu45m": {
+              "enabled": true
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite1.png",
+                "mode": "stretch"
+              },
+              "x": 489,
+              "y": 97,
+              "width": 81,
+              "height": 49
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "90"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential6.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "ziWlG",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "STATS_能天使_SLOT_06_leo",
+          "x": 1180,
+          "y": 315,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true,
+              "x": -54,
+              "y": -33,
+              "width": 784,
+              "height": 294,
+              "viewBox": [
+                0,
+                0,
+                784,
+                294
+              ],
+              "geometry": "M168.45 40.1 L638 40.1 L638 209.8 L87.5 209.8 L60.85 183.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/01_slot06.png",
+                "mode": "stretch"
+              }
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false
+            },
+            "xu45m": {
+              "enabled": true
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 492,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "60"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential4.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "Hlggm",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "STATS_能天使_SLOT_07_rada",
+          "x": 1180,
+          "y": 529,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true,
+              "x": -57,
+              "y": -31,
+              "width": 806,
+              "height": 313,
+              "viewBox": [
+                0,
+                0,
+                806,
+                313
+              ],
+              "geometry": "M171.45 38.1 L641 38.1 L641 207.8 L90.5 207.8 L63.85 181.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/01_slot07.png",
+                "mode": "stretch"
+              }
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false
+            },
+            "xu45m": {
+              "enabled": true
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 492,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "60"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential2.png",
+                "mode": "fit"
+              }
+            }
+          }
+        },
+        {
+          "id": "K4HkN",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "STATS_能天使_SLOT_08_骑士",
+          "x": 1180,
+          "y": 743,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true,
+              "x": -86,
+              "y": 3,
+              "width": 690,
+              "height": 204,
+              "viewBox": [
+                0,
+                0,
+                690,
+                204
+              ],
+              "geometry": "M200.45 4.1 L670 4.1 L670 173.8 L119.5 173.8 L92.85 147.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/stats_batch/01_slot08.png",
+                "mode": "stretch"
+              }
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false
+            },
+            "xu45m": {
+              "enabled": true
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 492,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "60"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential2.png",
+                "mode": "fit"
+              }
             }
           }
         }
