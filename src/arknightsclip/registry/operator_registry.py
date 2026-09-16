@@ -65,8 +65,11 @@ class OperatorRegistry:
         with open(registry_file, "r", encoding="utf-8") as f:
             data = json.load(f)
         for d in data.get("operators", []):
+            cid = d.get("char_id", "")
+            if not cid.startswith("char_"):
+                continue
             entry = OperatorRegistryEntry(
-                char_id=d["char_id"],
+                char_id=cid,
                 canonical_name_zh=d["canonical_name_zh"],
                 rarity=d.get("rarity", 6),
                 profession=d.get("profession", ""),

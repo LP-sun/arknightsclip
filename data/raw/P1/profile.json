@@ -7,5 +7,9 @@
   "assistant_name": "维什戴尔",
   "total_operators_owned": 373,
   "total_operators_available": 460,
-  "updated_at": "2026-09-17T00:33:42.820943"
+  "updated_at": "2026-09-17T00:33:42.820943",
+  "target_rarity": 6,
+  "six_star_owned": 100,
+  "six_star_total": 146,
+  "six_star_rate": "68.5%"
 }

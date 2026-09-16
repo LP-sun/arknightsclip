@@ -60,6 +60,7 @@ def main():
     # 7. build-manifests
     p_manifest = subparsers.add_parser("build-manifests", help="批量生成各干员的五人槽位 SceneManifest 场景渲染清单")
     p_manifest.add_argument("--output", default=None, help="SceneManifest 保存目录 (默认 data/manifests/)")
+    p_manifest.add_argument("--rarity", type=int, default=6, help="按稀有度过滤 (默认 6 星)")
 
     # 8. export-timeline
     p_timeline = subparsers.add_parser("export-timeline", help="导出 24.0 fps 分层时间线工程 (FCP7 XML / OTIO)")
@@ -155,8 +156,8 @@ def main():
         from .scene.builder import SceneBuilder
         sb = SceneBuilder(cfg, registry=reg)
         out_dir = Path(args.output) if args.output else cfg.get_manifests_dir()
-        manifests = sb.build_all_scenes(save_dir=out_dir)
-        print(f"[CLI] 成功生成 {len(manifests)} 份场景渲染清单至: {out_dir}")
+        manifests = sb.build_all_scenes(save_dir=out_dir, rarity=args.rarity)
+        print(f"[CLI] 成功生成 {len(manifests)} 份 {f'{args.rarity}星' if args.rarity else '全量'} 场景渲染清单至: {out_dir}")
 
     elif args.command == "export-timeline":
         from .timeline.fcpxml_generator import FCPXMLGenerator
