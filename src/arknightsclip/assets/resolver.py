@@ -37,16 +37,37 @@ class AssetResolver:
         p = self.assets_root / char_id / "avatar.png"
         return p if p.exists() else None
 
-    def get_player_card_crop(self, char_id: str, player_id: str) -> Optional[Path]:
-        """获取玩家由 OperBox 采集的特定干员卡片切片 (198x447 Native Crop)"""
-        p = self.config.get_raw_player_dir(player_id) / "operbox" / "cards_raw" / f"{char_id}.png"
+    def get_player_card_crop(self, char_id: str, player_id: str, edition: Optional[str] = None) -> Optional[Path]:
+        """获取玩家由 OperBox 采集的特定干员卡片切片 (支持 edition='compact' (220px) | 'wide' (230px))"""
+        player_dir = self.config.get_raw_player_dir(player_id) / "operbox"
+        if edition in ("compact", "cards_compact"):
+            p = player_dir / "cards_compact" / f"{char_id}.png"
+            if p.exists():
+                return p
+        elif edition in ("wide", "cards_wide"):
+            p = player_dir / "cards_wide" / f"{char_id}.png"
+            if p.exists():
+                return p
+        p = player_dir / "cards_raw" / f"{char_id}.png"
         return p if p.exists() else None
 
-    def get_player_card_provenance(self, char_id: str, player_id: str) -> Optional[Dict]:
+    def get_player_card_provenance(self, char_id: str, player_id: str, edition: Optional[str] = None) -> Optional[Dict]:
         """获取玩家特定干员卡片切片的 Provenance 元数据"""
-        p = self.config.get_raw_player_dir(player_id) / "operbox" / "cards_raw" / f"{char_id}.json"
+        player_dir = self.config.get_raw_player_dir(player_id) / "operbox"
+        if edition in ("compact", "cards_compact"):
+            p = player_dir / "cards_compact" / f"{char_id}.json"
+            if p.exists():
+                return self._read_json(p)
+        elif edition in ("wide", "cards_wide"):
+            p = player_dir / "cards_wide" / f"{char_id}.json"
+            if p.exists():
+                return self._read_json(p)
+        p = player_dir / "cards_raw" / f"{char_id}.json"
         if not p.exists():
             return None
+        return self._read_json(p)
+
+    def _read_json(self, p: Path) -> Optional[Dict]:
         try:
             with open(p, "r", encoding="utf-8") as f:
                 return json.load(f)

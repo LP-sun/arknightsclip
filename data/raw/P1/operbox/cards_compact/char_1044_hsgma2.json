@@ -1,0 +1,23 @@
+{
+  "char_id": "char_1044_hsgma2",
+  "name": "斩业星熊",
+  "scan_id": "20260917_P1",
+  "player_id": "P1",
+  "source_page": "page_0004.png",
+  "page_index": 4,
+  "card_index": 5,
+  "roi": [
+    781,
+    80,
+    220,
+    298
+  ],
+  "capture_timestamp": "2026-09-17T00:34:13.880817",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": 1.0,
+  "candidate_count": 1,
+  "selected_reason": "best_crop",
+  "version": "compact_220",
+  "edition": "compact",
+  "edition_description": "紧凑版 (220x447)：潜能角标贴边规整，适合多玩家并列排版"
+}

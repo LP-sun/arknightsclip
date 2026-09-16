@@ -9,12 +9,13 @@
   "roi": [
     621,
     80,
-    230,
+    220,
     298
   ],
   "capture_timestamp": "2026-09-17T00:34:13.876133",
   "recognition_method": "MaaCore OperBoxImageAnalyzer",
   "recognition_confidence": 1.0,
   "candidate_count": 1,
-  "selected_reason": "best_crop"
+  "selected_reason": "best_crop",
+  "version": "compact_220"
 }
