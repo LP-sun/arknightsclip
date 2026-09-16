@@ -4,6 +4,8 @@
 
 # 测试注册表消歧、资产解析与团队统计分析
 from pathlib import Path
+from dataclasses import replace
+from tempfile import TemporaryDirectory
 from src.arknightsclip.config import load_config
 from src.arknightsclip.registry.operator_registry import OperatorRegistry
 from src.arknightsclip.assets.resolver import AssetResolver
@@ -42,14 +44,21 @@ def test_registry_resolution(registry):
     assert e4.char_id == "char_103_angel"
 
 def test_asset_resolver_validation(config, registry):
-    resolver = AssetResolver(config, registry)
-    # 能天使应已有资产 (在 assets/operators/char_103_angel/)
-    assert resolver.has_assets("char_103_angel") is True
+    # 测试必须自包含，不能依赖后续资产缓存 PR 或开发者本机文件。
+    with TemporaryDirectory() as tmp_dir:
+        test_pipeline = replace(config.pipeline, assets_dir=tmp_dir)
+        test_config = replace(config, pipeline=test_pipeline)
+        full_art = Path(tmp_dir) / "operators" / "char_103_angel" / "full.png"
+        full_art.parent.mkdir(parents=True, exist_ok=True)
+        full_art.write_bytes(b"test asset")
 
-    # 故意查询不存在的虚假干员 ID
-    missing = resolver.validate_assets(["char_non_existent_test"])
-    assert len(missing) == 1
-    assert "char_non_existent_test" in missing[0]
+        resolver = AssetResolver(test_config, registry)
+        assert resolver.has_assets("char_103_angel") is True
+
+        # 故意查询不存在的虚假干员 ID
+        missing = resolver.validate_assets(["char_non_existent_test"])
+        assert len(missing) == 1
+        assert "char_non_existent_test" in missing[0]
 
 def test_group_stats_computation(config, registry):
     dm = DatasetManager(config, registry)
