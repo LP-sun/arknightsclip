@@ -1,6 +1,10 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { SceneManifest, LayoutSpec } from '../components/ReportScene.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 export function loadManifest(manifestPath: string): SceneManifest {
   const absPath = path.resolve(manifestPath);

@@ -48,7 +48,8 @@ def create_ab_comparison():
     draw.line([(target_w, 0), (target_w, target_h + 60)], fill=(50, 60, 70), width=2)
     draw.line([(target_w * 2, 0), (target_w * 2, target_h + 60)], fill=(50, 60, 70), width=2)
 
-    out_comparison = r'E:\明日方舟报菜名\reports\pen_ab_comparison.png'
+    out_comparison = os.path.abspath(os.path.join(base_dir, '..', '..', 'reports', 'pen_ab_comparison.png'))
+    os.makedirs(os.path.dirname(out_comparison), exist_ok=True)
     comp.save(out_comparison, 'PNG')
     print(f"成功输出 A/B 对比全景图: {out_comparison} ({comp.size})")
 

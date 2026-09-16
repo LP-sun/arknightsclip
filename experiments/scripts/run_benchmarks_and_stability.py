@@ -4,9 +4,10 @@ import json
 import time
 import hashlib
 import subprocess
+import shutil
 from PIL import Image
 
-BASE_DIR = r"E:\明日方舟报菜名"
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 SHARED_DIR = os.path.join(BASE_DIR, "experiments", "shared")
 MANIFESTS_DIR = os.path.join(SHARED_DIR, "manifests")
 REPORTS_DIR = os.path.join(BASE_DIR, "reports")
@@ -68,7 +69,7 @@ def run_pen_single(manifest_path, out_path):
 def run_react_single(manifest_path, out_path):
     t0 = time.perf_counter()
     cmd = [
-        "npm.cmd", "run", "render", "--",
+        shutil.which("npm") or shutil.which("npm.cmd") or "npm", "run", "render", "--",
         "--manifest", os.path.abspath(manifest_path),
         "--output", os.path.abspath(out_path)
     ]
@@ -79,7 +80,7 @@ def run_react_single(manifest_path, out_path):
 
 def run_react_batch_cli():
     t0 = time.perf_counter()
-    cmd = ["npm.cmd", "run", "render-batch"]
+    cmd = [shutil.which("npm") or shutil.which("npm.cmd") or "npm", "run", "render-batch"]
     cwd = os.path.join(BASE_DIR, "experiments", "react_renderer")
     res = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True, check=True)
     t_total = time.perf_counter() - t0

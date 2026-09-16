@@ -4,7 +4,7 @@ import json
 import copy
 from PIL import Image, ImageDraw, ImageFont
 
-BASE_DIR = r"E:\明日方舟报菜名"
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
 sys.path.insert(0, BASE_DIR)
 from experiments.pen_renderer.scripts.pen_renderer import PenRenderer
 

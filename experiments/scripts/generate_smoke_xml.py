@@ -1,7 +1,7 @@
 import os
 
 def generate_resolve_smoke_xml():
-    base_dir = r"E:\明日方舟报菜名"
+    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
     pen_png = os.path.abspath(os.path.join(base_dir, "experiments", "pen_renderer", "outputs", "exusiai_test.png"))
     react_png = os.path.abspath(os.path.join(base_dir, "experiments", "react_renderer", "outputs", "exusiai_test.png"))
     out_xml = os.path.abspath(os.path.join(base_dir, "experiments", "react_renderer", "outputs", "resolve_smoke_timeline.xml"))

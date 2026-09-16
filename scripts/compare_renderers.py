@@ -69,7 +69,7 @@ def create_ab_comparison(scene_name, pen_img_path, react_img_path, ref_img_path=
     print(f"成功生成 A/B 对比大图: {output_path}")
 
 def main():
-    base_dir = r"E:\明日方舟报菜名"
+    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     reports_ab_dir = os.path.join(base_dir, "reports", "renderer_ab")
     os.makedirs(reports_ab_dir, exist_ok=True)
 
