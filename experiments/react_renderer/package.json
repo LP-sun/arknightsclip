@@ -1,0 +1,22 @@
+{
+  "name": "react-renderer-spike",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "tsx scripts/render.ts",
+    "render-batch": "tsx scripts/render-batch.ts"
+  },
+  "dependencies": {
+    "playwright": "^1.50.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

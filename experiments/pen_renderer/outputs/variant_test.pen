@@ -1,0 +1,1227 @@
+{
+  "version": "2.17",
+  "variables": {},
+  "themes": {},
+  "children": [
+    {
+      "id": "comp_player_card_left",
+      "name": "PLAYER_CARD_LEFT",
+      "type": "frame",
+      "reusable": true,
+      "width": 460,
+      "height": 180,
+      "children": [
+        {
+          "id": "CHEVRON_BG",
+          "type": "polygon",
+          "x": 0,
+          "y": 0,
+          "width": 460,
+          "height": 180,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              425,
+              0
+            ],
+            [
+              460,
+              90
+            ],
+            [
+              425,
+              180
+            ],
+            [
+              0,
+              180
+            ]
+          ],
+          "fill": {
+            "type": "color",
+            "color": "#F8F9FA"
+          },
+          "stroke": {
+            "type": "color",
+            "color": "#3B434E"
+          },
+          "strokeWidth": 2,
+          "shadow": {
+            "color": "#00000066",
+            "offsetX": 6,
+            "offsetY": 6
+          }
+        },
+        {
+          "id": "DOCTOR_CONTAINER",
+          "type": "frame",
+          "x": 0,
+          "y": 0,
+          "width": 110,
+          "height": 180,
+          "fill": {
+            "type": "color",
+            "color": "#252930"
+          },
+          "children": [
+            {
+              "id": "DOCTOR_AVATAR",
+              "type": "frame",
+              "x": 15,
+              "y": 15,
+              "width": 80,
+              "height": 80,
+              "stroke": {
+                "type": "color",
+                "color": "#0098DC"
+              },
+              "strokeWidth": 2,
+              "fill": {
+                "type": "image",
+                "url": "assets/players/P1.png",
+                "mode": "fill"
+              }
+            },
+            {
+              "id": "DOCTOR_NAME",
+              "type": "text",
+              "x": 10,
+              "y": 106,
+              "width": 90,
+              "textAlign": "center",
+              "content": "爱花",
+              "fontFamily": "Microsoft YaHei",
+              "fontSize": 13,
+              "fontWeight": "bold",
+              "fill": "#FFFFFF"
+            },
+            {
+              "id": "DOCTOR_LEVEL",
+              "type": "text",
+              "x": 10,
+              "y": 136,
+              "width": 90,
+              "textAlign": "center",
+              "content": "LV. 106",
+              "fontFamily": "Bahnschrift",
+              "fontSize": 14,
+              "fill": "#FFD800"
+            },
+            {
+              "id": "ARCHIVE_CODE",
+              "type": "text",
+              "x": 10,
+              "y": 158,
+              "width": 90,
+              "textAlign": "center",
+              "content": "RHODES-DOC",
+              "fontFamily": "Bahnschrift",
+              "fontSize": 9,
+              "fill": "#5A6578"
+            }
+          ]
+        },
+        {
+          "id": "OPERATOR_CARD",
+          "type": "polygon",
+          "x": 110,
+          "y": 0,
+          "width": 255,
+          "height": 180,
+          "clip": true,
+          "fill": {
+            "type": "image",
+            "url": "assets/ui/card_crop_angel.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "id": "STATE_DECOR_PANEL",
+          "type": "frame",
+          "x": 365,
+          "y": 0,
+          "width": 60,
+          "height": 180,
+          "fill": {
+            "type": "color",
+            "color": "#1A1D24"
+          },
+          "children": [
+            {
+              "id": "LV_LABEL",
+              "type": "text",
+              "x": 0,
+              "y": 25,
+              "width": 60,
+              "textAlign": "center",
+              "content": "LV",
+              "fontFamily": "Bahnschrift",
+              "fontSize": 12,
+              "fill": "#8D8D8D"
+            },
+            {
+              "id": "OPERATOR_LEVEL",
+              "type": "text",
+              "x": 0,
+              "y": 42,
+              "width": 60,
+              "textAlign": "center",
+              "content": "90",
+              "fontFamily": "Bahnschrift",
+              "fontSize": 30,
+              "fontWeight": "bold",
+              "fill": "#FFD800"
+            }
+          ]
+        },
+        {
+          "id": "ELITE_0",
+          "type": "frame",
+          "x": 378,
+          "y": 115,
+          "width": 34,
+          "height": 34,
+          "fill": {
+            "type": "image",
+            "url": "assets/ui/elite_0.png",
+            "mode": "fit"
+          }
+        },
+        {
+          "id": "ELITE_1",
+          "type": "frame",
+          "x": 378,
+          "y": 115,
+          "width": 34,
+          "height": 34,
+          "fill": {
+            "type": "image",
+            "url": "assets/ui/elite_1.png",
+            "mode": "fit"
+          }
+        },
+        {
+          "id": "ELITE_2",
+          "type": "frame",
+          "x": 378,
+          "y": 115,
+          "width": 34,
+          "height": 34,
+          "fill": {
+            "type": "image",
+            "url": "assets/ui/elite_2.png",
+            "mode": "fit"
+          }
+        },
+        {
+          "id": "POTENTIAL_1",
+          "type": "frame",
+          "x": 426,
+          "y": 73,
+          "width": 34,
+          "height": 34,
+          "fill": {
+            "type": "image",
+            "url": "assets/ui/potential_1.png",
+            "mode": "fit"
+          }
+        },
+        {
+          "id": "POTENTIAL_2",
+          "type": "frame",
+          "x": 426,
+          "y": 73,
+          "width": 34,
+          "height": 34,
+          "fill": {
+            "type": "image",
+            "url": "assets/ui/potential_2.png",
+            "mode": "fit"
+          }
+        },
+        {
+          "id": "POTENTIAL_3",
+          "type": "frame",
+          "x": 426,
+          "y": 73,
+          "width": 34,
+          "height": 34,
+          "fill": {
+            "type": "image",
+            "url": "assets/ui/potential_3.png",
+            "mode": "fit"
+          }
+        },
+        {
+          "id": "POTENTIAL_4",
+          "type": "frame",
+          "x": 426,
+          "y": 73,
+          "width": 34,
+          "height": 34,
+          "fill": {
+            "type": "image",
+            "url": "assets/ui/potential_4.png",
+            "mode": "fit"
+          }
+        },
+        {
+          "id": "POTENTIAL_5",
+          "type": "frame",
+          "x": 426,
+          "y": 73,
+          "width": 34,
+          "height": 34,
+          "fill": {
+            "type": "image",
+            "url": "assets/ui/potential_5.png",
+            "mode": "fit"
+          }
+        },
+        {
+          "id": "POTENTIAL_6",
+          "type": "frame",
+          "x": 426,
+          "y": 73,
+          "width": 34,
+          "height": 34,
+          "fill": {
+            "type": "image",
+            "url": "assets/ui/potential_6.png",
+            "mode": "fit"
+          }
+        },
+        {
+          "id": "NO_INFO",
+          "type": "frame",
+          "x": 110,
+          "y": 0,
+          "width": 315,
+          "height": 180,
+          "fill": {
+            "type": "color",
+            "color": "#E5E7EB"
+          },
+          "children": [
+            {
+              "id": "NO_INFO_TITLE",
+              "type": "text",
+              "x": 0,
+              "y": 68,
+              "width": 315,
+              "textAlign": "center",
+              "content": "/// NO DATA // NOT ACQUIRED ///",
+              "fontFamily": "Bahnschrift",
+              "fontSize": 13,
+              "fontWeight": "bold",
+              "fill": "#4B5563"
+            },
+            {
+              "id": "NO_INFO_SUB",
+              "type": "text",
+              "x": 0,
+              "y": 92,
+              "width": 315,
+              "textAlign": "center",
+              "content": "档案数据库暂无当前干员调用凭证",
+              "fontFamily": "Microsoft YaHei",
+              "fontSize": 11,
+              "fill": "#9CA3AF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comp_player_card_right",
+      "name": "PLAYER_CARD_RIGHT",
+      "type": "frame",
+      "reusable": true,
+      "width": 460,
+      "height": 180,
+      "children": [
+        {
+          "id": "CHEVRON_BG",
+          "type": "polygon",
+          "x": 0,
+          "y": 0,
+          "width": 460,
+          "height": 180,
+          "points": [
+            [
+              35,
+              0
+            ],
+            [
+              460,
+              0
+            ],
+            [
+              460,
+              180
+            ],
+            [
+              35,
+              180
+            ],
+            [
+              0,
+              90
+            ]
+          ],
+          "fill": {
+            "type": "color",
+            "color": "#F8F9FA"
+          },
+          "stroke": {
+            "type": "color",
+            "color": "#3B434E"
+          },
+          "strokeWidth": 2,
+          "shadow": {
+            "color": "#00000066",
+            "offsetX": 6,
+            "offsetY": 6
+          }
+        },
+        {
+          "id": "DOCTOR_CONTAINER",
+          "type": "frame",
+          "x": 350,
+          "y": 0,
+          "width": 110,
+          "height": 180,
+          "fill": {
+            "type": "color",
+            "color": "#252930"
+          },
+          "children": [
+            {
+              "id": "DOCTOR_AVATAR",
+              "type": "frame",
+              "x": 15,
+              "y": 15,
+              "width": 80,
+              "height": 80,
+              "stroke": {
+                "type": "color",
+                "color": "#0098DC"
+              },
+              "strokeWidth": 2,
+              "fill": {
+                "type": "image",
+                "url": "assets/players/P1.png",
+                "mode": "fill"
+              }
+            },
+            {
+              "id": "DOCTOR_NAME",
+              "type": "text",
+              "x": 10,
+              "y": 106,
+              "width": 90,
+              "textAlign": "center",
+              "content": "爱花",
+              "fontFamily": "Microsoft YaHei",
+              "fontSize": 13,
+              "fontWeight": "bold",
+              "fill": "#FFFFFF"
+            },
+            {
+              "id": "DOCTOR_LEVEL",
+              "type": "text",
+              "x": 10,
+              "y": 136,
+              "width": 90,
+              "textAlign": "center",
+              "content": "LV. 106",
+              "fontFamily": "Bahnschrift",
+              "fontSize": 14,
+              "fill": "#FFD800"
+            },
+            {
+              "id": "ARCHIVE_CODE",
+              "type": "text",
+              "x": 10,
+              "y": 158,
+              "width": 90,
+              "textAlign": "center",
+              "content": "RHODES-DOC",
+              "fontFamily": "Bahnschrift",
+              "fontSize": 9,
+              "fill": "#5A6578"
+            }
+          ]
+        },
+        {
+          "id": "OPERATOR_CARD",
+          "type": "polygon",
+          "x": 95,
+          "y": 0,
+          "width": 255,
+          "height": 180,
+          "clip": true,
+          "fill": {
+            "type": "image",
+            "url": "assets/ui/card_crop_angel.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "id": "STATE_DECOR_PANEL",
+          "type": "frame",
+          "x": 35,
+          "y": 0,
+          "width": 60,
+          "height": 180,
+          "fill": {
+            "type": "color",
+            "color": "#1A1D24"
+          },
+          "children": [
+            {
+              "id": "LV_LABEL",
+              "type": "text",
+              "x": 0,
+              "y": 25,
+              "width": 60,
+              "textAlign": "center",
+              "content": "LV",
+              "fontFamily": "Bahnschrift",
+              "fontSize": 12,
+              "fill": "#8D8D8D"
+            },
+            {
+              "id": "OPERATOR_LEVEL",
+              "type": "text",
+              "x": 0,
+              "y": 42,
+              "width": 60,
+              "textAlign": "center",
+              "content": "90",
+              "fontFamily": "Bahnschrift",
+              "fontSize": 30,
+              "fontWeight": "bold",
+              "fill": "#FFD800"
+            }
+          ]
+        },
+        {
+          "id": "ELITE_0",
+          "type": "frame",
+          "x": 48,
+          "y": 115,
+          "width": 34,
+          "height": 34,
+          "fill": {
+            "type": "image",
+            "url": "assets/ui/elite_0.png",
+            "mode": "fit"
+          }
+        },
+        {
+          "id": "ELITE_1",
+          "type": "frame",
+          "x": 48,
+          "y": 115,
+          "width": 34,
+          "height": 34,
+          "fill": {
+            "type": "image",
+            "url": "assets/ui/elite_1.png",
+            "mode": "fit"
+          }
+        },
+        {
+          "id": "ELITE_2",
+          "type": "frame",
+          "x": 48,
+          "y": 115,
+          "width": 34,
+          "height": 34,
+          "fill": {
+            "type": "image",
+            "url": "assets/ui/elite_2.png",
+            "mode": "fit"
+          }
+        },
+        {
+          "id": "POTENTIAL_1",
+          "type": "frame",
+          "x": 0,
+          "y": 73,
+          "width": 34,
+          "height": 34,
+          "fill": {
+            "type": "image",
+            "url": "assets/ui/potential_1.png",
+            "mode": "fit"
+          }
+        },
+        {
+          "id": "POTENTIAL_2",
+          "type": "frame",
+          "x": 0,
+          "y": 73,
+          "width": 34,
+          "height": 34,
+          "fill": {
+            "type": "image",
+            "url": "assets/ui/potential_2.png",
+            "mode": "fit"
+          }
+        },
+        {
+          "id": "POTENTIAL_3",
+          "type": "frame",
+          "x": 0,
+          "y": 73,
+          "width": 34,
+          "height": 34,
+          "fill": {
+            "type": "image",
+            "url": "assets/ui/potential_3.png",
+            "mode": "fit"
+          }
+        },
+        {
+          "id": "POTENTIAL_4",
+          "type": "frame",
+          "x": 0,
+          "y": 73,
+          "width": 34,
+          "height": 34,
+          "fill": {
+            "type": "image",
+            "url": "assets/ui/potential_4.png",
+            "mode": "fit"
+          }
+        },
+        {
+          "id": "POTENTIAL_5",
+          "type": "frame",
+          "x": 0,
+          "y": 73,
+          "width": 34,
+          "height": 34,
+          "fill": {
+            "type": "image",
+            "url": "assets/ui/potential_5.png",
+            "mode": "fit"
+          }
+        },
+        {
+          "id": "POTENTIAL_6",
+          "type": "frame",
+          "x": 0,
+          "y": 73,
+          "width": 34,
+          "height": 34,
+          "fill": {
+            "type": "image",
+            "url": "assets/ui/potential_6.png",
+            "mode": "fit"
+          }
+        },
+        {
+          "id": "NO_INFO",
+          "type": "frame",
+          "x": 35,
+          "y": 0,
+          "width": 315,
+          "height": 180,
+          "fill": {
+            "type": "color",
+            "color": "#E5E7EB"
+          },
+          "children": [
+            {
+              "id": "NO_INFO_TITLE",
+              "type": "text",
+              "x": 0,
+              "y": 68,
+              "width": 315,
+              "textAlign": "center",
+              "content": "/// NO DATA // NOT ACQUIRED ///",
+              "fontFamily": "Bahnschrift",
+              "fontSize": 13,
+              "fontWeight": "bold",
+              "fill": "#4B5563"
+            },
+            {
+              "id": "NO_INFO_SUB",
+              "type": "text",
+              "x": 0,
+              "y": 92,
+              "width": 315,
+              "textAlign": "center",
+              "content": "档案数据库暂无当前干员调用凭证",
+              "fontFamily": "Microsoft YaHei",
+              "fontSize": 11,
+              "fill": "#9CA3AF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ROOT_REPORT_SCENE",
+      "type": "frame",
+      "width": 1920,
+      "height": 1080,
+      "fill": {
+        "type": "image",
+        "url": "assets/ui/bg_clean.png",
+        "mode": "fill"
+      },
+      "children": [
+        {
+          "id": "HEADER_GROUP",
+          "type": "frame",
+          "x": 60,
+          "y": 45,
+          "width": 600,
+          "height": 80,
+          "children": [
+            {
+              "id": "TITLE_BAR",
+              "type": "text",
+              "x": 0,
+              "y": 0,
+              "content": "ARKNIGHTS OPERATOR REPORT",
+              "fontFamily": "Bahnschrift",
+              "fontSize": 24,
+              "fontWeight": "bold",
+              "fill": "#252930"
+            },
+            {
+              "id": "SUBTITLE_BAR",
+              "type": "text",
+              "x": 0,
+              "y": 32,
+              "content": "明日方舟六星干员报菜名 · 五人战术核验系统 (v1.5 终极正统档案排版)",
+              "fontFamily": "Microsoft YaHei",
+              "fontSize": 13,
+              "fill": "#0098DC"
+            }
+          ]
+        },
+        {
+          "id": "BG_CODENAME_WATERMARK",
+          "type": "text",
+          "x": 650,
+          "y": 400,
+          "content": "SIEGE",
+          "fontFamily": "Bahnschrift",
+          "fontSize": 180,
+          "fontWeight": "bold",
+          "fill": "#00000010"
+        },
+        {
+          "id": "OPERATOR_FULL_ART",
+          "type": "frame",
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "fill": {
+            "type": "image",
+            "url": "assets/operators/char_002_siege/full.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "id": "P1",
+          "type": "ref",
+          "ref": "comp_player_card_left",
+          "x": 40,
+          "y": 170,
+          "descendants": {
+            "DOCTOR_AVATAR": {
+              "fill": {
+                "type": "image",
+                "url": "assets/players/P1.png",
+                "mode": "fill"
+              }
+            },
+            "DOCTOR_NAME": {
+              "content": "爱花"
+            },
+            "DOCTOR_LEVEL": {
+              "content": "LV. 106"
+            },
+            "OPERATOR_CARD": {
+              "enabled": true,
+              "fill": {
+                "type": "image",
+                "url": "assets/ui/card_crop_siege.png",
+                "mode": "fill"
+              }
+            },
+            "STATE_DECOR_PANEL": {
+              "enabled": true
+            },
+            "LV_LABEL": {
+              "enabled": true
+            },
+            "OPERATOR_LEVEL": {
+              "enabled": true,
+              "content": "60"
+            },
+            "ELITE_0": {
+              "enabled": false
+            },
+            "ELITE_1": {
+              "enabled": false
+            },
+            "ELITE_2": {
+              "enabled": true
+            },
+            "POTENTIAL_1": {
+              "enabled": true
+            },
+            "POTENTIAL_2": {
+              "enabled": false
+            },
+            "POTENTIAL_3": {
+              "enabled": false
+            },
+            "POTENTIAL_4": {
+              "enabled": false
+            },
+            "POTENTIAL_5": {
+              "enabled": false
+            },
+            "POTENTIAL_6": {
+              "enabled": false
+            },
+            "NO_INFO": {
+              "enabled": false
+            }
+          }
+        },
+        {
+          "id": "P2",
+          "type": "ref",
+          "ref": "comp_player_card_left",
+          "x": 40,
+          "y": 440,
+          "descendants": {
+            "DOCTOR_AVATAR": {
+              "fill": {
+                "type": "image",
+                "url": "assets/players/P2.png",
+                "mode": "fill"
+              }
+            },
+            "DOCTOR_NAME": {
+              "content": "咯吱吱"
+            },
+            "DOCTOR_LEVEL": {
+              "content": "LV. 91"
+            },
+            "OPERATOR_CARD": {
+              "enabled": false
+            },
+            "STATE_DECOR_PANEL": {
+              "enabled": false
+            },
+            "LV_LABEL": {
+              "enabled": false
+            },
+            "OPERATOR_LEVEL": {
+              "enabled": false
+            },
+            "ELITE_0": {
+              "enabled": false
+            },
+            "ELITE_1": {
+              "enabled": false
+            },
+            "ELITE_2": {
+              "enabled": false
+            },
+            "POTENTIAL_1": {
+              "enabled": false
+            },
+            "POTENTIAL_2": {
+              "enabled": false
+            },
+            "POTENTIAL_3": {
+              "enabled": false
+            },
+            "POTENTIAL_4": {
+              "enabled": false
+            },
+            "POTENTIAL_5": {
+              "enabled": false
+            },
+            "POTENTIAL_6": {
+              "enabled": false
+            },
+            "NO_INFO": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "id": "P3",
+          "type": "ref",
+          "ref": "comp_player_card_left",
+          "x": 40,
+          "y": 710,
+          "descendants": {
+            "DOCTOR_AVATAR": {
+              "fill": {
+                "type": "image",
+                "url": "assets/players/P3.png",
+                "mode": "fill"
+              }
+            },
+            "DOCTOR_NAME": {
+              "content": "东城"
+            },
+            "DOCTOR_LEVEL": {
+              "content": "LV. 120"
+            },
+            "OPERATOR_CARD": {
+              "enabled": true,
+              "fill": {
+                "type": "image",
+                "url": "assets/ui/card_crop_siege.png",
+                "mode": "fill"
+              }
+            },
+            "STATE_DECOR_PANEL": {
+              "enabled": true
+            },
+            "LV_LABEL": {
+              "enabled": true
+            },
+            "OPERATOR_LEVEL": {
+              "enabled": true,
+              "content": "90"
+            },
+            "ELITE_0": {
+              "enabled": false
+            },
+            "ELITE_1": {
+              "enabled": false
+            },
+            "ELITE_2": {
+              "enabled": true
+            },
+            "POTENTIAL_1": {
+              "enabled": false
+            },
+            "POTENTIAL_2": {
+              "enabled": false
+            },
+            "POTENTIAL_3": {
+              "enabled": false
+            },
+            "POTENTIAL_4": {
+              "enabled": false
+            },
+            "POTENTIAL_5": {
+              "enabled": true
+            },
+            "POTENTIAL_6": {
+              "enabled": false
+            },
+            "NO_INFO": {
+              "enabled": false
+            }
+          }
+        },
+        {
+          "id": "P4",
+          "type": "ref",
+          "ref": "comp_player_card_right",
+          "x": 1420,
+          "y": 290,
+          "descendants": {
+            "DOCTOR_AVATAR": {
+              "fill": {
+                "type": "image",
+                "url": "assets/players/P4.png",
+                "mode": "fill"
+              }
+            },
+            "DOCTOR_NAME": {
+              "content": "HMI"
+            },
+            "DOCTOR_LEVEL": {
+              "content": "LV. 120"
+            },
+            "OPERATOR_CARD": {
+              "enabled": true,
+              "fill": {
+                "type": "image",
+                "url": "assets/ui/card_crop_siege.png",
+                "mode": "fill"
+              }
+            },
+            "STATE_DECOR_PANEL": {
+              "enabled": true
+            },
+            "LV_LABEL": {
+              "enabled": true
+            },
+            "OPERATOR_LEVEL": {
+              "enabled": true,
+              "content": "90"
+            },
+            "ELITE_0": {
+              "enabled": false
+            },
+            "ELITE_1": {
+              "enabled": false
+            },
+            "ELITE_2": {
+              "enabled": true
+            },
+            "POTENTIAL_1": {
+              "enabled": false
+            },
+            "POTENTIAL_2": {
+              "enabled": false
+            },
+            "POTENTIAL_3": {
+              "enabled": false
+            },
+            "POTENTIAL_4": {
+              "enabled": false
+            },
+            "POTENTIAL_5": {
+              "enabled": false
+            },
+            "POTENTIAL_6": {
+              "enabled": true
+            },
+            "NO_INFO": {
+              "enabled": false
+            }
+          }
+        },
+        {
+          "id": "P5",
+          "type": "ref",
+          "ref": "comp_player_card_right",
+          "x": 1420,
+          "y": 560,
+          "descendants": {
+            "DOCTOR_AVATAR": {
+              "fill": {
+                "type": "image",
+                "url": "assets/players/P5.png",
+                "mode": "fill"
+              }
+            },
+            "DOCTOR_NAME": {
+              "content": "LEO"
+            },
+            "DOCTOR_LEVEL": {
+              "content": "LV. 110"
+            },
+            "OPERATOR_CARD": {
+              "enabled": false
+            },
+            "STATE_DECOR_PANEL": {
+              "enabled": false
+            },
+            "LV_LABEL": {
+              "enabled": false
+            },
+            "OPERATOR_LEVEL": {
+              "enabled": false
+            },
+            "ELITE_0": {
+              "enabled": false
+            },
+            "ELITE_1": {
+              "enabled": false
+            },
+            "ELITE_2": {
+              "enabled": false
+            },
+            "POTENTIAL_1": {
+              "enabled": false
+            },
+            "POTENTIAL_2": {
+              "enabled": false
+            },
+            "POTENTIAL_3": {
+              "enabled": false
+            },
+            "POTENTIAL_4": {
+              "enabled": false
+            },
+            "POTENTIAL_5": {
+              "enabled": false
+            },
+            "POTENTIAL_6": {
+              "enabled": false
+            },
+            "NO_INFO": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "id": "OPERATOR_DOSSIER_PANEL",
+          "type": "frame",
+          "x": 1420,
+          "y": 760,
+          "width": 460,
+          "height": 260,
+          "fill": {
+            "type": "color",
+            "color": "#1A1D23F2"
+          },
+          "stroke": {
+            "type": "color",
+            "color": "#0098DC"
+          },
+          "strokeWidth": 2,
+          "shadow": {
+            "color": "#00000088",
+            "offsetX": 6,
+            "offsetY": 6
+          },
+          "children": [
+            {
+              "id": "ACCENT_BAR",
+              "type": "frame",
+              "x": 0,
+              "y": 0,
+              "width": 8,
+              "height": 260,
+              "fill": {
+                "type": "color",
+                "color": "#FFD800"
+              }
+            },
+            {
+              "id": "TAG_HEADER",
+              "type": "text",
+              "x": 25,
+              "y": 20,
+              "content": "// RHODES ISLAND PERSONNEL DOSSIER // 战术干员主档",
+              "fontFamily": "Microsoft YaHei",
+              "fontSize": 12,
+              "fill": "#0098DC"
+            },
+            {
+              "id": "OP_CN_NAME",
+              "type": "text",
+              "x": 25,
+              "y": 48,
+              "content": "推 进 之 王",
+              "fontFamily": "Microsoft YaHei",
+              "fontSize": 34,
+              "fontWeight": "bold",
+              "fill": "#FFFFFF"
+            },
+            {
+              "id": "OP_EN_NAME",
+              "type": "text",
+              "x": 25,
+              "y": 96,
+              "content": "SIEGE",
+              "fontFamily": "Bahnschrift",
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "fill": "#CBD5E1"
+            },
+            {
+              "id": "DIVIDER_LINE",
+              "type": "line",
+              "x": 25,
+              "y": 130,
+              "width": 400,
+              "height": 0,
+              "stroke": {
+                "color": "#334155"
+              },
+              "strokeWidth": 1
+            },
+            {
+              "id": "CLASS_TAG",
+              "type": "text",
+              "x": 25,
+              "y": 148,
+              "content": "CLASS // VANGUARD (先锋干员)",
+              "fontFamily": "Microsoft YaHei",
+              "fontSize": 13,
+              "fill": "#94A3B8"
+            },
+            {
+              "id": "RARITY_TAG",
+              "type": "text",
+              "x": 25,
+              "y": 172,
+              "content": "RARITY // ★★★★★★",
+              "fontFamily": "Microsoft YaHei",
+              "fontSize": 15,
+              "fill": "#FFD800"
+            },
+            {
+              "id": "REG_CODE",
+              "type": "text",
+              "x": 25,
+              "y": 208,
+              "content": "RHODES ISLAND ARCHIVE · NO. 002/138",
+              "fontFamily": "Bahnschrift",
+              "fontSize": 11,
+              "fill": "#64748B"
+            }
+          ]
+        },
+        {
+          "id": "CH_TL",
+          "type": "text",
+          "x": 40,
+          "y": 22,
+          "content": "[ + ]  RHODES-OS VER 5.2.0  //  TAC-VERIFY",
+          "fontFamily": "Bahnschrift",
+          "fontSize": 11,
+          "fill": "#64748B"
+        },
+        {
+          "id": "CH_TR",
+          "type": "text",
+          "x": 1660,
+          "y": 22,
+          "content": "TACTICAL MONITOR // 24 FPS  [REC]",
+          "fontFamily": "Bahnschrift",
+          "fontSize": 11,
+          "fill": "#64748B"
+        },
+        {
+          "id": "CH_BL",
+          "type": "text",
+          "x": 40,
+          "y": 1050,
+          "content": "RESTRICTED ACCESS // FOR DOCTOR EYES ONLY",
+          "fontFamily": "Bahnschrift",
+          "fontSize": 11,
+          "fill": "#64748B"
+        },
+        {
+          "id": "CH_BR",
+          "type": "text",
+          "x": 1660,
+          "y": 1050,
+          "content": "SYSTEM STATUS: ACTIVE [OK]",
+          "fontFamily": "Bahnschrift",
+          "fontSize": 11,
+          "fill": "#0098DC"
+        }
+      ]
+    }
+  ]
+}

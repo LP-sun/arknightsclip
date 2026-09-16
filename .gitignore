@@ -27,6 +27,9 @@ scratch/
 
 # Large visual reports
 reports/*.png
+!reports/pen_ab_comparison.png
+!reports/pen_design_evolution_5_steps.png
+!reports/renderer_ab/*.png
 
 # Excel temporary lock files
 ~$*
@@ -44,6 +47,8 @@ external/
 # Local JavaScript dependencies and Codex session state
 **/node_modules/
 .codex/
+dist/
+experiments/stability_outputs/
 
 # Reproducible renderer exports and intermediate spike screenshots
 reports/exported_frames/

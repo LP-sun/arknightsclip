@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-09-14 19:08:25",
+  "hardware": "Windows 11 x64 / Intel CPU / SSD",
+  "benchmarks": {
+    "single_scene": {
+      "pen_renderer_seconds": 0.8279,
+      "react_renderer_seconds": 3.2228,
+      "speedup_ratio": 3.89
+    },
+    "batch_10_scenes": {
+      "pen_renderer_total_seconds": 8.3424,
+      "pen_renderer_per_scene_seconds": 0.8342,
+      "react_renderer_batch_seconds": 7.4305,
+      "react_renderer_per_scene_seconds": 0.6192
+    }
+  },
+  "stability_test": {
+    "iterations": 20,
+    "pen_renderer": {
+      "success_count": 20,
+      "dimension_consistent": true,
+      "hash_consistent": true,
+      "unique_hashes": 1,
+      "sample_hash": "18038791d11f010e6461006aecb208e88d75fa1c046ff1eb9445edfe3eab2676"
+    },
+    "react_renderer": {
+      "success_count": 20,
+      "dimension_consistent": true,
+      "hash_consistent": true,
+      "unique_hashes": 1,
+      "sample_hash": "d823453f6207343e9d0425f3c2eb87306c4739d7de9ea4c8db774c584615e3b1"
+    }
+  }
+}
