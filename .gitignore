@@ -33,6 +33,7 @@ reports/*.png
 
 # Environment and OS files
 .env
+config/project.yaml
 .DS_Store
 Thumbs.db
 .vscode/
@@ -49,4 +50,3 @@ reports/exported_frames/
 reports/spike_final/
 reports/spike_test_fixed/
 reports/spike_v2/
-
