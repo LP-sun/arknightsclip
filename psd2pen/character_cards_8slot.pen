@@ -1,0 +1,2179 @@
+{
+  "version": "2.17",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": -1700,
+      "y": 0,
+      "name": "ARCHIVE — previous single-card experiment",
+      "clip": true,
+      "width": 800,
+      "height": 600,
+      "fill": "#D9DADB",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "OIAoS",
+          "x": 40,
+          "y": 170,
+          "name": "STAGE1_ITERATION_18_MAA_FINAL",
+          "reusable": true,
+          "clip": true,
+          "width": 575,
+          "height": 194,
+          "layout": "none",
+          "children": [
+            {
+              "type": "path",
+              "id": "fjtU1",
+              "x": 0,
+              "y": 6,
+              "name": "FRAME_OUTER_SHADOW",
+              "opacity": 0.9,
+              "geometry": "M0 22l560 0 60-22 100 0-60 250-660 0z",
+              "viewBox": [
+                0,
+                0,
+                720,
+                194
+              ],
+              "fill": "#36383D66",
+              "width": 575,
+              "height": 184,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#000000B8",
+                "offset": {
+                  "x": 0,
+                  "y": 8
+                },
+                "blur": 14
+              }
+            },
+            {
+              "type": "path",
+              "id": "wcF4S",
+              "x": 0,
+              "y": 0,
+              "name": "FRAME_DARK_METAL",
+              "geometry": "M0 14l560 0 60-14 100 0-60 230-660 0z",
+              "viewBox": [
+                0,
+                0,
+                720,
+                194
+              ],
+              "fill": "#30343B",
+              "width": 575,
+              "height": 188,
+              "stroke": "#111419",
+              "strokeWidth": 4
+            },
+            {
+              "type": "path",
+              "id": "w5Bkto",
+              "x": 5,
+              "y": 5,
+              "name": "FRAME_LIGHT_METAL",
+              "geometry": "M0 14l555 0 60-14 95 0-60 220-650 0z",
+              "viewBox": [
+                0,
+                0,
+                710,
+                184
+              ],
+              "fill": "#A9ADB1",
+              "width": 565,
+              "height": 180,
+              "stroke": "#F7F8F7",
+              "strokeWidth": 5
+            },
+            {
+              "type": "path",
+              "id": "aEFLs",
+              "x": 12,
+              "y": 12,
+              "name": "FRAME_INNER_WHITE",
+              "geometry": "M0 12l550 0 58-12 82 0-56 206-634 0z",
+              "viewBox": [
+                0,
+                0,
+                690,
+                176
+              ],
+              "fill": "#F7F8F6CC",
+              "width": 545,
+              "height": 170,
+              "stroke": "#FFFFFF",
+              "strokeWidth": 3
+            },
+            {
+              "type": "frame",
+              "id": "Ey8XX",
+              "x": 18,
+              "y": 18,
+              "name": "CONTENT_MASK",
+              "opacity": 0.94,
+              "clip": true,
+              "width": 395,
+              "height": 170,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "screenshot-site.png",
+                "mode": "fill"
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "polygon",
+                  "polygonCount": 4,
+                  "id": "bzNC1",
+                  "x": 5,
+                  "y": 116,
+                  "name": "ROLE_BADGE_PLATE",
+                  "fill": "#27313BEF",
+                  "width": 44,
+                  "height": 44,
+                  "stroke": "#EFF3F3",
+                  "strokeWidth": 2,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000099",
+                    "offset": {
+                      "x": 2,
+                      "y": 2
+                    },
+                    "blur": 3
+                  }
+                },
+                {
+                  "type": "rectangle",
+                  "id": "UopnE",
+                  "x": 12,
+                  "y": 123,
+                  "name": "SNIPER_MAA_ASSET",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "assets/maa/OperBoxFlagRole4.png",
+                    "mode": "fit"
+                  },
+                  "width": 30,
+                  "height": 30
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "B2efry",
+              "x": 413,
+              "y": 18,
+              "name": "LEVEL_BADGE",
+              "width": 88,
+              "height": 170,
+              "fill": "#39414CEB",
+              "stroke": "#20262D",
+              "strokeWidth": 2,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "Bgxlg",
+                  "x": 12,
+                  "y": 10,
+                  "name": "LEVEL_RING",
+                  "fill": "#FFFFFF00",
+                  "width": 64,
+                  "height": 64,
+                  "stroke": "#D7D9D8",
+                  "strokeWidth": 3
+                },
+                {
+                  "type": "text",
+                  "id": "c3NzUB",
+                  "x": 35,
+                  "y": 11,
+                  "name": "LV_LABEL",
+                  "fill": "#E7E8E5",
+                  "content": "LV",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ajSGB",
+                  "x": 20,
+                  "y": 26,
+                  "name": "LEVEL_NUMBER",
+                  "fill": "#FFFFFF",
+                  "content": "60",
+                  "fontFamily": "Inter",
+                  "fontSize": 36,
+                  "fontWeight": "medium"
+                },
+                {
+                  "type": "rectangle",
+                  "id": "V8VUL",
+                  "x": 43,
+                  "y": 7,
+                  "name": "LEVEL_RING_YELLOW_TICK",
+                  "fill": "#E4C900",
+                  "width": 3,
+                  "height": 6
+                },
+                {
+                  "type": "rectangle",
+                  "id": "lVmVB",
+                  "x": 19,
+                  "y": 87,
+                  "name": "ELITE2_MAA_ASSET",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "assets/maa/OperBoxFlagElite2.png",
+                    "mode": "fit"
+                  },
+                  "width": 50,
+                  "height": 77
+                }
+              ]
+            },
+            {
+              "type": "ellipse",
+              "id": "OVMKR",
+              "x": 650,
+              "y": 20,
+              "name": "POTENTIAL_BADGE",
+              "enabled": false,
+              "fill": "#222832",
+              "width": 45,
+              "height": 45,
+              "stroke": "#F4C800",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "id": "zZ62F",
+              "x": 660,
+              "y": 30,
+              "name": "POTENTIAL_VALUE",
+              "enabled": false,
+              "fill": "#FFFFFF",
+              "content": "6",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "sM5aB",
+              "x": 42,
+              "y": 145,
+              "name": "OPERATOR_LABEL",
+              "enabled": false,
+              "fill": "#F4F4F3",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#000000E0",
+                "offset": {
+                  "x": 1,
+                  "y": 1
+                },
+                "blur": 2
+              },
+              "content": "EXUSIAI  /  E2",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "bold",
+              "letterSpacing": 1
+            },
+            {
+              "type": "path",
+              "id": "cHkhh",
+              "x": 16,
+              "y": 8,
+              "name": "FRAME_TOP_SPECULAR",
+              "geometry": "M0 8l18-8 509 0-4 5-501 0z",
+              "viewBox": [
+                0,
+                0,
+                527,
+                8
+              ],
+              "fill": "#FFFFFFB8",
+              "width": 527,
+              "height": 8
+            },
+            {
+              "type": "path",
+              "id": "QpExP",
+              "x": 17,
+              "y": 180,
+              "name": "FRAME_BOTTOM_SHADOW",
+              "enabled": false,
+              "geometry": "M0 0l520 0-4 6-508 0z",
+              "viewBox": [
+                0,
+                0,
+                520,
+                6
+              ],
+              "fill": "#555A60AA",
+              "width": 520,
+              "height": 6
+            }
+          ]
+        },
+        {
+          "id": "ukvx0",
+          "type": "ref",
+          "ref": "OIAoS",
+          "name": "single_card_iter_04",
+          "x": 40,
+          "y": 170
+        },
+        {
+          "id": "Ru4G2",
+          "type": "ref",
+          "ref": "OIAoS",
+          "name": "single_card_iter_05",
+          "x": 40,
+          "y": 450
+        }
+      ]
+    },
+    {
+      "type": "rectangle",
+      "id": "z2NjLM",
+      "x": -850,
+      "y": 0,
+      "name": "exusiai_operator_crop.png (385×165)",
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "screenshot-site.png",
+        "mode": "fill"
+      },
+      "width": 386,
+      "height": 166
+    },
+    {
+      "type": "frame",
+      "id": "Ha5vM",
+      "x": 0,
+      "y": 0,
+      "name": "REBUILD — right owned card / iteration 01",
+      "width": 644,
+      "height": 244,
+      "fill": "#7D7D7D",
+      "layout": "none"
+    },
+    {
+      "type": "rectangle",
+      "id": "BV6gZ",
+      "x": 680,
+      "y": 0,
+      "name": "operator_e1.png (784×294)",
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "screenshot-site-1.png",
+        "mode": "fill"
+      },
+      "width": 359,
+      "height": 134
+    },
+    {
+      "type": "frame",
+      "id": "GSRHK",
+      "x": 0,
+      "y": 400,
+      "name": "DIAGNOSTIC_RENDER_PROBE",
+      "clip": true,
+      "width": 200,
+      "height": 200,
+      "fill": "#AA3333",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "XLi1p",
+          "x": 20,
+          "y": 20,
+          "name": "PROBE_GREEN",
+          "fill": "#00FF00",
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "jRl4Y",
+      "x": 0,
+      "y": 400,
+      "name": "STAGE1_REFERENCE_CONTEXT",
+      "clip": true,
+      "width": 584,
+      "height": 184,
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "eynfs",
+          "x": -1180,
+          "y": -315,
+          "name": "SOURCE_BACKGROUND_ONLY",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "001_能天使/background.png",
+            "mode": "stretch"
+          },
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": "Z65Tj",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "RIGHT_OWNED_TEST",
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "wUVzi",
+      "x": 700,
+      "y": 0,
+      "name": "CHARACTER_CARD_RIGHT",
+      "reusable": true,
+      "width": 584,
+      "height": 184,
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "J2zdHv",
+          "x": 0,
+          "y": 0,
+          "name": "FRAME",
+          "width": 584,
+          "height": 184,
+          "layout": "none",
+          "children": [
+            {
+              "type": "path",
+              "id": "e5l9E",
+              "x": 10,
+              "y": -8,
+              "name": "FRAME_OUTER_SHADOW",
+              "geometry": "M113.45 0.9l470.55 0m-583 149.4l30.7 33.7 552.3 0",
+              "viewBox": [
+                0,
+                0,
+                584,
+                184
+              ],
+              "fill": "#00000000",
+              "width": 584,
+              "height": 184,
+              "stroke": "#1515158C",
+              "strokeWidth": 10,
+              "effect": {
+                "type": "blur",
+                "radius": 9
+              }
+            },
+            {
+              "type": "path",
+              "id": "RbS6w",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 0,
+              "name": "FRAME_LIGHT_METAL",
+              "geometry": "M113.45 0.9l470.55 0 0 183.1-552.3 0-30.8-33.7z",
+              "viewBox": [
+                0,
+                0,
+                584,
+                184
+              ],
+              "fill": "#FFFFFF00",
+              "width": 584,
+              "height": 184,
+              "stroke": "#EFEFEFE8",
+              "strokeWidth": 6,
+              "strokeAlignment": "inner",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#151515D4",
+                "offset": {
+                  "x": 24,
+                  "y": -11
+                },
+                "blur": 21
+              }
+            },
+            {
+              "type": "path",
+              "id": "GYEN8",
+              "x": 0,
+              "y": 0,
+              "name": "FRAME_DARK_METAL",
+              "geometry": "M111.9 6.4l-106.8 143.8 27.3 28.8",
+              "viewBox": [
+                0,
+                0,
+                584,
+                184
+              ],
+              "fill": "#FFFFFF00",
+              "width": 584,
+              "height": 184,
+              "stroke": "#51555C38",
+              "strokeWidth": 0.65,
+              "strokeAlignment": "inner"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "w7Moi",
+          "x": 0,
+          "y": 0,
+          "name": "CONTENT",
+          "width": 584,
+          "height": 184,
+          "layout": "none",
+          "children": [
+            {
+              "type": "path",
+              "id": "EjeiI",
+              "layoutPosition": "absolute",
+              "x": -54,
+              "y": -33,
+              "name": "OPERATOR_IMAGE",
+              "opacity": 0.902,
+              "geometry": "M168.45 40.1l469.55 0 0 169.7-550.5 0-26.65-26.48z",
+              "viewBox": [
+                0,
+                0,
+                784,
+                294
+              ],
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/operator_e1.png",
+                "mode": "stretch"
+              },
+              "width": 784,
+              "height": 294
+            },
+            {
+              "type": "path",
+              "id": "GA6KO",
+              "x": 0,
+              "y": 0,
+              "name": "NO_INFO_PANEL",
+              "enabled": false,
+              "geometry": "M114.45 7.1l469.55 0 0 169.7-550.5 0-26.65-26.48z",
+              "viewBox": [
+                0,
+                0,
+                584,
+                184
+              ],
+              "fill": "#FFFFFFE6",
+              "width": 584,
+              "height": 184
+            },
+            {
+              "type": "text",
+              "id": "VlmQe",
+              "x": 202,
+              "y": 76,
+              "name": "NO_INFO_TEXT",
+              "enabled": false,
+              "fill": "#979797",
+              "textGrowth": "fixed-width-height",
+              "width": 182,
+              "height": 26,
+              "content": "- - - NO INFO - - -",
+              "textAlign": "center",
+              "fontFamily": "Barlow",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "letterSpacing": 1.1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "KEJLE",
+          "x": 0,
+          "y": 0,
+          "name": "FRAME_INNER_WHITE",
+          "width": 584,
+          "height": 184,
+          "layout": "none",
+          "children": [
+            {
+              "type": "path",
+              "id": "i8gUBP",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 0,
+              "name": "FRAME_INNER_HAIRLINE",
+              "geometry": "M114.45 7.1l469.55 0m0 169.7l-550.5 0-26.65-26.48 107.6-143.22",
+              "viewBox": [
+                0,
+                0,
+                584,
+                184
+              ],
+              "fill": "#FFFFFF00",
+              "width": 584,
+              "height": 184,
+              "stroke": "#FCFCFAE6",
+              "strokeWidth": 1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "xu45m",
+          "x": 0,
+          "y": 0,
+          "name": "ELITE_BADGE",
+          "width": 584,
+          "height": 184,
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "wjC19",
+              "layoutPosition": "absolute",
+              "x": 485,
+              "y": 11,
+              "name": "ELITE_PLATE",
+              "fill": "#353C46",
+              "width": 88,
+              "height": 149
+            },
+            {
+              "type": "rectangle",
+              "id": "vH1ov",
+              "layoutPosition": "absolute",
+              "x": 492,
+              "y": 90,
+              "name": "ELITE_ICON",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "width": 76,
+              "height": 60
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "C7b7J",
+          "x": 0,
+          "y": 0,
+          "name": "LEVEL_BADGE",
+          "width": 584,
+          "height": 184,
+          "layout": "none",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "MI5ym",
+              "layoutPosition": "absolute",
+              "x": 492,
+              "y": 21,
+              "name": "LEVEL_RING",
+              "fill": "#FFFFFF00",
+              "width": 73,
+              "height": 73,
+              "stroke": "#BEC3C8",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "id": "XSpDY",
+              "layoutPosition": "absolute",
+              "x": 494,
+              "y": 28,
+              "name": "LEVEL_NUMBER",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width-height",
+              "width": 68,
+              "height": 63,
+              "content": "60",
+              "textAlign": "center",
+              "fontFamily": "Barlow Semi Condensed",
+              "fontSize": 50,
+              "fontWeight": "500",
+              "letterSpacing": 2.4
+            },
+            {
+              "type": "text",
+              "id": "U3GCNy",
+              "layoutPosition": "absolute",
+              "x": 522,
+              "y": 29,
+              "name": "LV_LABEL",
+              "fill": "#FFFFFF",
+              "content": "LV",
+              "fontFamily": "Barlow",
+              "fontSize": 10,
+              "fontWeight": "normal",
+              "letterSpacing": 0.8
+            },
+            {
+              "type": "rectangle",
+              "id": "T36JqR",
+              "layoutPosition": "absolute",
+              "x": 529,
+              "y": 20,
+              "name": "LEVEL_TICK",
+              "fill": "#EDD334",
+              "width": 2,
+              "height": 4
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "r1nOvb",
+          "x": 0,
+          "y": 0,
+          "name": "POTENTIAL_BADGE",
+          "width": 584,
+          "height": 184,
+          "layout": "none",
+          "children": [
+            {
+              "type": "path",
+              "id": "eMZPF",
+              "layoutPosition": "absolute",
+              "x": 15,
+              "y": 121,
+              "name": "POTENTIAL_PLATE",
+              "geometry": "M46.321 3.159l9.497 31.514-27.036 18.777-26.207-19.907 10.841-31.082z",
+              "viewBox": [
+                0,
+                0,
+                58,
+                56
+              ],
+              "fill": "#18232CBF",
+              "width": 58,
+              "height": 56
+            },
+            {
+              "type": "rectangle",
+              "id": "DlCRn",
+              "layoutPosition": "absolute",
+              "x": 20,
+              "y": 126,
+              "name": "POTENTIAL_ICON",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential4.png",
+                "mode": "stretch"
+              },
+              "width": 48,
+              "height": 46
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "HVZ4i",
+      "x": 0,
+      "y": 700,
+      "name": "CHARACTER_CARD_LEFT",
+      "reusable": true,
+      "width": 570,
+      "height": 184,
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "SmyrQ",
+          "x": 0,
+          "y": 0,
+          "name": "FRAME",
+          "width": 570,
+          "height": 184,
+          "layout": "none",
+          "children": [
+            {
+              "type": "path",
+              "id": "KXAIr",
+              "x": 10,
+              "y": -8,
+              "name": "FRAME_OUTER_SHADOW",
+              "geometry": "M0 0.9l539 0 30.2 34.78m-110.7 147.32l-458.5 0",
+              "viewBox": [
+                0,
+                0,
+                570,
+                184
+              ],
+              "fill": "#00000000",
+              "width": 570,
+              "height": 184,
+              "stroke": "#1515158C",
+              "strokeWidth": 10,
+              "effect": {
+                "type": "blur",
+                "radius": 9
+              }
+            },
+            {
+              "type": "path",
+              "id": "wk3gP",
+              "x": 0,
+              "y": 0,
+              "name": "FRAME_LIGHT_METAL",
+              "geometry": "M0 0.9l539 0 30.2 34.78-110.7 147.32-458.5 0z",
+              "viewBox": [
+                0,
+                0,
+                570,
+                184
+              ],
+              "fill": "#FFFFFF00",
+              "width": 570,
+              "height": 184,
+              "stroke": "#EFEFEFE8",
+              "strokeWidth": 6,
+              "strokeAlignment": "inner",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#151515D4",
+                "offset": {
+                  "x": 24,
+                  "y": -11
+                },
+                "blur": 21
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gvfb8",
+          "x": 0,
+          "y": 0,
+          "name": "CONTENT",
+          "width": 570,
+          "height": 184,
+          "layout": "none",
+          "children": [
+            {
+              "type": "path",
+              "id": "DLOWp",
+              "x": -20,
+              "y": -33,
+              "name": "OPERATOR_IMAGE",
+              "opacity": 0.902,
+              "geometry": "M20 40.184l536.526 0 26.622 28.492-107.6 141.22-455.548 0z",
+              "viewBox": [
+                0,
+                0,
+                784,
+                294
+              ],
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/operator_e1.png",
+                "mode": "stretch"
+              },
+              "width": 784,
+              "height": 294
+            },
+            {
+              "type": "path",
+              "id": "B8gA3U",
+              "x": 0,
+              "y": 0,
+              "name": "NO_INFO_PANEL",
+              "enabled": false,
+              "geometry": "M0 7.184l536.526 0 26.622 28.492-107.6 141.22-455.548 0z",
+              "viewBox": [
+                0,
+                0,
+                570,
+                184
+              ],
+              "fill": "#FFFFFFE6",
+              "width": 570,
+              "height": 184
+            },
+            {
+              "type": "text",
+              "id": "MxQrR",
+              "x": 182,
+              "y": 76,
+              "name": "NO_INFO_TEXT",
+              "enabled": false,
+              "fill": "#979797",
+              "textGrowth": "fixed-width-height",
+              "width": 182,
+              "height": 26,
+              "content": "- - - NO INFO - - -",
+              "textAlign": "center",
+              "fontFamily": "Barlow",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "letterSpacing": 1.1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "pBetE",
+          "x": 0,
+          "y": 0,
+          "name": "FRAME_INNER_WHITE",
+          "width": 570,
+          "height": 184,
+          "layout": "none",
+          "children": [
+            {
+              "type": "path",
+              "id": "qNVrY",
+              "x": 0,
+              "y": 0,
+              "name": "FRAME_INNER_HAIRLINE",
+              "geometry": "M0 7.184l536.526 0 26.622 28.492-107.6 141.22-455.548 0",
+              "viewBox": [
+                0,
+                0,
+                570,
+                184
+              ],
+              "fill": "#FFFFFF00",
+              "width": 570,
+              "height": 184,
+              "stroke": "#FCFCFAE6",
+              "strokeWidth": 1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Q3ckUm",
+          "x": 0,
+          "y": 0,
+          "name": "ELITE_BADGE",
+          "width": 570,
+          "height": 184,
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "lCh3F",
+              "x": 8,
+              "y": 11,
+              "name": "ELITE_PLATE",
+              "fill": "#353C46",
+              "width": 88,
+              "height": 149
+            },
+            {
+              "type": "rectangle",
+              "id": "Q2ZirJ",
+              "x": 15,
+              "y": 90,
+              "name": "ELITE_ICON",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "width": 76,
+              "height": 60
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QEG16",
+          "x": 0,
+          "y": 0,
+          "name": "LEVEL_BADGE",
+          "width": 570,
+          "height": 184,
+          "layout": "none",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "MfKlG",
+              "x": 15,
+              "y": 21,
+              "name": "LEVEL_RING",
+              "fill": "#FFFFFF00",
+              "width": 73,
+              "height": 73,
+              "stroke": "#BEC3C8",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "id": "bFlti",
+              "x": 17,
+              "y": 28,
+              "name": "LEVEL_NUMBER",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width-height",
+              "width": 68,
+              "height": 63,
+              "content": "60",
+              "textAlign": "center",
+              "fontFamily": "Barlow Semi Condensed",
+              "fontSize": 50,
+              "fontWeight": "500",
+              "letterSpacing": 2.4
+            },
+            {
+              "type": "text",
+              "id": "P6kdl",
+              "x": 45,
+              "y": 29,
+              "name": "LV_LABEL",
+              "fill": "#FFFFFF",
+              "content": "LV",
+              "fontFamily": "Barlow",
+              "fontSize": 10,
+              "fontWeight": "normal",
+              "letterSpacing": 0.8
+            },
+            {
+              "type": "rectangle",
+              "id": "YejBg",
+              "x": 52,
+              "y": 20,
+              "name": "LEVEL_TICK",
+              "fill": "#EDD334",
+              "width": 2,
+              "height": 4
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "coU5m",
+          "x": 0,
+          "y": 0,
+          "name": "POTENTIAL_BADGE",
+          "width": 570,
+          "height": 184,
+          "layout": "none",
+          "children": [
+            {
+              "type": "path",
+              "id": "NJili",
+              "x": 496,
+              "y": 12,
+              "name": "POTENTIAL_PLATE",
+              "geometry": "M46.321 3.159l9.497 31.514-27.036 18.777-26.207-19.907 10.841-31.082z",
+              "viewBox": [
+                0,
+                0,
+                58,
+                56
+              ],
+              "fill": "#18232CBF",
+              "width": 58,
+              "height": 56
+            },
+            {
+              "type": "rectangle",
+              "id": "RB169",
+              "x": 501,
+              "y": 17,
+              "name": "POTENTIAL_ICON",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential4.png",
+                "mode": "stretch"
+              },
+              "width": 48,
+              "height": 46
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "I0hGYu",
+      "x": 664,
+      "y": 400,
+      "name": "STAGE1_SHADOW_BOUNDARY_QA",
+      "width": 744,
+      "height": 344,
+      "fill": "#808080",
+      "layout": "none",
+      "children": [
+        {
+          "id": "doeeZ",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "OWNED_CARD_WITH_80PX_MARGIN",
+          "x": 80,
+          "y": 80
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "y8c7Q6",
+      "x": 664,
+      "y": 844,
+      "name": "STAGE2_LEFT_RIGHT_QA",
+      "width": 1320,
+      "height": 344,
+      "fill": "#808080",
+      "layout": "none",
+      "children": [
+        {
+          "id": "TlFv0",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "LEFT_OWNED",
+          "x": 50,
+          "y": 80
+        },
+        {
+          "id": "LSD8F",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "RIGHT_OWNED",
+          "x": 680,
+          "y": 80
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ADRvM",
+      "x": 664,
+      "y": 1288,
+      "name": "STAGE3_FOUR_STATE_MATRIX",
+      "width": 1320,
+      "height": 650,
+      "fill": "#808080",
+      "layout": "none",
+      "children": [
+        {
+          "id": "KGnQH",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "LEFT_OWNED",
+          "x": 50,
+          "y": 80,
+          "descendants": {
+            "DLOWp": {
+              "enabled": true
+            },
+            "B8gA3U": {
+              "enabled": false
+            },
+            "MxQrR": {
+              "enabled": false
+            }
+          }
+        },
+        {
+          "id": "IRYjE",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "LEFT_NO_INFO",
+          "x": 50,
+          "y": 350,
+          "descendants": {
+            "DLOWp": {
+              "enabled": false
+            },
+            "B8gA3U": {
+              "enabled": true
+            },
+            "MxQrR": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "id": "YbLMo",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "RIGHT_OWNED",
+          "x": 680,
+          "y": 80,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false
+            }
+          }
+        },
+        {
+          "id": "onjED",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "RIGHT_NO_INFO",
+          "x": 680,
+          "y": 350,
+          "descendants": {
+            "EjeiI": {
+              "enabled": false
+            },
+            "GA6KO": {
+              "enabled": true
+            },
+            "VlmQe": {
+              "enabled": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "YYEuj",
+      "x": 2084,
+      "y": 1288,
+      "name": "CROSS_SAMPLE_DARK_LIGHT_QA",
+      "width": 744,
+      "height": 560,
+      "fill": "#808080",
+      "layout": "none",
+      "children": [
+        {
+          "id": "OQuGR",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "SIEGE_DARK",
+          "x": 80,
+          "y": 70,
+          "descendants": {
+            "EjeiI": {
+              "x": -67,
+              "y": -65,
+              "width": 785,
+              "height": 306,
+              "viewBox": [
+                0,
+                0,
+                785,
+                306
+              ],
+              "geometry": "M181.45 72.1 L651 72.1 L651 241.8 L100.5 241.8 L73.85 215.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/siege_slot06.png",
+                "mode": "stretch"
+              }
+            },
+            "XSpDY": {
+              "content": "46"
+            }
+          }
+        },
+        {
+          "id": "gR1nt",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "EYJAFJALLA_LIGHT",
+          "x": 80,
+          "y": 310,
+          "descendants": {
+            "EjeiI": {
+              "x": -101,
+              "y": -8,
+              "width": 735,
+              "height": 220,
+              "viewBox": [
+                0,
+                0,
+                735,
+                220
+              ],
+              "geometry": "M215.45 15.1 L685 15.1 L685 184.8 L134.5 184.8 L107.85 158.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/eyjafjalla_slot06.png",
+                "mode": "stretch"
+              }
+            },
+            "XSpDY": {
+              "content": "60"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Lwq9K",
+      "x": 664,
+      "y": 2058,
+      "name": "CHARACTER_CARDS_1920x1080_4L_4R",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "layout": "none",
+      "children": [
+        {
+          "id": "B5tzI",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "SLOT_01_LEFT_NO_INFO",
+          "x": 157,
+          "y": 187,
+          "descendants": {
+            "DLOWp": {
+              "enabled": false
+            },
+            "B8gA3U": {
+              "enabled": true
+            },
+            "MxQrR": {
+              "enabled": true,
+              "y": 79
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 15,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "QEG16": {
+              "enabled": false
+            },
+            "bFlti": {
+              "content": "60"
+            },
+            "coU5m": {
+              "enabled": false
+            }
+          }
+        },
+        {
+          "id": "NwOqf",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "SLOT_02_LEFT_NO_INFO",
+          "x": 157,
+          "y": 401,
+          "descendants": {
+            "DLOWp": {
+              "enabled": false
+            },
+            "B8gA3U": {
+              "enabled": true
+            },
+            "MxQrR": {
+              "enabled": true,
+              "y": 76
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite1.png",
+                "mode": "stretch"
+              },
+              "x": 12,
+              "y": 97,
+              "width": 81,
+              "height": 49
+            },
+            "QEG16": {
+              "enabled": true
+            },
+            "bFlti": {
+              "content": "60"
+            },
+            "coU5m": {
+              "enabled": true
+            },
+            "RB169": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential3.png",
+                "mode": "stretch"
+              }
+            }
+          }
+        },
+        {
+          "id": "GvVyr",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "SLOT_03_LEFT_NO_INFO",
+          "x": 157,
+          "y": 615,
+          "descendants": {
+            "DLOWp": {
+              "enabled": false
+            },
+            "B8gA3U": {
+              "enabled": true
+            },
+            "MxQrR": {
+              "enabled": true,
+              "y": 76
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite1.png",
+                "mode": "stretch"
+              },
+              "x": 12,
+              "y": 97,
+              "width": 81,
+              "height": 49
+            },
+            "QEG16": {
+              "enabled": true
+            },
+            "bFlti": {
+              "content": "90"
+            },
+            "coU5m": {
+              "enabled": true
+            },
+            "RB169": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential3.png",
+                "mode": "stretch"
+              }
+            }
+          }
+        },
+        {
+          "id": "SCYE6",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "SLOT_04_LEFT_NO_INFO",
+          "x": 157,
+          "y": 829,
+          "descendants": {
+            "DLOWp": {
+              "enabled": false
+            },
+            "B8gA3U": {
+              "enabled": true
+            },
+            "MxQrR": {
+              "enabled": true,
+              "y": 76
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 15,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "QEG16": {
+              "enabled": true
+            },
+            "bFlti": {
+              "content": "25"
+            },
+            "coU5m": {
+              "enabled": true
+            },
+            "RB169": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential3.png",
+                "mode": "stretch"
+              }
+            }
+          }
+        },
+        {
+          "id": "vUQeM",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "SLOT_05_RIGHT_NO_INFO",
+          "x": 1180,
+          "y": 101,
+          "descendants": {
+            "EjeiI": {
+              "enabled": false
+            },
+            "GA6KO": {
+              "enabled": true
+            },
+            "VlmQe": {
+              "enabled": true,
+              "y": 76
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 492,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "90"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential6.png",
+                "mode": "stretch"
+              }
+            }
+          }
+        },
+        {
+          "id": "GHhA7",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "SLOT_06_RIGHT_OWNED",
+          "x": 1180,
+          "y": 315,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false,
+              "y": 76
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 492,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "60"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential4.png",
+                "mode": "stretch"
+              }
+            }
+          }
+        },
+        {
+          "id": "PYkHY",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "SLOT_07_RIGHT_OWNED",
+          "x": 1180,
+          "y": 529,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true,
+              "x": -57,
+              "y": -31,
+              "width": 806,
+              "height": 313,
+              "viewBox": [
+                0,
+                0,
+                806,
+                313
+              ],
+              "geometry": "M171.45 38.1 L641 38.1 L641 207.8 L90.5 207.8 L63.85 181.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/operator_e2.png",
+                "mode": "stretch"
+              }
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false,
+              "y": 76
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 492,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "90"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential2.png",
+                "mode": "stretch"
+              }
+            }
+          }
+        },
+        {
+          "id": "w76W9n",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "SLOT_08_RIGHT_NO_INFO",
+          "x": 1180,
+          "y": 743,
+          "descendants": {
+            "EjeiI": {
+              "enabled": false
+            },
+            "GA6KO": {
+              "enabled": true
+            },
+            "VlmQe": {
+              "enabled": true,
+              "y": 76
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite1.png",
+                "mode": "stretch"
+              },
+              "x": 489,
+              "y": 97,
+              "width": 81,
+              "height": 49
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "80"
+            },
+            "r1nOvb": {
+              "enabled": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "r2JDG3",
+      "x": 2704,
+      "y": 2058,
+      "name": "QA_ONLY_EIGHT_CARDS_ON_SOURCE_BACKGROUND",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "tNaFX",
+          "x": 0,
+          "y": 0,
+          "name": "QA_BACKGROUND_NOT_IN_DELIVERY",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "001_能天使/background.png",
+            "mode": "stretch"
+          },
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": "ZnKGy",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "QA_SLOT_01_LEFT_NO_INFO",
+          "x": 157,
+          "y": 187,
+          "descendants": {
+            "DLOWp": {
+              "enabled": false
+            },
+            "B8gA3U": {
+              "enabled": true
+            },
+            "MxQrR": {
+              "enabled": true,
+              "y": 79
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 15,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "QEG16": {
+              "enabled": false
+            },
+            "bFlti": {
+              "content": "60"
+            },
+            "coU5m": {
+              "enabled": false
+            }
+          }
+        },
+        {
+          "id": "BfHNc",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "QA_SLOT_02_LEFT_NO_INFO",
+          "x": 157,
+          "y": 401,
+          "descendants": {
+            "DLOWp": {
+              "enabled": false
+            },
+            "B8gA3U": {
+              "enabled": true
+            },
+            "MxQrR": {
+              "enabled": true,
+              "y": 76
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite1.png",
+                "mode": "stretch"
+              },
+              "x": 12,
+              "y": 97,
+              "width": 81,
+              "height": 49
+            },
+            "QEG16": {
+              "enabled": true
+            },
+            "bFlti": {
+              "content": "60"
+            },
+            "coU5m": {
+              "enabled": true
+            },
+            "RB169": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential3.png",
+                "mode": "stretch"
+              }
+            }
+          }
+        },
+        {
+          "id": "aoQsB",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "QA_SLOT_03_LEFT_NO_INFO",
+          "x": 157,
+          "y": 615,
+          "descendants": {
+            "DLOWp": {
+              "enabled": false
+            },
+            "B8gA3U": {
+              "enabled": true
+            },
+            "MxQrR": {
+              "enabled": true,
+              "y": 76
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite1.png",
+                "mode": "stretch"
+              },
+              "x": 12,
+              "y": 97,
+              "width": 81,
+              "height": 49
+            },
+            "QEG16": {
+              "enabled": true
+            },
+            "bFlti": {
+              "content": "90"
+            },
+            "coU5m": {
+              "enabled": true
+            },
+            "RB169": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential3.png",
+                "mode": "stretch"
+              }
+            }
+          }
+        },
+        {
+          "id": "U28vk",
+          "type": "ref",
+          "ref": "HVZ4i",
+          "name": "QA_SLOT_04_LEFT_NO_INFO",
+          "x": 157,
+          "y": 829,
+          "descendants": {
+            "DLOWp": {
+              "enabled": false
+            },
+            "B8gA3U": {
+              "enabled": true
+            },
+            "MxQrR": {
+              "enabled": true,
+              "y": 76
+            },
+            "Q2ZirJ": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 15,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "QEG16": {
+              "enabled": true
+            },
+            "bFlti": {
+              "content": "25"
+            },
+            "coU5m": {
+              "enabled": true
+            },
+            "RB169": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential3.png",
+                "mode": "stretch"
+              }
+            }
+          }
+        },
+        {
+          "id": "S7d5Ha",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "QA_SLOT_05_RIGHT_NO_INFO",
+          "x": 1180,
+          "y": 101,
+          "descendants": {
+            "EjeiI": {
+              "enabled": false
+            },
+            "GA6KO": {
+              "enabled": true
+            },
+            "VlmQe": {
+              "enabled": true,
+              "y": 76
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 492,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "90"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential6.png",
+                "mode": "stretch"
+              }
+            }
+          }
+        },
+        {
+          "id": "hmAWq",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "QA_SLOT_06_RIGHT_OWNED",
+          "x": 1180,
+          "y": 315,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false,
+              "y": 76
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 492,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "60"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential4.png",
+                "mode": "stretch"
+              }
+            }
+          }
+        },
+        {
+          "id": "eUiNu",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "QA_SLOT_07_RIGHT_OWNED",
+          "x": 1180,
+          "y": 529,
+          "descendants": {
+            "EjeiI": {
+              "enabled": true,
+              "x": -57,
+              "y": -31,
+              "width": 806,
+              "height": 313,
+              "viewBox": [
+                0,
+                0,
+                806,
+                313
+              ],
+              "geometry": "M171.45 38.1 L641 38.1 L641 207.8 L90.5 207.8 L63.85 181.32 Z",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/operator_e2.png",
+                "mode": "stretch"
+              }
+            },
+            "GA6KO": {
+              "enabled": false
+            },
+            "VlmQe": {
+              "enabled": false,
+              "y": 76
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite2.png",
+                "mode": "stretch"
+              },
+              "x": 492,
+              "y": 90,
+              "width": 76,
+              "height": 60
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "90"
+            },
+            "r1nOvb": {
+              "enabled": true
+            },
+            "DlCRn": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/potential2.png",
+                "mode": "stretch"
+              }
+            }
+          }
+        },
+        {
+          "id": "v6CLc8",
+          "type": "ref",
+          "ref": "wUVzi",
+          "name": "QA_SLOT_08_RIGHT_NO_INFO",
+          "x": 1180,
+          "y": 743,
+          "descendants": {
+            "EjeiI": {
+              "enabled": false
+            },
+            "GA6KO": {
+              "enabled": true
+            },
+            "VlmQe": {
+              "enabled": true,
+              "y": 76
+            },
+            "vH1ov": {
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/psd_sources/elite1.png",
+                "mode": "stretch"
+              },
+              "x": 489,
+              "y": 97,
+              "width": 81,
+              "height": 49
+            },
+            "C7b7J": {
+              "enabled": true
+            },
+            "XSpDY": {
+              "content": "80"
+            },
+            "r1nOvb": {
+              "enabled": false
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "fileToken": "d7048ad7-c9d2-44e1-b0c8-b0d6b253efe7"
+}

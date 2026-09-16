@@ -1,0 +1,44 @@
+{
+  "scope": "PNG and file provenance only; not a visual gate or reopen proof",
+  "checks": {
+    "dimensions_1920x1080": true,
+    "has_transparency": true,
+    "has_visible_content": true,
+    "central_operator_excluded": true,
+    "left_doctor_excluded": true,
+    "right_doctor_excluded": true,
+    "top_margin_transparent": true,
+    "bottom_margin_transparent": true,
+    "left_1_visible": true,
+    "left_2_visible": true,
+    "left_3_visible": true,
+    "left_4_visible": true,
+    "right_1_visible": true,
+    "right_2_visible": true,
+    "right_3_visible": true,
+    "right_4_visible": true,
+    "reopened_export_exists": true,
+    "reopened_export_bytes_identical": true,
+    "named_delivery_bytes_identical": true
+  },
+  "all_checks_pass": true,
+  "alpha_bbox": [
+    155,
+    78,
+    1785,
+    1021
+  ],
+  "sha256": {
+    "delivery\\qa\\Lwq9K.png": "a799f7fb5a4456e507536f9b728c0d03e6037d3657e6e693f34d85d9bc131d55",
+    "character_cards_8slot.pen": "0b374714f8de4b8f4f3e6770749e2c0ee522261f85da80c0494ff251f4f7223d",
+    "assets\\psd_sources\\source_manifest.json": "fe8737247a6aa7fc3999ad5029df95635c9e4e1b0f762a56bba2eff20bd8e4be",
+    "reports\\five_psd_template_audit.json": "36f6256442422c40ebee06d24f825e7c60abfc5d0ff1b1b9326bb917c811282d",
+    "delivery\\qa\\ADRvM.png": "2aec74f8b54b9a6ec4df650041240969cee379a9546ab9be5f8e0fcbead4d932",
+    "delivery\\qa\\I0hGYu.png": "aacd2fa5caa0981e561fd6113b009097914e7aa4b8ab8accb2613ba29d6c06e8",
+    "delivery\\qa\\r2JDG3.png": "4d489168b4af5192e2fb0ad93ee9f45c42873277a852d8751bd7c36073e319df",
+    "delivery\\qa\\y8c7Q6.png": "7e4f9113b192ed48b3a6c936b04e3baabb759c5dc8865a2c77c311538b4aad7b",
+    "delivery\\qa\\YYEuj.png": "90b5911870811d785a16c0645fe67bed0a333a2698febaefa3b74c409a0eff63",
+    "delivery\\reopened\\Lwq9K.png": "a799f7fb5a4456e507536f9b728c0d03e6037d3657e6e693f34d85d9bc131d55",
+    "delivery\\character_cards.png": "a799f7fb5a4456e507536f9b728c0d03e6037d3657e6e693f34d85d9bc131d55"
+  }
+}
