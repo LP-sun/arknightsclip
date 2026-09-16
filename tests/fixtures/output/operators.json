@@ -1,0 +1,35 @@
+[
+  {
+    "char_id": "char_103_angel",
+    "name": "能天使",
+    "own": true,
+    "elite": 2,
+    "level": 90,
+    "potential": 6,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "能天使",
+        "confidence": 0.7565016026323942,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9128522872924805,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 6,
+        "confidence": 0.935697078704834,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 90,
+        "confidence": 0.9999817083167456,
+        "method": "ocr_level"
+      }
+    },
+    "source": "MaaCore OperBoxImageAnalyzer",
+    "needs_review": false
+  }
+]

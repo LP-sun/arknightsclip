@@ -1,0 +1,20 @@
+{
+  "char_id": "unknown_",
+  "name": "",
+  "scan_id": "replay_1789551766_P_REPLAY",
+  "player_id": "P_REPLAY",
+  "source_page": "page_0001.png",
+  "page_index": 1,
+  "card_index": 1,
+  "roi": [
+    432,
+    108,
+    198,
+    447
+  ],
+  "capture_timestamp": "2026-09-16T17:42:55.232394",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 2,
+  "selected_reason": "best_quality_score_1.00"
+}
