@@ -1,4 +1,6 @@
-# React/CSS Renderer Spike (`experiments/react_renderer`)
+# React/CSS Renderer Spike（历史对照原型）
+
+> **状态：COMPARISON PROTOTYPE。** 本实现的视觉效果弱于 [`../../psd2pen/`](../../psd2pen/)，不属于正式 Pen/Pencil 管线，也不得作为视觉基准或后续 Pen 开发入口。当前唯一完整、正式的 Pen/Pencil 实现是 `psd2pen/`。
 
 本目录实现了基于 **React 19 + CSS + Playwright (Headless Chromium/Edge)** 的数据驱动报菜名自动化平面渲染后端 Spike。
 
@@ -17,7 +19,9 @@
 * **渲染内核**：
   * `src/render/renderScene.ts`：通过 `react-dom/server` 进行 SSR 拼接 HTML，通过 Playwright 加载本地 `file:///` 资源、等待 `document.fonts.ready` 与全量图片加载完成，以 `deviceScaleFactor: 1` 精确截取 1920×1080 无损 PNG。
 
-## 2. 快速运行
+## 2. 历史实验复现
+
+以下命令只用于复现对照实验，不生成正式交付：
 
 ```bash
 # 进入目录

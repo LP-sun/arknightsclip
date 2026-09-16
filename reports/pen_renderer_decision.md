@@ -1,5 +1,7 @@
 # 明日方舟报菜名 · Pen.dev 平面渲染后端技术验证与迁移决策报告 (Decision Matrix)
 
+> **历史报告 / 结论已失效：** 本文记录早期 `experiments/pen_renderer/` 原型阶段的判断。当前唯一完整、正式且视觉效果更好的 Pen/Pencil 实现是 [`../psd2pen/`](../psd2pen/)；本文关于 PenRenderer 生产化与混合架构的推荐不得作为当前技术决策。
+
 > **评估项目**：PenRenderer Spike 技术验证  
 > **分支**：`feat/pen-renderer-spike`  
 > **验证基准**：单一五人 `.pen` 母版 + Scene JSON ➔ 自动生成完整报菜名画面 ➔ 导出 1920×1080 PNG  

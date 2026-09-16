@@ -1,5 +1,7 @@
 # JSON 驱动的八卡批量流程
 
+`psd2pen/` 是本仓库唯一完整、正式的 Pen/Pencil 实现和后续开发入口。`experiments/pen_renderer/` 与 `experiments/react_renderer/` 只是效果较差的历史原型，不得替代本目录的 Pencil MCP 编辑、截图、导出和验收流程。
+
 入口：`scripts/cards_pipeline.py`。示例真实数据：`inputs/five_operators.json`，来自本次统计表与已确认的D8精二修正。素材映射：`config/cards_assets.json`。
 
 ## 输入约定

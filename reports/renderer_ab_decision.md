@@ -1,5 +1,7 @@
 # Pen.dev vs React/CSS 最终技术选型与架构决策报告
 
+> **历史报告 / 结论已失效：** 本文比较的是效果较差的早期 `experiments/pen_renderer/` 与 `experiments/react_renderer/` 原型。当前唯一完整、正式的 Pen/Pencil 实现是 [`../psd2pen/`](../psd2pen/)；下文的“双轮驱动混合架构”不得作为现行方案。
+
 ## 1. 执行摘要与验证背景
 
 本轮实验严格贯彻**控制变量法（Same JSON + Same Assets + Same Layout + Same Target Resolution）**，在隔离目录中搭建了并列的渲染验证原型：

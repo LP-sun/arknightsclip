@@ -6,6 +6,8 @@
 
 当前维护入口是 `src/arknightsclip/` 提供的 `arknightsclip` CLI。根目录的 `run_full_autonomous_pipeline.py`、`maa_game_pipeline.py` 等脚本，以及 `archive/` 中的内容，属于早期制作/交付记录；它们可以用于追溯，但不应作为新增功能的默认接口。
 
+Pen/Pencil 相关功能以 [`psd2pen/`](psd2pen/) 为唯一正式实现和后续开发入口。它基于真实 PSD 视觉资产，并通过 Pencil MCP 完成编辑、截图与原生导出。`experiments/pen_renderer/` 和 `experiments/react_renderer/` 仅保留为早期效果较差的技术原型，不代表当前视觉质量，不得作为正式渲染管线、视觉基准或新功能落点。
+
 截至本次整理，`python tests/run_tests.py` 已通过 23 项核心测试，覆盖数据模型、OperBox 解析、素材关联、场景清单和 24 fps 时间线生成。
 
 ## 快速开始
@@ -57,6 +59,9 @@ arknightsclip export-timeline --format all
 | `data/normalized/` | 合并后的唯一事实源 `five_players.json` 与人工检查表。 |
 | `data/manifests/` | 每位干员一份 `SceneManifest`，供图形和时间线阶段消费。 |
 | `assets/`、`generated/` | 素材缓存与可再生的图形输出。 |
+| `psd2pen/` | 唯一正式的 Pen/Pencil 实现、模板、自动化与验收交付。 |
+| `experiments/pen_renderer/` | 已弃用的早期无头 PenRenderer 原型，仅供历史参考。 |
+| `experiments/react_renderer/` | 效果较差的对照原型，不属于正式 Pen 管线。 |
 | `reports/` | 统计、时间线与历史验收/技术报告；索引见 [`reports/README.md`](reports/README.md)。 |
 | `tests/` | 核心数据模型、采集解析、场景和时间线测试。 |
 | 根目录旧脚本与 `archive/` | 早期实验和交付记录。 |
