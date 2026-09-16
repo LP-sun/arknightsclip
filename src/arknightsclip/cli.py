@@ -24,12 +24,24 @@ def main():
     subparsers = parser.add_subparsers(dest="command", help="可执行子命令")
 
     # 1. collect-player
-    p_collect = subparsers.add_parser("collect-player", help="采集单名玩家干员数据")
+    p_collect = subparsers.add_parser("collect-player", help="采集单名玩家干员数据与仓库卡片素材 (Single-Scan Dual-Output)")
     p_collect.add_argument("--player", required=True, help="玩家标识，如 P1, P2")
     p_collect.add_argument("--name", default="博士", help="玩家昵称")
+    p_collect.add_argument("--source", default="maa-operbox", choices=["maa-operbox", "legacy"], help="采集引擎源")
     p_collect.add_argument("--pages", type=int, default=5, help="最大截屏翻页数")
+    p_collect.add_argument("--capture-cards", dest="capture_cards", action="store_true", default=True, help="单次扫描同步保存卡片素材")
+    p_collect.add_argument("--no-capture-cards", dest="capture_cards", action="store_false", help="不保存卡片素材")
+    p_collect.add_argument("--save-pages", dest="save_pages", action="store_true", default=True, help="保存全页截图")
+    p_collect.add_argument("--debug-operbox", dest="debug_operbox", action="store_true", default=False, help="开启调试输出")
 
-    # 2. merge-players
+    # 2. replay-operbox
+    p_replay = subparsers.add_parser("replay-operbox", help="离线回放 OperBox 页面提取练度与卡片素材")
+    p_replay.add_argument("pages_path", help="页面截图目录，如 data/raw/P1/operbox/pages/")
+    p_replay.add_argument("--player", default="P_REPLAY", help="回放关联的玩家标识")
+    p_replay.add_argument("--output", default=None, help="自定义输出目录")
+    p_replay.add_argument("--debug-operbox", dest="debug_operbox", action="store_true", default=False, help="开启调试输出")
+
+    # 3. merge-players
     subparsers.add_parser("merge-players", help="合并各玩家 raw 数据至规范化 canonical JSON")
 
     # 3. analyze-group
@@ -54,9 +66,32 @@ def main():
     reg = OperatorRegistry(cfg.resolve_path("src/arknightsclip/registry/operator_registry.json"))
 
     if args.command == "collect-player":
-        from .maa.collector import PlayerCollector
-        collector = PlayerCollector(cfg)
-        collector.collect(args.player, args.name, max_pages=args.pages)
+        if args.source == "maa-operbox":
+            from .maa.operbox_collector import OperBoxCollector
+            collector = OperBoxCollector(cfg)
+            collector.collect(
+                args.player,
+                args.name,
+                max_pages=args.pages,
+                capture_cards=args.capture_cards,
+                save_pages=args.save_pages,
+                debug=args.debug_operbox
+            )
+        else:
+            from .maa.collector import PlayerCollector
+            collector = PlayerCollector(cfg)
+            collector.collect(args.player, args.name, max_pages=args.pages)
+
+    elif args.command == "replay-operbox":
+        from .maa.operbox_collector import OperBoxCollector
+        collector = OperBoxCollector(cfg)
+        p_path = Path(args.pages_path)
+        out_path = Path(args.output) if args.output else None
+        print(f"[CLI] 正在离线回放 OperBox 页面: {p_path} ...")
+        states, provs = collector.replay_from_pages(
+            p_path, player_id=args.player, output_dir=out_path, debug=args.debug_operbox
+        )
+        print(f"[CLI] 离线回放完成！已识别 {len(states)} 位干员状态，生成 {len(provs)} 份卡片素材及 Provenance 元数据。")
 
     elif args.command == "merge-players":
         dm = DatasetManager(cfg, reg)
