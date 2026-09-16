@@ -1,0 +1,6 @@
+# Large binary source and validation assets added after this rule use Git LFS.
+assets/operators/**/full.png filter=lfs diff=lfs merge=lfs -text
+psd2pen/*/*.png filter=lfs diff=lfs merge=lfs -text
+psd2pen/assets/**/*.png filter=lfs diff=lfs merge=lfs -text
+psd2pen/experiments/**/*.png filter=lfs diff=lfs merge=lfs -text
+psd2pen/screenshot-site*.png filter=lfs diff=lfs merge=lfs -text

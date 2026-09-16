@@ -40,3 +40,13 @@ Thumbs.db
 *.egg-info/
 external/
 
+# Local JavaScript dependencies and Codex session state
+**/node_modules/
+.codex/
+
+# Reproducible renderer exports and intermediate spike screenshots
+reports/exported_frames/
+reports/spike_final/
+reports/spike_test_fixed/
+reports/spike_v2/
+
