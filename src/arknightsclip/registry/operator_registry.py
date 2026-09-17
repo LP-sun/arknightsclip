@@ -35,7 +35,8 @@ COMMON_ALIASES: Dict[str, List[str]] = {
     "char_112_siege": ["推进之王", "推王", "Siege"],
     "char_293_thorns": ["棘刺", "Thorns"],
     "char_017_huang": ["煌", "Blaze"],
-    "char_426_billro": ["鸿雪", "Pozyomka"],
+    "char_4055_bgsnow": ["鸿雪", "Pozyomka", "Pozëmka"],
+    "char_426_billro": ["卡涅利安", "Carnelian"],
     "char_400_weedy": ["温蒂", "Weedy"],
     "char_113_cqbw": ["W", "Wpsd"],
     "char_2013_cerber": ["刻俄柏", "小刻", "Ceobe"],
@@ -62,7 +63,8 @@ COMMON_ALIASES: Dict[str, List[str]] = {
     "char_358_fasStandard": ["早露", "Rosa"],
     "char_379_sisik": ["泥岩", "Mudrock"],
     "char_456_ash": ["灰烬", "Ash"],
-    "char_436_whispr": ["空弦", "Archetto"],
+    "char_332_archet": ["空弦", "Archetto"],
+    "char_436_whispr": ["絮雨", "Whisperain"],
     "char_4016_heidi": ["海蒂", "Heidi"],
     "char_4009_irene": ["艾丽妮", "Irene"],
     "char_4025_aprot": ["黑键", "Ebenholz"],
@@ -110,18 +112,16 @@ class OperatorRegistry:
     def _ocr_normalize(text: str) -> str:
         """
         MAA-style OCR 前处理：
-        1. 字符级替换（字形混淆修正）
-        2. 截断第一个中点·之后的内容（皮肤/模组后缀），仅保留干员本名
+        1. 移除 OCR 识别可能产生的空格（中文名不含空格）
+        2. 字符级替换（字形混淆修正）
+        3. 截断第一个中点·之后的内容（皮肤/模组后缀），仅保留干员本名
         """
-        # Step 1: 字符级替换（包含 : → · 的统一）
-        normalized = ''.join(OCR_CHAR_FIXES.get(c, c) for c in text)
-        # Step 2: 截断·后缀（如「维娜·维多利亚」保持完整，「凯尔希·思衡托」→「凯尔希」）
-        # 仅当·后的内容不在注册表中时才截断，避免影响带·的正式名
-        if '·' in normalized:
-            prefix = normalized.split('·')[0]
-            # 如果前缀单独成立（可被 resolve），保留前缀；否则保留完整串再尝试
-            # 实际截断在 resolve 内部处理，这里先返回归一化全串
-            return normalized
+        # Step 0: 清除所有空格（例如「维娜 .维多利亚」->「维娜.维多利亚」）
+        cleaned = text.replace(' ', '')
+        # Step 1: 字符级替换（包含 : 与 . → · 的统一）
+        if '.' in cleaned and '·' not in cleaned:
+            cleaned = cleaned.replace('.', '·')
+        normalized = ''.join(OCR_CHAR_FIXES.get(c, c) for c in cleaned)
         return normalized
 
     @staticmethod
@@ -144,12 +144,15 @@ class OperatorRegistry:
         根据 ID、官方中文名、英文名或别名多维度解析干员。
 
         解析流程（学习自 MAA ocr_replace + 模糊匹配策略）：
-        1. 直接精确匹配（char_id / canonical_name / alias）
-        2. OCR 字符纠错后精确匹配（壬→王 / 鹗→鸮 / 祜→祐 / :→·）
-        3. 冒号/·后缀截断后匹配（「凯尔希:思衡托」→「凯尔希」）
-        4. Levenshtein 编辑距离 ≤1 的模糊匹配兜底
+        1. 空值校验保护（严禁空串匹配）
+        2. 直接精确匹配（char_id / canonical_name / alias）
+        3. OCR 字符纠错后精确匹配（壬→王 / 鹗→鸮 / 祜→祐 / :→· / 清除空格）
+        4. 冒号/·后缀截断后匹配（「凯尔希:思衡托」→「凯尔希」）
+        5. Levenshtein 编辑距离 ≤1 的模糊匹配兜底（仅限长≥2的词，杜绝单字被误匹配）
         """
         q = query.strip()
+        if not q:
+            return None
 
         # --- Step 1: 精确匹配 ---
         if q in self._entries:
@@ -183,20 +186,20 @@ class OperatorRegistry:
                 if prefix_raw and prefix_raw in self._name_to_id:
                     return self._entries[self._name_to_id[prefix_raw]]
 
-        # --- Step 4: Levenshtein 模糊匹配（距离 ≤1，仅对中文名）---
-        candidate_q = q_norm  # 先用纠错串做模糊匹配
-        best_entry: Optional[OperatorRegistryEntry] = None
-        best_dist = 2  # 只接受距离 ≤1
-        for name, cid in self._name_to_id.items():
-            # 只对长度接近的候选做计算，跳过英文名（避免误匹配）
-            if abs(len(name) - len(candidate_q)) > 1:
-                continue
-            d = self._levenshtein(candidate_q, name)
-            if d < best_dist:
-                best_dist = d
-                best_entry = self._entries.get(cid)
-        if best_entry is not None:
-            return best_entry
+        # --- Step 4: Levenshtein 模糊匹配（距离 ≤1，仅限长度>=2的中文名，避免单字乱匹配）---
+        candidate_q = q_norm
+        if len(candidate_q) >= 2:
+            best_entry: Optional[OperatorRegistryEntry] = None
+            best_dist = 2
+            for name, cid in self._name_to_id.items():
+                if len(name) < 2 or abs(len(name) - len(candidate_q)) > 1:
+                    continue
+                d = self._levenshtein(candidate_q, name)
+                if d < best_dist:
+                    best_dist = d
+                    best_entry = self._entries.get(cid)
+            if best_entry is not None:
+                return best_entry
 
         return None
 
