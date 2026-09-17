@@ -9,3 +9,8 @@ psd2pen/assets/maa/*.png filter=lfs diff=lfs merge=lfs -text
 psd2pen/assets/operators/*.png filter=lfs diff=lfs merge=lfs -text
 psd2pen/experiments/**/*.png filter=lfs diff=lfs merge=lfs -text
 psd2pen/screenshot-site*.png filter=lfs diff=lfs merge=lfs -text
+
+# OperBox dataset raw captures and normalized inspection sheets
+data/raw/*/operbox/pages/*.png filter=lfs diff=lfs merge=lfs -text
+data/raw/*/operbox/cards_raw/*.png filter=lfs diff=lfs merge=lfs -text
+data/normalized/*.xlsx filter=lfs diff=lfs merge=lfs -text
