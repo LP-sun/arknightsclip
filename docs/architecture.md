@@ -19,7 +19,7 @@ data/manifests/<char_id>.json (SceneManifest 场景清单)
        ├─────────────────────────────────┐
        ▼                                 ▼
 psd2pen/                           renderers/rhine/
-(正式静态 Box/Pencil 视觉资产)      (唯一正式 Rhine 风格动态渲染管线)
+(正式静态 Box/Pencil 视觉资产)      (WIP Rhine 动态 renderer)
        │                                 │
        └────────────────┬────────────────┘
                         ▼
@@ -27,6 +27,8 @@ psd2pen/                           renderers/rhine/
                         ▼
                DaVinci Resolve / 最终合成
 ```
+
+> `renderers/rhine/` 是后续唯一维护的 Rhine renderer 路径，但当前明确处于 **WIP / 未完成** 状态，不视为 production-ready 或最终交付链路。已知 TODO 见 `docs/rhine_renderer.md`。
 
 ## 模块边界
 
@@ -39,7 +41,7 @@ psd2pen/                           renderers/rhine/
 | 素材解析 | `assets/` | 查找/同步干员立绘和玩家卡片切图，并检查缺失素材。 |
 | 场景构建 | `scene/`、`models/scene.py` | 为每位干员生成五个玩家槽位的 `SceneManifest`。 |
 | 静态视觉 | `psd2pen/` | 正式静态 Box 布局与 Pencil 视觉资产管线（`.pen` 仅通过 Pencil MCP 编辑）。 |
-| 动态渲染 | `renderers/rhine/` | 唯一正式 Rhine 风格动态渲染管线（TypeScript / Vite / Canvas / Playwright）。 |
+| 动态渲染 | `renderers/rhine/` | WIP Rhine 风格动态 renderer（TypeScript / Vite / Canvas / Playwright）；当前不宣称 production-ready。 |
 | 时间线 | `timeline/` | 根据分层图形和时长配置生成 FCP7 XML 或 OTIO。 |
 
 ## 关键文件与契约
@@ -84,4 +86,3 @@ Do not restore FallbackOperBoxRecognizer.
 Do not migrate the production collection flow to MaaCore without an explicit architecture decision.
 
 Historical collection scripts are read-only references and must not receive new functionality.
-
