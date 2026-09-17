@@ -1824,7 +1824,10 @@
       "profession": "SNIPER",
       "release_order": 193,
       "name_en": "Archetto",
-      "aliases": []
+      "aliases": [
+        "空弦",
+        "Archetto"
+      ]
     },
     {
       "char_id": "char_333_sidero",
@@ -2471,7 +2474,11 @@
       "profession": "SNIPER",
       "release_order": 263,
       "name_en": "Pozëmka",
-      "aliases": []
+      "aliases": [
+        "鸿雪",
+        "Pozëmka",
+        "Pozyomka"
+      ]
     },
     {
       "char_id": "char_4056_titi",
@@ -3573,8 +3580,8 @@
       "release_order": 385,
       "name_en": "Carnelian",
       "aliases": [
-        "鸿雪",
-        "Pozyomka"
+        "卡涅利安",
+        "Carnelian"
       ]
     },
     {
@@ -3621,8 +3628,8 @@
       "release_order": 390,
       "name_en": "Whisperain",
       "aliases": [
-        "空弦",
-        "Archetto"
+        "絮雨",
+        "Whisperain"
       ]
     },
     {

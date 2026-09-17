@@ -1,6 +1,8 @@
 .venv-pencil/
 
-# Reproducible local inputs and rendered delivery artifacts
+# Local PSD-to-Pencil workspaces: user-specific Codex state, raw source batches,
+# and reproducible delivery exports
+.codex/
 assets/raw_batch/
 delivery/five_slot_*/
 delivery/raw_*/

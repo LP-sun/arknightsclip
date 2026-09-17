@@ -43,6 +43,67 @@ def test_registry_resolution(registry):
     assert e4 is not None
     assert e4.char_id == "char_103_angel"
 
+def test_operator_registry_p0_aliases_and_ocr_protection(registry):
+    # 1. 鸿雪 / Pozyomka / Pozëmka -> char_4055_bgsnow
+    for name in ["鸿雪", "Pozyomka", "Pozëmka"]:
+        e = registry.resolve(name)
+        assert e is not None, f"Failed to resolve {name}"
+        assert e.char_id == "char_4055_bgsnow", f"{name} mapped to {e.char_id}, expected char_4055_bgsnow"
+
+    # 2. 卡涅利安 / Carnelian -> char_426_billro
+    for name in ["卡涅利安", "Carnelian"]:
+        e = registry.resolve(name)
+        assert e is not None, f"Failed to resolve {name}"
+        assert e.char_id == "char_426_billro", f"{name} mapped to {e.char_id}, expected char_426_billro"
+
+    # 3. 空弦 / Archetto -> char_332_archet
+    for name in ["空弦", "Archetto"]:
+        e = registry.resolve(name)
+        assert e is not None, f"Failed to resolve {name}"
+        assert e.char_id == "char_332_archet", f"{name} mapped to {e.char_id}, expected char_332_archet"
+
+    # 4. 絮雨 / Whisperain -> char_436_whispr
+    for name in ["絮雨", "Whisperain"]:
+        e = registry.resolve(name)
+        assert e is not None, f"Failed to resolve {name}"
+        assert e.char_id == "char_436_whispr", f"{name} mapped to {e.char_id}, expected char_436_whispr"
+
+    # 5. 空串校验保护
+    assert registry.resolve("") is None
+    assert registry.resolve("   ") is None
+
+    # 6. 单字干员精确解析
+    single_chars = {
+        "令": "char_2023_ling",
+        "黍": "char_2025_shu",
+        "山": "char_264_f12yin",
+        "W": "char_113_cqbw",
+        "年": "char_2014_nian",
+        "夕": "char_2015_dusk",
+    }
+    for char, expected_id in single_chars.items():
+        e = registry.resolve(char)
+        assert e is not None, f"Failed to resolve single-char operator {char}"
+        assert e.char_id == expected_id, f"{char} resolved to {e.char_id}, expected {expected_id}"
+
+    # 7. 未知单字不得被 fuzzy fallback 错误匹配到其他干员
+    unknown_singles = ["东", "南", "西", "北", "中", "发", "白", "甲", "乙", "丙"]
+    for unknown in unknown_singles:
+        assert registry.resolve(unknown) is None, f"Unknown single char '{unknown}' was incorrectly resolved"
+
+    # 8. OCR 规范化测试（空格清理，. 与 : 转 ·）
+    e_dot = registry.resolve("维娜.维多利亚")
+    assert e_dot is not None
+    assert e_dot.canonical_name_zh == "维娜·维多利亚"
+
+    e_colon = registry.resolve("维娜:维多利亚")
+    assert e_colon is not None
+    assert e_colon.canonical_name_zh == "维娜·维多利亚"
+
+    e_space = registry.resolve("维娜 . 维多利亚")
+    assert e_space is not None
+    assert e_space.canonical_name_zh == "维娜·维多利亚"
+
 def test_asset_resolver_validation(config, registry):
     # 测试必须自包含，不能依赖后续资产缓存 PR 或开发者本机文件。
     with TemporaryDirectory() as tmp_dir:

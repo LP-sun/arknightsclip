@@ -27,6 +27,7 @@ from tests.test_registry_and_assets import (
     config,
     registry,
     test_registry_resolution,
+    test_operator_registry_p0_aliases_and_ocr_protection,
     test_asset_resolver_validation,
     test_group_stats_computation,
 )
@@ -60,11 +61,13 @@ def run_all():
 
     tests_with_fixtures = [
         ("test_registry_resolution", lambda: test_registry_resolution(reg)),
+        ("test_operator_registry_p0_aliases_and_ocr_protection", lambda: test_operator_registry_p0_aliases_and_ocr_protection(reg)),
         ("test_asset_resolver_validation", lambda: test_asset_resolver_validation(cfg, reg)),
         ("test_group_stats_computation", lambda: test_group_stats_computation(cfg, reg)),
         ("test_operbox_card_roi_conversion", lambda: TestOperBoxSchema().test_card_roi_conversion()),
         ("test_operbox_provenance_schema", lambda: TestOperBoxSchema().test_provenance_schema_serialization()),
         ("test_operbox_scan_session_summary", lambda: TestOperBoxSchema().test_scan_session_summary()),
+        ("test_operbox_name_roi_bicubic_upscale", lambda: TestOperBoxSchema().test_name_roi_bicubic_upscale()),
         ("test_operbox_crop_selection", lambda: TestOperBoxCropSelection().test_edge_rejection_and_scoring()),
         ("test_operbox_dedup_across_pages", lambda: TestOperBoxDedup().test_dedup_across_pages()),
         ("test_operbox_candidate_dedup", lambda: TestOperBoxDedup().test_candidate_dedup_best_selection()),

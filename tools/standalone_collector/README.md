@@ -5,6 +5,16 @@
 
 ---
 
+## 📐 架构职责边界 (Architectural Boundary)
+
+* **`tools/standalone_collector` = 便携式采集前端 (Capture Frontend Only)**
+  * **职责单一**：仅负责 ADB 设备探测、分辨率自适应、无依赖截屏、滑动手势控制、MD5 重复画面停止检测与 ZIP 压缩打包。
+  * **零第三方依赖**：纯 Python 标准库实现。严禁在 collector 内引入 EasyOCR、OpenCV、OperatorRegistry 或第二套干员识别/切片逻辑。
+* **`src/arknightsclip/maa/operbox_analyzer.py` = 权威识别与规范化核心 (Canonical Recognizer / Normalizer)**
+  * **全功能解析**：负责接收导入的截图页，执行 720p 锚点对齐、名字条 2x 双三次插值超分、EasyOCR 识别、字形纠错、消歧、多候选择优、卡片裁切与 SceneManifest 生成。
+
+---
+
 ## 📦 工具包包含文件
 
 ```text
