@@ -46,6 +46,8 @@ external/
 
 # Local JavaScript dependencies and Codex session state
 **/node_modules/
+.npm-cache/
+renderers/rhine/.conda/
 .codex/
 dist/
 release/

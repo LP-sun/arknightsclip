@@ -30,6 +30,10 @@ class OTIOGenerator:
         out_file.parent.mkdir(parents=True, exist_ok=True)
 
         d_file = self.config.resolve_path("durations_24fps_perfect.json")
+        if not d_file.exists():
+            fallback_d = self.config.resolve_path("archive/legacy_data/durations_24fps_perfect.json")
+            if fallback_d.exists():
+                d_file = fallback_d
         durations: Dict[int, int] = {}
         if d_file.exists():
             with open(d_file, "r", encoding="utf-8") as f:

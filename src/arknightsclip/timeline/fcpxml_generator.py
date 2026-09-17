@@ -32,10 +32,24 @@ class FCPXMLGenerator:
         out_path = output_xml or (self.config.resolve_path("reports") / "timeline_v2_layered.xml")
         out_path.parent.mkdir(parents=True, exist_ok=True)
 
-        # 加载时长配置
+        # 加载时长配置（支持根目录与 archive/legacy_data 回退）
         d_file = durations_file or self.config.resolve_path("durations_24fps_perfect.json")
+        if not d_file.exists():
+            fallback_d = self.config.resolve_path("archive/legacy_data/durations_24fps_perfect.json")
+            if fallback_d.exists():
+                d_file = fallback_d
+
         m_file = manifest_file or self.config.resolve_path("composition_manifest.json")
+        if not m_file.exists():
+            fallback_m = self.config.resolve_path("archive/legacy_data/composition_manifest.json")
+            if fallback_m.exists():
+                m_file = fallback_m
+
         e_file = edit_plan_file or self.config.resolve_path("edit_plan.json")
+        if not e_file.exists():
+            fallback_e = self.config.resolve_path("archive/legacy_data/edit_plan.json")
+            if fallback_e.exists():
+                e_file = fallback_e
 
         durations: Dict[int, int] = {}
         if d_file.exists():

@@ -59,7 +59,12 @@ arknightsclip export-timeline --format all
 | `assets/`、`generated/` | 素材缓存与可再生的图形输出。 |
 | `reports/` | 统计、时间线与历史验收/技术报告；索引见 [`reports/README.md`](reports/README.md)。 |
 | `tests/` | 核心数据模型、采集解析、场景和时间线测试。 |
-| 根目录旧脚本与 `archive/` | 早期实验和交付记录。 |
+
+<details>
+<summary><b>历史归档与早期交付记录 (archive/，点击展开)</b></summary>
+
+项目早期迭代中的探索性单图渲染、切刀分析、历史中间状态 JSON、图层契约及交付成片已完整收拢归档至 `archive/`（包含 `legacy_scripts/`、`legacy_data/`、`legacy_deliveries/` 等），与当前主生产管线解耦保持根目录整洁。详细索引请参见 [`archive/README.md`](archive/README.md)。
+</details>
 
 ## 文档导航
 
