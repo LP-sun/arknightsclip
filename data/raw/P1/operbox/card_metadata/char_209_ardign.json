@@ -1,0 +1,20 @@
+{
+  "char_id": "char_209_ardign",
+  "name": "卡缇",
+  "scan_id": "replay_1789681288_P1",
+  "player_id": "P1",
+  "source_page": "page_0005.png",
+  "page_index": 5,
+  "card_index": 9,
+  "roi": [
+    301,
+    399,
+    147,
+    298
+  ],
+  "capture_timestamp": "2026-09-18T05:41:52.131464",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 2,
+  "selected_reason": "best_quality_score_1.00"
+}

@@ -52,7 +52,7 @@ class AssetResolver:
         return p if p.exists() else None
 
     def get_player_card_provenance(self, char_id: str, player_id: str, edition: Optional[str] = None) -> Optional[Dict]:
-        """获取玩家特定干员卡片切片的 Provenance 元数据"""
+        """获取玩家特定干员卡片切片的 Provenance 元数据 (优先从标准 card_metadata 读取)"""
         player_dir = self.config.get_raw_player_dir(player_id) / "operbox"
         if edition in ("compact", "cards_compact"):
             p = player_dir / "cards_compact" / f"{char_id}.json"
@@ -62,10 +62,16 @@ class AssetResolver:
             p = player_dir / "cards_wide" / f"{char_id}.json"
             if p.exists():
                 return self._read_json(p)
-        p = player_dir / "cards_raw" / f"{char_id}.json"
-        if not p.exists():
-            return None
-        return self._read_json(p)
+        
+        # 标准治理目录 card_metadata/
+        meta_p = player_dir / "card_metadata" / f"{char_id}.json"
+        if meta_p.exists():
+            return self._read_json(meta_p)
+        # 向下兼容历史路径 cards_raw/
+        raw_p = player_dir / "cards_raw" / f"{char_id}.json"
+        if raw_p.exists():
+            return self._read_json(raw_p)
+        return None
 
     def _read_json(self, p: Path) -> Optional[Dict]:
         try:
@@ -87,14 +93,14 @@ class AssetResolver:
                 missing.append(f"{cid} ({name})")
         return missing
 
-    def sync_from_existing_sources(self):
+    def sync_from_existing_sources(self) -> int:
         """从工程已有的素材源提取并固化至 assets/operators/<char_id>/ 目录"""
-        psd_backup_dir = self.config.resolve_path("psd模板/全6星干员备份文件（较大）")
+        import shutil
         generated_layered = self.config.resolve_path("generated/layered")
 
-        # 1. 扫描 59 个已有的 layered 成果
+        synced_count = 0
         if generated_layered.exists():
-            for s_dir in generated_layered.iterdir():
+            for s_dir in sorted(generated_layered.iterdir()):
                 if not s_dir.is_dir():
                     continue
                 # folder name like '001_能天使'
@@ -102,20 +108,24 @@ class AssetResolver:
                 op_name = parts[1] if len(parts) == 2 else s_dir.name
                 entry = self.registry.resolve(op_name)
                 if not entry:
+                    print(f"[AssetResolver] 未能识别素材目录: {s_dir.name}")
                     continue
 
                 target_dir = self.get_operator_dir(entry.char_id)
                 bg_path = s_dir / "background.png"
                 if bg_path.exists() and not (target_dir / "full.png").exists():
-                    import shutil
                     shutil.copyfile(bg_path, target_dir / "full.png")
 
                 meta_path = target_dir / "metadata.json"
-                if not meta_path.exists():
-                    with open(meta_path, "w", encoding="utf-8") as f:
-                        json.dump({
-                            "char_id": entry.char_id,
-                            "canonical_name": entry.canonical_name_zh,
-                            "rarity": entry.rarity,
-                            "profession": entry.profession,
-                        }, f, ensure_ascii=False, indent=2)
+                # 写入标准元数据
+                with open(meta_path, "w", encoding="utf-8") as f:
+                    json.dump({
+                        "char_id": entry.char_id,
+                        "canonical_name": entry.canonical_name_zh,
+                        "rarity": entry.rarity,
+                        "profession": entry.profession,
+                    }, f, ensure_ascii=False, indent=2)
+                synced_count += 1
+
+        print(f"[AssetResolver] 已成功同步 {synced_count} 位干员母版素材至: {self.assets_root}")
+        return synced_count

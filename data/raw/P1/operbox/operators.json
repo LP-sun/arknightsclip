@@ -1,0 +1,1784 @@
+[
+  {
+    "char_id": "char_4036_forcer",
+    "name": "见行者",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 6,
+    "rarity": 5,
+    "confidence": {
+      "name": {
+        "value": "见行者",
+        "confidence": 0.9945547948734199,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 6,
+        "confidence": 0.9801309108734131,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_4015_spuria",
+    "name": "空构",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 4,
+    "rarity": 5,
+    "confidence": {
+      "name": {
+        "value": "空构",
+        "confidence": 0.9950647226007213,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 4,
+        "confidence": 0.9172110557556152,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_478_kirara",
+    "name": "绮良",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 4,
+    "rarity": 5,
+    "confidence": {
+      "name": {
+        "value": "绮良",
+        "confidence": 0.9738994728899102,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 4,
+        "confidence": 0.9444917440414429,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_215_mantic",
+    "name": "狮蝎",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 2,
+    "rarity": 5,
+    "confidence": {
+      "name": {
+        "value": "狮蝎",
+        "confidence": 0.9863094869012036,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 2,
+        "confidence": 0.9285086393356323,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_4124_iana",
+    "name": "双月",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 1,
+    "rarity": 5,
+    "confidence": {
+      "name": {
+        "value": "双月",
+        "confidence": 0.9895770501054739,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 1,
+        "confidence": 1.0,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_383_snsant",
+    "name": "雪雉",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 6,
+    "rarity": 5,
+    "confidence": {
+      "name": {
+        "value": "雪雉",
+        "confidence": 0.9805892794376817,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 6,
+        "confidence": 0.9504205584526062,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_4165_ctrail",
+    "name": "云迹",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 1,
+    "rarity": 4,
+    "confidence": {
+      "name": {
+        "value": "云迹",
+        "confidence": 0.9961723492926843,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 1,
+        "confidence": 1.0,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_214_kafka",
+    "name": "卡夫卡",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 6,
+    "rarity": 5,
+    "confidence": {
+      "name": {
+        "value": "卡夫卡",
+        "confidence": 0.9908747227595567,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 6,
+        "confidence": 0.9607703685760498,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_451_robin",
+    "name": "罗宾",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 6,
+    "rarity": 5,
+    "confidence": {
+      "name": {
+        "value": "罗宾",
+        "confidence": 0.4706382102132269,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 6,
+        "confidence": 0.9124510288238525,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_241_panda",
+    "name": "食铁兽",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 1,
+    "rarity": 5,
+    "confidence": {
+      "name": {
+        "value": "食铁兽",
+        "confidence": 0.99184754114399,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 1,
+        "confidence": 1.0,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_458_rfrost",
+    "name": "霜华",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 1,
+    "rarity": 5,
+    "confidence": {
+      "name": {
+        "value": "霜华",
+        "confidence": 0.9911358461364198,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 1,
+        "confidence": 1.0,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_4105_almond",
+    "name": "杏仁",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 4,
+    "rarity": 5,
+    "confidence": {
+      "name": {
+        "value": "杏仁",
+        "confidence": 0.9729720821228116,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 4,
+        "confidence": 0.907177746295929,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_4107_vrdant",
+    "name": "维荻",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 6,
+    "rarity": 4,
+    "confidence": {
+      "name": {
+        "value": "维荻",
+        "confidence": 0.9929773186648106,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 6,
+        "confidence": 0.9396040439605713,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_172_svrash",
+    "name": "银灰",
+    "own": true,
+    "elite": 2,
+    "level": 60,
+    "potential": 1,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "银灰",
+        "confidence": 0.9913019807547142,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9607155919075012,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 1,
+        "confidence": 1.0,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 60,
+        "confidence": 0.9984311492281446,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_4039_horn",
+    "name": "号角",
+    "own": true,
+    "elite": 2,
+    "level": 60,
+    "potential": 1,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "号角",
+        "confidence": 0.9867562895650133,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9654344916343689,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 1,
+        "confidence": 1.0,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 60,
+        "confidence": 0.9957896860598949,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_202_demkni",
+    "name": "塞雷娅",
+    "own": true,
+    "elite": 2,
+    "level": 60,
+    "potential": 3,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "塞雷娅",
+        "confidence": 0.9872471179392202,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9625337719917297,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 3,
+        "confidence": 0.9222171306610107,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 60,
+        "confidence": 0.9636884952518535,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_136_hsguma",
+    "name": "星熊",
+    "own": true,
+    "elite": 2,
+    "level": 60,
+    "potential": 1,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "星熊",
+        "confidence": 0.9872128695686068,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9646915197372437,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 1,
+        "confidence": 1.0,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 60,
+        "confidence": 0.9985914058947002,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_1044_hsgma2",
+    "name": "斩业星熊",
+    "own": true,
+    "elite": 2,
+    "level": 60,
+    "potential": 1,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "斩业星熊",
+        "confidence": 0.9850331544876099,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9647923111915588,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 1,
+        "confidence": 1.0,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 60,
+        "confidence": 0.9960287929119258,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_391_rosmon",
+    "name": "迷迭香",
+    "own": true,
+    "elite": 2,
+    "level": 60,
+    "potential": 1,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "迷迭香",
+        "confidence": 0.9861405330935579,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9624437093734741,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 1,
+        "confidence": 1.0,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 60,
+        "confidence": 0.9982122619168106,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_2012_typhon",
+    "name": "提丰",
+    "own": true,
+    "elite": 2,
+    "level": 60,
+    "potential": 1,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "提丰",
+        "confidence": 0.9933595809533413,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9662090539932251,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 1,
+        "confidence": 1.0,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 60,
+        "confidence": 0.9978521142015283,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_4065_judge",
+    "name": "斥罪",
+    "own": true,
+    "elite": 2,
+    "level": 60,
+    "potential": 2,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "斥罪",
+        "confidence": 0.9942034192928919,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9796503186225891,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 2,
+        "confidence": 0.9422084093093872,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 60,
+        "confidence": 0.9398122547002403,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_311_mudrok",
+    "name": "泥岩",
+    "own": true,
+    "elite": 2,
+    "level": 60,
+    "potential": 2,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "泥岩",
+        "confidence": 0.9814875200538542,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9821364283561707,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 2,
+        "confidence": 0.9434565901756287,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 60,
+        "confidence": 0.9906026057623073,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_2025_shu",
+    "name": "黍",
+    "own": true,
+    "elite": 2,
+    "level": 60,
+    "potential": 1,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "黍",
+        "confidence": 0.9994896109630105,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9825432300567627,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 1,
+        "confidence": 1.0,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 60,
+        "confidence": 0.9768975098691196,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_2026_yu",
+    "name": "余",
+    "own": true,
+    "elite": 2,
+    "level": 60,
+    "potential": 6,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "余",
+        "confidence": 0.9631352222236842,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9799869656562805,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 6,
+        "confidence": 0.9083940386772156,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 60,
+        "confidence": 0.9933690875849106,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_300_phenxi",
+    "name": "菲亚梅塔",
+    "own": true,
+    "elite": 2,
+    "level": 60,
+    "potential": 1,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "菲亚梅塔",
+        "confidence": 0.9794521331787109,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9845369458198547,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 1,
+        "confidence": 1.0,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 60,
+        "confidence": 0.9639318229836594,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_103_angel",
+    "name": "能天使",
+    "own": true,
+    "elite": 2,
+    "level": 60,
+    "potential": 2,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "能天使",
+        "confidence": 0.8272440778785419,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9775984287261963,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 2,
+        "confidence": 0.9231134057044983,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 60,
+        "confidence": 0.9892024410172839,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_1048_orchd2",
+    "name": "焰狐龙梓兰",
+    "own": true,
+    "elite": 2,
+    "level": 60,
+    "potential": 1,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "焰狐龙梓兰",
+        "confidence": 0.9802533262704495,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9862226843833923,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 1,
+        "confidence": 1.0,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 60,
+        "confidence": 0.9891669821927955,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_240_wyvern",
+    "name": "香草",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 6,
+    "rarity": 3,
+    "confidence": {
+      "name": {
+        "value": "香草",
+        "confidence": 0.9776431072886675,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 6,
+        "confidence": 0.954453706741333,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_122_beagle",
+    "name": "米格鲁",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 6,
+    "rarity": 3,
+    "confidence": {
+      "name": {
+        "value": "米格鲁",
+        "confidence": 0.32510825991630554,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 6,
+        "confidence": 0.974262535572052,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_282_catap",
+    "name": "空爆",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 6,
+    "rarity": 3,
+    "confidence": {
+      "name": {
+        "value": "空爆",
+        "confidence": 0.9798108482944371,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 6,
+        "confidence": 0.9090169668197632,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_500_noirc",
+    "name": "黑角",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 6,
+    "rarity": 2,
+    "confidence": {
+      "name": {
+        "value": "黑角",
+        "confidence": 0.9775210205276202,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 6,
+        "confidence": 0.9616013169288635,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_4188_confes",
+    "name": "CONFESS-47",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 2,
+    "rarity": 1,
+    "confidence": {
+      "name": {
+        "value": "CONFESS-47",
+        "confidence": 0.7021656297121237,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 2,
+        "confidence": 0.9417528510093689,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_4227_gallus",
+    "name": "GALLUS²",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 1,
+    "rarity": 1,
+    "confidence": {
+      "name": {
+        "value": "GALLUS²",
+        "confidence": 0.5194796003704798,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 1,
+        "confidence": 1.0,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_209_ardign",
+    "name": "卡缇",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 6,
+    "rarity": 3,
+    "confidence": {
+      "name": {
+        "value": "卡缇",
+        "confidence": 0.996776531253708,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 6,
+        "confidence": 0.9408631324768066,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_211_adnach",
+    "name": "安德切尔",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 6,
+    "rarity": 3,
+    "confidence": {
+      "name": {
+        "value": "安德切尔",
+        "confidence": 0.9951890110969543,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 6,
+        "confidence": 0.9429419040679932,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_212_ansel",
+    "name": "安赛尔",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 6,
+    "rarity": 3,
+    "confidence": {
+      "name": {
+        "value": "安赛尔",
+        "confidence": 0.990411972570692,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 6,
+        "confidence": 0.8952977061271667,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_503_rang",
+    "name": "巡林者",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 6,
+    "rarity": 2,
+    "confidence": {
+      "name": {
+        "value": "巡林者",
+        "confidence": 0.05126150728028092,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 6,
+        "confidence": 0.9530043005943298,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_4220_kormr",
+    "name": "虎狼丸",
+    "own": true,
+    "elite": 0,
+    "level": 1,
+    "potential": 6,
+    "rarity": 1,
+    "confidence": {
+      "name": {
+        "value": "虎狼丸",
+        "confidence": 0.9731382627538183,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 0,
+        "confidence": 1.0,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 6,
+        "confidence": 0.9446870684623718,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 1,
+        "confidence": 0.2,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_4064_mlynar",
+    "name": "玛恩纳",
+    "own": true,
+    "elite": 2,
+    "level": 90,
+    "potential": 3,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "玛恩纳",
+        "confidence": 0.9860106970118452,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9513705968856812,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 3,
+        "confidence": 0.9560268521308899,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 90,
+        "confidence": 0.5938496272952168,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_4080_lin",
+    "name": "林",
+    "own": true,
+    "elite": 2,
+    "level": 90,
+    "potential": 2,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "林",
+        "confidence": 0.9993263425872669,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9699430465698242,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 2,
+        "confidence": 0.9458375573158264,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 90,
+        "confidence": 0.9995456872055692,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_4195_radian",
+    "name": "电弧",
+    "own": true,
+    "elite": 2,
+    "level": 90,
+    "potential": 6,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "电弧",
+        "confidence": 0.997784469649266,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9480329155921936,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 6,
+        "confidence": 0.9777340888977051,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 90,
+        "confidence": 0.8412225820812274,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_293_thorns",
+    "name": "棘刺",
+    "own": true,
+    "elite": 2,
+    "level": 80,
+    "potential": 1,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "棘刺",
+        "confidence": 0.9917946312885839,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9699191451072693,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 1,
+        "confidence": 1.0,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 80,
+        "confidence": 0.9999624895108844,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_4186_tmoris",
+    "name": "八幡海铃",
+    "own": true,
+    "elite": 2,
+    "level": 80,
+    "potential": 6,
+    "rarity": 5,
+    "confidence": {
+      "name": {
+        "value": "八幡海铃",
+        "confidence": 0.985797107219696,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9532955288887024,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 6,
+        "confidence": 0.9777558445930481,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 80,
+        "confidence": 0.9999335772128858,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_362_saga",
+    "name": "嵯峨",
+    "own": true,
+    "elite": 2,
+    "level": 60,
+    "potential": 3,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "嵯峨",
+        "confidence": 0.9934332790777901,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9704565405845642,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 3,
+        "confidence": 0.9409642815589905,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 60,
+        "confidence": 0.9985927540374121,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_4228_closur",
+    "name": "可露希尔",
+    "own": true,
+    "elite": 2,
+    "level": 60,
+    "potential": 1,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "可露希尔",
+        "confidence": 0.9869258403778076,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9509977102279663,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 1,
+        "confidence": 1.0,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 60,
+        "confidence": 0.9981039187414394,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_249_mlyss",
+    "name": "缪尔赛思",
+    "own": true,
+    "elite": 2,
+    "level": 60,
+    "potential": 2,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "缪尔赛思",
+        "confidence": 0.9615300297737122,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9692288041114807,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 2,
+        "confidence": 0.9144142866134644,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 60,
+        "confidence": 0.9904942529859966,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_1035_wisdel",
+    "name": "维什戴尔",
+    "own": true,
+    "elite": 2,
+    "level": 90,
+    "potential": 3,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "维什戴尔",
+        "confidence": 0.9897329807281494,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9654892086982727,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 3,
+        "confidence": 0.9799085259437561,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 90,
+        "confidence": 0.4744668494744222,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": true
+  },
+  {
+    "char_id": "char_1046_sbell2",
+    "name": "圣聆初雪",
+    "own": true,
+    "elite": 2,
+    "level": 90,
+    "potential": 3,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "圣聆初雪",
+        "confidence": 0.9771592020988464,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9890209436416626,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 3,
+        "confidence": 0.9380807280540466,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 90,
+        "confidence": 0.999271105937721,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_2023_ling",
+    "name": "令",
+    "own": true,
+    "elite": 2,
+    "level": 90,
+    "potential": 1,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "令",
+        "confidence": 0.9997263141997337,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9646470546722412,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 1,
+        "confidence": 1.0,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 90,
+        "confidence": 0.9069271491692128,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_497_ctable",
+    "name": "晓歌",
+    "own": true,
+    "elite": 2,
+    "level": 80,
+    "potential": 3,
+    "rarity": 5,
+    "confidence": {
+      "name": {
+        "value": "晓歌",
+        "confidence": 0.9953648077361763,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9929330348968506,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 3,
+        "confidence": 0.9263243675231934,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 80,
+        "confidence": 0.9999286039851412,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_003_kalts",
+    "name": "凯尔希",
+    "own": true,
+    "elite": 2,
+    "level": 66,
+    "potential": 2,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "凯尔希",
+        "confidence": 0.978751842454533,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9683433175086975,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 2,
+        "confidence": 0.8661378026008606,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 66,
+        "confidence": 0.8864252394204989,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_222_bpipe",
+    "name": "风笛",
+    "own": true,
+    "elite": 2,
+    "level": 60,
+    "potential": 1,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "风笛",
+        "confidence": 0.9910179762168544,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9882521629333496,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 1,
+        "confidence": 1.0,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 60,
+        "confidence": 0.9877120631825789,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_1045_svash2",
+    "name": "凛御银灰",
+    "own": true,
+    "elite": 2,
+    "level": 60,
+    "potential": 1,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "凛御银灰",
+        "confidence": 0.9905233979225159,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9716256260871887,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 1,
+        "confidence": 1.0,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 60,
+        "confidence": 0.9845248453674974,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  },
+  {
+    "char_id": "char_2024_chyue",
+    "name": "重岳",
+    "own": true,
+    "elite": 2,
+    "level": 60,
+    "potential": 1,
+    "rarity": 6,
+    "confidence": {
+      "name": {
+        "value": "重岳",
+        "confidence": 0.9963014289128692,
+        "method": "ocr_name"
+      },
+      "elite": {
+        "value": 2,
+        "confidence": 0.9865991473197937,
+        "method": "tmpl_elite"
+      },
+      "potential": {
+        "value": 1,
+        "confidence": 1.0,
+        "method": "tmpl_potential"
+      },
+      "level": {
+        "value": 60,
+        "confidence": 0.9874876520629836,
+        "method": "ocr_level"
+      }
+    },
+    "source": "maa_compatible_operbox",
+    "needs_review": false
+  }
+]

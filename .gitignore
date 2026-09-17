@@ -33,6 +33,8 @@ reports/*.png
 
 # Excel temporary lock files
 ~$*
+resources/RhineLabUI/
+
 
 # Environment and OS files
 .env

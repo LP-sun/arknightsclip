@@ -1,0 +1,20 @@
+{
+  "char_id": "char_4036_forcer",
+  "name": "见行者",
+  "scan_id": "replay_1789681288_P1",
+  "player_id": "P1",
+  "source_page": "page_0001.png",
+  "page_index": 1,
+  "card_index": 1,
+  "roi": [
+    141,
+    80,
+    147,
+    298
+  ],
+  "capture_timestamp": "2026-09-18T05:41:52.052605",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 3,
+  "selected_reason": "best_quality_score_1.00"
+}
