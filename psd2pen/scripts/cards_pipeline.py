@@ -8,6 +8,10 @@ ROOT = Path(__file__).resolve().parents[1]
 YS = [187,401,615,829,101,315,529,743]
 LEFT = ['DLOWp','B8gA3U','MxQrR','bFlti','QEG16','Q2ZirJ','coU5m','RB169','Q3ckUm']
 RIGHT = ['EjeiI','GA6KO','VlmQe','XSpDY','C7b7J','vH1ov','r1nOvb','DlCRn','xu45m']
+LAYOUTS = {
+    '4l4r': {'slots': list(range(1,9)), 'template': 'character_cards_8slot.pen'},
+    '3l2r': {'slots': [1,2,3,5,6], 'template': 'character_cards_5slot.pen'},
+}
 
 def read(path):
     return json.loads(Path(path).read_text(encoding='utf-8-sig'))
@@ -65,29 +69,39 @@ def node(job,s,catalog):
         d[ids[5]]={'fill':{'type':'image','url':f'assets/psd_sources/elite{e}.png','mode':'stretch'},'x':(15 if l else 492) if e==2 else (12 if l else 489),'y':90 if e==2 else 97,'width':76 if e==2 else 81,'height':60 if e==2 else 49}
         d[ids[7]]={'fill':{'type':'image','url':f'assets/psd_sources/potential{s["potential"]}.png','mode':'fit'}}
         a=catalog[job['name']][str(s['slot'])];ax,ay,bx,by=a['bbox'];dx=ax-x;dy=ay-y;w=bx-ax;h=by-ay
+        if a.get('background'):
+            d[ids[0]]['fill'] = []
         points=[(0,7.184),(536.526,7.184),(563.148,35.676),(455.548,176.896),(0,176.896)] if l else [(114.45,7.1),(584,7.1),(584,176.8),(33.5,176.8),(6.85,150.32)]
         d[ids[0]].update({'x':dx,'y':dy,'width':w,'height':h,'viewBox':[0,0,w,h],'geometry':'M'+' L'.join(f'{px-dx} {py-dy}' for px,py in points)+' Z','fill':{'type':'image','url':a['url'],'mode':'stretch'}})
+        if a.get('background'):
+            d[ids[0]]['fill'] = [a['background'], d[ids[0]]['fill']]
     return {'type':'ref','ref':'HVZ4i' if l else 'wUVzi','name':f'{job["name"]}_SLOT_{s["slot"]:02d}_{s["player"]}','enabled':s.get('visible',True),'x':x,'y':y,'descendants':d}
 
-def compile_batch(input_path,catalog_path,out):
+def compile_batch(input_path,catalog_path,out,layout='4l4r'):
     catalog=read(catalog_path);data=validate(read(input_path),catalog)
     out=Path(out).resolve()
     if out.exists():
         raise ValueError('Output directory already exists; choose a new run directory')
     out.mkdir(parents=True)
-    run=sha(input_path)[:12];commands=[]
+    preset=LAYOUTS[layout]
+    run=hashlib.sha256((sha(input_path)+sha(catalog_path)+layout+sha(__file__)).encode()).hexdigest()[:12];commands=[]
     for job in data['operators']:
         nodes=[node(job,s,catalog) for s in sorted(job['slots'],key=lambda s:s['slot'])]
-        title=f'JSON_BATCH_{run}_{job["name"]}'
+        for n,s in zip(nodes,sorted(job['slots'],key=lambda s:s['slot'])):
+            n['enabled']=n['enabled'] and s['slot'] in preset['slots']
+        title=f'JSON_BATCH_{layout}_{run}_{job["name"]}'
         export=(out/job['name']).as_posix()
         js='const nodes='+json.dumps(nodes,ensure_ascii=False)+';\n'
         js+='for(const n of nodes){Get(n.ref,{depth:0});for(const id of Object.keys(n.descendants))Get(id,{depth:0});}\n'
         js+=f'const matches=Get(n=>n.name==={json.dumps(title,ensure_ascii=False)}?n.id:undefined);if(matches.length>1)throw new Error("Duplicate batch frame");let frame=matches[0];\n'
-        js+='if(!frame){const p=FindEmptySpace({width:1920,height:1080,padding:120,direction:"bottom"});frame=Insert(document,{type:"frame",name:'+json.dumps(title,ensure_ascii=False)+',x:p.x,y:p.y,width:1920,height:1080,layout:"none",clip:true,placeholder:true});for(const n of nodes){const id=Insert(document,n);Move(id,frame);}Update(frame,{placeholder:false});}\n'
-        js+='const actual=Get(frame,{depth:1});if(actual.children.length!==8)throw new Error("Expected 8 slots");Print(actual);TakeScreenshot([frame]);Export([frame],"png",'+json.dumps(export,ensure_ascii=False)+',{scale:1});'
+        js+='if(!frame){const p=FindEmptySpace({width:1920,height:1080,padding:120,direction:"bottom"});frame=Insert(document,{type:"frame",name:'+json.dumps(title,ensure_ascii=False)+',x:p.x,y:p.y,width:1920,height:1080,layout:"none",clip:true,placeholder:true});for(const n of nodes){const id=Insert(document,n);Move(id,frame);}}\n'
+        js+='const actual=Get(frame,{depth:1});if(actual.children.length!==8)throw new Error("Expected 8 editable slots");if(actual.width!==1920||actual.height!==1080)throw new Error("Canvas size changed");\n'
+        js+='function matchesValue(a,b){if(b&&typeof b==="object")return a!=null&&Object.entries(b).every(([k,v])=>matchesValue(a[k],v));return typeof b==="number"?Math.abs(a-b)<0.0001:a===b;}\n'
+        js+='const evidence=[];for(let i=0;i<8;i++){const want=nodes[i],got=actual.children[i];if(got.name!==want.name||got.ref!==want.ref||got.x!==want.x||got.y!==want.y||(got.enabled!==false)!==want.enabled)throw new Error("Slot structure/visibility mismatch: "+i);for(const [key,props] of Object.entries(want.descendants)){const resolved=Get(got.id+"/"+key,{depth:0});for(const [k,v] of Object.entries(props)){const same=k==="enabled"?(resolved[k]!==false)===v:matchesValue(resolved[k],v);if(!same)throw new Error("Readback mismatch: "+got.name+"/"+key+"/"+k);}}evidence.push({slot:i+1,id:got.id,player:want.name.slice(want.name.lastIndexOf("_")+1),visible:got.enabled!==false});}\n'
+        js+='const visible=actual.children.filter(c=>c.enabled!==false);if(visible.length!==nodes.filter(n=>n.enabled).length)throw new Error("Visible-card export mismatch");Update(frame,{placeholder:false});Print({verification:"PASS",frame,slots:evidence,individual_exports:visible.map(c=>c.id)});TakeScreenshot([frame]);Export([frame],"png",'+json.dumps(export,ensure_ascii=False)+',{scale:1});for(const c of visible)Export([c.id],"png",'+json.dumps(export,ensure_ascii=False)+',{scale:1});'
         p=out/f'{job["name"]}.pencil.js';p.write_text(js,encoding='utf-8')
-        commands.append({'operator':job['name'],'filePath':str(ROOT/'character_cards_8slot.pen'),'inputFile':str(p),'outputDirectory':export,'frameName':title})
-    dump(out/'run.json',{'input':str(Path(input_path).resolve()),'input_sha256':sha(input_path),'catalog_sha256':sha(catalog_path),'status':'prepared_not_rendered','commands':commands})
+        commands.append({'operator':job['name'],'filePath':str(ROOT/preset['template']),'inputFile':str(p),'script_sha256':sha(p),'outputDirectory':export,'frameName':title,'visible_slots':[i+1 for i,n in enumerate(nodes) if n['enabled']]})
+    dump(out/'run.json',{'input':str(Path(input_path).resolve()),'input_sha256':sha(input_path),'catalog':str(Path(catalog_path).resolve()),'catalog_sha256':sha(catalog_path),'compiler_sha256':sha(__file__),'layout':layout,'status':'prepared_not_rendered','commands':commands})
     print(f'Prepared {len(commands)} Pencil jobs: {out}/run.json')
 
 def seed(manifest, output, catalog_path):
@@ -111,7 +125,9 @@ def main():
     p=sub.add_parser('from-xlsx');p.add_argument('xlsx');p.add_argument('--output',required=True);p.add_argument('--overrides',help='JSON mapping cell address to explicitly approved replacement')
     for name in ('validate','prepare'):
         p=sub.add_parser(name);p.add_argument('input');p.add_argument('--catalog',default=str(ROOT/'config/cards_assets.json'))
-        if name=='prepare':p.add_argument('--out',required=True)
+        if name=='prepare':
+            p.add_argument('--out',required=True)
+            p.add_argument('--layout',choices=LAYOUTS,default='4l4r')
     a=parser.parse_args()
     if a.command=='from-xlsx':
         import openpyxl
@@ -131,7 +147,7 @@ def main():
         Path(a.output).parent.mkdir(parents=True,exist_ok=True);dump(a.output,result)
     elif a.command=='seed':seed(a.manifest,a.output,a.catalog)
     elif a.command=='validate':validate(read(a.input),read(a.catalog));print('Input and assets valid')
-    else:compile_batch(a.input,a.catalog,a.out)
+    else:compile_batch(a.input,a.catalog,a.out,a.layout)
 
 if __name__=='__main__':
     main()
