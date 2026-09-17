@@ -6,7 +6,7 @@ These project-level agents support the current `arknightsclip` repository. The c
 
 Custom agent files use Codex's project-level `.codex/agents/*.toml` schema. They are intentionally narrow: root retains architecture, shared-file ownership, visual direction, Git integration, Pen/MCP state, permission elevation, and final acceptance.
 
-This hardened package deliberately uses the stable `sandbox_mode` presets as the default security mechanism. It does **not** enable granular `default_permissions` profiles by default because current Codex 0.15x releases still have cross-version/platform inconsistencies around project-local permission profiles. An opt-in example is provided in `PERMISSION_PROFILES_EXPERIMENTAL.toml.example`.
+This hardened package uses the stable `sandbox_mode` presets in `.codex/agents/*.toml` as the primary security mechanism. Granular permission profiles described here represent repository policy guidance rather than an active schema enforcement file; experimental permission profiles have not been committed as executable configs to prevent unverified configuration drift. Do not assume a project-level `.codex/config.toml` exists.
 
 ## Roles
 
@@ -79,7 +79,7 @@ Git commit is a serialized phase. Do not run `git-committer` concurrently with a
 
 ## MCP / Pencil boundary
 
-`psd2pen/` is the formal visual source. Without explicit Pencil MCP access, agents must leave every `.pen` file unchanged and return `PENCIL_MCP_NOT_CONNECTED` when a Pen inspection or edit is necessary. They may not bypass Pencil with raw JSON edits, scripts, React/Pillow rendering, or mouse-coordinate automation. The limited, documented accepted-template batch exception in `psd2pen/AGENTS.md` remains subject to its validation rules and is never implied by this strategy.
+`psd2pen/` is the formal visual source. Without explicit Pencil MCP access, agents must leave every `.pen` file unchanged and return `PENCIL_MCP_NOT_CONNECTED` when a Pen inspection or edit is necessary. They may not bypass Pencil with raw JSON edits, scripts, React/Pillow rendering, or mouse-coordinate automation. All `.pen` document modifications must be performed exclusively through Pencil MCP.
 
 Shell sandboxing does not constrain MCP/app actions. Therefore:
 
@@ -87,15 +87,15 @@ Shell sandboxing does not constrain MCP/app actions. Therefore:
 - If a Pencil/MCP method can mutate, export-overwrite, create, delete, or its side effects are ambiguous, a read-only agent must not call it.
 - Pen mutation belongs to a separately authorized root-controlled task; no `.pen` mutation is implied by `workspace-write`.
 
-## Granular permissions
+## Granular permissions and policy boundary
 
-A static project-relative exact-file allowlist is not enabled in the active config. `implementation-worker` and `docs-reporter` therefore enforce narrow delegated write scope in `developer_instructions` plus root pre/post review.
+A static project-relative exact-file allowlist is not enforced by Codex configuration in this repository. `implementation-worker` and `docs-reporter` therefore enforce narrow delegated write scope through `developer_instructions` plus root pre/post review.
 
-An experimental granular-profile example is included, but it is intentionally not loaded. Validate your installed Codex version/platform before adopting it; do not mix legacy `sandbox_mode` and `default_permissions` until precedence is verified on that build.
+Permission profiles and file scoping described in this document serve as documented policy guidance. Because current Codex releases do not provide a verified project-local permission profile schema in this workspace, no experimental configuration profiles have been committed as active or example configs to avoid unverified configuration drift.
 
 ## Validation and invocation
 
-Codex discovers role files from `.codex/agents/`; this package also registers them explicitly in `.codex/config.toml`. Use explicit role names in delegation prompts, state the task boundary and expected report, and for writers name the exact owned paths.
+Codex discovers role files directly from `.codex/agents/*.toml`. Do not assume a project-level `.codex/config.toml` exists. Use explicit role names in delegation prompts, state the task boundary and expected report, and for writers name the exact owned paths.
 
 Keep the root session on `on-request` approvals and avoid Full Access when spawning read-only children. The package caps concurrent subagent threads at 4. Git commit remains serialized regardless of that cap.
 
@@ -107,4 +107,4 @@ Recommended smoke tests:
 4. Exercise `implementation-worker` only against a disposable explicitly delegated path, then review the root diff.
 5. Exercise `git-committer` only in a disposable repository because its purpose is to modify `.git` after explicit approval.
 
-Run `python .codex/validate_config.py` after editing this package. It validates TOML syntax and intended static safety invariants, but it cannot prove the runtime honored the requested sandbox or MCP boundaries.
+TOML syntax and intended static safety invariants can be validated using Python's `tomllib` module across `.codex/agents/*.toml`. Static validation confirms schema correctness, but cannot prove the runtime honored the requested sandbox or MCP boundaries.
