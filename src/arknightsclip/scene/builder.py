@@ -106,20 +106,21 @@ class SceneBuilder:
         self,
         target_char_ids: Optional[List[str]] = None,
         save_dir: Optional[Path] = None,
+        rarity: Optional[int] = 6,
     ) -> Dict[str, SceneManifest]:
-        """批量构建并持久化所有场景清单"""
+        """批量构建并持久化场景清单，默认严格过滤为 6 星干员 (rarity=6)"""
         if self.dataset is None:
             self.load_dataset_from_file()
 
         if target_char_ids is None:
-            # 收集所有已收录干员
-            cids_set = set()
-            for p in self.dataset.players.values():
-                cids_set.update(p.operators.keys())
-            # 如果没有，从 registry 中提取所有 6 星
-            if not cids_set:
-                cids_set.update(e.char_id for e in self.registry.all_operators() if e.rarity == 6)
-            target_char_ids = sorted(list(cids_set))
+            # 优先从 registry 中提取满足稀有度的干员 (默认 6 星)
+            if rarity is not None:
+                target_char_ids = sorted([e.char_id for e in self.registry.all_operators() if e.rarity == rarity])
+            else:
+                cids_set = set()
+                for p in self.dataset.players.values():
+                    cids_set.update(p.operators.keys())
+                target_char_ids = sorted(list(cids_set))
 
         out_dir = save_dir or self.config.get_manifests_dir()
         out_dir.mkdir(parents=True, exist_ok=True)
@@ -127,6 +128,8 @@ class SceneBuilder:
         manifests: Dict[str, SceneManifest] = {}
         for cid in target_char_ids:
             manifest = self.build_scene(cid)
+            if rarity is not None and manifest.rarity != rarity:
+                continue
             manifests[cid] = manifest
 
             # 落盘
@@ -134,5 +137,5 @@ class SceneBuilder:
             with open(out_file, "w", encoding="utf-8") as f:
                 json.dump(manifest.to_dict(), f, ensure_ascii=False, indent=2)
 
-        print(f"[SceneBuilder] 成功构建并保存 {len(manifests)} 份 SceneManifest 至: {out_dir}")
+        print(f"[SceneBuilder] 成功构建并保存 {len(manifests)} 份 {f'{rarity}星' if rarity else '全量'} SceneManifest 至: {out_dir}")
         return manifests

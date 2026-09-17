@@ -46,9 +46,27 @@ external/
 
 # Local JavaScript dependencies and Codex session state
 **/node_modules/
+.npm-cache/
+renderers/rhine/.conda/
 .codex/
 dist/
+release/
+tools/standalone_collector/dist/
 experiments/stability_outputs/
+
+# Local MaaCore / emulator capture sessions (may contain account data)
+Arknights_OperBox_Export_*.json
+experiments/*_screen.png
+experiments/screen_*.png
+experiments/latest_operbox_packet.json
+experiments/maa_*_output.json
+experiments/maa_gui_screen_*.png
+experiments/width_comparison/
+experiments/check_device.py
+experiments/finalize_p1_data.py
+experiments/inspect_output.py
+experiments/test_asst_operbox.py
+orignal_pic/
 
 # Reproducible renderer exports and intermediate spike screenshots
 reports/exported_frames/

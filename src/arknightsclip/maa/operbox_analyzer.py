@@ -34,9 +34,10 @@ class OperBoxAnalyzer:
         self.OFFSET_LEVEL = [5, 230, 37, 23]
         self.OFFSET_NAME = [0, 265, 128, 22]
 
-        self.CARD_VISUAL_OFFSET = [-12, -8, 132, 298]
+        # 720P 下卡片包围盒 [-12, -8, 146.667, 298] -> 1080P 下精确对应 [x-18, y-12, 220, 447] (紧凑精致版)
+        self.CARD_VISUAL_OFFSET = [-12, -8, 220.0 / 1.5, 298]
         self.SAFE_LEFT_MARGIN_720P = 25
-        self.SAFE_RIGHT_MARGIN_720P = 1255
+        self.SAFE_RIGHT_MARGIN_720P = 1275
 
         self._ocr_reader = None
 
@@ -120,7 +121,7 @@ class OperBoxAnalyzer:
                     'potential': ConfidenceScore(potential, pot_conf, 'tmpl_potential'),
                     'level': ConfidenceScore(level, lvl_conf, 'ocr_level'),
                 },
-                source='MaaCore OperBoxImageAnalyzer',
+                source='maa_compatible_operbox',
                 needs_review=(reg_entry is None or lvl_conf < 0.6)
             )
             states.append(state)

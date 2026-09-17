@@ -1,0 +1,49 @@
+{
+  "operator_id": "char_4179_monstr",
+  "operator_name": "Mon3tr",
+  "rarity": 6,
+  "profession": "MEDIC",
+  "full_art_path": "",
+  "players": {
+    "P1": {
+      "own": true,
+      "elite": 2,
+      "level": 60,
+      "potential": 1,
+      "no_info": false,
+      "card_asset_path": null
+    },
+    "P2": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    },
+    "P3": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    },
+    "P4": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    },
+    "P5": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    }
+  }
+}

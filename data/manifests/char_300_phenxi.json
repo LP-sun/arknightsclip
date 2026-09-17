@@ -1,0 +1,49 @@
+{
+  "operator_id": "char_300_phenxi",
+  "operator_name": "菲亚梅塔",
+  "rarity": 6,
+  "profession": "SNIPER",
+  "full_art_path": "",
+  "players": {
+    "P1": {
+      "own": true,
+      "elite": 2,
+      "level": 60,
+      "potential": 1,
+      "no_info": false,
+      "card_asset_path": "E:\\明日方舟报菜名\\data\\raw\\P1\\operbox\\cards_raw\\char_300_phenxi.png"
+    },
+    "P2": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    },
+    "P3": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    },
+    "P4": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    },
+    "P5": {
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
+      "card_asset_path": null
+    }
+  }
+}

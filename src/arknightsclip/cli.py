@@ -24,10 +24,9 @@ def main():
     subparsers = parser.add_subparsers(dest="command", help="可执行子命令")
 
     # 1. collect-player
-    p_collect = subparsers.add_parser("collect-player", help="采集单名玩家干员数据与仓库卡片素材 (Single-Scan Dual-Output)")
+    p_collect = subparsers.add_parser("collect-player", help="采集单名玩家干员数据与仓库卡片素材 (OperBox 官方兼容引擎)")
     p_collect.add_argument("--player", required=True, help="玩家标识，如 P1, P2")
     p_collect.add_argument("--name", default="博士", help="玩家昵称")
-    p_collect.add_argument("--source", default="maa-operbox", choices=["maa-operbox", "legacy"], help="采集引擎源")
     p_collect.add_argument("--pages", type=int, default=5, help="最大截屏翻页数")
     p_collect.add_argument("--capture-cards", dest="capture_cards", action="store_true", default=True, help="单次扫描同步保存卡片素材")
     p_collect.add_argument("--no-capture-cards", dest="capture_cards", action="store_false", help="不保存卡片素材")
@@ -60,6 +59,7 @@ def main():
     # 7. build-manifests
     p_manifest = subparsers.add_parser("build-manifests", help="批量生成各干员的五人槽位 SceneManifest 场景渲染清单")
     p_manifest.add_argument("--output", default=None, help="SceneManifest 保存目录 (默认 data/manifests/)")
+    p_manifest.add_argument("--rarity", type=int, default=6, help="按稀有度过滤 (默认 6 星)")
 
     # 8. export-timeline
     p_timeline = subparsers.add_parser("export-timeline", help="导出 24.0 fps 分层时间线工程 (FCP7 XML / OTIO)")
@@ -76,21 +76,16 @@ def main():
     reg = OperatorRegistry(cfg.resolve_path("src/arknightsclip/registry/operator_registry.json"))
 
     if args.command == "collect-player":
-        if args.source == "maa-operbox":
-            from .maa.operbox_collector import OperBoxCollector
-            collector = OperBoxCollector(cfg)
-            collector.collect(
-                args.player,
-                args.name,
-                max_pages=args.pages,
-                capture_cards=args.capture_cards,
-                save_pages=args.save_pages,
-                debug=args.debug_operbox
-            )
-        else:
-            from .maa.collector import PlayerCollector
-            collector = PlayerCollector(cfg)
-            collector.collect(args.player, args.name, max_pages=args.pages)
+        from .maa.operbox_collector import OperBoxCollector
+        collector = OperBoxCollector(cfg)
+        collector.collect(
+            args.player,
+            args.name,
+            max_pages=args.pages,
+            capture_cards=args.capture_cards,
+            save_pages=args.save_pages,
+            debug=args.debug_operbox
+        )
 
     elif args.command == "replay-operbox":
         from .maa.operbox_collector import OperBoxCollector
@@ -155,8 +150,8 @@ def main():
         from .scene.builder import SceneBuilder
         sb = SceneBuilder(cfg, registry=reg)
         out_dir = Path(args.output) if args.output else cfg.get_manifests_dir()
-        manifests = sb.build_all_scenes(save_dir=out_dir)
-        print(f"[CLI] 成功生成 {len(manifests)} 份场景渲染清单至: {out_dir}")
+        manifests = sb.build_all_scenes(save_dir=out_dir, rarity=args.rarity)
+        print(f"[CLI] 成功生成 {len(manifests)} 份 {f'{args.rarity}星' if args.rarity else '全量'} 场景渲染清单至: {out_dir}")
 
     elif args.command == "export-timeline":
         from .timeline.fcpxml_generator import FCPXMLGenerator

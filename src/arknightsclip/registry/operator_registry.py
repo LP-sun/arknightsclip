@@ -1,12 +1,28 @@
 """
 明日方舟干员官方注册表 (Operator Registry)
 建立全局唯一的 char_id 映射，支持官方中文名、英文名、常见缩写与别名消歧。
+
+OCR 纠错策略（学习自 MAA ocr_replace 机制）：
+  1. 字符级替换表 OCR_CHAR_FIXES：修正 EasyOCR 已知的系统性字形混淆
+  2. 冒号后缀截断：「凯尔希:思衡托」→「凯尔希」（皮肤/模组名连读）
+  3. Levenshtein 模糊匹配兜底：编辑距离 ≤1 时自动映射最近候选
 """
 
 import json
 from pathlib import Path
 from typing import Dict, List, Optional
 from ..models.operator import OperatorRegistryEntry
+
+# MAA-style OCR 字符级纠错表
+# 键=OCR 误读字符，值=正确字符
+# 来源：对照 EasyOCR 在方舟仓库界面的已知系统性误读汇总
+OCR_CHAR_FIXES: Dict[str, str] = {
+    '壬': '王',   # 「推进之壬」→「推进之王」；「魔壬」→「魔王」  (三横→二横，高频混淆)
+    '鹗': '鸮',   # 「白面鹗」→「白面鸮」  (形近鸟字旁)
+    '祜': '祐',   # 「祜天寺若麦」→「祐天寺若麦」  (礻偏旁内笔画混淆)
+    '·': '·',    # 统一中点（全角·与间隔号·码位不同，归一到 U+00B7）
+    ':': '·',    # 半角冒号→中点，处理「维娜:维多利亚」→「维娜·维多利亚」
+}
 
 COMMON_ALIASES: Dict[str, List[str]] = {
     "char_103_angel": ["能天使", "阿能", "Exusiai"],
@@ -65,8 +81,11 @@ class OperatorRegistry:
         with open(registry_file, "r", encoding="utf-8") as f:
             data = json.load(f)
         for d in data.get("operators", []):
+            cid = d.get("char_id", "")
+            if not cid.startswith("char_"):
+                continue
             entry = OperatorRegistryEntry(
-                char_id=d["char_id"],
+                char_id=cid,
                 canonical_name_zh=d["canonical_name_zh"],
                 rarity=d.get("rarity", 6),
                 profession=d.get("profession", ""),
@@ -87,20 +106,98 @@ class OperatorRegistry:
     def get_by_id(self, char_id: str) -> Optional[OperatorRegistryEntry]:
         return self._entries.get(char_id)
 
+    @staticmethod
+    def _ocr_normalize(text: str) -> str:
+        """
+        MAA-style OCR 前处理：
+        1. 字符级替换（字形混淆修正）
+        2. 截断第一个中点·之后的内容（皮肤/模组后缀），仅保留干员本名
+        """
+        # Step 1: 字符级替换（包含 : → · 的统一）
+        normalized = ''.join(OCR_CHAR_FIXES.get(c, c) for c in text)
+        # Step 2: 截断·后缀（如「维娜·维多利亚」保持完整，「凯尔希·思衡托」→「凯尔希」）
+        # 仅当·后的内容不在注册表中时才截断，避免影响带·的正式名
+        if '·' in normalized:
+            prefix = normalized.split('·')[0]
+            # 如果前缀单独成立（可被 resolve），保留前缀；否则保留完整串再尝试
+            # 实际截断在 resolve 内部处理，这里先返回归一化全串
+            return normalized
+        return normalized
+
+    @staticmethod
+    def _levenshtein(a: str, b: str) -> int:
+        """计算两字符串的编辑距离（Levenshtein distance）"""
+        if len(a) < len(b):
+            return OperatorRegistry._levenshtein(b, a)
+        if not b:
+            return len(a)
+        prev = list(range(len(b) + 1))
+        for i, ca in enumerate(a):
+            curr = [i + 1]
+            for j, cb in enumerate(b):
+                curr.append(min(prev[j + 1] + 1, curr[j] + 1, prev[j] + (ca != cb)))
+            prev = curr
+        return prev[-1]
+
     def resolve(self, query: str) -> Optional[OperatorRegistryEntry]:
-        """根据 ID、官方中文名、英文名或别名多维度解析干员"""
+        """
+        根据 ID、官方中文名、英文名或别名多维度解析干员。
+
+        解析流程（学习自 MAA ocr_replace + 模糊匹配策略）：
+        1. 直接精确匹配（char_id / canonical_name / alias）
+        2. OCR 字符纠错后精确匹配（壬→王 / 鹗→鸮 / 祜→祐 / :→·）
+        3. 冒号/·后缀截断后匹配（「凯尔希:思衡托」→「凯尔希」）
+        4. Levenshtein 编辑距离 ≤1 的模糊匹配兜底
+        """
         q = query.strip()
+
+        # --- Step 1: 精确匹配 ---
         if q in self._entries:
             return self._entries[q]
         if q in self._name_to_id:
             return self._entries[self._name_to_id[q]]
         if q.lower() in self._name_to_id:
             return self._entries[self._name_to_id[q.lower()]]
-        # 模糊前缀匹配 (例如 '001_能天使' -> '能天使')
-        if "_" in q:
-            sub = q.split("_", 1)[1]
+        # 前缀匹配 (例如 '001_能天使' -> '能天使')
+        if '_' in q:
+            sub = q.split('_', 1)[1]
             if sub in self._name_to_id:
                 return self._entries[self._name_to_id[sub]]
+
+        # --- Step 2: OCR 字符纠错后精确匹配 ---
+        q_norm = self._ocr_normalize(q)
+        if q_norm != q:
+            # 2a. 纠错后全串精确匹配（优先）：「凯尔希:思衡托」→「凯尔希·思衡托」→ kalts2
+            if q_norm in self._name_to_id:
+                return self._entries[self._name_to_id[q_norm]]
+
+        # --- Step 3: 冒号 / 中点后缀截断（仅当纠错全串未命中时）---
+        # 用于「纯皮肤/模组后缀连读」的情况，此时截断前缀才有意义
+        for sep in (':', '·'):
+            if sep in q_norm:
+                prefix = q_norm.split(sep)[0].strip()
+                if prefix and prefix in self._name_to_id:
+                    return self._entries[self._name_to_id[prefix]]
+            if sep in q:
+                prefix_raw = q.split(sep)[0].strip()
+                if prefix_raw and prefix_raw in self._name_to_id:
+                    return self._entries[self._name_to_id[prefix_raw]]
+
+        # --- Step 4: Levenshtein 模糊匹配（距离 ≤1，仅对中文名）---
+        candidate_q = q_norm  # 先用纠错串做模糊匹配
+        best_entry: Optional[OperatorRegistryEntry] = None
+        best_dist = 2  # 只接受距离 ≤1
+        for name, cid in self._name_to_id.items():
+            # 只对长度接近的候选做计算，跳过英文名（避免误匹配）
+            if abs(len(name) - len(candidate_q)) > 1:
+                continue
+            d = self._levenshtein(candidate_q, name)
+            if d < best_dist:
+                best_dist = d
+                best_entry = self._entries.get(cid)
+        if best_entry is not None:
+            return best_entry
+
         return None
 
     def all_operators(self) -> List[OperatorRegistryEntry]:

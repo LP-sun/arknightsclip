@@ -1,0 +1,20 @@
+{
+  "char_id": "char_1048_orchd2",
+  "name": "焰狐龙梓兰",
+  "scan_id": "20260917_P1",
+  "player_id": "P1",
+  "source_page": "page_0004.png",
+  "page_index": 4,
+  "card_index": 15,
+  "roi": [
+    1099,
+    399,
+    132,
+    298
+  ],
+  "capture_timestamp": "2026-09-17T00:34:13.929300",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": 0.696,
+  "candidate_count": 1,
+  "selected_reason": "best_crop"
+}

@@ -40,4 +40,20 @@
 - Photoshop：PSD 实际渲染或技术验证需要；后端由 `photoshop.backend` 控制。
 - DaVinci Resolve：导入 XML/OTIO 后完成最终合成、调色、特效和交付渲染。
 
-根目录的早期脚本、`composition_manifest.json`、`edit_plan.json` 和归档媒体服务于历史制作，不是当前 CLI 的稳定接口。
+根目录的早期脚本已归档至 `archive/legacy_collection_pipeline/`，服务于历史制作追溯，不是当前生产接口。
+
+## OperBox production source of truth
+
+Production collection code lives only in:
+
+- `src/arknightsclip/maa/operbox_collector.py`
+- `src/arknightsclip/maa/operbox_analyzer.py`
+
+Do not introduce a second OperBox collector or recognizer.
+
+Do not restore FallbackOperBoxRecognizer.
+
+Do not migrate the production collection flow to MaaCore without an explicit architecture decision.
+
+Historical collection scripts are read-only references and must not receive new functionality.
+

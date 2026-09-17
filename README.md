@@ -4,7 +4,7 @@
 
 ## 当前入口与仓库状态
 
-当前维护入口是 `src/arknightsclip/` 提供的 `arknightsclip` CLI。根目录的 `run_full_autonomous_pipeline.py`、`maa_game_pipeline.py` 等脚本，以及 `archive/` 中的内容，属于早期制作/交付记录；它们可以用于追溯，但不应作为新增功能的默认接口。
+当前维护入口是 `src/arknightsclip/` 提供的 `arknightsclip` CLI，干员仓库采集与识别的唯一正式生产实现为 `src/arknightsclip/maa/operbox_collector.py` 与 `operbox_analyzer.py`。早期根目录脚本已统一归档至 `archive/legacy_collection_pipeline/`，仅作为历史记录追溯。
 
 Pen/Pencil 相关功能以 [`psd2pen/`](psd2pen/) 为唯一正式实现和后续开发入口。它基于真实 PSD 视觉资产，并通过 Pencil MCP 完成编辑、截图与原生导出。`experiments/pen_renderer/` 和 `experiments/react_renderer/` 仅保留为早期效果较差的技术原型，不代表当前视觉质量，不得作为正式渲染管线、视觉基准或新功能落点。
 
@@ -64,7 +64,12 @@ arknightsclip export-timeline --format all
 | `experiments/react_renderer/` | 效果较差的对照原型，不属于正式 Pen 管线。 |
 | `reports/` | 统计、时间线与历史验收/技术报告；索引见 [`reports/README.md`](reports/README.md)。 |
 | `tests/` | 核心数据模型、采集解析、场景和时间线测试。 |
-| 根目录旧脚本与 `archive/` | 早期实验和交付记录。 |
+
+<details>
+<summary><b>历史归档与早期交付记录 (archive/，点击展开)</b></summary>
+
+项目早期迭代中的探索性单图渲染、切刀分析、历史中间状态 JSON、图层契约及交付成片已完整收拢归档至 `archive/`（包含 `legacy_scripts/`、`legacy_data/`、`legacy_deliveries/` 等），与当前主生产管线解耦保持根目录整洁。详细索引请参见 [`archive/README.md`](archive/README.md)。
+</details>
 
 ## 文档导航
 

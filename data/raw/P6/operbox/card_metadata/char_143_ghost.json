@@ -1,0 +1,20 @@
+{
+  "char_id": "char_143_ghost",
+  "name": "幽灵鲨",
+  "scan_id": "replay_1789630696_P6",
+  "player_id": "P6",
+  "source_page": "page_0005.png",
+  "page_index": 5,
+  "card_index": 13,
+  "roi": [
+    1556,
+    732,
+    269,
+    546
+  ],
+  "capture_timestamp": "2026-09-17T15:38:52.715849",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 1,
+  "selected_reason": "best_quality_score_1.00"
+}

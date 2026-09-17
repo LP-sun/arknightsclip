@@ -1,0 +1,20 @@
+{
+  "char_id": "char_4134_cetsyr",
+  "name": "魔王",
+  "scan_id": "replay_1789630696_P6",
+  "player_id": "P6",
+  "source_page": "page_0001.png",
+  "page_index": 1,
+  "card_index": 11,
+  "roi": [
+    993,
+    732,
+    269,
+    546
+  ],
+  "capture_timestamp": "2026-09-17T15:38:52.285372",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 1,
+  "selected_reason": "best_quality_score_1.00"
+}

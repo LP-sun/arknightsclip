@@ -8,25 +8,25 @@
     "P1": {
       "own": true,
       "elite": 2,
-      "level": 84,
-      "potential": 3,
+      "level": 60,
+      "potential": 1,
       "no_info": false,
-      "card_asset_path": null
+      "card_asset_path": "E:\\明日方舟报菜名\\data\\raw\\P1\\operbox\\cards_raw\\char_1044_hsgma2.png"
     },
     "P2": {
-      "own": true,
-      "elite": 2,
-      "level": 84,
-      "potential": 3,
-      "no_info": false,
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
       "card_asset_path": null
     },
     "P3": {
-      "own": true,
-      "elite": 2,
-      "level": 84,
-      "potential": 3,
-      "no_info": false,
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
       "card_asset_path": null
     },
     "P4": {
@@ -38,11 +38,11 @@
       "card_asset_path": null
     },
     "P5": {
-      "own": true,
-      "elite": 2,
-      "level": 84,
-      "potential": 3,
-      "no_info": false,
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
       "card_asset_path": null
     }
   }

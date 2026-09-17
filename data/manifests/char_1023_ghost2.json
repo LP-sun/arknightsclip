@@ -8,33 +8,33 @@
     "P1": {
       "own": true,
       "elite": 2,
-      "level": 90,
-      "potential": 5,
+      "level": 60,
+      "potential": 1,
       "no_info": false,
       "card_asset_path": null
     },
     "P2": {
-      "own": true,
-      "elite": 2,
-      "level": 90,
-      "potential": 5,
-      "no_info": false,
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
       "card_asset_path": null
     },
     "P3": {
-      "own": true,
-      "elite": 2,
-      "level": 90,
-      "potential": 5,
-      "no_info": false,
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
       "card_asset_path": null
     },
     "P4": {
-      "own": true,
-      "elite": 2,
-      "level": 90,
-      "potential": 5,
-      "no_info": false,
+      "own": false,
+      "elite": 0,
+      "level": 1,
+      "potential": 1,
+      "no_info": true,
       "card_asset_path": null
     },
     "P5": {
