@@ -1,0 +1,51 @@
+# Project-level orchestration defaults.
+#
+# Security design:
+# - Root and subagents operate under approval_policy=on-request.
+# - High-impact / destructive Git operations require explicit individual user confirmation before execution.
+# - Subagent roles choose read-only / workspace-write with on-request approval for operational flexibility.
+# - The root uses danger-full-access so Git metadata writes are available.
+# - We intentionally do NOT enable granular `default_permissions` profiles here.
+#   Current Codex 0.15x builds still have cross-version/platform inconsistencies
+#   around project-local permission profiles; see PERMISSIONS.md.
+
+approval_policy = "on-request"
+# The root agent is allowed to write Git metadata (.git) as well as workspace files.
+sandbox_mode = "danger-full-access"
+
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 4
+interrupt_message = true
+
+[agents."repo-researcher"]
+description = "Read-only repository investigator. Standard operations use on-request approval."
+config_file = "agents/repo-researcher.toml"
+
+[agents."implementation-worker"]
+description = "Implementation worker. Workspace writes with on-request approval."
+config_file = "agents/implementation-worker.toml"
+
+[agents."visual-reviewer"]
+description = "Visual reviewer. Recommends Pencil MCP; on-request approval."
+config_file = "agents/visual-reviewer.toml"
+
+[agents."motion-specialist"]
+description = "Motion/timing diagnostic specialist. On-request approval."
+config_file = "agents/motion-specialist.toml"
+
+[agents."test-verifier"]
+description = "Test verifier for pipeline and renderer checks. On-request approval."
+config_file = "agents/test-verifier.toml"
+
+[agents."docs-reporter"]
+description = "Documentation writer. Workspace writes with on-request approval."
+config_file = "agents/docs-reporter.toml"
+
+[agents."git-reviewer"]
+description = "Git reviewer for scope and risks. On-request approval."
+config_file = "agents/git-reviewer.toml"
+
+[agents."git-committer"]
+description = "Git committer for staging and committing. On-request approval with confirmation-gated rules."
+config_file = "agents/git-committer.toml"
