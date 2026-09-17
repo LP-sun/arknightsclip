@@ -48,6 +48,8 @@ external/
 **/node_modules/
 .codex/
 dist/
+release/
+tools/standalone_collector/dist/
 experiments/stability_outputs/
 
 # Local MaaCore / emulator capture sessions (may contain account data)
