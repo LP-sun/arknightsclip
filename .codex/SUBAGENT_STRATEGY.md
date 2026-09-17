@@ -2,11 +2,11 @@
 
 ## Scope and source of truth
 
-These project-level agents support the current `arknightsclip` repository. The official production source of truth across components is strictly defined as:
+These project-level agents support the current `arknightsclip` repository. The component source-of-truth boundaries are:
 
 * `src/arknightsclip/`: Production data collection, OperBox analysis, normalization, and timeline export pipeline.
 * `psd2pen/`: Production static Box and Pencil visual source of truth (`.pen` modifications strictly restricted to Pencil MCP).
-* `renderers/rhine/`: Production Rhine-style dynamic renderer (TypeScript, Vite, HTML5 Canvas, Playwright, Three.js assets).
+* `renderers/rhine/`: Active Rhine-style dynamic renderer **work in progress (WIP)**. It is the only maintained Rhine renderer path, but it is **not yet production-ready or delivery-ready**. Known renderer limitations and TODOs are documented in `docs/rhine_renderer.md` and must not be described as completed.
 * `experiments/rhine_pillow_mockup/`: Historical and rapid visual mockup exploration only; not a production renderer.
 
 Scene data is built into `data/manifests/` from the normalized dataset in `data/normalized/five_players.json`, which draws from the reproducible public dataset in `data/raw/`.
