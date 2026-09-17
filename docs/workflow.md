@@ -53,6 +53,42 @@ arknightsclip export-timeline --format all
 
 前者在 `data/manifests/` 写出每位干员的五人槽位清单。后者在默认报告目录写出 FCP7 XML 和 OTIO；传入 `--output <路径>` 可在仅导出一种格式时覆盖输出文件。导入 DaVinci Resolve 后，确认媒体没有离线、分层轨道时长与配置 FPS 一致，再进行最终调色和渲染。
 
+## 6. Rhine 动态渲染与验证（WIP / 未完成）
+
+`renderers/rhine/` 是后续唯一继续维护的 Rhine renderer 路径，但当前明确属于 **WIP / 未完成**，不视为 production-ready 或最终视频交付链路。本节命令用于开发、验证和 Smoke 测试；具体 TODO 见 `docs/rhine_renderer.md`。
+
+### 6.1 生成契约文件
+```powershell
+python scripts/build_rhine_placeholder_project.py
+```
+该脚本从 `data/manifests/` 读取前 42 位干员，生成当前 Phase 1 项目契约至 `renderers/rhine/public/project.json` 与 `generated/rhine/final_placeholder/`。
+
+当前 contract rebuild 仍存在历史路径跨平台归一化 TODO，因此此步骤不能作为“renderer 已完成”的证明。
+
+### 6.2 渲染器校验与 Smoke 测试
+```powershell
+cd renderers/rhine
+npm test           # 运行当前时间线 evaluate() 契约单元测试
+npm run build      # 验证 Vite / TypeScript 打包
+
+# 启动本地服务进行抽帧验证
+npm run dev
+
+# Playwright 轻量烟雾测试（当前 Phase 1 固定关键帧）
+npm run render:smoke
+```
+
+### 6.3 Phase 1 帧渲染
+```powershell
+npm run render:phase1
+```
+* 当前脚本通过 `window.__RHINE_RENDER_READY__` 等待页面完成后捕获；
+* 产物为 `generated/rhine/final_placeholder/frames/` 下的 PNG 序列帧；
+* 当前 full/smoke frame bounds 仍包含 Phase 1 固定值，后续应改为完全从 project contract 的 `total_frames` 驱动；
+* 自动化 ffmpeg 压缩封装、Resolve 直联、完整动态设计和最终 delivery 流程均属于后续 TODO。
+
+因此，以上 renderer 命令目前仅表示“WIP 基础设施可以运行或验证”，不表示最终视频生产链路已经完成。
+
 ## 常见问题
 
 | 现象 | 优先检查 |

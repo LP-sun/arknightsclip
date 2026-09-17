@@ -7,158 +7,158 @@ Unknown source fields are rendered as DATA PENDING or UNVERIFIED. Confirmed own=
 
 Placeholder records: 155
 
-- char_1012_skadi2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1012_skadi2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1012_skadi2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1012_skadi2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1012_skadi2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1014_nearl2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1014_nearl2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1014_nearl2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1014_nearl2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1014_nearl2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1015_aglna2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1015_aglna2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1015_aglna2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1015_aglna2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1015_aglna2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1016_agoat2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1016_agoat2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1016_agoat2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1016_agoat2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1016_agoat2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1019_siege2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1019_siege2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1019_siege2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1019_siege2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1019_siege2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1020_reed2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1020_reed2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1020_reed2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1020_reed2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1020_reed2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1023_ghost2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1023_ghost2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1023_ghost2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1023_ghost2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1023_ghost2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1026_gvial2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1026_gvial2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1026_gvial2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1026_gvial2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1026_gvial2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1028_texas2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1028_texas2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1028_texas2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1028_texas2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1028_texas2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1029_yato2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1029_yato2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1029_yato2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1029_yato2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1029_yato2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1031_slent2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1031_slent2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1031_slent2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1031_slent2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1031_slent2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1032_excu2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1032_excu2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1032_excu2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1032_excu2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1032_excu2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1033_swire2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1033_swire2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1033_swire2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1033_swire2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1033_swire2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1034_jesca2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1034_jesca2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1034_jesca2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1034_jesca2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1034_jesca2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1035_wisdel | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1035_wisdel | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1035_wisdel | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1035_wisdel | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1035_wisdel | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1038_whitw2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1038_whitw2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1038_whitw2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1038_whitw2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1038_whitw2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1039_thorn2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1039_thorn2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1039_thorn2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1039_thorn2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1039_thorn2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1040_blaze2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1040_blaze2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1040_blaze2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1040_blaze2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1040_blaze2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1041_angel2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1041_angel2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1041_angel2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1041_angel2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1041_angel2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1042_phatm2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1042_phatm2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1042_phatm2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1042_phatm2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1042_phatm2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1043_leizi2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1043_leizi2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1043_leizi2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1043_leizi2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1043_leizi2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1044_hsgma2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1044_hsgma2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1044_hsgma2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1044_hsgma2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1044_hsgma2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1045_svash2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1045_svash2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1045_svash2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1045_svash2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1045_svash2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1046_sbell2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1046_sbell2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1046_sbell2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1046_sbell2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1046_sbell2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1047_halo2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1047_halo2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1047_halo2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1047_halo2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1047_halo2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1048_orchd2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1048_orchd2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1048_orchd2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1048_orchd2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1048_orchd2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1050_chen3 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1050_chen3 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1050_chen3 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1050_chen3 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1050_chen3 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1051_headb2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1051_headb2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1051_headb2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1051_headb2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1051_headb2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1052_kalts2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1052_kalts2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1052_kalts2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1052_kalts2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1052_kalts2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_134_ifrit | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_134_ifrit | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_134_ifrit | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_134_ifrit | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_134_ifrit | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1502_crosly | P1 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1502_crosly | P2 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1502_crosly | P3 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1502_crosly | P4 | full_art | ASSET_PENDING | manifest full_art_path missing
-- char_1502_crosly | P5 | full_art | ASSET_PENDING | manifest full_art_path missing
+- char_1012_skadi2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1012_skadi2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1012_skadi2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1012_skadi2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1012_skadi2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1014_nearl2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1014_nearl2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1014_nearl2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1014_nearl2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1014_nearl2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1015_aglna2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1015_aglna2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1015_aglna2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1015_aglna2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1015_aglna2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1016_agoat2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1016_agoat2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1016_agoat2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1016_agoat2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1016_agoat2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1019_siege2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1019_siege2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1019_siege2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1019_siege2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1019_siege2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1020_reed2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1020_reed2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1020_reed2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1020_reed2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1020_reed2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1023_ghost2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1023_ghost2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1023_ghost2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1023_ghost2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1023_ghost2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1026_gvial2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1026_gvial2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1026_gvial2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1026_gvial2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1026_gvial2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1028_texas2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1028_texas2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1028_texas2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1028_texas2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1028_texas2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1029_yato2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1029_yato2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1029_yato2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1029_yato2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1029_yato2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1031_slent2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1031_slent2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1031_slent2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1031_slent2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1031_slent2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1032_excu2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1032_excu2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1032_excu2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1032_excu2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1032_excu2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1033_swire2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1033_swire2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1033_swire2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1033_swire2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1033_swire2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1034_jesca2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1034_jesca2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1034_jesca2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1034_jesca2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1034_jesca2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1035_wisdel | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1035_wisdel | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1035_wisdel | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1035_wisdel | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1035_wisdel | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1038_whitw2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1038_whitw2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1038_whitw2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1038_whitw2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1038_whitw2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1039_thorn2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1039_thorn2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1039_thorn2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1039_thorn2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1039_thorn2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1040_blaze2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1040_blaze2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1040_blaze2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1040_blaze2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1040_blaze2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1041_angel2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1041_angel2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1041_angel2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1041_angel2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1041_angel2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1042_phatm2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1042_phatm2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1042_phatm2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1042_phatm2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1042_phatm2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1043_leizi2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1043_leizi2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1043_leizi2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1043_leizi2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1043_leizi2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1044_hsgma2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1044_hsgma2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1044_hsgma2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1044_hsgma2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1044_hsgma2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1045_svash2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1045_svash2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1045_svash2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1045_svash2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1045_svash2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1046_sbell2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1046_sbell2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1046_sbell2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1046_sbell2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1046_sbell2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1047_halo2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1047_halo2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1047_halo2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1047_halo2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1047_halo2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1048_orchd2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1048_orchd2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1048_orchd2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1048_orchd2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1048_orchd2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1050_chen3 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1050_chen3 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1050_chen3 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1050_chen3 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1050_chen3 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1051_headb2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1051_headb2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1051_headb2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1051_headb2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1051_headb2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1052_kalts2 | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1052_kalts2 | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1052_kalts2 | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1052_kalts2 | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1052_kalts2 | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_134_ifrit | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_134_ifrit | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_134_ifrit | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_134_ifrit | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_134_ifrit | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1502_crosly | P1 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1502_crosly | P2 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1502_crosly | P3 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1502_crosly | P4 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable
+- char_1502_crosly | P5 | full_art | ASSET_PENDING | manifest full_art_path missing or unresolvable

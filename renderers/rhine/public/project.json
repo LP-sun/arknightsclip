@@ -1,0 +1,2324 @@
+{
+  "version": 1,
+  "kind": "placeholder_presentation",
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "source_manifest_count": 146,
+  "scene_count": 42,
+  "frames_per_scene": 24,
+  "total_frames": 1008,
+  "duration_seconds": 42,
+  "scenes": [
+    {
+      "operator_id": "char_003_kalts",
+      "operator_name": "凯尔希",
+      "start_frame": 0,
+      "duration_frames": 24,
+      "full_art": "assets/operators/char_003_kalts/full.png",
+      "asset_status": "ready",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 2,
+          "level": 66,
+          "potential": 2
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_010_chen",
+      "operator_name": "陈",
+      "start_frame": 24,
+      "duration_frames": 24,
+      "full_art": "assets/operators/char_010_chen/full.png",
+      "asset_status": "ready",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 0,
+          "level": 50,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_017_huang",
+      "operator_name": "煌",
+      "start_frame": 48,
+      "duration_frames": 24,
+      "full_art": "assets/operators/char_017_huang/full.png",
+      "asset_status": "ready",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1012_skadi2",
+      "operator_name": "浊心斯卡蒂",
+      "start_frame": 72,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1013_chen2",
+      "operator_name": "假日威龙陈",
+      "start_frame": 96,
+      "duration_frames": 24,
+      "full_art": "assets/operators/char_1013_chen2/full.png",
+      "asset_status": "ready",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1014_nearl2",
+      "operator_name": "耀骑士临光",
+      "start_frame": 120,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1015_aglna2",
+      "operator_name": "予愿安洁莉娜",
+      "start_frame": 144,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1016_agoat2",
+      "operator_name": "纯烬艾雅法拉",
+      "start_frame": 168,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1019_siege2",
+      "operator_name": "维娜·维多利亚",
+      "start_frame": 192,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1020_reed2",
+      "operator_name": "焰影苇草",
+      "start_frame": 216,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1023_ghost2",
+      "operator_name": "归溟幽灵鲨",
+      "start_frame": 240,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1026_gvial2",
+      "operator_name": "百炼嘉维尔",
+      "start_frame": 264,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1028_texas2",
+      "operator_name": "缄默德克萨斯",
+      "start_frame": 288,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1029_yato2",
+      "operator_name": "麒麟R夜刀",
+      "start_frame": 312,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1031_slent2",
+      "operator_name": "淬羽赫默",
+      "start_frame": 336,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 0,
+          "level": 2,
+          "potential": 6
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1032_excu2",
+      "operator_name": "圣约送葬人",
+      "start_frame": 360,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1033_swire2",
+      "operator_name": "琳琅诗怀雅",
+      "start_frame": 384,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1034_jesca2",
+      "operator_name": "涤火杰西卡",
+      "start_frame": 408,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1035_wisdel",
+      "operator_name": "维什戴尔",
+      "start_frame": 432,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 2,
+          "level": 90,
+          "potential": 3
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1038_whitw2",
+      "operator_name": "荒芜拉普兰德",
+      "start_frame": 456,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1039_thorn2",
+      "operator_name": "引星棘刺",
+      "start_frame": 480,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 2,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_103_angel",
+      "operator_name": "能天使",
+      "start_frame": 504,
+      "duration_frames": 24,
+      "full_art": "assets/operators/char_103_angel/full.png",
+      "asset_status": "ready",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1040_blaze2",
+      "operator_name": "烛煌",
+      "start_frame": 528,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1041_angel2",
+      "operator_name": "新约能天使",
+      "start_frame": 552,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1042_phatm2",
+      "operator_name": "酒神",
+      "start_frame": 576,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1043_leizi2",
+      "operator_name": "司霆惊蛰",
+      "start_frame": 600,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1044_hsgma2",
+      "operator_name": "斩业星熊",
+      "start_frame": 624,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1045_svash2",
+      "operator_name": "凛御银灰",
+      "start_frame": 648,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1046_sbell2",
+      "operator_name": "圣聆初雪",
+      "start_frame": 672,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 2,
+          "level": 90,
+          "potential": 3
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1047_halo2",
+      "operator_name": "溯光星源",
+      "start_frame": 696,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 0,
+          "level": 1,
+          "potential": 6
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1048_orchd2",
+      "operator_name": "焰狐龙梓兰",
+      "start_frame": 720,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1050_chen3",
+      "operator_name": "赤刃明霄陈",
+      "start_frame": 744,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1051_headb2",
+      "operator_name": "怒潮凛冬",
+      "start_frame": 768,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1052_kalts2",
+      "operator_name": "凯尔希·思衡托",
+      "start_frame": 792,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_112_siege",
+      "operator_name": "推进之王",
+      "start_frame": 816,
+      "duration_frames": 24,
+      "full_art": "assets/operators/char_112_siege/full.png",
+      "asset_status": "ready",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 0,
+          "level": 1,
+          "potential": 3
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_113_cqbw",
+      "operator_name": "W",
+      "start_frame": 840,
+      "duration_frames": 24,
+      "full_art": "assets/operators/char_113_cqbw/full.png",
+      "asset_status": "ready",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_134_ifrit",
+      "operator_name": "伊芙利特",
+      "start_frame": 864,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_136_hsguma",
+      "operator_name": "星熊",
+      "start_frame": 888,
+      "duration_frames": 24,
+      "full_art": "assets/operators/char_136_hsguma/full.png",
+      "asset_status": "ready",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_147_shining",
+      "operator_name": "闪灵",
+      "start_frame": 912,
+      "duration_frames": 24,
+      "full_art": "assets/operators/char_147_shining/full.png",
+      "asset_status": "ready",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_1502_crosly",
+      "operator_name": "弑君者",
+      "start_frame": 936,
+      "duration_frames": 24,
+      "full_art": "",
+      "asset_status": "placeholder_asset",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 0,
+          "level": 1,
+          "potential": 6
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_172_svrash",
+      "operator_name": "银灰",
+      "start_frame": 960,
+      "duration_frames": 24,
+      "full_art": "assets/operators/char_172_svrash/full.png",
+      "asset_status": "ready",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 1
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    },
+    {
+      "operator_id": "char_179_cgbird",
+      "operator_name": "夜莺",
+      "start_frame": 984,
+      "duration_frames": 24,
+      "full_art": "assets/operators/char_179_cgbird/full.png",
+      "asset_status": "ready",
+      "players": [
+        {
+          "player_id": "P1",
+          "status": "confirmed_owned",
+          "placeholder": false,
+          "own": true,
+          "elite": 2,
+          "level": 60,
+          "potential": 2
+        },
+        {
+          "player_id": "P2",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P3",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P4",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        },
+        {
+          "player_id": "P5",
+          "status": "confirmed_unowned",
+          "placeholder": false,
+          "own": false,
+          "elite": 0,
+          "level": 1,
+          "potential": 1
+        }
+      ]
+    }
+  ]
+}
