@@ -117,12 +117,39 @@ prepare仅生成run.json和每角色.pencil.js，不表示图片已生成。输�
 不会按角色新增画板。左右组件各预置三种精英与六种潜能图标，批次仅切换显示。
 完整说明和验收证据见 `delivery/template_v2/README.md`。
 
-注意：项目规则允许直接 JSON 批处理，但本轮可用 Pencil 工具仍声明 .pen 只能
-通过 MCP 访问。当前已验证入口是“离线 JSON 编译 + MCP 原生写入/导出”。
-`scripts/batch_pen_json.py` 是未完成、未验收的早期原型，不用于正式批量输出。
+### 自动化数据流与职责边界
 
-可通过命令行完成的机械步骤包括：把 raw 或 JSON 数据规范化、生成 Pencil 执行任务、运行官方 Pencil MCP 客户端、归档原生导出的 PNG、生成每位玩家的小卡副本、写入 SHA-256 收据，以及读取 PNG 做 alpha 和尺寸校验。
+```text
+raw / input JSON
+    ↓
+data normalization
+    ↓
+batch manifest / generated Pencil script
+    ↓
+Pencil MCP (唯一合法 .pen 修改入口)
+    ↓
+.pen document mutation
+    ↓
+Pencil native screenshot / export
+    ↓
+PNG verification / receipts
+```
 
-Pencil 用于创建、结构调整和视觉验收模板；批量任务可以在已验收模板的受控节点上直接读写 .pen JSON。批处理只能替换预先登记的图片、文本、数值和可见性字段，必须先校验模板节点结构、另存输出、生成输入输出清单及 SHA-256，结构不符时立即失败。每种模板版本至少抽检一个输出，在 Pencil 中重新打开并完成视觉复验。
+**核心原则：Pencil MCP 是所有 `.pen` 文件修改的唯一合法入口。**
 
-Pillow 或其他栅格库仅可检查导出的 PNG，不得生成或重绘卡片。Pencil MCP 尚未提供保存、关闭或重开文档的 API，因此每次新增画板后仍须在 Pen.dev 手动保存；PNG 导出成功不能证明文档已保存。
+1. **命令行自动化的合法范围**：
+   * 将 raw 数据或外部输入格式化、规范化；
+   * 编译批处理任务与生成 `.pencil.js` / `run.json` 执行计划；
+   * 调用官方 Pencil MCP 客户端通道驱动应用；
+   * 归档原生导出的 PNG、生成每位玩家的小卡副本；
+   * 记录输入输出 SHA-256 收据与 manifest；
+   * 使用 Pillow 仅作导出的 PNG alpha 透明度及尺寸静态校验。
+
+2. **严禁离线修改 `.pen`**：
+   * 严禁任何脚本直接读取 `.pen` JSON 后写回；
+   * 严禁通过复制模板离线修改 JSON 生成新 `.pen`；
+   * 严禁绕过 Pencil MCP 擅自修改节点、文本、图片、可见性或几何结构。
+
+3. **保存与持久化**：
+   * Pillow 或其他栅格库仅可检查导出的 PNG，不得生成或重绘卡片；
+   * Pencil MCP 尚未提供保存、关闭或重开文档的 API，因此每次新增画板后仍须在 Pen.dev 手动保存；PNG 导出成功不能证明文档已保存。

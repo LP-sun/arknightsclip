@@ -22,7 +22,7 @@ Use `scripts/generate_five_cards.ps1` for JSON-to-Pencil-to-PNG batches.
 Native document save/reopen remains an explicit Pen.dev application operation;
 successful PNG exports do not prove the .pen document was saved.
 
-## Pen MCP and batch JSON workflow
+## Required Pen MCP
 
 The MCP server name is exactly `pencil`.
 
@@ -34,13 +34,19 @@ Before editing:
 5. screenshot through `TakeScreenshot(...)`
 6. export through `Export(...)`
 
-Pencil MCP is required to create or structurally revise a template .pen document, inspect its real node tree, make visual decisions, take screenshots, and produce final visual exports. If it is unavailable for one of those tasks, stop with `PENCIL_MCP_NOT_CONNECTED`.
+If Pencil MCP is unavailable, do not modify any `.pen` file in any way; stop with `PENCIL_MCP_NOT_CONNECTED`.
 
-For repeatable batch jobs, a Pencil-created and visually accepted template may be copied and mechanically edited through its .pen JSON. This exception is limited to a documented batch schema: replace image references and text/value/visibility fields on pre-existing, identified instance nodes; it must not synthesize frame geometry, alter component structure, or use an unvalidated JSON path.
+Do not directly edit raw `.pen` JSON, use scripts to rewrite `.pen` files, or substitute another renderer or automation path.
 
-Every JSON batch writer must: preserve the accepted template unchanged; write to a new output document; validate the expected node ids/names and field types before mutation; emit an input-to-output manifest and SHA-256 hashes; and fail closed when the template schema differs. At least one representative output per schema/version must be reopened and visually checked in Pencil before release.
+Data preparation and batch compilation may happen outside Pencil, but every mutation of a `.pen` document must be performed through Pencil MCP.
 
-Pillow or other raster libraries may inspect exports but must not generate or redraw official card imagery. Do not use React/CSS or mouse-coordinate automation as a substitute for the Pen workflow.
+**硬性规则：无法连接 `pencil` MCP 时，请勿对任何 `.pen` 文件进行任何形式的修改。**
+
+不得直接编辑 `.pen` JSON，不得通过 Python / PowerShell / Node 脚本批量改写 `.pen`，不得通过复制模板后离线改 JSON 的方式绕过 Pencil MCP。
+
+命令行可以准备数据、manifest、Pencil 执行脚本和校验信息；所有 `.pen` 文档内容修改必须通过 Pencil MCP 完成。
+
+Never silently substitute Pillow, React/CSS, direct raw `.pen` JSON mutation, or mouse-coordinate automation. Pillow or other raster libraries may inspect exports for verification but must not generate or redraw official card imagery.
 
 ## Fidelity
 
