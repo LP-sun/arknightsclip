@@ -1,11 +1,12 @@
 # Project subagent strategy — permission-hardened baseline
+# Project subagent strategy — permission-hardened baseline
 
 ## Scope and source of truth
 
 These project-level agents support the current `arknightsclip` repository. The component source-of-truth boundaries are:
 
 * `src/arknightsclip/`: Production data collection, OperBox analysis, normalization, and timeline export pipeline.
-* `psd2pen/`: Production static Box and Pencil visual source of truth (`.pen` modifications strictly restricted to Pencil MCP). Note that for Rhine video production, `psd2pen` is optional: creators may choose either `psd2pen` layered components or raw screenshot-cropped rectangular cards (`data/raw/*/operbox/cards_raw/`).
+* `psd2pen/`: Production static Box and Pencil visual source of truth (Pencil MCP recommended for `.pen` layout and editing; programmatic scripting permitted). Note that for Rhine video production, `psd2pen` is optional: creators may choose either `psd2pen` layered components or raw screenshot-cropped rectangular cards (`data/raw/*/operbox/cards_raw/`).
 * `renderers/rhine/`: Active Rhine-style dynamic renderer **work in progress (WIP)**. It is the only maintained Rhine renderer path, but it is **not yet production-ready or delivery-ready**. Known renderer limitations and TODOs are documented in `docs/rhine_renderer.md` and must not be described as completed.
 * `experiments/rhine_pillow_mockup/`: Historical and rapid visual mockup exploration only; not a production renderer.
 
@@ -19,20 +20,20 @@ This hardened package uses the stable `sandbox_mode` presets in `.codex/agents/*
 
 | Agent | Default model | Main purpose | Sandbox / approval | Intended writes |
 | --- | --- | --- | --- | --- |
-| `repo-researcher` | GPT-5.6 Luna | Code, contracts, assets, dependency investigation | read-only / never | none |
-| `implementation-worker` | GPT-5.6 Luna | Bounded, pre-designed implementation | workspace-write / never | exact delegated paths only (behavioral constraint) |
-| `visual-reviewer` | GPT-5.6 Sol | Screenshot/reference visual review | read-only / never | none |
-| `motion-specialist` | GPT-5.6 Sol | Animation/camera/deterministic timing diagnosis | read-only / never | none |
-| `test-verifier` | GPT-5.6 Luna | Tests, determinism, asset, smoke verification | read-only / never | none; tests must use no-write modes |
-| `docs-reporter` | GPT-5.6 Luna | Evidence-based documentation/reports | workspace-write / never | exact delegated docs paths only (behavioral constraint) |
-| `git-reviewer` | GPT-5.6 Luna | Branch/diff safety review | read-only / never | none |
-| `git-committer` | GPT-5.6 Luna | Explicit-path staging/local commit | read-only / on-request | `.git` only through exact approved Git commands |
+| `repo-researcher` | GPT-5.6 Luna | Code, contracts, assets, dependency investigation | read-only / on-request | none |
+| `implementation-worker` | GPT-5.6 Luna | Bounded, pre-designed implementation | workspace-write / on-request | exact delegated paths only (behavioral constraint) |
+| `visual-reviewer` | GPT-5.6 Sol | Screenshot/reference visual review | read-only / on-request | none; may propose visual/style patches |
+| `motion-specialist` | GPT-5.6 Sol | Animation/camera/deterministic timing diagnosis | read-only / on-request | none; may propose motion parameter patches |
+| `test-verifier` | GPT-5.6 Luna | Tests, determinism, asset, smoke verification | read-only / on-request | none; can request temp/cache writes if needed |
+| `docs-reporter` | GPT-5.6 Luna | Evidence-based documentation/reports | workspace-write / on-request | exact delegated docs paths only (behavioral constraint) |
+| `git-reviewer` | GPT-5.6 Luna | Branch/diff safety review | read-only / on-request | none |
+| `git-committer` | GPT-5.6 Luna | Staging & committing delegated changes | read-only / on-request | staging and commits via on-request approval |
 
-No role uses `danger-full-access`.
+The root agent uses `danger-full-access` so it can perform Git metadata writes; child roles retain their narrower settings.
 
-Use `repo-researcher`, `test-verifier`, and `git-reviewer` for independent read-only work. Invoke `implementation-worker` only after the root agent has fixed the design and named the writable paths. Use `visual-reviewer` only with concrete screenshots or reference images; use `motion-specialist` only with a precise problem, relevant files, target frames, and current captures or data. Use `docs-reporter` after implementation and verification have established facts.
+Use `repo-researcher`, `test-verifier`, and `git-reviewer` for independent read-only work. Invoke `implementation-worker` after scoping design and naming writable paths. Use `visual-reviewer` with concrete screenshots or reference images; use `motion-specialist` with targeted timing/camera problems. Use `docs-reporter` after implementation and verification have established facts.
 
-Do not use these agents as general-purpose developers or delegate architecture, a shared renderer scene, visual direction, Git integration, or final acceptance. Astra is not a default subagent model; consider it only under the project's normal model-escalation policy. **Astra-only visual creation exception**: The `astra` model (and only `astra`) is explicitly authorized to create new `.pen` character card assets when visual results are unsatisfactory, provided operations strictly use Pencil MCP. This permission hardening does not change any model or reasoning-effort assignment from the supplied package.
+Astra is recommended for advanced visual and complex architectural design tasks. **Astra 视觉创造与升级权限**：在现有视觉效果不理想时，Astra 模型被全面授权主导创建新的 `.pen` 角色卡片、全景场景模板与 UI 框架组件，或对现有设计资产进行演进微调。建议优先通过 Pencil MCP 进行可视化操作，亦允许配合程序化脚本辅助生成复杂几何或排版图元。
 
 ## Permission model
 
@@ -55,46 +56,35 @@ Child runtime permissions can be affected by the parent/session mode. In particu
 
 ## Read-only roles
 
-`repo-researcher`, `visual-reviewer`, `motion-specialist`, `test-verifier`, and `git-reviewer` use `approval_policy = "never"`. A blocked operation is evidence that the task exceeds the role. They must report the block rather than request elevation.
+`repo-researcher`, `visual-reviewer`, `motion-specialist`, `test-verifier`, and `git-reviewer` use `approval_policy = "on-request"`. If a task requires an elevation (e.g., executing a targeted diagnostic, creating a temporary test artifact, or proposing a visual patch), the role requests explicit approval rather than silently failing.
 
-`test-verifier` must distinguish `FAIL` from `INCONCLUSIVE_SANDBOX`. It should disable Python/pytest cache writes where compatible (`PYTHONDONTWRITEBYTECODE=1`, `pytest -p no:cacheprovider`) and must not convert a read-only verifier into a writer just to make a test run.
+`test-verifier` should distinguish `FAIL` from environment/permission barriers. It may request temporary cache or artifact writing permissions when necessary to execute test suites reliably.
 
 ## Workspace-write roles
 
-`implementation-worker` and `docs-reporter` use `workspace-write` but `approval_policy = "never"`.
+`implementation-worker` and `docs-reporter` use `workspace-write` with `approval_policy = "on-request"`.
 
-Their exact-path restrictions are **behavioral**. Root must:
+Their delegated write scopes are managed through explicit root instructions and review:
+- Root explicitly enumerates writable paths in the delegation;
+- Avoid parallel ownership of the same file across subagents;
+- Review `git status`/diff after the worker returns;
+- Stop and confirm before touching sensitive configuration or files outside the workspace.
 
-- explicitly enumerate writable paths in the delegation;
-- avoid parallel ownership of the same file;
-- review `git status`/diff after the worker returns;
-- never delegate secrets, credentials, or paths outside the workspace;
-- treat `UNEXPECTED_WRITE` as a stop condition, not as an invitation for the child to clean up.
+## Git safety and confirmation rules
 
-## Git safety and git-committer
+Git safety is governed by explicit user confirmation rather than rigid unconditional bans:
+- **高影响操作确认规范**：所有具有潜在破坏性、不可逆或高影响力的 Git 操作（包括：`git push --force`、`git reset --hard`、`git clean -fdx`、分支删除、历史重写 `rebase -i` 或覆盖远端分支）**在操作前必须向用户单独确认**并获得明确授权后方可执行；
+- 常规的只读状态检查（`git status`、`git diff`、`git log`）自由执行；
+- Git 集成由主代理负责，并遵循主代理会话的显式确认策略；
+- 严禁未经用户显式确认擅自清理或丢弃用户本地未提交的工作区现场。
 
-Every agent starts by inspecting `git status --short --branch`, treats dirty state as someone else's work, and never cleans it. Except for the narrowly approved `git-committer` commands, agents may not stage, commit, stash, push, merge, rebase, reset, clean, restore, checkout, force-push, or delete branches.
+## MCP / Pencil 视觉规范（推荐准则）
 
-`git-committer` is intentionally `read-only + on-request`, not `workspace-write`. Normal Codex workspace sandboxes protect `.git`, so staging/committing requires explicit permission. The committer may request command-scoped approval only for:
+关于 `.pen` 矢量与图层设计文件的操作规范已全面转为**建议与灵活协作模式**：
 
-1. `git add -- <exact delegated paths>`
-2. `git commit -m <exact root-provided message>`
-
-It must never request blanket Full Access. Before staging/committing it checks for unexpected staged content and for Git hooks, clean/process filters, or signing requirements that could execute additional code. If those are present, root handles the commit.
-
-Git commit is a serialized phase. Do not run `git-committer` concurrently with any writer or any process that can mutate the index/working tree.
-
-## MCP / Pencil boundary
-
-`psd2pen/` is the formal visual source. Without explicit Pencil MCP access, agents must leave every `.pen` file unchanged and return `PENCIL_MCP_NOT_CONNECTED` when a Pen inspection or edit is necessary. They may not bypass Pencil with raw JSON edits, scripts, React/Pillow rendering, or mouse-coordinate automation. All `.pen` document modifications must be performed exclusively through Pencil MCP.
-
-**Astra-only visual creation exception**: When existing visual results are unsatisfactory, only the `astra` model is permitted to create new `.pen` character card assets. All other models are strictly forbidden from creating or modifying `.pen` files. All `.pen` creation and edits must strictly route through Pencil MCP.
-
-Shell sandboxing does not constrain MCP/app actions. Therefore:
-
-- A read-only agent may use only MCP methods whose tool contract is explicitly read/inspect/screenshot-only.
-- If a Pencil/MCP method can mutate, export-overwrite, create, delete, or its side effects are ambiguous, a read-only agent must not call it.
-- Pen mutation belongs to a separately authorized root-controlled task; no `.pen` mutation is implied by `workspace-write`.
+1. **推荐优先使用 Pencil MCP**：强烈建议在进行 `.pen` 文档的可视化审查、图层调试、卡片布局与原生渲染导出时，优先通过 Pencil MCP 执行，以保障图层结构语义与可视化调试一致性；
+2. **放宽脚本与代码生成限制（建议而非死禁）**：不再绝对禁止代码化或脚本辅助生成 `.pen`。对于需要密集坐标计算、批量切图对齐、数学波形生成（Procedural Generation）或快速修正 JSON 键值的场景，允许使用脚本与代码辅助处理；
+3. **视觉创作自由度**：推荐由具备高阶审美与设计能力的 Astra 模型主导角色卡片、全景场景模板与 UI 框架的新建与美学演进；其他模型在必要时亦可执行维护性或局部微调任务。
 
 ## Granular permissions and policy boundary
 
@@ -114,6 +104,6 @@ Recommended smoke tests:
 2. Ask `git-reviewer`: "Inspect current Git status and report unrelated changes. Do not modify Git state."
 3. Ask `test-verifier` to run one genuinely no-write check and verify `git status` is unchanged.
 4. Exercise `implementation-worker` only against a disposable explicitly delegated path, then review the root diff.
-5. Exercise `git-committer` only in a disposable repository because its purpose is to modify `.git` after explicit approval.
+5. Perform Git integration from the root agent, with the root session's explicit approval policy and runtime permissions.
 
 TOML syntax and intended static safety invariants can be validated using Python's `tomllib` module across `.codex/agents/*.toml`. Static validation confirms schema correctness, but cannot prove the runtime honored the requested sandbox or MCP boundaries.

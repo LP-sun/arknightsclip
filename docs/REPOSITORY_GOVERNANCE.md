@@ -13,11 +13,15 @@
 
 ---
 
-## 2. Git 操作红线 (Hard Rules)
+## 2. Git 安全红线与确认规范 (Confirmation-Gated Git Rules)
 
-* **严禁 Force Push**：严禁对 `main` 分支执行任何形式的 `git push --force` 或 `git push --force-with-lease`；
-* **严禁重写已推送历史**：不得在未经团队一致同意的情况下对公共主干执行 `git filter-repo`、`git rebase -i` 历史重写或 `git lfs migrate import --everything`；
-* **禁止误删未提交内容**：严禁在工作区执行无保留的 `git reset --hard` 或 `git clean -fdx`，保护本地未提交内容。
+对于具有破坏性、不可逆或高影响力的关键 Git 操作，**必须在执行前向用户单独提出确认请求并获得显式授权**，严禁未经确认私自执行：
+
+* **强制推送 (Force Push)**：对 `main` 或受保护远程分支执行 `git push --force` 或 `git push --force-with-lease` 前，**操作前必须向用户单独确认**，说明覆盖远端提交的理由与潜在影响；
+* **重写已推送历史**：执行 `git filter-repo`、大型交互式变基 (`git rebase -i`)、历史改写或 `git lfs migrate import` 前，**操作前必须向用户单独确认**；
+* **工作区破坏性重置**：执行可能丢弃未提交内容的命令（如 `git reset --hard`、`git clean -fdx`、`git restore .`）前，**操作前必须向用户单独确认**，严禁擅自清理或覆盖用户本地未提交成果；
+* **分支删除与历史变更**：删除本地/远程分支或执行导致提交脱钩的操作前，**操作前必须向用户单独确认**；
+* **主干直接变基/修改**：除用户显式指示直接合入外，常规功能修改走独立分支 PR；若需直接在 `main` 上执行快进合入或复杂变基，**操作前必须向用户单独确认**。
 
 ---
 

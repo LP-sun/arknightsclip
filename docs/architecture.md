@@ -32,7 +32,7 @@ data/manifests/<char_id>.json (SceneManifest 场景清单)
                      DaVinci Resolve / 最终合成
 ```
 
-> **视觉素材规范**：制作莱茵风格动态呈现时，`psd2pen` **不是必选项**。管线支持在 `psd2pen` 产出卡片与游戏仓库截图切割的角色矩形卡片（`data/raw/*/operbox/cards_raw/`）中自由选择使用。若对视觉不满意，**仅限 Astra 模型**被授权通过 Pencil MCP 创建新的 `.pen` 角色卡片素材。
+> **视觉素材规范**：制作莱茵风格动态呈现时，`psd2pen` **不是必选项**。管线支持在 `psd2pen` 产出卡片与游戏仓库截图切割的角色矩形卡片（`data/raw/*/operbox/cards_raw/`）中自由选择使用。若对视觉不满意，**仅限 Astra 模型**被授权创建新的 `.pen` 角色卡片素材（推荐使用 Pencil MCP 交互设计，亦允许脚本/代码辅助生成）。
 >
 > `renderers/rhine/` 是后续唯一维护的 Rhine renderer 路径，但当前明确处于 **WIP / 未完成** 状态，不视为 production-ready 或最终交付链路。已知 TODO 见 `docs/rhine_renderer.md`。
 
@@ -46,7 +46,7 @@ data/manifests/<char_id>.json (SceneManifest 场景清单)
 | 数据集 | `data/`、`models/player.py` | 合并每位玩家的原始结果，形成五人唯一事实源。治理规范见 `data/README.md`。 |
 | 素材解析 | `assets/` | 查找/同步干员立绘和玩家卡片切图，并检查缺失素材。 |
 | 场景构建 | `scene/`、`models/scene.py` | 为每位干员生成五个玩家槽位的 `SceneManifest`。 |
-| 静态视觉 | `psd2pen/` | 正式静态 Box 布局与 Pencil 视觉资产管线（`.pen` 仅通过 Pencil MCP 编辑）。 |
+| 静态视觉 | `psd2pen/` | 正式静态 Box 布局与 Pencil 视觉资产管线（建议使用 Pencil MCP 编辑，支持脚本生成）。 |
 | 动态渲染 | `renderers/rhine/` | WIP Rhine 风格动态 renderer（TypeScript / Vite / Canvas / Playwright）；当前不宣称 production-ready。 |
 | 时间线 | `timeline/` | 根据分层图形和时长配置生成 FCP7 XML 或 OTIO。 |
 

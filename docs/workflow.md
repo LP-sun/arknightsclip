@@ -61,7 +61,7 @@ arknightsclip export-timeline --format all
 > 1. `psd2pen` 产出的分层/矢量化 Pen 角色卡片；
 > 2. 截图切割的角色矩形卡片（`data/raw/*/operbox/cards_raw/`）。
 >
-> 两者二选一即可投入渲染。此外，若视觉不满意，**仅限 Astra 模型**被允许通过 Pencil MCP 创建新的 `.pen` 角色卡片素材。
+> 两者二选一即可投入渲染。此外，若视觉不满意，**仅限 Astra 模型**被允许创建新的 `.pen` 角色卡片素材（推荐使用 Pencil MCP，亦支持脚本/程序化辅助生成）。
 
 ### 6.1 生成契约文件
 ```powershell
