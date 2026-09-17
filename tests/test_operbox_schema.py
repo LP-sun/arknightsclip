@@ -1,3 +1,12 @@
+import sys
+from pathlib import Path
+_project_root = Path(__file__).resolve().parent.parent
+_src_dir = _project_root / "src"
+if str(_src_dir) not in sys.path:
+    sys.path.insert(0, str(_src_dir))
+if str(_project_root) not in sys.path:
+    sys.path.insert(0, str(_project_root))
+
 import unittest
 from arknightsclip.models.operbox import CardROI, CardProvenance, CardCropCandidate, OperBoxScanSession
 
@@ -46,6 +55,34 @@ class TestOperBoxSchema(unittest.TestCase):
         self.assertEqual(summary["operators_found"], 45)
         self.assertEqual(summary["card_assets_captured"], 45)
         self.assertEqual(summary["missing_card_assets"], [])
+
+    def test_name_roi_bicubic_upscale(self):
+        import numpy as np
+        from arknightsclip.config import load_config
+        from arknightsclip.maa.operbox_analyzer import OperBoxAnalyzer
+
+        cfg = load_config()
+        analyzer = OperBoxAnalyzer(cfg)
+        captured_shapes = []
+
+        class MockOCR:
+            def readtext(self, img):
+                captured_shapes.append(img.shape)
+                return [([], "令", 0.99)]
+
+        analyzer._ocr_reader = MockOCR()
+        # 创建 720p 模拟帧 (720, 1280, 3)
+        frame = np.zeros((720, 1280, 3), dtype=np.uint8)
+        # 调用 _recognize_name (锚点 fx=100, fy=200)
+        name, conf = analyzer._recognize_name(frame, 100, 200)
+        self.assertEqual(name, "令")
+        self.assertEqual(conf, 0.99)
+        self.assertEqual(len(captured_shapes), 1)
+        # 原名字条尺寸 dw=128, dh=22
+        # 双三次 2.0x 放大后高应为 44, 宽应为 256
+        h, w = captured_shapes[0][:2]
+        self.assertEqual(h, 44)
+        self.assertEqual(w, 256)
 
 if __name__ == '__main__':
     unittest.main()
