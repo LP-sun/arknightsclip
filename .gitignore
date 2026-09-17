@@ -51,6 +51,12 @@ renderers/rhine/.conda/
 .codex/
 psd2pen/.codex/
 psd2pen/.venv-pencil/
+!.codex/
+.codex/*
+!.codex/SUBAGENT_STRATEGY.md
+!.codex/agents/
+.codex/agents/*
+!.codex/agents/*.toml
 dist/
 release/
 tools/standalone_collector/dist/
