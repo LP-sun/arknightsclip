@@ -1,0 +1,20 @@
+{
+  "char_id": "char_1040_blaze2",
+  "name": "烛煌",
+  "scan_id": "yzx_ultrawide_20260918_024309",
+  "player_id": "P5",
+  "source_page": "page_0006.png",
+  "page_index": 6,
+  "card_index": 16,
+  "roi": [
+    1690,
+    653,
+    240,
+    488
+  ],
+  "capture_timestamp": "2026-09-18T02:43:56.807205",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 1,
+  "selected_reason": "best_quality_score_1.00"
+}

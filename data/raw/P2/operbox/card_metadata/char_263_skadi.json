@@ -1,0 +1,20 @@
+{
+  "char_id": "char_263_skadi",
+  "name": "斯卡蒂",
+  "scan_id": "replay_1789661290_P2",
+  "player_id": "P2",
+  "source_page": "page_0009.png",
+  "page_index": 9,
+  "card_index": 3,
+  "roi": [
+    614,
+    120,
+    220,
+    447
+  ],
+  "capture_timestamp": "2026-09-18T00:10:40.985083",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 2,
+  "selected_reason": "best_quality_score_1.00"
+}

@@ -1,0 +1,20 @@
+{
+  "char_id": "char_4098_vvana",
+  "name": "薇薇安娜",
+  "scan_id": "yzx_ultrawide_20260918_024309",
+  "player_id": "P5",
+  "source_page": "page_0003.png",
+  "page_index": 3,
+  "card_index": 1,
+  "roi": [
+    113,
+    131,
+    240,
+    488
+  ],
+  "capture_timestamp": "2026-09-18T02:43:56.385216",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 1,
+  "selected_reason": "best_quality_score_0.78"
+}

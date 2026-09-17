@@ -1,0 +1,20 @@
+{
+  "char_id": "char_2026_yu",
+  "name": "余",
+  "scan_id": "卡牌嗣枫_ultrawide_20260918_004938",
+  "player_id": "P3",
+  "source_page": "page_0004.png",
+  "page_index": 4,
+  "card_index": 5,
+  "roi": [
+    1256,
+    147,
+    269,
+    546
+  ],
+  "capture_timestamp": "2026-09-18T00:51:11.865172",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 1,
+  "selected_reason": "best_quality_score_1.00"
+}

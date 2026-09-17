@@ -1,0 +1,20 @@
+{
+  "char_id": "char_4104_coldst",
+  "name": "冰酿",
+  "scan_id": "replay_1789661290_P2",
+  "player_id": "P2",
+  "source_page": "page_0022.png",
+  "page_index": 22,
+  "card_index": 6,
+  "roi": [
+    1182,
+    120,
+    220,
+    447
+  ],
+  "capture_timestamp": "2026-09-18T00:10:41.777064",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 2,
+  "selected_reason": "best_quality_score_1.00"
+}

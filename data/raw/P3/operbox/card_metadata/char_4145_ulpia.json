@@ -1,0 +1,20 @@
+{
+  "char_id": "char_4145_ulpia",
+  "name": "乌尔比安",
+  "scan_id": "卡牌嗣枫_ultrawide_20260918_004938",
+  "player_id": "P3",
+  "source_page": "page_0002.png",
+  "page_index": 2,
+  "card_index": 8,
+  "roi": [
+    2133,
+    147,
+    269,
+    546
+  ],
+  "capture_timestamp": "2026-09-18T00:51:11.517872",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 1,
+  "selected_reason": "best_quality_score_1.00"
+}

@@ -217,9 +217,10 @@ class OperBoxCollector:
         pages_dir: Path,
         player_id: str = 'P_REPLAY',
         output_dir: Optional[Path] = None,
+        rarity_filter: Optional[int] = None,
         debug: bool = False
     ) -> Tuple[Dict[str, OperatorState], List[CardProvenance]]:
-        pages = sorted(list(pages_dir.glob('*.png')))
+        pages = sorted(list(pages_dir.glob('*.png')), key=lambda x: int(x.stem) if x.stem.isdigit() else x.name)
         if not pages:
             print(f'[Replay] 在 {pages_dir} 中未找到任何 .png 页面')
             return {}, []
@@ -244,6 +245,8 @@ class OperBoxCollector:
             )
 
             for st in page_states:
+                if rarity_filter is not None and st.rarity != rarity_filter:
+                    continue
                 if st.char_id not in all_states:
                     all_states[st.char_id] = st
                 else:
@@ -252,7 +255,13 @@ class OperBoxCollector:
 
             for cand in page_candidates:
                 if cand.crop_image is not None and not cand.is_edge:
+                    if rarity_filter is not None:
+                        reg_entry = self.registry.get(cand.char_id)
+                        if reg_entry and reg_entry.rarity != rarity_filter:
+                            continue
                     all_candidates.setdefault(cand.char_id, []).append(cand)
+
+            print(f"[Replay] 第 {p_idx:02d}/{len(pages):02d} 页 ({p_file.name}): 识别 {len(page_states)} 位，累计 {len(all_states)} 位干员")
 
         provenances: List[CardProvenance] = []
         for char_id, op in all_states.items():

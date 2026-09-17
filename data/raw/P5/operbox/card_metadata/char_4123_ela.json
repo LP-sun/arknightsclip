@@ -1,0 +1,20 @@
+{
+  "char_id": "char_4123_ela",
+  "name": "艾拉",
+  "scan_id": "yzx_ultrawide_20260918_024309",
+  "player_id": "P5",
+  "source_page": "page_0010.png",
+  "page_index": 10,
+  "card_index": 4,
+  "roi": [
+    905,
+    131,
+    240,
+    488
+  ],
+  "capture_timestamp": "2026-09-18T02:43:57.073842",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 1,
+  "selected_reason": "best_quality_score_1.00"
+}

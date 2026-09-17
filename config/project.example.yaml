@@ -56,18 +56,18 @@ players:
     doctor_level: 120
     avatar: "assets/players/P1.png"
   - id: "P2"
-    display_name: "风笛"
+    display_name: "黄金之梦"
     doctor_level: 120
     avatar: "assets/players/P2.png"
   - id: "P3"
-    display_name: "银灰"
+    display_name: "卡牌嗣枫"
     doctor_level: 120
     avatar: "assets/players/P3.png"
   - id: "P4"
-    display_name: "艾雅法拉"
+    display_name: "Hermit"
     doctor_level: 120
     avatar: "assets/players/P4.png"
   - id: "P5"
-    display_name: "塞雷娅"
+    display_name: "yzx"
     doctor_level: 120
     avatar: "assets/players/P5.png"

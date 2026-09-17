@@ -1,0 +1,20 @@
+{
+  "char_id": "char_426_billro",
+  "name": "卡涅利安",
+  "scan_id": "卡牌嗣枫_ultrawide_20260918_004938",
+  "player_id": "P3",
+  "source_page": "page_0007.png",
+  "page_index": 7,
+  "card_index": 11,
+  "roi": [
+    402,
+    732,
+    269,
+    546
+  ],
+  "capture_timestamp": "2026-09-18T00:51:12.282627",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 2,
+  "selected_reason": "best_quality_score_1.00"
+}

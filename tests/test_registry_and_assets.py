@@ -80,11 +80,17 @@ def test_operator_registry_p0_aliases_and_ocr_protection(registry):
         "W": "char_113_cqbw",
         "年": "char_2014_nian",
         "夕": "char_2015_dusk",
+        "真": "char_4204_mantra",
     }
     for char, expected_id in single_chars.items():
         e = registry.resolve(char)
         assert e is not None, f"Failed to resolve single-char operator {char}"
         assert e.char_id == expected_id, f"{char} resolved to {e.char_id}, expected {expected_id}"
+
+    # 6.1 OCR 字符级修复 (灰亳 -> 灰毫)
+    e_ash = registry.resolve("灰亳")
+    assert e_ash is not None
+    assert e_ash.char_id == "char_431_ashlok"
 
     # 7. 未知单字不得被 fuzzy fallback 错误匹配到其他干员
     unknown_singles = ["东", "南", "西", "北", "中", "发", "白", "甲", "乙", "丙"]

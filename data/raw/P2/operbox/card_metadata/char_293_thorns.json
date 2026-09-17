@@ -1,0 +1,20 @@
+{
+  "char_id": "char_293_thorns",
+  "name": "棘刺",
+  "scan_id": "replay_1789661290_P2",
+  "player_id": "P2",
+  "source_page": "page_0008.png",
+  "page_index": 8,
+  "card_index": 5,
+  "roi": [
+    1082,
+    120,
+    220,
+    447
+  ],
+  "capture_timestamp": "2026-09-18T00:10:40.964962",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 2,
+  "selected_reason": "best_quality_score_1.00"
+}

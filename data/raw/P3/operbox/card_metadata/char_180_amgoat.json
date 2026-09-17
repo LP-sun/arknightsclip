@@ -1,0 +1,20 @@
+{
+  "char_id": "char_180_amgoat",
+  "name": "艾雅法拉",
+  "scan_id": "卡牌嗣枫_ultrawide_20260918_004938",
+  "player_id": "P3",
+  "source_page": "page_0006.png",
+  "page_index": 6,
+  "card_index": 10,
+  "roi": [
+    84,
+    732,
+    269,
+    546
+  ],
+  "capture_timestamp": "2026-09-18T00:51:12.218171",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 1,
+  "selected_reason": "best_quality_score_0.68"
+}

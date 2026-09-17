@@ -1,0 +1,20 @@
+{
+  "char_id": "char_4088_hodrer",
+  "name": "赫德雷",
+  "scan_id": "Hermit_ultrawide_20260918_024216",
+  "player_id": "P4",
+  "source_page": "page_0002.png",
+  "page_index": 2,
+  "card_index": 12,
+  "roi": [
+    500,
+    481,
+    177,
+    359
+  ],
+  "capture_timestamp": "2026-09-18T02:43:06.291550",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 1,
+  "selected_reason": "best_quality_score_1.00"
+}

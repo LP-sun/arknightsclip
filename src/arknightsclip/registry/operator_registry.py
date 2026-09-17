@@ -20,11 +20,14 @@ OCR_CHAR_FIXES: Dict[str, str] = {
     '壬': '王',   # 「推进之壬」→「推进之王」；「魔壬」→「魔王」  (三横→二横，高频混淆)
     '鹗': '鸮',   # 「白面鹗」→「白面鸮」  (形近鸟字旁)
     '祜': '祐',   # 「祜天寺若麦」→「祐天寺若麦」  (礻偏旁内笔画混淆)
+    '亳': '毫',   # 「灰亳」→「灰毫」  (少一横形近混淆)
     '·': '·',    # 统一中点（全角·与间隔号·码位不同，归一到 U+00B7）
     ':': '·',    # 半角冒号→中点，处理「维娜:维多利亚」→「维娜·维多利亚」
 }
 
 COMMON_ALIASES: Dict[str, List[str]] = {
+    "char_4204_mantra": ["真言", "Mantra", "真"],
+    "char_4198_christ": ["Miss.Christine", "Miss Christi", "MissChristi"],
     "char_103_angel": ["能天使", "阿能", "Exusiai"],
     "char_010_chen": ["陈", "老陈", "Ch'en"],
     "char_172_svrash": ["银灰", "银老板", "SilverAsh"],
@@ -108,6 +111,12 @@ class OperatorRegistry:
     def get_by_id(self, char_id: str) -> Optional[OperatorRegistryEntry]:
         return self._entries.get(char_id)
 
+    def get(self, char_id: str, default: Optional[OperatorRegistryEntry] = None) -> Optional[OperatorRegistryEntry]:
+        return self._entries.get(char_id, default)
+
+    def __contains__(self, char_id: str) -> bool:
+        return char_id in self._entries
+
     @staticmethod
     def _ocr_normalize(text: str) -> str:
         """
@@ -186,18 +195,19 @@ class OperatorRegistry:
                 if prefix_raw and prefix_raw in self._name_to_id:
                     return self._entries[self._name_to_id[prefix_raw]]
 
-        # --- Step 4: Levenshtein 模糊匹配（距离 ≤1，仅限长度>=2的中文名，避免单字乱匹配）---
+        # --- Step 4: Levenshtein 模糊匹配（距离 ≤1，仅限长度>=2的中文官方名，避免单字乱匹配或匹配到俗称别名）---
         candidate_q = q_norm
         if len(candidate_q) >= 2:
             best_entry: Optional[OperatorRegistryEntry] = None
             best_dist = 2
-            for name, cid in self._name_to_id.items():
+            for cid, entry in self._entries.items():
+                name = entry.canonical_name_zh
                 if len(name) < 2 or abs(len(name) - len(candidate_q)) > 1:
                     continue
                 d = self._levenshtein(candidate_q, name)
                 if d < best_dist:
                     best_dist = d
-                    best_entry = self._entries.get(cid)
+                    best_entry = entry
             if best_entry is not None:
                 return best_entry
 
