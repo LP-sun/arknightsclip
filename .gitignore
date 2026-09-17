@@ -52,6 +52,7 @@ renderers/rhine/.conda/
 dist/
 release/
 tools/standalone_collector/dist/
+tools/standalone_collector/captures/
 experiments/stability_outputs/
 
 # Local MaaCore / emulator capture sessions (may contain account data)
