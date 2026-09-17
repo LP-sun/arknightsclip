@@ -12,6 +12,16 @@ Order:
 
 Do not rebuild the whole PSD screen.
 
+## Accepted baseline and five-slot derivative
+
+The user has accepted `character_cards_8slot.pen` as complete. Preserve it as the
+baseline. `character_cards_5slot.pen` is the independent 3 LEFT + 2 RIGHT
+derivative: retain all eight editable instances and show source slots
+1, 2, 3, 5, 6; hide 4, 7, 8 without moving/rebuilding the cards.
+Use `scripts/generate_five_cards.ps1` for JSON-to-Pencil-to-PNG batches.
+Native document save/reopen remains an explicit Pen.dev application operation;
+successful PNG exports do not prove the .pen document was saved.
+
 ## Required Pen MCP
 
 The MCP server name is exactly `pencil`.
@@ -24,12 +34,19 @@ Before editing:
 5. screenshot through `TakeScreenshot(...)`
 6. export through `Export(...)`
 
-If `pencil` is unavailable, stop with `PENCIL_MCP_NOT_CONNECTED`.
+If Pencil MCP is unavailable, do not modify any `.pen` file in any way; stop with `PENCIL_MCP_NOT_CONNECTED`.
+
+Do not directly edit raw `.pen` JSON, use scripts to rewrite `.pen` files, or substitute another renderer or automation path.
+
+Data preparation and batch compilation may happen outside Pencil, but every mutation of a `.pen` document must be performed through Pencil MCP.
 
 **硬性规则：无法连接 `pencil` MCP 时，请勿对任何 `.pen` 文件进行任何形式的修改。**
-不得直接编辑原始 JSON、使用脚本批量改写、通过其他渲染器替代修改，或让子代理绕过此限制；只能停止相关工作并报告 `PENCIL_MCP_NOT_CONNECTED`。
 
-Never silently substitute Pillow, React/CSS, direct raw `.pen` JSON mutation, or mouse-coordinate automation.
+不得直接编辑 `.pen` JSON，不得通过 Python / PowerShell / Node 脚本批量改写 `.pen`，不得通过复制模板后离线改 JSON 的方式绕过 Pencil MCP。
+
+命令行可以准备数据、manifest、Pencil 执行脚本和校验信息；所有 `.pen` 文档内容修改必须通过 Pencil MCP 完成。
+
+Never silently substitute Pillow, React/CSS, direct raw `.pen` JSON mutation, or mouse-coordinate automation. Pillow or other raster libraries may inspect exports for verification but must not generate or redraw official card imagery.
 
 ## Fidelity
 
