@@ -8,7 +8,7 @@
 
 Pen/Pencil 相关功能以 [`psd2pen/`](psd2pen/) 为唯一正式实现和后续开发入口。它基于真实 PSD 视觉资产，并通过 Pencil MCP 完成编辑、截图与原生导出。`experiments/pen_renderer/` 和 `experiments/react_renderer/` 仅保留为早期效果较差的技术原型，不代表当前视觉质量，不得作为正式渲染管线、视觉基准或新功能落点。
 
-Rhine 动态 renderer 位于 [`renderers/rhine/`](renderers/rhine/)，**当前状态为 WIP / 未完成**。它是后续唯一继续维护的 Rhine renderer 路径，但尚不视为 production-ready 或最终视频交付链路；具体未完成项见 [`docs/rhine_renderer.md`](docs/rhine_renderer.md)。
+Rhine 动态 renderer 位于 [`renderers/rhine/`](renderers/rhine/)，**当前状态为 WIP / 未完成**。它是后续唯一继续维护的 Rhine renderer 路径，但尚不视为 production-ready 或最终视频交付链路。制作莱茵生命风格呈现时，`psd2pen` 不是必选项，可灵活在 `psd2pen` 分层卡片与直接由截图切割的角色矩形卡片中二选一；视觉不满意时仅限 Astra 模型被允许通过 Pencil MCP 创建新的 `.pen` 角色卡片素材。具体规范见 [`docs/rhine_renderer.md`](docs/rhine_renderer.md)。
 
 运行 `python tests/run_tests.py` 执行当前核心测试套件，覆盖数据模型、OperBox 解析、素材关联、场景清单和 24 fps 时间线生成。
 

@@ -57,6 +57,12 @@ arknightsclip export-timeline --format all
 
 `renderers/rhine/` 是后续唯一继续维护的 Rhine renderer 路径，但当前明确属于 **WIP / 未完成**，不视为 production-ready 或最终视频交付链路。本节命令用于开发、验证和 Smoke 测试；具体 TODO 见 `docs/rhine_renderer.md`。
 
+> **视觉素材选型规范**：制作莱茵生命风格视频时，`psd2pen` **不是必选项**。制作时可自由选用：
+> 1. `psd2pen` 产出的分层/矢量化 Pen 角色卡片；
+> 2. 截图切割的角色矩形卡片（`data/raw/*/operbox/cards_raw/`）。
+>
+> 两者二选一即可投入渲染。此外，若视觉不满意，**仅限 Astra 模型**被允许通过 Pencil MCP 创建新的 `.pen` 角色卡片素材。
+
 ### 6.1 生成契约文件
 ```powershell
 python scripts/build_rhine_placeholder_project.py

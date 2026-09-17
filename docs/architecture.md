@@ -16,18 +16,24 @@ data/normalized/five_players.json (五人规范化唯一事实源)
        ▼
 data/manifests/<char_id>.json (SceneManifest 场景清单)
        │
-       ├─────────────────────────────────┐
-       ▼                                 ▼
-psd2pen/                           renderers/rhine/
-(正式静态 Box/Pencil 视觉资产)      (WIP Rhine 动态 renderer)
-       │                                 │
-       └────────────────┬────────────────┘
-                        ▼
-           时间线导出 (FCPXML / OTIO)
-                        ▼
-               DaVinci Resolve / 最终合成
+       ├──────────────────────────────────────────────┐
+       ▼                                              ▼
+静态素材源 A: psd2pen/                     静态素材源 B: cards_raw/
+(分层/矢量化 Pen 角色卡片)                 (仓库页截图切割的角色矩形切图)
+       │                                              │
+       └──────────────────────┬───────────────────────┘
+                              ▼ (二选一使用即可)
+                       renderers/rhine/
+                   (WIP Rhine 动态 renderer)
+                              │
+                              ▼
+                  时间线导出 (FCPXML / OTIO)
+                              ▼
+                     DaVinci Resolve / 最终合成
 ```
 
+> **视觉素材规范**：制作莱茵风格动态呈现时，`psd2pen` **不是必选项**。管线支持在 `psd2pen` 产出卡片与游戏仓库截图切割的角色矩形卡片（`data/raw/*/operbox/cards_raw/`）中自由选择使用。若对视觉不满意，**仅限 Astra 模型**被授权通过 Pencil MCP 创建新的 `.pen` 角色卡片素材。
+>
 > `renderers/rhine/` 是后续唯一维护的 Rhine renderer 路径，但当前明确处于 **WIP / 未完成** 状态，不视为 production-ready 或最终交付链路。已知 TODO 见 `docs/rhine_renderer.md`。
 
 ## 模块边界

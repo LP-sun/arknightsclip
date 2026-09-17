@@ -5,7 +5,7 @@
 These project-level agents support the current `arknightsclip` repository. The component source-of-truth boundaries are:
 
 * `src/arknightsclip/`: Production data collection, OperBox analysis, normalization, and timeline export pipeline.
-* `psd2pen/`: Production static Box and Pencil visual source of truth (`.pen` modifications strictly restricted to Pencil MCP).
+* `psd2pen/`: Production static Box and Pencil visual source of truth (`.pen` modifications strictly restricted to Pencil MCP). Note that for Rhine video production, `psd2pen` is optional: creators may choose either `psd2pen` layered components or raw screenshot-cropped rectangular cards (`data/raw/*/operbox/cards_raw/`).
 * `renderers/rhine/`: Active Rhine-style dynamic renderer **work in progress (WIP)**. It is the only maintained Rhine renderer path, but it is **not yet production-ready or delivery-ready**. Known renderer limitations and TODOs are documented in `docs/rhine_renderer.md` and must not be described as completed.
 * `experiments/rhine_pillow_mockup/`: Historical and rapid visual mockup exploration only; not a production renderer.
 
@@ -32,7 +32,7 @@ No role uses `danger-full-access`.
 
 Use `repo-researcher`, `test-verifier`, and `git-reviewer` for independent read-only work. Invoke `implementation-worker` only after the root agent has fixed the design and named the writable paths. Use `visual-reviewer` only with concrete screenshots or reference images; use `motion-specialist` only with a precise problem, relevant files, target frames, and current captures or data. Use `docs-reporter` after implementation and verification have established facts.
 
-Do not use these agents as general-purpose developers or delegate architecture, a shared renderer scene, visual direction, Git integration, or final acceptance. Astra is not a default subagent model; consider it only under the project's normal model-escalation policy. This permission hardening does not change any model or reasoning-effort assignment from the supplied package.
+Do not use these agents as general-purpose developers or delegate architecture, a shared renderer scene, visual direction, Git integration, or final acceptance. Astra is not a default subagent model; consider it only under the project's normal model-escalation policy. **Astra-only visual creation exception**: The `astra` model (and only `astra`) is explicitly authorized to create new `.pen` character card assets when visual results are unsatisfactory, provided operations strictly use Pencil MCP. This permission hardening does not change any model or reasoning-effort assignment from the supplied package.
 
 ## Permission model
 
@@ -87,6 +87,8 @@ Git commit is a serialized phase. Do not run `git-committer` concurrently with a
 ## MCP / Pencil boundary
 
 `psd2pen/` is the formal visual source. Without explicit Pencil MCP access, agents must leave every `.pen` file unchanged and return `PENCIL_MCP_NOT_CONNECTED` when a Pen inspection or edit is necessary. They may not bypass Pencil with raw JSON edits, scripts, React/Pillow rendering, or mouse-coordinate automation. All `.pen` document modifications must be performed exclusively through Pencil MCP.
+
+**Astra-only visual creation exception**: When existing visual results are unsatisfactory, only the `astra` model is permitted to create new `.pen` character card assets. All other models are strictly forbidden from creating or modifying `.pen` files. All `.pen` creation and edits must strictly route through Pencil MCP.
 
 Shell sandboxing does not constrain MCP/app actions. Therefore:
 
