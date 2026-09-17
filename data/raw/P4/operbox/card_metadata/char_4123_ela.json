@@ -1,0 +1,20 @@
+{
+  "char_id": "char_4123_ela",
+  "name": "艾拉",
+  "scan_id": "Hermit_ultrawide_20260918_024216",
+  "player_id": "P4",
+  "source_page": "page_0009.png",
+  "page_index": 9,
+  "card_index": 1,
+  "roi": [
+    115,
+    96,
+    177,
+    359
+  ],
+  "capture_timestamp": "2026-09-18T02:43:07.019016",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 1,
+  "selected_reason": "best_quality_score_0.88"
+}

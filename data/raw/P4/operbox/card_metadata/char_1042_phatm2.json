@@ -1,0 +1,20 @@
+{
+  "char_id": "char_1042_phatm2",
+  "name": "酒神",
+  "scan_id": "Hermit_ultrawide_20260918_024216",
+  "player_id": "P4",
+  "source_page": "page_0008.png",
+  "page_index": 8,
+  "card_index": 10,
+  "roi": [
+    116,
+    481,
+    177,
+    359
+  ],
+  "capture_timestamp": "2026-09-18T02:43:06.970101",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 1,
+  "selected_reason": "best_quality_score_0.88"
+}

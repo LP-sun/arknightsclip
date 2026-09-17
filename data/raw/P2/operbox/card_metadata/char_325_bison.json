@@ -1,0 +1,20 @@
+{
+  "char_id": "char_325_bison",
+  "name": "拜松",
+  "scan_id": "replay_1789661290_P2",
+  "player_id": "P2",
+  "source_page": "page_0019.png",
+  "page_index": 19,
+  "card_index": 13,
+  "roi": [
+    939,
+    598,
+    220,
+    447
+  ],
+  "capture_timestamp": "2026-09-18T00:10:41.628647",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 1,
+  "selected_reason": "best_quality_score_1.00"
+}

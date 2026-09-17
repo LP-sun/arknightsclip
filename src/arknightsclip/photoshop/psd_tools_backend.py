@@ -45,9 +45,13 @@ class PSDToolsRenderer(PhotoshopRenderer):
         self.config = config
         self.template_path = template_path or config.resolve_path(config.photoshop.master_template)
         if not self.template_path.exists():
-            alt = config.resolve_path("psd模板/只需要模板/能天使.psd")
-            if alt.exists():
-                self.template_path = alt
+            for cand in [
+                config.resolve_path("psd模板/只需要模板/能天使.psd"),
+                Path(r"E:\明日方舟报菜名\psd模板\只需要模板\能天使.psd"),
+            ]:
+                if cand.exists():
+                    self.template_path = cand
+                    break
 
     def render_scene(self, manifest: SceneManifest, output_dir: Path) -> Dict[str, Path]:
         output_dir.mkdir(parents=True, exist_ok=True)

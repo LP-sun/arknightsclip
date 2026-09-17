@@ -9,6 +9,8 @@ arknightsclip 统一命令行入口 (CLI)
   spike-psd        执行单一 PSD 模板动态操作技术验证
 """
 
+import os
+os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
 import argparse
 import sys
 from pathlib import Path
@@ -38,6 +40,7 @@ def main():
     p_replay.add_argument("pages_path", help="页面截图目录，如 data/raw/P1/operbox/pages/")
     p_replay.add_argument("--player", default="P_REPLAY", help="回放关联的玩家标识")
     p_replay.add_argument("--output", default=None, help="自定义输出目录")
+    p_replay.add_argument("--rarity", type=int, default=None, help="按稀有度过滤干员 (如 6 表示仅识别六星)")
     p_replay.add_argument("--debug-operbox", dest="debug_operbox", action="store_true", default=False, help="开启调试输出")
 
     # 3. merge-players
@@ -94,7 +97,7 @@ def main():
         out_path = Path(args.output) if args.output else None
         print(f"[CLI] 正在离线回放 OperBox 页面: {p_path} ...")
         states, provs = collector.replay_from_pages(
-            p_path, player_id=args.player, output_dir=out_path, debug=args.debug_operbox
+            p_path, player_id=args.player, output_dir=out_path, rarity_filter=args.rarity, debug=args.debug_operbox
         )
         print(f"[CLI] 离线回放完成！已识别 {len(states)} 位干员状态，生成 {len(provs)} 份卡片素材及 Provenance 元数据。")
 

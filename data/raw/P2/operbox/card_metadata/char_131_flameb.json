@@ -1,0 +1,20 @@
+{
+  "char_id": "char_131_flameb",
+  "name": "炎客",
+  "scan_id": "replay_1789661290_P2",
+  "player_id": "P2",
+  "source_page": "page_0018.png",
+  "page_index": 18,
+  "card_index": 5,
+  "roi": [
+    1170,
+    120,
+    220,
+    447
+  ],
+  "capture_timestamp": "2026-09-18T00:10:41.546995",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 2,
+  "selected_reason": "best_quality_score_1.00"
+}

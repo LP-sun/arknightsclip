@@ -1,0 +1,20 @@
+{
+  "char_id": "char_475_akafyu",
+  "name": "赤冬",
+  "scan_id": "replay_1789661290_P2",
+  "player_id": "P2",
+  "source_page": "page_0016.png",
+  "page_index": 16,
+  "card_index": 14,
+  "roi": [
+    1178,
+    598,
+    220,
+    447
+  ],
+  "capture_timestamp": "2026-09-18T00:10:41.462297",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 2,
+  "selected_reason": "best_quality_score_1.00"
+}

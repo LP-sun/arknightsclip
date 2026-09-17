@@ -1,0 +1,20 @@
+{
+  "char_id": "char_134_ifrit",
+  "name": "伊芙利特",
+  "scan_id": "replay_1789661290_P2",
+  "player_id": "P2",
+  "source_page": "page_0004.png",
+  "page_index": 4,
+  "card_index": 7,
+  "roi": [
+    1618,
+    120,
+    220,
+    447
+  ],
+  "capture_timestamp": "2026-09-18T00:10:40.663293",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 1,
+  "selected_reason": "best_quality_score_0.80"
+}

@@ -79,13 +79,19 @@ class OperBoxAnalyzer:
         source_page_name: str = 'page_0001.png'
     ) -> Tuple[List[OperatorState], List[CardCropCandidate]]:
         native_h, native_w = frame_native.shape[:2]
-        scale_x = native_w / float(self.MAA_REF_W)
-        scale_y = native_h / float(self.MAA_REF_H)
+        ref_h = self.MAA_REF_H
+        ref_w = int(round(native_w * ref_h / float(native_h)))
+        scale_x = native_w / float(ref_w)
+        scale_y = native_h / float(ref_h)
 
-        if (native_w, native_h) != (self.MAA_REF_W, self.MAA_REF_H):
-            frame_720p = cv2.resize(frame_native, (self.MAA_REF_W, self.MAA_REF_H), interpolation=cv2.INTER_AREA)
+        if (native_w, native_h) != (ref_w, ref_h):
+            frame_720p = cv2.resize(frame_native, (ref_w, ref_h), interpolation=cv2.INTER_AREA)
         else:
             frame_720p = frame_native
+
+        self.ROI_ROLE_TOP = [0, 78, ref_w, 50]
+        self.ROI_ROLE_BOTTOM = [0, 394, ref_w, 50]
+        self.SAFE_RIGHT_MARGIN_720P = ref_w - 5
 
         detected_flags = self._detect_role_flags(frame_720p)
         if not detected_flags:
@@ -98,10 +104,13 @@ class OperBoxAnalyzer:
             fx, fy, fw, fh = flag['rect']
 
             name, name_conf = self._recognize_name(frame_720p, fx, fy)
-            reg_entry = self.registry.resolve(name)
-            char_id = reg_entry.char_id if reg_entry else f'unknown_{name}'
-            canonical_name = reg_entry.canonical_name_zh if reg_entry else name
-            rarity = reg_entry.rarity if reg_entry else 6
+            name_clean = re.sub(r'[^\w\u4e00-\u9fff·]', '', name).strip()
+            reg_entry = self.registry.resolve(name_clean) or self.registry.resolve(name)
+            if reg_entry is None and (name_conf < 0.4 or len(name_clean) <= 1):
+                continue
+            char_id = reg_entry.char_id if reg_entry else f'unknown_{name_clean or name}'
+            canonical_name = reg_entry.canonical_name_zh if reg_entry else (name_clean or name)
+            rarity = reg_entry.rarity if reg_entry else 0
 
             elite, elite_conf = self._recognize_elite(frame_720p, fx, fy)
             potential, pot_conf = self._recognize_potential(frame_720p, fx, fy)

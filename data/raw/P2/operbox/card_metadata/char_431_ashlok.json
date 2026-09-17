@@ -1,0 +1,20 @@
+{
+  "char_id": "char_431_ashlok",
+  "name": "灰毫",
+  "scan_id": "replay_1789661290_P2",
+  "player_id": "P2",
+  "source_page": "page_0020.png",
+  "page_index": 20,
+  "card_index": 4,
+  "roi": [
+    723,
+    120,
+    220,
+    447
+  ],
+  "capture_timestamp": "2026-09-18T00:10:41.643355",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 1,
+  "selected_reason": "best_quality_score_1.00"
+}

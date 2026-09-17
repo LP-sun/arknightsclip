@@ -1,0 +1,20 @@
+{
+  "char_id": "char_322_lmlee",
+  "name": "老鲤",
+  "scan_id": "Hermit_ultrawide_20260918_024216",
+  "player_id": "P4",
+  "source_page": "page_0010.png",
+  "page_index": 10,
+  "card_index": 2,
+  "roi": [
+    288,
+    96,
+    177,
+    359
+  ],
+  "capture_timestamp": "2026-09-18T02:43:07.134515",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 1,
+  "selected_reason": "best_quality_score_1.00"
+}

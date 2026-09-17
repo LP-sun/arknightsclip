@@ -1,0 +1,20 @@
+{
+  "char_id": "char_4039_horn",
+  "name": "号角",
+  "scan_id": "卡牌嗣枫_ultrawide_20260918_004938",
+  "player_id": "P3",
+  "source_page": "page_0004.png",
+  "page_index": 4,
+  "card_index": 3,
+  "roi": [
+    671,
+    147,
+    269,
+    546
+  ],
+  "capture_timestamp": "2026-09-18T00:51:11.846086",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 1,
+  "selected_reason": "best_quality_score_1.00"
+}
