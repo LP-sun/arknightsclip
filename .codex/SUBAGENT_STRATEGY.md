@@ -2,7 +2,14 @@
 
 ## Scope and source of truth
 
-These project-level agents support the current `arknightsclip` repository. The current checkout does not contain `renderers/rhine/`, `renderers/rhine/README.md`, or `docs/rhine_renderer.md`; no agent may claim a Rhine Renderer Phase 1 implementation exists here. For the actual checkout, current production entry points are `src/arknightsclip/`, scene data is built into `data/manifests/`, and renderer work is isolated under `experiments/`.
+These project-level agents support the current `arknightsclip` repository. The official production source of truth across components is strictly defined as:
+
+* `src/arknightsclip/`: Production data collection, OperBox analysis, normalization, and timeline export pipeline.
+* `psd2pen/`: Production static Box and Pencil visual source of truth (`.pen` modifications strictly restricted to Pencil MCP).
+* `renderers/rhine/`: Production Rhine-style dynamic renderer (TypeScript, Vite, HTML5 Canvas, Playwright, Three.js assets).
+* `experiments/rhine_pillow_mockup/`: Historical and rapid visual mockup exploration only; not a production renderer.
+
+Scene data is built into `data/manifests/` from the normalized dataset in `data/normalized/five_players.json`, which draws from the reproducible public dataset in `data/raw/`.
 
 Custom agent files use Codex's project-level `.codex/agents/*.toml` schema. They are intentionally narrow: root retains architecture, shared-file ownership, visual direction, Git integration, Pen/MCP state, permission elevation, and final acceptance.
 

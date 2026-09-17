@@ -2,6 +2,32 @@
 
 `arknightsclip` 将“玩家拥有的干员状态”和“用于画面合成的素材”分离保存，再用场景清单连接。这样可在不重复采集的情况下重新生成统计、卡片图形与时间线。
 
+## 完整管线架构
+
+```text
+OperBox (MAA/ADB/离线回放)
+       │
+       ▼
+data/raw/ (公开、可复现基准数据集 P1–P5)
+       │
+       ▼
+data/normalized/five_players.json (五人规范化唯一事实源)
+       │
+       ▼
+data/manifests/<char_id>.json (SceneManifest 场景清单)
+       │
+       ├─────────────────────────────────┐
+       ▼                                 ▼
+psd2pen/                           renderers/rhine/
+(正式静态 Box/Pencil 视觉资产)      (唯一正式 Rhine 风格动态渲染管线)
+       │                                 │
+       └────────────────┬────────────────┘
+                        ▼
+           时间线导出 (FCPXML / OTIO)
+                        ▼
+               DaVinci Resolve / 最终合成
+```
+
 ## 模块边界
 
 | 模块 | 位置 | 职责 |
@@ -9,9 +35,11 @@
 | 配置 | `config.py` | 加载 YAML，解析相对项目根目录的路径。 |
 | 干员注册表 | `registry/` | 将识别结果归一为 `char_id`、中文名、职业和稀有度。 |
 | 采集与识别 | `maa/` | 经 MAA/ADB 获取仓库页，提取卡片及练度；支持从已保存页面离线回放。 |
-| 数据集 | `data/`、`models/player.py` | 合并每位玩家的原始结果，形成五人唯一事实源。 |
+| 数据集 | `data/`、`models/player.py` | 合并每位玩家的原始结果，形成五人唯一事实源。治理规范见 `data/README.md`。 |
 | 素材解析 | `assets/` | 查找/同步干员立绘和玩家卡片切图，并检查缺失素材。 |
 | 场景构建 | `scene/`、`models/scene.py` | 为每位干员生成五个玩家槽位的 `SceneManifest`。 |
+| 静态视觉 | `psd2pen/` | 正式静态 Box 布局与 Pencil 视觉资产管线（`.pen` 仅通过 Pencil MCP 编辑）。 |
+| 动态渲染 | `renderers/rhine/` | 唯一正式 Rhine 风格动态渲染管线（TypeScript / Vite / Canvas / Playwright）。 |
 | 时间线 | `timeline/` | 根据分层图形和时长配置生成 FCP7 XML 或 OTIO。 |
 
 ## 关键文件与契约

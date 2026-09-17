@@ -8,7 +8,7 @@
 
 Pen/Pencil 相关功能以 [`psd2pen/`](psd2pen/) 为唯一正式实现和后续开发入口。它基于真实 PSD 视觉资产，并通过 Pencil MCP 完成编辑、截图与原生导出。`experiments/pen_renderer/` 和 `experiments/react_renderer/` 仅保留为早期效果较差的技术原型，不代表当前视觉质量，不得作为正式渲染管线、视觉基准或新功能落点。
 
-截至本次整理，`python tests/run_tests.py` 已通过 23 项核心测试，覆盖数据模型、OperBox 解析、素材关联、场景清单和 24 fps 时间线生成。
+运行 `python tests/run_tests.py` 执行当前核心测试套件，覆盖数据模型、OperBox 解析、素材关联、场景清单和 24 fps 时间线生成。
 
 ## 快速开始
 
@@ -55,11 +55,14 @@ arknightsclip export-timeline --format all
 | --- | --- |
 | `src/arknightsclip/` | 当前维护中的 Python 包与命令行入口。 |
 | `config/` | 项目、设备、PSD 和玩家配置。 |
-| `data/raw/` | 每位玩家的原始采集结果与仓库页截图。 |
+| `data/` | 公开数据集与标准化数据（治理规范参见 [`data/README.md`](data/README.md)）。 |
+| `data/raw/` | 每位玩家的公开、可复现原始采集结果与仓库页截图。 |
 | `data/normalized/` | 合并后的唯一事实源 `five_players.json` 与人工检查表。 |
 | `data/manifests/` | 每位干员一份 `SceneManifest`，供图形和时间线阶段消费。 |
-| `assets/`、`generated/` | 素材缓存与可再生的图形输出。 |
+| `renderers/rhine/` | 唯一正式的 Rhine 风格动态渲染管线 (TypeScript / Vite / Canvas / Playwright)。 |
 | `psd2pen/` | 唯一正式的 Pen/Pencil 实现、模板、自动化与验收交付。 |
+| `assets/`、`generated/` | 素材缓存与可再生的图形输出。 |
+| `experiments/rhine_pillow_mockup/` | 早期静态视觉探索原型，非正式渲染器。 |
 | `experiments/pen_renderer/` | 已弃用的早期无头 PenRenderer 原型，仅供历史参考。 |
 | `experiments/react_renderer/` | 效果较差的对照原型，不属于正式 Pen 管线。 |
 | `reports/` | 统计、时间线与历史验收/技术报告；索引见 [`reports/README.md`](reports/README.md)。 |
@@ -75,6 +78,9 @@ arknightsclip export-timeline --format all
 
 - [`docs/architecture.md`](docs/architecture.md)：模块职责、数据契约和外部依赖边界。
 - [`docs/workflow.md`](docs/workflow.md)：可复现的操作顺序、产物与排错入口。
+- [`docs/rhine_renderer.md`](docs/rhine_renderer.md)：Rhine 动态渲染器契约、Smoke 测试与帧导出说明。
+- [`data/README.md`](data/README.md)：公开数据集定义与治理规范。
+- [`docs/REPOSITORY_GOVERNANCE.md`](docs/REPOSITORY_GOVERNANCE.md)：仓库分支治理与合并规范。
 - [`reports/README.md`](reports/README.md)：现有报告的分类、时效性与阅读顺序。
 - [`psd2pen/AUTOMATION.md`](psd2pen/AUTOMATION.md)：PSD 转 Pen 子项目的自动化说明。
 
