@@ -264,7 +264,7 @@ class StandaloneCollector:
     def run_collection(
         self,
         player_name: str,
-        max_pages: int = 20,
+        max_pages: int = 24,
         output_base_dir: str = "./captures"
     ) -> Optional[Path]:
         w, h = self.update_screen_size()
@@ -383,7 +383,8 @@ def main():
     parser.add_argument("--name", default="", help="玩家昵称/代号（例如 wyf、P2）")
     parser.add_argument("--device", default="", help="ADB 设备地址（例如 127.0.0.1:16384）")
     parser.add_argument("--adb", default="", help="自定义 adb.exe 路径")
-    parser.add_argument("--pages", type=int, default=18, help="最大翻页捕获数（默认 18）")
+    # 146 位全六星基准需求 ~18 页，加 33% 安全裕度设定为 24 页，MD5 到达末尾会自动提前终止
+    parser.add_argument("--pages", type=int, default=24, help="最大翻页捕获数（基于146全六星+安全冗余，默认 24）")
     parser.add_argument("--output", default="./captures", help="数据导出保存目录")
     args = parser.parse_args()
 
