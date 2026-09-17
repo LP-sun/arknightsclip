@@ -218,7 +218,10 @@ class OperBoxAnalyzer:
         ocr = self._get_ocr()
         if ocr and roi.size > 0:
             try:
-                ocr_res = ocr.readtext(roi)
+                # 针对 720p 名字条高度仅 22px 的问题，进行双三次插值 2.0 倍超分放大
+                # 大幅增强 EasyOCR 对单字 (如 令、黍、山、林) 及细笔画干员的检出率与置信度
+                scaled_roi = cv2.resize(roi, (0, 0), fx=2.0, fy=2.0, interpolation=cv2.INTER_CUBIC)
+                ocr_res = ocr.readtext(scaled_roi)
                 for _, text, conf in ocr_res:
                     clean = text.strip()
                     if clean:
