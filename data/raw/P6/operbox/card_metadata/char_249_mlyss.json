@@ -1,0 +1,20 @@
+{
+  "char_id": "char_249_mlyss",
+  "name": "缪尔赛思",
+  "scan_id": "replay_1789630696_P6",
+  "player_id": "P6",
+  "source_page": "page_0006.png",
+  "page_index": 6,
+  "card_index": 8,
+  "roi": [
+    117,
+    732,
+    269,
+    546
+  ],
+  "capture_timestamp": "2026-09-17T15:38:52.782415",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 1,
+  "selected_reason": "best_quality_score_0.76"
+}

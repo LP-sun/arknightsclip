@@ -1,0 +1,20 @@
+{
+  "char_id": "char_4123_ela",
+  "name": "艾拉",
+  "scan_id": "replay_1789630696_P6",
+  "player_id": "P6",
+  "source_page": "page_0009.png",
+  "page_index": 9,
+  "card_index": 1,
+  "roi": [
+    115,
+    147,
+    269,
+    546
+  ],
+  "capture_timestamp": "2026-09-17T15:38:53.023642",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 1,
+  "selected_reason": "best_quality_score_0.75"
+}

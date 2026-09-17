@@ -1,0 +1,20 @@
+{
+  "char_id": "char_4064_mlynar",
+  "name": "玛恩纳",
+  "scan_id": "replay_1789630696_P6",
+  "player_id": "P6",
+  "source_page": "page_0003.png",
+  "page_index": 3,
+  "card_index": 1,
+  "roi": [
+    117,
+    147,
+    269,
+    546
+  ],
+  "capture_timestamp": "2026-09-17T15:38:52.413378",
+  "recognition_method": "MaaCore OperBoxImageAnalyzer",
+  "recognition_confidence": null,
+  "candidate_count": 1,
+  "selected_reason": "best_quality_score_0.76"
+}
