@@ -49,6 +49,12 @@ external/
 .npm-cache/
 renderers/rhine/.conda/
 .codex/
+!.codex/
+.codex/*
+!.codex/SUBAGENT_STRATEGY.md
+!.codex/agents/
+.codex/agents/*
+!.codex/agents/*.toml
 dist/
 release/
 tools/standalone_collector/dist/

@@ -1,0 +1,14 @@
+name: arknightsclip-rhine
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pillow
+  - openpyxl
+  - pyyaml
+  - pytest
+  - pip
+  - pip:
+      - psd-tools
+      - opentimelineio
