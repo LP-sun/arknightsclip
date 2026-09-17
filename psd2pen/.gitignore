@@ -1,0 +1,7 @@
+.venv-pencil/
+
+# Reproducible local inputs and rendered delivery artifacts
+assets/raw_batch/
+delivery/five_slot_*/
+delivery/raw_*/
+delivery/template_v2/

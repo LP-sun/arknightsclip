@@ -12,7 +12,17 @@ Order:
 
 Do not rebuild the whole PSD screen.
 
-## Required Pen MCP
+## Accepted baseline and five-slot derivative
+
+The user has accepted `character_cards_8slot.pen` as complete. Preserve it as the
+baseline. `character_cards_5slot.pen` is the independent 3 LEFT + 2 RIGHT
+derivative: retain all eight editable instances and show source slots
+1, 2, 3, 5, 6; hide 4, 7, 8 without moving/rebuilding the cards.
+Use `scripts/generate_five_cards.ps1` for JSON-to-Pencil-to-PNG batches.
+Native document save/reopen remains an explicit Pen.dev application operation;
+successful PNG exports do not prove the .pen document was saved.
+
+## Pen MCP and batch JSON workflow
 
 The MCP server name is exactly `pencil`.
 
@@ -24,12 +34,13 @@ Before editing:
 5. screenshot through `TakeScreenshot(...)`
 6. export through `Export(...)`
 
-If `pencil` is unavailable, stop with `PENCIL_MCP_NOT_CONNECTED`.
+Pencil MCP is required to create or structurally revise a template .pen document, inspect its real node tree, make visual decisions, take screenshots, and produce final visual exports. If it is unavailable for one of those tasks, stop with `PENCIL_MCP_NOT_CONNECTED`.
 
-**硬性规则：无法连接 `pencil` MCP 时，请勿对任何 `.pen` 文件进行任何形式的修改。**
-不得直接编辑原始 JSON、使用脚本批量改写、通过其他渲染器替代修改，或让子代理绕过此限制；只能停止相关工作并报告 `PENCIL_MCP_NOT_CONNECTED`。
+For repeatable batch jobs, a Pencil-created and visually accepted template may be copied and mechanically edited through its .pen JSON. This exception is limited to a documented batch schema: replace image references and text/value/visibility fields on pre-existing, identified instance nodes; it must not synthesize frame geometry, alter component structure, or use an unvalidated JSON path.
 
-Never silently substitute Pillow, React/CSS, direct raw `.pen` JSON mutation, or mouse-coordinate automation.
+Every JSON batch writer must: preserve the accepted template unchanged; write to a new output document; validate the expected node ids/names and field types before mutation; emit an input-to-output manifest and SHA-256 hashes; and fail closed when the template schema differs. At least one representative output per schema/version must be reopened and visually checked in Pencil before release.
+
+Pillow or other raster libraries may inspect exports but must not generate or redraw official card imagery. Do not use React/CSS or mouse-coordinate automation as a substitute for the Pen workflow.
 
 ## Fidelity
 
