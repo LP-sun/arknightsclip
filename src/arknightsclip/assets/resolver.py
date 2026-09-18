@@ -113,7 +113,14 @@ class AssetResolver:
 
                 target_dir = self.get_operator_dir(entry.char_id)
                 bg_path = s_dir / "background.png"
-                if bg_path.exists() and not (target_dir / "full.png").exists():
+                # 排除历史分层工程中已确认被错误复制的假素材来源
+                corrupt_sources = {
+                    "021_风笛": "Duplicate background from 001_能天使",
+                    "037_灰烬": "Duplicate background from 038_异客",
+                }
+                if s_dir.name in corrupt_sources:
+                    print(f"[AssetResolver] 跳过已知损坏/重复立绘来源: {s_dir.name} -> {entry.char_id} ({corrupt_sources[s_dir.name]})")
+                elif bg_path.exists() and not (target_dir / "full.png").exists():
                     shutil.copyfile(bg_path, target_dir / "full.png")
 
                 meta_path = target_dir / "metadata.json"

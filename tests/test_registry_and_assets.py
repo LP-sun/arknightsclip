@@ -143,3 +143,33 @@ def test_group_stats_computation(config, registry):
     # 自身相似度必为 1.0
     for pid in ds.players.keys():
         assert stats["jaccard_similarity"][pid][pid] == 1.0
+
+def test_no_unwhitelisted_duplicate_operator_artwork(config):
+    """不允许两个不同 canonical operator ID 在没有显式 whitelist 的情况下共享完全相同的 full-art hash。"""
+    import hashlib
+    from collections import defaultdict
+
+    assets_root = config.resolve_path(config.pipeline.assets_dir) / "operators"
+    if not assets_root.exists():
+        return
+
+    # 显式白名单：合法共享哈希的 (char_id1, char_id2) 及其原因
+    duplicate_whitelist = {}
+
+    hash_to_ops = defaultdict(list)
+    for op_dir in sorted(assets_root.iterdir()):
+        if not op_dir.is_dir():
+            continue
+        full_png = op_dir / "full.png"
+        if full_png.exists():
+            h = hashlib.sha256(full_png.read_bytes()).hexdigest()
+            hash_to_ops[h].append(op_dir.name)
+
+    unwhitelisted_duplicates = []
+    for h, ops in hash_to_ops.items():
+        if len(ops) > 1:
+            pair_key = tuple(sorted(ops))
+            if pair_key not in duplicate_whitelist:
+                unwhitelisted_duplicates.append((h, ops))
+
+    assert not unwhitelisted_duplicates, f"发现未在白名单中的重复立绘哈希: {unwhitelisted_duplicates}"

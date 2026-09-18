@@ -4,14 +4,12 @@
 - **五玩家总去重干员数**: 254
 - **SceneManifest 覆盖干员数 (6星主干)**: 146
 - **各玩家原始干员数**: {"P1": 146, "P2": 221, "P3": 124, "P4": 122, "P5": 120}
-- **Hero Art (full.png) 现有目录数**: 60
-- **Manifest 缺失 Hero Art 数量**: 87 (占比 59.6%)
-- **全量干员缺失 Hero Art 数量**: 195
+- **Hero Art (full.png) 现有目录数**: 57
+- **Manifest 缺失 Hero Art 数量**: 89 (占比 61.0%)
+- **全量干员缺失 Hero Art 数量**: 197
 
 ### 重复立绘哈希 (Duplicate Hero Art Hashes)
-- **SHA-256 `0bbe7c6f41924c30...`**: `char_103_angel, char_222_bpipe`
-- **SHA-256 `d4205d69e6f0d38c...`**: `char_332_archet, char_436_whispr`
-- **SHA-256 `df02fb9656046502...`**: `char_456_ash, char_472_pasngr`
+- 无重复立绘哈希。
 
 ## 2. 原始卡片资产 (cards_raw)
 - **总计 cards_raw 切片数**: 633

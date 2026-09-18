@@ -3,7 +3,7 @@
   "operator_name": "空弦",
   "rarity": 6,
   "profession": "SNIPER",
-  "full_art_path": "",
+  "full_art_path": "assets/operators/char_332_archet/full.png",
   "players": {
     "P1": {
       "own": true,

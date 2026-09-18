@@ -10,8 +10,8 @@
       "P4": 122,
       "P5": 120
     },
-    "hero_art_count": 60,
-    "manifest_missing_hero_count": 87,
+    "hero_art_count": 57,
+    "manifest_missing_hero_count": 89,
     "manifest_missing_hero_operators": [
       "char_1015_aglna2",
       "char_1016_agoat2",
@@ -45,6 +45,7 @@
       "char_2025_shu",
       "char_2026_yu",
       "char_2027_wang",
+      "char_222_bpipe",
       "char_245_cello",
       "char_249_mlyss",
       "char_4010_etlchi",
@@ -91,6 +92,7 @@
       "char_4235_thumpy",
       "char_427_vigil",
       "char_450_necras",
+      "char_456_ash",
       "char_608_acpion",
       "char_609_acguad",
       "char_610_acfend",
@@ -101,22 +103,9 @@
       "char_615_acspec",
       "char_617_sharp2"
     ],
-    "five_players_missing_hero_count": 195,
-    "duplicate_hash_groups_count": 3,
-    "duplicate_hash_groups": {
-      "0bbe7c6f41924c30d1f94efe011105ae5837a18947f7c26173a989a37f672790": [
-        "char_103_angel",
-        "char_222_bpipe"
-      ],
-      "d4205d69e6f0d38c4f4a807e1342fe82da077283a8988651f4c9c5f9fdd2b320": [
-        "char_332_archet",
-        "char_436_whispr"
-      ],
-      "df02fb9656046502cf737a5281cccdc3e5760028c459c15e8fa0fe9e9a2af9cd": [
-        "char_456_ash",
-        "char_472_pasngr"
-      ]
-    }
+    "five_players_missing_hero_count": 197,
+    "duplicate_hash_groups_count": 0,
+    "duplicate_hash_groups": {}
   },
   "cards_raw": {
     "total_cards_raw": 633,

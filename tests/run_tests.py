@@ -30,6 +30,7 @@ from tests.test_registry_and_assets import (
     test_operator_registry_p0_aliases_and_ocr_protection,
     test_asset_resolver_validation,
     test_group_stats_computation,
+    test_no_unwhitelisted_duplicate_operator_artwork,
 )
 from tests.test_operbox_schema import TestOperBoxSchema
 from tests.test_operbox_crop_selection import TestOperBoxCropSelection
@@ -64,6 +65,7 @@ def run_all():
         ("test_operator_registry_p0_aliases_and_ocr_protection", lambda: test_operator_registry_p0_aliases_and_ocr_protection(reg)),
         ("test_asset_resolver_validation", lambda: test_asset_resolver_validation(cfg, reg)),
         ("test_group_stats_computation", lambda: test_group_stats_computation(cfg, reg)),
+        ("test_no_unwhitelisted_duplicate_operator_artwork", lambda: test_no_unwhitelisted_duplicate_operator_artwork(cfg)),
         ("test_operbox_card_roi_conversion", lambda: TestOperBoxSchema().test_card_roi_conversion()),
         ("test_operbox_provenance_schema", lambda: TestOperBoxSchema().test_provenance_schema_serialization()),
         ("test_operbox_scan_session_summary", lambda: TestOperBoxSchema().test_scan_session_summary()),

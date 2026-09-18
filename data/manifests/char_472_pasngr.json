@@ -3,7 +3,7 @@
   "operator_name": "异客",
   "rarity": 6,
   "profession": "CASTER",
-  "full_art_path": "",
+  "full_art_path": "assets/operators/char_472_pasngr/full.png",
   "players": {
     "P1": {
       "own": false,
