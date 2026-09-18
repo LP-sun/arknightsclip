@@ -23,7 +23,8 @@ const outDir = path.resolve(getArg('--out', path.resolve(ROOT, 'generated/rhine/
 const dataFile = path.resolve(getArg('--data', path.resolve(HERE, 'public/project.json')));
 const project = JSON.parse(fs.readFileSync(dataFile, 'utf8'));
 const allFrames = Array.from({ length: project.totalFrames }, (_, frame) => frame);
-const frames = smoke ? [...new Set([0, 1, 23, 24, 49, 50, 51, 120, 600, 1800, project.totalFrames - 2, project.totalFrames - 1])] : allFrames;
+const selectedFrames = getArg('--frames', '');
+const frames = selectedFrames ? selectedFrames.split(',').map(Number) : smoke ? [...new Set([0, 23, 49, 50, 51, 120, 600, 1800, 2400, 3300, 4200, project.totalFrames - 2, project.totalFrames - 1])] : allFrames;
 const frameDir = path.join(outDir, 'frames');
 fs.mkdirSync(frameDir, { recursive: true });
 
@@ -46,6 +47,8 @@ page.on('pageerror', (error) => console.error(`[pageerror] ${error.message}`));
 
 try {
   await page.goto(`${baseUrl}/?production=1&frame=0`, { waitUntil: 'domcontentloaded', timeout: 30000 });
+  await page.waitForFunction(() => typeof window.renderFrame === 'function', null, { timeout: 120000 });
+  await page.evaluate(() => document.fonts.ready);
   await page.addStyleTag({ content: '*,*::before,*::after{animation-delay:0s!important;animation-duration:0s!important;transition:none!important}' });
   for (const frame of frames) {
     await page.evaluate(() => {
@@ -67,7 +70,7 @@ try {
 const report = { baseUrl, framesCaptured: frames.length, totalFrames: project.totalFrames, width: project.width, height: project.height, fps: project.fps, smoke, frameDir };
 fs.writeFileSync(path.join(outDir, 'capture-report.json'), `${JSON.stringify(report, null, 2)}\n`, 'utf8');
 
-if (!skipEncode && !smoke) {
+if (!skipEncode && !smoke && !selectedFrames) {
   const bgm = path.resolve(ROOT, 'bgm及使用指南/明日方舟报菜名（女神异闻录3  月行水上）.mp3');
   const output = path.join(outDir, 'rhine_operator_archive_final.mp4');
   await new Promise((resolve, reject) => {
