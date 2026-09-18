@@ -92,5 +92,41 @@ class TestSceneBuilder(unittest.TestCase):
             self.assertTrue(saved_data["players"]["P1"]["own"])
             self.assertFalse(saved_data["players"]["P2"]["own"])
 
+    def test_rhine_fallback_modes_and_full_dataset_coverage(self):
+        """测试对完整 five_players.json 遍历，全量干员具备合法降级状态，无崩溃，无静默冒用"""
+        from arknightsclip.scene.render_state import RhineRenderStateEvaluator
+
+        evaluator = RhineRenderStateEvaluator(config=self.config)
+        states = evaluator.evaluate_all_from_five_players()
+        self.assertGreater(len(states), 200, "Should evaluate all operators in five_players.json")
+
+        mode_counts = {}
+        for cid, s in states.items():
+            # 1. 合法性检查与无崩溃保证
+            self.assertTrue(s.validate(), f"Render state invalid for {cid}")
+            self.assertIn(s.render_mode, ("hero_art", "card_art", "metadata_only"))
+            mode_counts[s.render_mode] = mode_counts.get(s.render_mode, 0) + 1
+
+            # 2. 禁止静默冒用其他干员素材 (No silent substitution)
+            if s.render_mode == "hero_art":
+                self.assertIsNotNone(s.hero_art_path)
+                self.assertIn(cid, s.hero_art_path, f"Hero art path {s.hero_art_path} does not match {cid}")
+            else:
+                self.assertIsNone(s.hero_art_path, f"Fallback mode {s.render_mode} must not have hero_art_path")
+
+            if s.card_art_path:
+                self.assertIn(cid, s.card_art_path, f"Card art path {s.card_art_path} does not match {cid}")
+
+        # 3. 确保同时存在 hero_art 和 fallback 模式
+        self.assertGreater(mode_counts.get("hero_art", 0), 0)
+        self.assertGreater(mode_counts.get("card_art", 0), 0)
+
+        # 4. 特别验证之前有错误立绘的干员是否正确降级
+        self.assertEqual(states["char_222_bpipe"].render_mode, "card_art")
+        self.assertIsNone(states["char_222_bpipe"].hero_art_path)
+        self.assertEqual(states["char_456_ash"].render_mode, "card_art")
+        self.assertIsNone(states["char_456_ash"].hero_art_path)
+
 if __name__ == "__main__":
     unittest.main()
+

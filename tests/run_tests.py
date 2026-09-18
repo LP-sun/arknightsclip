@@ -77,6 +77,7 @@ def run_all():
         ("test_operbox_unowned_asset_null", lambda: TestOperBoxAssetStateJoin().test_unowned_operator_asset_is_null()),
         ("test_scene_builder_contract", lambda: ts_builder.test_build_scene_contract()),
         ("test_scene_builder_persistence", lambda: ts_builder.test_build_all_scenes_persistence()),
+        ("test_rhine_fallback_modes_and_full_dataset_coverage", lambda: ts_builder.test_rhine_fallback_modes_and_full_dataset_coverage()),
         ("test_timeline_fcpxml_structure", lambda: ts_timeline.test_fcpxml_structure_and_integrity()),
         ("test_timeline_otio_generation", lambda: ts_timeline.test_otio_generation()),
     ]

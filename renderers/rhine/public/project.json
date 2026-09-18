@@ -16,7 +16,11 @@
       "start_frame": 0,
       "duration_frames": 24,
       "full_art": "assets/operators/char_003_kalts/full.png",
+      "card_art": "data/raw/P1/operbox/cards_raw/char_003_kalts.png",
+      "render_mode": "hero_art",
       "asset_status": "ready",
+      "profession": "MEDIC",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -71,7 +75,11 @@
       "start_frame": 24,
       "duration_frames": 24,
       "full_art": "assets/operators/char_010_chen/full.png",
+      "card_art": "",
+      "render_mode": "hero_art",
       "asset_status": "ready",
+      "profession": "WARRIOR",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -126,7 +134,11 @@
       "start_frame": 48,
       "duration_frames": 24,
       "full_art": "assets/operators/char_017_huang/full.png",
+      "card_art": "",
+      "render_mode": "hero_art",
       "asset_status": "ready",
+      "profession": "WARRIOR",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -181,7 +193,11 @@
       "start_frame": 72,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "SUPPORT",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -236,7 +252,11 @@
       "start_frame": 96,
       "duration_frames": 24,
       "full_art": "assets/operators/char_1013_chen2/full.png",
+      "card_art": "",
+      "render_mode": "hero_art",
       "asset_status": "ready",
+      "profession": "SNIPER",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -291,7 +311,11 @@
       "start_frame": 120,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "WARRIOR",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -346,7 +370,11 @@
       "start_frame": 144,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "SPECIAL",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -401,7 +429,11 @@
       "start_frame": 168,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "MEDIC",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -456,7 +488,11 @@
       "start_frame": 192,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "WARRIOR",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -511,7 +547,11 @@
       "start_frame": 216,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "MEDIC",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -566,7 +606,11 @@
       "start_frame": 240,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "SPECIAL",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -621,7 +665,11 @@
       "start_frame": 264,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "WARRIOR",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -676,7 +724,11 @@
       "start_frame": 288,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "SPECIAL",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -731,7 +783,11 @@
       "start_frame": 312,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "SPECIAL",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -786,7 +842,11 @@
       "start_frame": 336,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "SUPPORT",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -841,7 +901,11 @@
       "start_frame": 360,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "WARRIOR",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -896,7 +960,11 @@
       "start_frame": 384,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "SPECIAL",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -951,7 +1019,11 @@
       "start_frame": 408,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "TANK",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -1006,7 +1078,11 @@
       "start_frame": 432,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "data/raw/P1/operbox/cards_raw/char_1035_wisdel.png",
+      "render_mode": "card_art",
       "asset_status": "placeholder_asset",
+      "profession": "SNIPER",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -1061,7 +1137,11 @@
       "start_frame": 456,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "CASTER",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -1116,7 +1196,11 @@
       "start_frame": 480,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "SPECIAL",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -1171,7 +1255,11 @@
       "start_frame": 504,
       "duration_frames": 24,
       "full_art": "assets/operators/char_103_angel/full.png",
+      "card_art": "data/raw/P1/operbox/cards_raw/char_103_angel.png",
+      "render_mode": "hero_art",
       "asset_status": "ready",
+      "profession": "SNIPER",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -1226,7 +1314,11 @@
       "start_frame": 528,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "CASTER",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -1281,7 +1373,11 @@
       "start_frame": 552,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "SPECIAL",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -1336,7 +1432,11 @@
       "start_frame": 576,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "SUPPORT",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -1391,7 +1491,11 @@
       "start_frame": 600,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "WARRIOR",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -1446,7 +1550,11 @@
       "start_frame": 624,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "data/raw/P1/operbox/cards_raw/char_1044_hsgma2.png",
+      "render_mode": "card_art",
       "asset_status": "placeholder_asset",
+      "profession": "TANK",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -1501,7 +1609,11 @@
       "start_frame": 648,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "data/raw/P1/operbox/cards_raw/char_1045_svash2.png",
+      "render_mode": "card_art",
       "asset_status": "placeholder_asset",
+      "profession": "PIONEER",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -1556,7 +1668,11 @@
       "start_frame": 672,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "data/raw/P1/operbox/cards_raw/char_1046_sbell2.png",
+      "render_mode": "card_art",
       "asset_status": "placeholder_asset",
+      "profession": "CASTER",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -1611,7 +1727,11 @@
       "start_frame": 696,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "SUPPORT",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -1666,7 +1786,11 @@
       "start_frame": 720,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "data/raw/P1/operbox/cards_raw/char_1048_orchd2.png",
+      "render_mode": "card_art",
       "asset_status": "placeholder_asset",
+      "profession": "SNIPER",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -1721,7 +1845,11 @@
       "start_frame": 744,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "WARRIOR",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -1776,7 +1904,11 @@
       "start_frame": 768,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "WARRIOR",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -1831,7 +1963,11 @@
       "start_frame": 792,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "MEDIC",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -1886,7 +2022,11 @@
       "start_frame": 816,
       "duration_frames": 24,
       "full_art": "assets/operators/char_112_siege/full.png",
+      "card_art": "",
+      "render_mode": "hero_art",
       "asset_status": "ready",
+      "profession": "PIONEER",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -1941,7 +2081,11 @@
       "start_frame": 840,
       "duration_frames": 24,
       "full_art": "assets/operators/char_113_cqbw/full.png",
+      "card_art": "",
+      "render_mode": "hero_art",
       "asset_status": "ready",
+      "profession": "SNIPER",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -1996,7 +2140,11 @@
       "start_frame": 864,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "CASTER",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -2051,7 +2199,11 @@
       "start_frame": 888,
       "duration_frames": 24,
       "full_art": "assets/operators/char_136_hsguma/full.png",
+      "card_art": "data/raw/P1/operbox/cards_raw/char_136_hsguma.png",
+      "render_mode": "hero_art",
       "asset_status": "ready",
+      "profession": "TANK",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -2106,7 +2258,11 @@
       "start_frame": 912,
       "duration_frames": 24,
       "full_art": "assets/operators/char_147_shining/full.png",
+      "card_art": "",
+      "render_mode": "hero_art",
       "asset_status": "ready",
+      "profession": "MEDIC",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -2161,7 +2317,11 @@
       "start_frame": 936,
       "duration_frames": 24,
       "full_art": "",
+      "card_art": "",
+      "render_mode": "metadata_only",
       "asset_status": "placeholder_asset",
+      "profession": "SPECIAL",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -2216,7 +2376,11 @@
       "start_frame": 960,
       "duration_frames": 24,
       "full_art": "assets/operators/char_172_svrash/full.png",
+      "card_art": "data/raw/P1/operbox/cards_raw/char_172_svrash.png",
+      "render_mode": "hero_art",
       "asset_status": "ready",
+      "profession": "WARRIOR",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",
@@ -2271,7 +2435,11 @@
       "start_frame": 984,
       "duration_frames": 24,
       "full_art": "assets/operators/char_179_cgbird/full.png",
+      "card_art": "",
+      "render_mode": "hero_art",
       "asset_status": "ready",
+      "profession": "MEDIC",
+      "rarity": 6,
       "players": [
         {
           "player_id": "P1",

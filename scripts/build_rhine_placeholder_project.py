@@ -72,13 +72,39 @@ def main() -> None:
                 "potential": raw.get("potential"),
             })
 
+        # 确定最佳可用卡片切片
+        card_art = ""
+        for raw_p in data.get("players", {}).values():
+            raw_card = raw_p.get("card_asset_path")
+            if raw_card:
+                cp = Path(raw_card)
+                if not cp.is_absolute():
+                    cp = ROOT / raw_card
+                if cp.exists():
+                    try:
+                        card_art = str(cp.relative_to(ROOT)).replace("\\", "/")
+                    except ValueError:
+                        card_art = str(cp).replace("\\", "/")
+                    break
+
+        if asset_state == "ready":
+            render_mode = "hero_art"
+        elif card_art:
+            render_mode = "card_art"
+        else:
+            render_mode = "metadata_only"
+
         scenes.append({
             "operator_id": data["operator_id"],
             "operator_name": data["operator_name"],
             "start_frame": i * FPS,
             "duration_frames": FPS,
             "full_art": art,
+            "card_art": card_art,
+            "render_mode": render_mode,
             "asset_status": asset_state,
+            "profession": data.get("profession", ""),
+            "rarity": data.get("rarity", 6),
             "players": players,
         })
 
