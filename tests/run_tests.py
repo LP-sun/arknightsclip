@@ -41,6 +41,7 @@ from tests.test_fcpxml_timeline import TestTimelineGenerators
 from tests.test_card_normalizer import TestCardNormalizer
 from tests.test_icon_resolver import TestIconResolver
 from tests.test_pen_dependencies import TestPenDependencies
+from tests.test_visual_acceptance import TestVisualAcceptance
 
 def run_all():
     tests = [
@@ -68,6 +69,8 @@ def run_all():
     ts_icon.setUp()
     ts_pen = TestPenDependencies()
     ts_pen.setUp()
+    ts_acceptance = TestVisualAcceptance()
+    ts_acceptance.setUp()
 
     tests_with_fixtures = [
         ("test_registry_resolution", lambda: test_registry_resolution(reg)),
@@ -95,6 +98,8 @@ def run_all():
         ("test_pen_dependencies_character_cards_5slot_clean", lambda: ts_pen.test_character_cards_5slot_has_zero_unresolved()),
         ("test_pen_dependencies_template_raw_batch_resolution", lambda: ts_pen.test_character_cards_5slot_template_raw_batch_resolution()),
         ("test_pen_dependencies_generate_manifest", lambda: ts_pen.test_generate_manifest_creates_valid_reports()),
+        ("test_visual_acceptance_frames_exist", lambda: ts_acceptance.test_visual_acceptance_frames_exist()),
+        ("test_visual_acceptance_report_contents", lambda: ts_acceptance.test_visual_acceptance_report_contents()),
         ("test_timeline_fcpxml_structure", lambda: ts_timeline.test_fcpxml_structure_and_integrity()),
         ("test_timeline_otio_generation", lambda: ts_timeline.test_otio_generation()),
     ]
