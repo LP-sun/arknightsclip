@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "test": "node test/timeline.test.mjs",
+    "test": "node test/timeline.test.mjs && node test/layout.test.mjs",
     "render:phase1": "node scripts/render-phase1.mjs",
     "render:smoke": "node scripts/render-phase1.mjs --smoke"
   },

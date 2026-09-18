@@ -35,5 +35,24 @@ export interface FrameEvaluation {
   };
 }
 
+export interface Rect {
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+}
+
+export interface PlayerSlotLayout {
+  index: number;
+  bounds: Rect;
+}
+
 export declare const project: RhineProject;
 export declare function evaluate(frame: number): FrameEvaluation;
+export declare function getStageZones(): any;
+export declare function computePlayerSlotLayout(
+  playerCount: number,
+  container: Rect,
+  orientation?: 'horizontal' | 'vertical',
+  gap?: number
+): PlayerSlotLayout[];

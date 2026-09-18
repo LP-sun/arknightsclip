@@ -1,4 +1,5 @@
 import { project, evaluate } from './timeline.js';
+import { getStageZones, computePlayerSlotLayout } from './layout.js';
 
 const canvas = document.querySelector('canvas') as HTMLCanvasElement;
 const ctx = canvas.getContext('2d')!;
@@ -92,24 +93,26 @@ const draw = () => {
     }
     ctx.globalAlpha = 1.0;
 
+    const zones = getStageZones();
+
     // Outer architectural safety border
     ctx.strokeStyle = '#225566';
     ctx.lineWidth = 2;
-    ctx.strokeRect(40, 36, 1840, 1008);
-    drawCornerReticles(ctx, 40, 36, 1840, 1008, 20, '#38b2ac');
+    ctx.strokeRect(zones.safeArea.x, zones.safeArea.y, zones.safeArea.width, zones.safeArea.height);
+    drawCornerReticles(ctx, zones.safeArea.x, zones.safeArea.y, zones.safeArea.width, zones.safeArea.height, 20, '#38b2ac');
 
     // 2. Top Header Telemetry
     ctx.fillStyle = '#64d2c8';
     ctx.font = 'bold 26px monospace';
-    ctx.fillText('RHINE LAB // ARCHIVE SPECIMEN ACCESS', 72, 76);
+    ctx.fillText('RHINE LAB // ARCHIVE SPECIMEN ACCESS', zones.header.x, zones.header.y + 36);
 
     ctx.fillStyle = '#2c7a88';
     ctx.font = '18px monospace';
-    ctx.fillText('RHI-07 // SECURE RETRIEVAL PROTOCOL  •  SPECIMEN ARCHIVE SYSTEM', 74, 104);
+    ctx.fillText('RHI-07 // SECURE RETRIEVAL PROTOCOL  •  SPECIMEN ARCHIVE SYSTEM', zones.header.x + 2, zones.header.y + 64);
 
     ctx.fillStyle = '#4fd1c5';
     ctx.font = '18px monospace';
-    ctx.fillText('SYSTEM STATUS: NOMINAL  •  SECURITY CLEARANCE LV.3', 1360, 76);
+    ctx.fillText('SYSTEM STATUS: NOMINAL  •  SECURITY CLEARANCE LV.3', zones.header.x + zones.header.width - 520, zones.header.y + 36);
 
     // 3. Bottom Footer Telemetry
     const totalFrames = project.scenes.length * project.fps;
@@ -117,10 +120,10 @@ const draw = () => {
     ctx.font = '18px monospace';
     ctx.fillText(
       `FRAME [${String(frame).padStart(4, '0')} / ${String(totalFrames).padStart(4, '0')}]   BEAT [${s.beat.toFixed(2)}]   CAMERA [X:${s.camera.x.toFixed(1)} Y:${s.camera.y.toFixed(1)}]`,
-      72,
-      1018
+      zones.footer.x,
+      zones.footer.y + 28
     );
-    ctx.fillText('1920x1080  •  24.0 FPS  •  DETERMINISTIC EVALUATOR', 1420, 1018);
+    ctx.fillText('1920x1080  •  24.0 FPS  •  DETERMINISTIC EVALUATOR', zones.footer.x + zones.footer.width - 440, zones.footer.y + 28);
 
     // Central camera-responsive positioning
     const cx = 960 + s.camera.x;
@@ -171,22 +174,30 @@ const draw = () => {
       const rarityStr = '★'.repeat(op.rarity || 6);
       ctx.fillText(`${rarityStr}   CLASS // ${op.profession || 'OPERATOR'}   HERO ARTWORK ACTIVE`, px + 54, py + ph - 68);
 
-      // Player ownership indicators
+      // Player ownership indicators - parameterized responsive slot layout
       const players = op.players || [];
-      const badgeStartX = px + 50;
-      players.slice(0, 5).forEach((p: any, idx: number) => {
-        const bx = badgeStartX + idx * 144;
-        const by = py + ph - 42;
+      const badgeContainer = {
+        x: px + 40,
+        y: py + ph - 44,
+        width: pw - 80,
+        height: 32,
+      };
+      const slotLayouts = computePlayerSlotLayout(players.length, badgeContainer, 'horizontal', 10);
+
+      players.forEach((p: any, idx: number) => {
+        const slot = slotLayouts[idx];
+        if (!slot) return;
+        const { x: bx, y: by, width: bw, height: bh } = slot.bounds;
         const owned = p.status === 'confirmed_owned' || p.own === true;
         ctx.fillStyle = owned ? '#1a4149' : '#141c22';
-        ctx.fillRect(bx, by, 140, 30);
+        ctx.fillRect(bx, by, bw, bh);
         ctx.strokeStyle = owned ? '#38b2ac' : '#32404e';
         ctx.lineWidth = 1.5;
-        ctx.strokeRect(bx, by, 140, 30);
+        ctx.strokeRect(bx, by, bw, bh);
 
         ctx.fillStyle = owned ? '#4fd1c5' : '#718096';
         ctx.font = 'bold 12px monospace';
-        const pid = p.player_id || `P${idx+1}`;
+        const pid = p.player_id || `P${idx + 1}`;
         const dName = p.display_name ? p.display_name.slice(0, 4) : pid;
         ctx.fillText(`${pid} ${dName}`, bx + 8, by + 14);
 
@@ -296,34 +307,43 @@ const draw = () => {
         ctx.stroke();
       });
 
-      // 5-player mini status table in right panel
+      // Responsive acquisition matrix table in right panel
       const tableY = dy0 + 440;
       ctx.fillStyle = '#4fd1c5';
       ctx.font = 'bold 16px monospace';
-      ctx.fillText('FIVE-PLAYER ACQUISITION MATRIX', dx0 + 30, tableY);
+      ctx.fillText(`PLAYER ACQUISITION MATRIX // ${players.length} SLOTS`, dx0 + 30, tableY);
 
-      const players = op.players || [];
-      players.slice(0, 5).forEach((p: any, idx: number) => {
-        const pyRow = tableY + 30 + idx * 46;
+      const tableContainer = {
+        x: dx0 + 30,
+        y: tableY + 16,
+        width: dw - 60,
+        height: dh - (tableY - dy0) - 36,
+      };
+      const dossierSlots = computePlayerSlotLayout(players.length, tableContainer, 'vertical', 6);
+
+      players.forEach((p: any, idx: number) => {
+        const slot = dossierSlots[idx];
+        if (!slot) return;
+        const { x: sx, y: sy, width: sw, height: sh } = slot.bounds;
         const owned = p.status === 'confirmed_owned' || p.own === true;
         ctx.fillStyle = owned ? '#1d4044' : '#141a22';
-        ctx.fillRect(dx0 + 30, pyRow, dw - 60, 36);
+        ctx.fillRect(sx, sy, sw, sh);
         ctx.strokeStyle = owned ? '#319795' : '#2d3748';
-        ctx.strokeRect(dx0 + 30, pyRow, dw - 60, 36);
+        ctx.strokeRect(sx, sy, sw, sh);
 
         ctx.fillStyle = owned ? '#81e6d9' : '#718096';
-        ctx.font = 'bold 15px monospace';
-        const pid = p.player_id || `P${idx+1}`;
+        ctx.font = 'bold 14px monospace';
+        const pid = p.player_id || `P${idx + 1}`;
         const dName = p.display_name ? ` (${p.display_name})` : '';
-        ctx.fillText(`${pid}${dName}`, dx0 + 46, pyRow + 24);
+        ctx.fillText(`${pid}${dName}`, sx + 12, sy + sh / 2 + 5);
 
-        ctx.font = '14px monospace';
+        ctx.font = '13px monospace';
         if (owned) {
           ctx.fillStyle = '#b2f5ea';
-          ctx.fillText(`OWNED  •  E${p.elite ?? 2} LV.${p.level ?? 60} POT.${p.potential ?? 1}`, dx0 + 200, pyRow + 24);
+          ctx.fillText(`OWNED  •  E${p.elite ?? 2} LV.${p.level ?? 60} POT.${p.potential ?? 1}`, sx + 170, sy + sh / 2 + 5);
         } else {
           ctx.fillStyle = '#4a5568';
-          ctx.fillText('UNOWNED // NO DATA', dx0 + 200, pyRow + 24);
+          ctx.fillText('UNOWNED // NO DATA', sx + 170, sy + sh / 2 + 5);
         }
       });
 
