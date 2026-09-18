@@ -24,6 +24,8 @@ const rootRelativeUrl = (value) => {
 
 const readJson = (file) => JSON.parse(fs.readFileSync(file, 'utf8'));
 const source = readJson(INPUT);
+const registry = readJson(path.resolve(ROOT, 'src/arknightsclip/registry/operator_registry.json'));
+const professionById = Object.fromEntries((registry.operators ?? registry ?? []).map((x) => [x.char_id || x.operator_id, x.profession || 'UNKNOWN']));
 const operators = [];
 let cursor = Number(source.intro_frames ?? 50);
 
@@ -49,6 +51,8 @@ for (const item of source.operators ?? []) {
     name: item.name || item.canonical_name || operatorId,
     canonicalName: item.canonical_name || item.name || operatorId,
     operatorId,
+    profession: professionById[operatorId] || 'UNKNOWN',
+    source: 'PRTS / Arknights operator archive',
     startFrame: cursor,
     endFrame: cursor + durationFrames,
     durationFrames,
