@@ -39,6 +39,7 @@ from tests.test_operbox_asset_state_join import TestOperBoxAssetStateJoin
 from tests.test_scene_builder import TestSceneBuilder
 from tests.test_fcpxml_timeline import TestTimelineGenerators
 from tests.test_card_normalizer import TestCardNormalizer
+from tests.test_icon_resolver import TestIconResolver
 
 def run_all():
     tests = [
@@ -62,6 +63,8 @@ def run_all():
     ts_timeline.setUp()
     ts_normalizer = TestCardNormalizer()
     ts_normalizer.setUp()
+    ts_icon = TestIconResolver()
+    ts_icon.setUp()
 
     tests_with_fixtures = [
         ("test_registry_resolution", lambda: test_registry_resolution(reg)),
@@ -84,6 +87,8 @@ def run_all():
         ("test_card_normalizer_dimensions_and_aspect", lambda: ts_normalizer.test_normalize_card_dimensions_and_aspect_ratio()),
         ("test_card_normalizer_reproducibility", lambda: ts_normalizer.test_normalize_card_reproducibility()),
         ("test_card_normalizer_immutable_source", lambda: ts_normalizer.test_preserve_original_immutable()),
+        ("test_icon_resolver_vector_priority", lambda: ts_icon.test_vector_priority_for_status_icons()),
+        ("test_icon_resolver_scale_safety_policy", lambda: ts_icon.test_legacy_raster_scale_safety_policy()),
         ("test_timeline_fcpxml_structure", lambda: ts_timeline.test_fcpxml_structure_and_integrity()),
         ("test_timeline_otio_generation", lambda: ts_timeline.test_otio_generation()),
     ]

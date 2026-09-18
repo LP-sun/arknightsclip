@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Profession: TANK -->
+  <path d="M50,12 L84,24 L80,64 L50,88 L20,64 L16,24 Z" fill="#234e52" stroke="#4fd1c5" stroke-width="3" />
+  <path d="M50,24 L72,34 L68,60 L50,76 L32,60 L28,34 Z" fill="#285e61" stroke="#81e6d9" stroke-width="2" />
+  <rect x="46" y="38" width="8" height="24" fill="#e6fffa" />
+</svg>
