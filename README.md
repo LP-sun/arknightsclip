@@ -1,4 +1,4 @@
-# 明日方舟报菜名
+﻿# 明日方舟报菜名
 
 将多位玩家的《明日方舟》干员仓库数据整理为五人对比画面，并导出可在 DaVinci Resolve 中继续编辑的分层时间线。项目覆盖数据采集、干员状态归一化、素材校验、场景清单生成和时间线导出；PSD 渲染与 Resolve 内的最终调色/特效仍需按本机环境完成。
 
@@ -77,6 +77,8 @@ arknightsclip export-timeline --format all
 </details>
 
 ## 文档导航
+
+- [`docs/DOCUMENTATION_GUIDE.md`](docs/DOCUMENTATION_GUIDE.md)：文档结构、语气与限制性表述约定。
 
 - [`docs/architecture.md`](docs/architecture.md)：模块职责、数据契约和外部依赖边界。
 - [`docs/workflow.md`](docs/workflow.md)：可复现的操作顺序、产物与排错入口。
