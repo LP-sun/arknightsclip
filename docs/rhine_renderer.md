@@ -11,6 +11,9 @@ Python 核心层负责数据采集、标准化、`SceneManifest` 与时间线；
 
 两者均为合规素材输入，二选一使用即可，无需强制前置依赖 `psd2pen` 全流程。
 
+完整的视觉层级、回退链、安全画幅（1920x1080）与连续动势规范详见：
+👉 **[Rhine Visual System & Asset Hierarchy Specification](./rhine_visual_system.md)**。
+
 此外，在对视觉效果不满意时，**仅限 Astra 模型**（其他模型无此权限）被明确授权重新创建新的 `.pen` 角色卡片素材（推荐使用 Pencil MCP 交互调整，亦支持脚本/程序化生成）。
 
 ---
