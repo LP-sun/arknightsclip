@@ -1,0 +1,3439 @@
+{
+  "version": "1.0",
+  "repo_root": ".",
+  "pen_files": {
+    "psd2pen/character_cards_5slot_template.pen": {
+      "total_references": 2053,
+      "unique_urls": 166,
+      "present_count": 101,
+      "missing_count": 65,
+      "dependencies": {
+        "assets/psd_sources/operator_e1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/operator_e1.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/psd_sources/elite2.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/elite2.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 436
+        },
+        "assets/psd_sources/elite0.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/elite0.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 44
+        },
+        "assets/psd_sources/elite1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/elite1.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 204
+        },
+        "assets/psd_sources/potential4.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/potential4.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 92
+        },
+        "assets/psd_sources/potential1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/potential1.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 181
+        },
+        "assets/psd_sources/potential2.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/potential2.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 128
+        },
+        "assets/psd_sources/potential3.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/potential3.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 117
+        },
+        "assets/psd_sources/potential5.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/potential5.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 91
+        },
+        "assets/psd_sources/potential6.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/potential6.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 101
+        },
+        "assets/stats_batch/05_slot01.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/05_slot01.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 3
+        },
+        "assets/stats_batch/04_slot02.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot02.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 3
+        },
+        "assets/stats_batch/05_slot03.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/05_slot03.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 3
+        },
+        "assets/stats_batch/05_slot04.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/05_slot04.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 3
+        },
+        "assets/stats_batch/05_slot05.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/05_slot05.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 3
+        },
+        "assets/stats_batch/05_slot06.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/05_slot06.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 3
+        },
+        "assets/stats_batch/05_slot07.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/05_slot07.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 3
+        },
+        "assets/stats_batch/05_slot08.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/05_slot08.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 3
+        },
+        "screenshot-site.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/screenshot-site.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/maa/OperBoxFlagRole4.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/maa/OperBoxFlagRole4.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/maa/OperBoxFlagElite2.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/maa/OperBoxFlagElite2.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "screenshot-site-1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/screenshot-site-1.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "001_能天使/background.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/001_能天使/background.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/psd_sources/siege_slot06.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/siege_slot06.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/psd_sources/eyjafjalla_slot06.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/eyjafjalla_slot06.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/psd_sources/operator_e2.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/operator_e2.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/02_slot01.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/02_slot01.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/02_slot02.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/02_slot02.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/02_slot03.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/02_slot03.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/02_slot05.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/02_slot05.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/02_slot06.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/02_slot06.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/02_slot07.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/02_slot07.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/02_slot08.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/02_slot08.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/03_slot01.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot01.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/03_slot02.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot02.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/03_slot03.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot03.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/03_slot04.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot04.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/03_slot05.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot05.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/03_slot06.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot06.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/03_slot07.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot07.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/03_slot08.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot08.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/04_slot01.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot01.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/04_slot03.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot03.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/04_slot04.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot04.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/04_slot05.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot05.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/04_slot06.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot06.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/04_slot07.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot07.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/04_slot08.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot08.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/01_slot02.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/01_slot02.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/01_slot03.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/01_slot03.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/01_slot04.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/01_slot04.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/01_slot05.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/01_slot05.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/01_slot06.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/01_slot06.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/01_slot07.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/01_slot07.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/01_slot08.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/01_slot08.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/raw_batch/char_003_kalts_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_003_kalts/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_003_kalts",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_003_kalts/char_003_kalts_1.png",
+          "occurrences": 24
+        },
+        "assets/raw_batch/char_010_chen_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_010_chen/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_010_chen",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_010_chen/char_010_chen_1.png",
+          "occurrences": 16
+        },
+        "assets/raw_batch/char_017_huang_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_017_huang/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_017_huang",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_017_huang/char_017_huang_1.png",
+          "occurrences": 16
+        },
+        "assets/raw_batch/char_1012_skadi2_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_1012_skadi2/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_1012_skadi2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1012_skadi2/char_1012_skadi2_1.png",
+          "occurrences": 15
+        },
+        "assets/raw_batch/char_1013_chen2_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_1013_chen2/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_1013_chen2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1013_chen2/char_1013_chen2_1.png",
+          "occurrences": 16
+        },
+        "assets/raw_batch/char_1014_nearl2_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_1014_nearl2/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_1014_nearl2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1014_nearl2/char_1014_nearl2_1.png",
+          "occurrences": 15
+        },
+        "assets/raw_batch/char_1015_aglna2_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1015_aglna2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1015_aglna2/char_1015_aglna2_1.png",
+          "occurrences": 16
+        },
+        "assets/raw_batch/char_1016_agoat2_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1016_agoat2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1016_agoat2/char_1016_agoat2_1.png",
+          "occurrences": 16
+        },
+        "assets/raw_batch/char_1019_siege2_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1019_siege2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1019_siege2/char_1019_siege2_1.png",
+          "occurrences": 16
+        },
+        "assets/raw_batch/char_1020_reed2_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1020_reed2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1020_reed2/char_1020_reed2_1.png",
+          "occurrences": 17
+        },
+        "assets/raw_batch/char_1023_ghost2_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_1023_ghost2/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_1023_ghost2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1023_ghost2/char_1023_ghost2_1.png",
+          "occurrences": 16
+        },
+        "assets/raw_batch/char_1026_gvial2_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1026_gvial2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1026_gvial2/char_1026_gvial2_1.png",
+          "occurrences": 15
+        },
+        "assets/raw_batch/char_1028_texas2_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1028_texas2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1028_texas2/char_1028_texas2_1.png",
+          "occurrences": 15
+        },
+        "assets/raw_batch/char_1029_yato2_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1029_yato2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1029_yato2/char_1029_yato2_1.png",
+          "occurrences": 16
+        },
+        "assets/raw_batch/char_1031_slent2_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1031_slent2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1031_slent2/char_1031_slent2_1.png",
+          "occurrences": 17
+        },
+        "assets/raw_batch/char_1032_excu2_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1032_excu2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1032_excu2/char_1032_excu2_1.png",
+          "occurrences": 15
+        },
+        "assets/raw_batch/char_1033_swire2_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1033_swire2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1033_swire2/char_1033_swire2_1.png",
+          "occurrences": 16
+        },
+        "assets/raw_batch/char_1034_jesca2_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1034_jesca2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1034_jesca2/char_1034_jesca2_1.png",
+          "occurrences": 15
+        },
+        "assets/raw_batch/char_1035_wisdel_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1035_wisdel",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1035_wisdel/char_1035_wisdel_1.png",
+          "occurrences": 16
+        },
+        "assets/raw_batch/char_1038_whitw2_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1038_whitw2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1038_whitw2/char_1038_whitw2_1.png",
+          "occurrences": 16
+        },
+        "assets/raw_batch/char_1039_thorn2_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1039_thorn2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1039_thorn2/char_1039_thorn2_1.png",
+          "occurrences": 16
+        },
+        "assets/raw_batch/char_103_angel_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_103_angel/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_103_angel",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_103_angel/char_103_angel_1.png",
+          "occurrences": 16
+        },
+        "assets/raw_batch/char_1040_blaze2_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1040_blaze2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1040_blaze2/char_1040_blaze2_1.png",
+          "occurrences": 16
+        },
+        "assets/raw_batch/char_1041_angel2_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1041_angel2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1041_angel2/char_1041_angel2_1.png",
+          "occurrences": 15
+        },
+        "assets/raw_batch/char_1042_phatm2_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1042_phatm2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1042_phatm2/char_1042_phatm2_1.png",
+          "occurrences": 16
+        },
+        "assets/raw_batch/char_1043_leizi2_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1043_leizi2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1043_leizi2/char_1043_leizi2_1.png",
+          "occurrences": 15
+        },
+        "assets/raw_batch/char_1044_hsgma2_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1044_hsgma2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1044_hsgma2/char_1044_hsgma2_1.png",
+          "occurrences": 16
+        },
+        "assets/raw_batch/char_1045_svash2_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1045_svash2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1045_svash2/char_1045_svash2_1.png",
+          "occurrences": 16
+        },
+        "assets/raw_batch/char_1046_sbell2_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1046_sbell2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1046_sbell2/char_1046_sbell2_1.png",
+          "occurrences": 16
+        },
+        "assets/raw_batch/char_1047_halo2_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1047_halo2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1047_halo2/char_1047_halo2_1.png",
+          "occurrences": 17
+        },
+        "assets/raw_batch/char_1048_orchd2_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1048_orchd2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1048_orchd2/char_1048_orchd2_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_1052_kalts2_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1052_kalts2",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1052_kalts2/char_1052_kalts2_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_112_siege_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_112_siege/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_112_siege",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_112_siege/char_112_siege_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_134_ifrit_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_134_ifrit/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_134_ifrit",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_134_ifrit/char_134_ifrit_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_136_hsguma_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_136_hsguma/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_136_hsguma",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_136_hsguma/char_136_hsguma_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_1502_crosly_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_1502_crosly",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1502_crosly/char_1502_crosly_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_172_svrash_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_172_svrash/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_172_svrash",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_172_svrash/char_172_svrash_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_179_cgbird_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_179_cgbird/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_179_cgbird",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_179_cgbird/char_179_cgbird_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_180_amgoat_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_180_amgoat/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_180_amgoat",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_180_amgoat/char_180_amgoat_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_188_helage_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_188_helage/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_188_helage",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_188_helage/char_188_helage_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_197_poca_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_197_poca/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_197_poca",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_197_poca/char_197_poca_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_2012_typhon_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_2012_typhon",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_2012_typhon/char_2012_typhon_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_2013_cerber_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_2013_cerber/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_2013_cerber",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_2013_cerber/char_2013_cerber_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_2023_ling_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_2023_ling/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_2023_ling",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_2023_ling/char_2023_ling_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_2024_chyue_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_2024_chyue",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_2024_chyue/char_2024_chyue_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_2025_shu_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_2025_shu",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_2025_shu/char_2025_shu_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_2026_yu_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_2026_yu",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_2026_yu/char_2026_yu_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_202_demkni_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_202_demkni/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_202_demkni",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_202_demkni/char_202_demkni_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_206_gnosis_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_206_gnosis/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_206_gnosis",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_206_gnosis/char_206_gnosis_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_213_mostma_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_213_mostma/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_213_mostma",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_213_mostma/char_213_mostma_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_222_bpipe_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_222_bpipe",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_222_bpipe/char_222_bpipe_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_225_haak_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_225_haak/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_225_haak",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_225_haak/char_225_haak_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_248_mgllan_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_248_mgllan/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_248_mgllan",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_248_mgllan/char_248_mgllan_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_249_mlyss_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_249_mlyss",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_249_mlyss/char_249_mlyss_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_250_phatom_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_250_phatom/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_250_phatom",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_250_phatom/char_250_phatom_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_264_f12yin_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_264_f12yin/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_264_f12yin",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_264_f12yin/char_264_f12yin_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_291_aglina_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_291_aglina/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_291_aglina",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_291_aglina/char_291_aglina_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_293_thorns_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_293_thorns/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_293_thorns",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_293_thorns/char_293_thorns_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_300_phenxi_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_300_phenxi/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_300_phenxi",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_300_phenxi/char_300_phenxi_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_311_mudrok_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_311_mudrok/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_311_mudrok",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_311_mudrok/char_311_mudrok_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_322_lmlee_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_322_lmlee/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_322_lmlee",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_322_lmlee/char_322_lmlee_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_332_archet_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_332_archet/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_332_archet",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_332_archet/char_332_archet_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_350_surtr_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_350_surtr/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_350_surtr",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_350_surtr/char_350_surtr_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_358_lisa_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_358_lisa/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_358_lisa",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_358_lisa/char_358_lisa_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_362_saga_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_362_saga/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_362_saga",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_362_saga/char_362_saga_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_377_gdglow_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_377_gdglow/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_377_gdglow",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_377_gdglow/char_377_gdglow_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_391_rosmon_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_391_rosmon/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_391_rosmon",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_391_rosmon/char_391_rosmon_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_400_weedy_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_400_weedy/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_400_weedy",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_400_weedy/char_400_weedy_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4010_etlchi_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4010_etlchi",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4010_etlchi/char_4010_etlchi_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4011_lessng_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4011_lessng",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4011_lessng/char_4011_lessng_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4039_horn_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_4039_horn/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_4039_horn",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4039_horn/char_4039_horn_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4042_lumen_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_4042_lumen/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_4042_lumen",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4042_lumen/char_4042_lumen_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4046_ebnhlz_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_4046_ebnhlz/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_4046_ebnhlz",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4046_ebnhlz/char_4046_ebnhlz_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4048_doroth_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4048_doroth",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4048_doroth/char_4048_doroth_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4055_bgsnow_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4055_bgsnow",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4055_bgsnow/char_4055_bgsnow_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4058_pepe_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4058_pepe",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4058_pepe/char_4058_pepe_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4064_mlynar_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4064_mlynar",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4064_mlynar/char_4064_mlynar_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4065_judge_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4065_judge",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4065_judge/char_4065_judge_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4072_ironmn_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4072_ironmn",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4072_ironmn/char_4072_ironmn_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4080_lin_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4080_lin",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4080_lin/char_4080_lin_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4082_qiubai_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4082_qiubai",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4082_qiubai/char_4082_qiubai_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4087_ines_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4087_ines",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4087_ines/char_4087_ines_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4088_hodrer_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4088_hodrer",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4088_hodrer/char_4088_hodrer_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4098_vvana_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4098_vvana",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4098_vvana/char_4098_vvana_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4116_blkkgt_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4116_blkkgt",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4116_blkkgt/char_4116_blkkgt_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4117_ray_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4117_ray",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4117_ray/char_4117_ray_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4121_zuole_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4121_zuole",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4121_zuole/char_4121_zuole_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4123_ela_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4123_ela",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4123_ela/char_4123_ela_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4133_logos_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4133_logos",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4133_logos/char_4133_logos_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4134_cetsyr_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4134_cetsyr",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4134_cetsyr/char_4134_cetsyr_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4141_marcil_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4141_marcil",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4141_marcil/char_4141_marcil_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4145_ulpia_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4145_ulpia",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4145_ulpia/char_4145_ulpia_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4146_nymph_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4146_nymph",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4146_nymph/char_4146_nymph_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_416_zumama_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_416_zumama/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_416_zumama",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_416_zumama/char_416_zumama_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4179_monstr_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4179_monstr",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4179_monstr/char_4179_monstr_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4182_oblvns_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4182_oblvns",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4182_oblvns/char_4182_oblvns_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4193_lemuen_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4193_lemuen",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4193_lemuen/char_4193_lemuen_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4194_rmixer_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4194_rmixer",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4194_rmixer/char_4194_rmixer_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4195_radian_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4195_radian",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4195_radian/char_4195_radian_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4202_haruka_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4202_haruka",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4202_haruka/char_4202_haruka_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4212_nasti_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4212_nasti",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4212_nasti/char_4212_nasti_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4217_makoto_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4217_makoto",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4217_makoto/char_4217_makoto_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4226_veen_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4226_veen",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4226_veen/char_4226_veen_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_4228_closur_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_4228_closur",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4228_closur/char_4228_closur_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_423_blemsh_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_423_blemsh/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_423_blemsh",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_423_blemsh/char_423_blemsh_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_427_vigil_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_427_vigil",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_427_vigil/char_427_vigil_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_430_fartth_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_430_fartth/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_430_fartth",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_430_fartth/char_430_fartth_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_437_mizuki_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_437_mizuki/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_437_mizuki",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_437_mizuki/char_437_mizuki_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_450_necras_1.png": {
+          "is_present_on_disk": false,
+          "resolved_local_path": null,
+          "resolution_type": "unresolved",
+          "char_id": "char_450_necras",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_450_necras/char_450_necras_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_474_glady_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_474_glady/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_474_glady",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_474_glady/char_474_glady_1.png",
+          "occurrences": 1
+        },
+        "assets/raw_batch/char_479_sleach_1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "assets/operators/char_479_sleach/full.png",
+          "resolution_type": "hero_art",
+          "char_id": "char_479_sleach",
+          "operator_name": null,
+          "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_479_sleach/char_479_sleach_1.png",
+          "occurrences": 1
+        }
+      }
+    },
+    "psd2pen/character_cards_5slot.pen": {
+      "total_references": 288,
+      "unique_urls": 55,
+      "present_count": 55,
+      "missing_count": 0,
+      "dependencies": {
+        "screenshot-site.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/screenshot-site.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/maa/OperBoxFlagRole4.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/maa/OperBoxFlagRole4.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/maa/OperBoxFlagElite2.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/maa/OperBoxFlagElite2.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "screenshot-site-1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/screenshot-site-1.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "001_能天使/background.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/001_能天使/background.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/psd_sources/operator_e1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/operator_e1.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/psd_sources/elite2.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/elite2.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 69
+        },
+        "assets/psd_sources/potential4.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/potential4.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 9
+        },
+        "assets/psd_sources/siege_slot06.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/siege_slot06.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/psd_sources/eyjafjalla_slot06.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/eyjafjalla_slot06.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/psd_sources/elite1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/elite1.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 28
+        },
+        "assets/psd_sources/potential3.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/potential3.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 23
+        },
+        "assets/psd_sources/potential6.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/potential6.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 7
+        },
+        "assets/psd_sources/operator_e2.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/operator_e2.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/psd_sources/potential2.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/potential2.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 26
+        },
+        "assets/stats_batch/02_slot01.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/02_slot01.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/02_slot02.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/02_slot02.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/02_slot03.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/02_slot03.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/psd_sources/potential5.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/potential5.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 4
+        },
+        "assets/stats_batch/02_slot05.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/02_slot05.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/02_slot06.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/02_slot06.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/02_slot07.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/02_slot07.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/psd_sources/potential1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/potential1.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 26
+        },
+        "assets/stats_batch/02_slot08.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/02_slot08.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/psd_sources/elite0.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/elite0.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/03_slot01.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot01.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/03_slot02.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot02.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/03_slot03.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot03.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/03_slot04.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot04.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/03_slot05.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot05.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/03_slot06.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot06.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/03_slot07.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot07.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/03_slot08.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot08.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/04_slot01.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot01.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/04_slot02.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot02.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/04_slot03.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot03.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/04_slot04.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot04.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/04_slot05.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot05.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/04_slot06.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot06.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/04_slot07.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot07.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/04_slot08.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot08.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/05_slot01.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/05_slot01.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/05_slot03.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/05_slot03.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/05_slot04.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/05_slot04.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/05_slot05.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/05_slot05.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/05_slot06.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/05_slot06.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/05_slot07.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/05_slot07.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/05_slot08.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/05_slot08.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/01_slot02.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/01_slot02.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 3
+        },
+        "assets/stats_batch/01_slot03.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/01_slot03.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 3
+        },
+        "assets/stats_batch/01_slot04.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/01_slot04.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 3
+        },
+        "assets/stats_batch/01_slot05.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/01_slot05.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 3
+        },
+        "assets/stats_batch/01_slot06.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/01_slot06.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 3
+        },
+        "assets/stats_batch/01_slot07.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/01_slot07.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 3
+        },
+        "assets/stats_batch/01_slot08.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/01_slot08.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 3
+        }
+      }
+    },
+    "psd2pen/character_cards_8slot.pen": {
+      "total_references": 156,
+      "unique_urls": 55,
+      "present_count": 55,
+      "missing_count": 0,
+      "dependencies": {
+        "screenshot-site.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/screenshot-site.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/maa/OperBoxFlagRole4.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/maa/OperBoxFlagRole4.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/maa/OperBoxFlagElite2.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/maa/OperBoxFlagElite2.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "screenshot-site-1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/screenshot-site-1.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "001_能天使/background.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/001_能天使/background.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/psd_sources/operator_e1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/operator_e1.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/psd_sources/elite2.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/elite2.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 38
+        },
+        "assets/psd_sources/potential4.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/potential4.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 6
+        },
+        "assets/psd_sources/siege_slot06.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/siege_slot06.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/psd_sources/eyjafjalla_slot06.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/eyjafjalla_slot06.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/psd_sources/elite1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/elite1.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 16
+        },
+        "assets/psd_sources/potential3.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/potential3.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 14
+        },
+        "assets/psd_sources/potential6.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/potential6.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 4
+        },
+        "assets/psd_sources/operator_e2.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/operator_e2.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/psd_sources/potential2.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/potential2.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 12
+        },
+        "assets/stats_batch/02_slot01.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/02_slot01.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/02_slot02.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/02_slot02.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/02_slot03.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/02_slot03.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/psd_sources/potential5.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/potential5.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/stats_batch/02_slot05.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/02_slot05.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/02_slot06.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/02_slot06.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/02_slot07.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/02_slot07.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/psd_sources/potential1.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/potential1.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 13
+        },
+        "assets/stats_batch/02_slot08.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/02_slot08.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/psd_sources/elite0.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/psd_sources/elite0.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/03_slot01.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot01.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/03_slot02.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot02.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/03_slot03.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot03.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/03_slot04.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot04.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/03_slot05.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot05.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/03_slot06.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot06.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/03_slot07.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot07.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/03_slot08.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/03_slot08.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/04_slot01.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot01.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/04_slot02.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot02.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/04_slot03.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot03.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/04_slot04.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot04.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/04_slot05.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot05.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/04_slot06.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot06.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/04_slot07.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot07.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/04_slot08.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/04_slot08.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/05_slot01.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/05_slot01.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/05_slot03.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/05_slot03.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/05_slot04.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/05_slot04.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/05_slot05.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/05_slot05.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/05_slot06.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/05_slot06.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/05_slot07.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/05_slot07.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/05_slot08.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/05_slot08.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/01_slot02.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/01_slot02.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/01_slot03.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/01_slot03.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/01_slot04.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/01_slot04.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/01_slot05.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/01_slot05.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/01_slot06.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/01_slot06.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/01_slot07.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/01_slot07.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/stats_batch/01_slot08.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/stats_batch/01_slot08.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        }
+      }
+    },
+    "psd2pen/character_card_components.pen": {
+      "total_references": 4,
+      "unique_urls": 3,
+      "present_count": 3,
+      "missing_count": 0,
+      "dependencies": {
+        "screenshot-site.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/screenshot-site.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 2
+        },
+        "assets/maa/OperBoxFlagRole4.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/maa/OperBoxFlagRole4.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        },
+        "assets/maa/OperBoxFlagElite2.png": {
+          "is_present_on_disk": true,
+          "resolved_local_path": "psd2pen/assets/maa/OperBoxFlagElite2.png",
+          "resolution_type": "present_local",
+          "char_id": null,
+          "operator_name": null,
+          "remote_source_url": null,
+          "occurrences": 1
+        }
+      }
+    }
+  },
+  "raw_batch_operator_mapping": {
+    "char_003_kalts": {
+      "raw_url": "assets/raw_batch/char_003_kalts_1.png",
+      "char_id": "char_003_kalts",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_003_kalts/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_003_kalts/char_003_kalts_1.png"
+    },
+    "char_010_chen": {
+      "raw_url": "assets/raw_batch/char_010_chen_1.png",
+      "char_id": "char_010_chen",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_010_chen/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_010_chen/char_010_chen_1.png"
+    },
+    "char_017_huang": {
+      "raw_url": "assets/raw_batch/char_017_huang_1.png",
+      "char_id": "char_017_huang",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_017_huang/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_017_huang/char_017_huang_1.png"
+    },
+    "char_1012_skadi2": {
+      "raw_url": "assets/raw_batch/char_1012_skadi2_1.png",
+      "char_id": "char_1012_skadi2",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_1012_skadi2/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1012_skadi2/char_1012_skadi2_1.png"
+    },
+    "char_1013_chen2": {
+      "raw_url": "assets/raw_batch/char_1013_chen2_1.png",
+      "char_id": "char_1013_chen2",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_1013_chen2/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1013_chen2/char_1013_chen2_1.png"
+    },
+    "char_1014_nearl2": {
+      "raw_url": "assets/raw_batch/char_1014_nearl2_1.png",
+      "char_id": "char_1014_nearl2",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_1014_nearl2/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1014_nearl2/char_1014_nearl2_1.png"
+    },
+    "char_1015_aglna2": {
+      "raw_url": "assets/raw_batch/char_1015_aglna2_1.png",
+      "char_id": "char_1015_aglna2",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1015_aglna2/char_1015_aglna2_1.png"
+    },
+    "char_1016_agoat2": {
+      "raw_url": "assets/raw_batch/char_1016_agoat2_1.png",
+      "char_id": "char_1016_agoat2",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1016_agoat2/char_1016_agoat2_1.png"
+    },
+    "char_1019_siege2": {
+      "raw_url": "assets/raw_batch/char_1019_siege2_1.png",
+      "char_id": "char_1019_siege2",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1019_siege2/char_1019_siege2_1.png"
+    },
+    "char_1020_reed2": {
+      "raw_url": "assets/raw_batch/char_1020_reed2_1.png",
+      "char_id": "char_1020_reed2",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1020_reed2/char_1020_reed2_1.png"
+    },
+    "char_1023_ghost2": {
+      "raw_url": "assets/raw_batch/char_1023_ghost2_1.png",
+      "char_id": "char_1023_ghost2",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_1023_ghost2/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1023_ghost2/char_1023_ghost2_1.png"
+    },
+    "char_1026_gvial2": {
+      "raw_url": "assets/raw_batch/char_1026_gvial2_1.png",
+      "char_id": "char_1026_gvial2",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1026_gvial2/char_1026_gvial2_1.png"
+    },
+    "char_1028_texas2": {
+      "raw_url": "assets/raw_batch/char_1028_texas2_1.png",
+      "char_id": "char_1028_texas2",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1028_texas2/char_1028_texas2_1.png"
+    },
+    "char_1029_yato2": {
+      "raw_url": "assets/raw_batch/char_1029_yato2_1.png",
+      "char_id": "char_1029_yato2",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1029_yato2/char_1029_yato2_1.png"
+    },
+    "char_1031_slent2": {
+      "raw_url": "assets/raw_batch/char_1031_slent2_1.png",
+      "char_id": "char_1031_slent2",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1031_slent2/char_1031_slent2_1.png"
+    },
+    "char_1032_excu2": {
+      "raw_url": "assets/raw_batch/char_1032_excu2_1.png",
+      "char_id": "char_1032_excu2",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1032_excu2/char_1032_excu2_1.png"
+    },
+    "char_1033_swire2": {
+      "raw_url": "assets/raw_batch/char_1033_swire2_1.png",
+      "char_id": "char_1033_swire2",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1033_swire2/char_1033_swire2_1.png"
+    },
+    "char_1034_jesca2": {
+      "raw_url": "assets/raw_batch/char_1034_jesca2_1.png",
+      "char_id": "char_1034_jesca2",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1034_jesca2/char_1034_jesca2_1.png"
+    },
+    "char_1035_wisdel": {
+      "raw_url": "assets/raw_batch/char_1035_wisdel_1.png",
+      "char_id": "char_1035_wisdel",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1035_wisdel/char_1035_wisdel_1.png"
+    },
+    "char_1038_whitw2": {
+      "raw_url": "assets/raw_batch/char_1038_whitw2_1.png",
+      "char_id": "char_1038_whitw2",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1038_whitw2/char_1038_whitw2_1.png"
+    },
+    "char_1039_thorn2": {
+      "raw_url": "assets/raw_batch/char_1039_thorn2_1.png",
+      "char_id": "char_1039_thorn2",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1039_thorn2/char_1039_thorn2_1.png"
+    },
+    "char_103_angel": {
+      "raw_url": "assets/raw_batch/char_103_angel_1.png",
+      "char_id": "char_103_angel",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_103_angel/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_103_angel/char_103_angel_1.png"
+    },
+    "char_1040_blaze2": {
+      "raw_url": "assets/raw_batch/char_1040_blaze2_1.png",
+      "char_id": "char_1040_blaze2",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1040_blaze2/char_1040_blaze2_1.png"
+    },
+    "char_1041_angel2": {
+      "raw_url": "assets/raw_batch/char_1041_angel2_1.png",
+      "char_id": "char_1041_angel2",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1041_angel2/char_1041_angel2_1.png"
+    },
+    "char_1042_phatm2": {
+      "raw_url": "assets/raw_batch/char_1042_phatm2_1.png",
+      "char_id": "char_1042_phatm2",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1042_phatm2/char_1042_phatm2_1.png"
+    },
+    "char_1043_leizi2": {
+      "raw_url": "assets/raw_batch/char_1043_leizi2_1.png",
+      "char_id": "char_1043_leizi2",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1043_leizi2/char_1043_leizi2_1.png"
+    },
+    "char_1044_hsgma2": {
+      "raw_url": "assets/raw_batch/char_1044_hsgma2_1.png",
+      "char_id": "char_1044_hsgma2",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1044_hsgma2/char_1044_hsgma2_1.png"
+    },
+    "char_1045_svash2": {
+      "raw_url": "assets/raw_batch/char_1045_svash2_1.png",
+      "char_id": "char_1045_svash2",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1045_svash2/char_1045_svash2_1.png"
+    },
+    "char_1046_sbell2": {
+      "raw_url": "assets/raw_batch/char_1046_sbell2_1.png",
+      "char_id": "char_1046_sbell2",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1046_sbell2/char_1046_sbell2_1.png"
+    },
+    "char_1047_halo2": {
+      "raw_url": "assets/raw_batch/char_1047_halo2_1.png",
+      "char_id": "char_1047_halo2",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1047_halo2/char_1047_halo2_1.png"
+    },
+    "char_1048_orchd2": {
+      "raw_url": "assets/raw_batch/char_1048_orchd2_1.png",
+      "char_id": "char_1048_orchd2",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1048_orchd2/char_1048_orchd2_1.png"
+    },
+    "char_1052_kalts2": {
+      "raw_url": "assets/raw_batch/char_1052_kalts2_1.png",
+      "char_id": "char_1052_kalts2",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1052_kalts2/char_1052_kalts2_1.png"
+    },
+    "char_112_siege": {
+      "raw_url": "assets/raw_batch/char_112_siege_1.png",
+      "char_id": "char_112_siege",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_112_siege/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_112_siege/char_112_siege_1.png"
+    },
+    "char_134_ifrit": {
+      "raw_url": "assets/raw_batch/char_134_ifrit_1.png",
+      "char_id": "char_134_ifrit",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_134_ifrit/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_134_ifrit/char_134_ifrit_1.png"
+    },
+    "char_136_hsguma": {
+      "raw_url": "assets/raw_batch/char_136_hsguma_1.png",
+      "char_id": "char_136_hsguma",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_136_hsguma/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_136_hsguma/char_136_hsguma_1.png"
+    },
+    "char_1502_crosly": {
+      "raw_url": "assets/raw_batch/char_1502_crosly_1.png",
+      "char_id": "char_1502_crosly",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_1502_crosly/char_1502_crosly_1.png"
+    },
+    "char_172_svrash": {
+      "raw_url": "assets/raw_batch/char_172_svrash_1.png",
+      "char_id": "char_172_svrash",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_172_svrash/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_172_svrash/char_172_svrash_1.png"
+    },
+    "char_179_cgbird": {
+      "raw_url": "assets/raw_batch/char_179_cgbird_1.png",
+      "char_id": "char_179_cgbird",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_179_cgbird/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_179_cgbird/char_179_cgbird_1.png"
+    },
+    "char_180_amgoat": {
+      "raw_url": "assets/raw_batch/char_180_amgoat_1.png",
+      "char_id": "char_180_amgoat",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_180_amgoat/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_180_amgoat/char_180_amgoat_1.png"
+    },
+    "char_188_helage": {
+      "raw_url": "assets/raw_batch/char_188_helage_1.png",
+      "char_id": "char_188_helage",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_188_helage/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_188_helage/char_188_helage_1.png"
+    },
+    "char_197_poca": {
+      "raw_url": "assets/raw_batch/char_197_poca_1.png",
+      "char_id": "char_197_poca",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_197_poca/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_197_poca/char_197_poca_1.png"
+    },
+    "char_2012_typhon": {
+      "raw_url": "assets/raw_batch/char_2012_typhon_1.png",
+      "char_id": "char_2012_typhon",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_2012_typhon/char_2012_typhon_1.png"
+    },
+    "char_2013_cerber": {
+      "raw_url": "assets/raw_batch/char_2013_cerber_1.png",
+      "char_id": "char_2013_cerber",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_2013_cerber/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_2013_cerber/char_2013_cerber_1.png"
+    },
+    "char_2023_ling": {
+      "raw_url": "assets/raw_batch/char_2023_ling_1.png",
+      "char_id": "char_2023_ling",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_2023_ling/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_2023_ling/char_2023_ling_1.png"
+    },
+    "char_2024_chyue": {
+      "raw_url": "assets/raw_batch/char_2024_chyue_1.png",
+      "char_id": "char_2024_chyue",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_2024_chyue/char_2024_chyue_1.png"
+    },
+    "char_2025_shu": {
+      "raw_url": "assets/raw_batch/char_2025_shu_1.png",
+      "char_id": "char_2025_shu",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_2025_shu/char_2025_shu_1.png"
+    },
+    "char_2026_yu": {
+      "raw_url": "assets/raw_batch/char_2026_yu_1.png",
+      "char_id": "char_2026_yu",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_2026_yu/char_2026_yu_1.png"
+    },
+    "char_202_demkni": {
+      "raw_url": "assets/raw_batch/char_202_demkni_1.png",
+      "char_id": "char_202_demkni",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_202_demkni/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_202_demkni/char_202_demkni_1.png"
+    },
+    "char_206_gnosis": {
+      "raw_url": "assets/raw_batch/char_206_gnosis_1.png",
+      "char_id": "char_206_gnosis",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_206_gnosis/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_206_gnosis/char_206_gnosis_1.png"
+    },
+    "char_213_mostma": {
+      "raw_url": "assets/raw_batch/char_213_mostma_1.png",
+      "char_id": "char_213_mostma",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_213_mostma/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_213_mostma/char_213_mostma_1.png"
+    },
+    "char_222_bpipe": {
+      "raw_url": "assets/raw_batch/char_222_bpipe_1.png",
+      "char_id": "char_222_bpipe",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_222_bpipe/char_222_bpipe_1.png"
+    },
+    "char_225_haak": {
+      "raw_url": "assets/raw_batch/char_225_haak_1.png",
+      "char_id": "char_225_haak",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_225_haak/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_225_haak/char_225_haak_1.png"
+    },
+    "char_248_mgllan": {
+      "raw_url": "assets/raw_batch/char_248_mgllan_1.png",
+      "char_id": "char_248_mgllan",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_248_mgllan/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_248_mgllan/char_248_mgllan_1.png"
+    },
+    "char_249_mlyss": {
+      "raw_url": "assets/raw_batch/char_249_mlyss_1.png",
+      "char_id": "char_249_mlyss",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_249_mlyss/char_249_mlyss_1.png"
+    },
+    "char_250_phatom": {
+      "raw_url": "assets/raw_batch/char_250_phatom_1.png",
+      "char_id": "char_250_phatom",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_250_phatom/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_250_phatom/char_250_phatom_1.png"
+    },
+    "char_264_f12yin": {
+      "raw_url": "assets/raw_batch/char_264_f12yin_1.png",
+      "char_id": "char_264_f12yin",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_264_f12yin/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_264_f12yin/char_264_f12yin_1.png"
+    },
+    "char_291_aglina": {
+      "raw_url": "assets/raw_batch/char_291_aglina_1.png",
+      "char_id": "char_291_aglina",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_291_aglina/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_291_aglina/char_291_aglina_1.png"
+    },
+    "char_293_thorns": {
+      "raw_url": "assets/raw_batch/char_293_thorns_1.png",
+      "char_id": "char_293_thorns",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_293_thorns/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_293_thorns/char_293_thorns_1.png"
+    },
+    "char_300_phenxi": {
+      "raw_url": "assets/raw_batch/char_300_phenxi_1.png",
+      "char_id": "char_300_phenxi",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_300_phenxi/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_300_phenxi/char_300_phenxi_1.png"
+    },
+    "char_311_mudrok": {
+      "raw_url": "assets/raw_batch/char_311_mudrok_1.png",
+      "char_id": "char_311_mudrok",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_311_mudrok/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_311_mudrok/char_311_mudrok_1.png"
+    },
+    "char_322_lmlee": {
+      "raw_url": "assets/raw_batch/char_322_lmlee_1.png",
+      "char_id": "char_322_lmlee",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_322_lmlee/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_322_lmlee/char_322_lmlee_1.png"
+    },
+    "char_332_archet": {
+      "raw_url": "assets/raw_batch/char_332_archet_1.png",
+      "char_id": "char_332_archet",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_332_archet/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_332_archet/char_332_archet_1.png"
+    },
+    "char_350_surtr": {
+      "raw_url": "assets/raw_batch/char_350_surtr_1.png",
+      "char_id": "char_350_surtr",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_350_surtr/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_350_surtr/char_350_surtr_1.png"
+    },
+    "char_358_lisa": {
+      "raw_url": "assets/raw_batch/char_358_lisa_1.png",
+      "char_id": "char_358_lisa",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_358_lisa/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_358_lisa/char_358_lisa_1.png"
+    },
+    "char_362_saga": {
+      "raw_url": "assets/raw_batch/char_362_saga_1.png",
+      "char_id": "char_362_saga",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_362_saga/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_362_saga/char_362_saga_1.png"
+    },
+    "char_377_gdglow": {
+      "raw_url": "assets/raw_batch/char_377_gdglow_1.png",
+      "char_id": "char_377_gdglow",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_377_gdglow/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_377_gdglow/char_377_gdglow_1.png"
+    },
+    "char_391_rosmon": {
+      "raw_url": "assets/raw_batch/char_391_rosmon_1.png",
+      "char_id": "char_391_rosmon",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_391_rosmon/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_391_rosmon/char_391_rosmon_1.png"
+    },
+    "char_400_weedy": {
+      "raw_url": "assets/raw_batch/char_400_weedy_1.png",
+      "char_id": "char_400_weedy",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_400_weedy/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_400_weedy/char_400_weedy_1.png"
+    },
+    "char_4010_etlchi": {
+      "raw_url": "assets/raw_batch/char_4010_etlchi_1.png",
+      "char_id": "char_4010_etlchi",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4010_etlchi/char_4010_etlchi_1.png"
+    },
+    "char_4011_lessng": {
+      "raw_url": "assets/raw_batch/char_4011_lessng_1.png",
+      "char_id": "char_4011_lessng",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4011_lessng/char_4011_lessng_1.png"
+    },
+    "char_4039_horn": {
+      "raw_url": "assets/raw_batch/char_4039_horn_1.png",
+      "char_id": "char_4039_horn",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_4039_horn/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4039_horn/char_4039_horn_1.png"
+    },
+    "char_4042_lumen": {
+      "raw_url": "assets/raw_batch/char_4042_lumen_1.png",
+      "char_id": "char_4042_lumen",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_4042_lumen/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4042_lumen/char_4042_lumen_1.png"
+    },
+    "char_4046_ebnhlz": {
+      "raw_url": "assets/raw_batch/char_4046_ebnhlz_1.png",
+      "char_id": "char_4046_ebnhlz",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_4046_ebnhlz/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4046_ebnhlz/char_4046_ebnhlz_1.png"
+    },
+    "char_4048_doroth": {
+      "raw_url": "assets/raw_batch/char_4048_doroth_1.png",
+      "char_id": "char_4048_doroth",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4048_doroth/char_4048_doroth_1.png"
+    },
+    "char_4055_bgsnow": {
+      "raw_url": "assets/raw_batch/char_4055_bgsnow_1.png",
+      "char_id": "char_4055_bgsnow",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4055_bgsnow/char_4055_bgsnow_1.png"
+    },
+    "char_4058_pepe": {
+      "raw_url": "assets/raw_batch/char_4058_pepe_1.png",
+      "char_id": "char_4058_pepe",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4058_pepe/char_4058_pepe_1.png"
+    },
+    "char_4064_mlynar": {
+      "raw_url": "assets/raw_batch/char_4064_mlynar_1.png",
+      "char_id": "char_4064_mlynar",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4064_mlynar/char_4064_mlynar_1.png"
+    },
+    "char_4065_judge": {
+      "raw_url": "assets/raw_batch/char_4065_judge_1.png",
+      "char_id": "char_4065_judge",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4065_judge/char_4065_judge_1.png"
+    },
+    "char_4072_ironmn": {
+      "raw_url": "assets/raw_batch/char_4072_ironmn_1.png",
+      "char_id": "char_4072_ironmn",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4072_ironmn/char_4072_ironmn_1.png"
+    },
+    "char_4080_lin": {
+      "raw_url": "assets/raw_batch/char_4080_lin_1.png",
+      "char_id": "char_4080_lin",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4080_lin/char_4080_lin_1.png"
+    },
+    "char_4082_qiubai": {
+      "raw_url": "assets/raw_batch/char_4082_qiubai_1.png",
+      "char_id": "char_4082_qiubai",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4082_qiubai/char_4082_qiubai_1.png"
+    },
+    "char_4087_ines": {
+      "raw_url": "assets/raw_batch/char_4087_ines_1.png",
+      "char_id": "char_4087_ines",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4087_ines/char_4087_ines_1.png"
+    },
+    "char_4088_hodrer": {
+      "raw_url": "assets/raw_batch/char_4088_hodrer_1.png",
+      "char_id": "char_4088_hodrer",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4088_hodrer/char_4088_hodrer_1.png"
+    },
+    "char_4098_vvana": {
+      "raw_url": "assets/raw_batch/char_4098_vvana_1.png",
+      "char_id": "char_4098_vvana",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4098_vvana/char_4098_vvana_1.png"
+    },
+    "char_4116_blkkgt": {
+      "raw_url": "assets/raw_batch/char_4116_blkkgt_1.png",
+      "char_id": "char_4116_blkkgt",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4116_blkkgt/char_4116_blkkgt_1.png"
+    },
+    "char_4117_ray": {
+      "raw_url": "assets/raw_batch/char_4117_ray_1.png",
+      "char_id": "char_4117_ray",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4117_ray/char_4117_ray_1.png"
+    },
+    "char_4121_zuole": {
+      "raw_url": "assets/raw_batch/char_4121_zuole_1.png",
+      "char_id": "char_4121_zuole",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4121_zuole/char_4121_zuole_1.png"
+    },
+    "char_4123_ela": {
+      "raw_url": "assets/raw_batch/char_4123_ela_1.png",
+      "char_id": "char_4123_ela",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4123_ela/char_4123_ela_1.png"
+    },
+    "char_4133_logos": {
+      "raw_url": "assets/raw_batch/char_4133_logos_1.png",
+      "char_id": "char_4133_logos",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4133_logos/char_4133_logos_1.png"
+    },
+    "char_4134_cetsyr": {
+      "raw_url": "assets/raw_batch/char_4134_cetsyr_1.png",
+      "char_id": "char_4134_cetsyr",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4134_cetsyr/char_4134_cetsyr_1.png"
+    },
+    "char_4141_marcil": {
+      "raw_url": "assets/raw_batch/char_4141_marcil_1.png",
+      "char_id": "char_4141_marcil",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4141_marcil/char_4141_marcil_1.png"
+    },
+    "char_4145_ulpia": {
+      "raw_url": "assets/raw_batch/char_4145_ulpia_1.png",
+      "char_id": "char_4145_ulpia",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4145_ulpia/char_4145_ulpia_1.png"
+    },
+    "char_4146_nymph": {
+      "raw_url": "assets/raw_batch/char_4146_nymph_1.png",
+      "char_id": "char_4146_nymph",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4146_nymph/char_4146_nymph_1.png"
+    },
+    "char_416_zumama": {
+      "raw_url": "assets/raw_batch/char_416_zumama_1.png",
+      "char_id": "char_416_zumama",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_416_zumama/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_416_zumama/char_416_zumama_1.png"
+    },
+    "char_4179_monstr": {
+      "raw_url": "assets/raw_batch/char_4179_monstr_1.png",
+      "char_id": "char_4179_monstr",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4179_monstr/char_4179_monstr_1.png"
+    },
+    "char_4182_oblvns": {
+      "raw_url": "assets/raw_batch/char_4182_oblvns_1.png",
+      "char_id": "char_4182_oblvns",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4182_oblvns/char_4182_oblvns_1.png"
+    },
+    "char_4193_lemuen": {
+      "raw_url": "assets/raw_batch/char_4193_lemuen_1.png",
+      "char_id": "char_4193_lemuen",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4193_lemuen/char_4193_lemuen_1.png"
+    },
+    "char_4194_rmixer": {
+      "raw_url": "assets/raw_batch/char_4194_rmixer_1.png",
+      "char_id": "char_4194_rmixer",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4194_rmixer/char_4194_rmixer_1.png"
+    },
+    "char_4195_radian": {
+      "raw_url": "assets/raw_batch/char_4195_radian_1.png",
+      "char_id": "char_4195_radian",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4195_radian/char_4195_radian_1.png"
+    },
+    "char_4202_haruka": {
+      "raw_url": "assets/raw_batch/char_4202_haruka_1.png",
+      "char_id": "char_4202_haruka",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4202_haruka/char_4202_haruka_1.png"
+    },
+    "char_4212_nasti": {
+      "raw_url": "assets/raw_batch/char_4212_nasti_1.png",
+      "char_id": "char_4212_nasti",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4212_nasti/char_4212_nasti_1.png"
+    },
+    "char_4217_makoto": {
+      "raw_url": "assets/raw_batch/char_4217_makoto_1.png",
+      "char_id": "char_4217_makoto",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4217_makoto/char_4217_makoto_1.png"
+    },
+    "char_4226_veen": {
+      "raw_url": "assets/raw_batch/char_4226_veen_1.png",
+      "char_id": "char_4226_veen",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4226_veen/char_4226_veen_1.png"
+    },
+    "char_4228_closur": {
+      "raw_url": "assets/raw_batch/char_4228_closur_1.png",
+      "char_id": "char_4228_closur",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_4228_closur/char_4228_closur_1.png"
+    },
+    "char_423_blemsh": {
+      "raw_url": "assets/raw_batch/char_423_blemsh_1.png",
+      "char_id": "char_423_blemsh",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_423_blemsh/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_423_blemsh/char_423_blemsh_1.png"
+    },
+    "char_427_vigil": {
+      "raw_url": "assets/raw_batch/char_427_vigil_1.png",
+      "char_id": "char_427_vigil",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_427_vigil/char_427_vigil_1.png"
+    },
+    "char_430_fartth": {
+      "raw_url": "assets/raw_batch/char_430_fartth_1.png",
+      "char_id": "char_430_fartth",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_430_fartth/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_430_fartth/char_430_fartth_1.png"
+    },
+    "char_437_mizuki": {
+      "raw_url": "assets/raw_batch/char_437_mizuki_1.png",
+      "char_id": "char_437_mizuki",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_437_mizuki/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_437_mizuki/char_437_mizuki_1.png"
+    },
+    "char_450_necras": {
+      "raw_url": "assets/raw_batch/char_450_necras_1.png",
+      "char_id": "char_450_necras",
+      "operator_name": null,
+      "resolved_local_path": null,
+      "resolution_type": "unresolved",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_450_necras/char_450_necras_1.png"
+    },
+    "char_474_glady": {
+      "raw_url": "assets/raw_batch/char_474_glady_1.png",
+      "char_id": "char_474_glady",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_474_glady/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_474_glady/char_474_glady_1.png"
+    },
+    "char_479_sleach": {
+      "raw_url": "assets/raw_batch/char_479_sleach_1.png",
+      "char_id": "char_479_sleach",
+      "operator_name": null,
+      "resolved_local_path": "assets/operators/char_479_sleach/full.png",
+      "resolution_type": "hero_art",
+      "remote_source_url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/characters/char_479_sleach/char_479_sleach_1.png"
+    }
+  }
+}
