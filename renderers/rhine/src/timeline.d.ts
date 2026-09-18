@@ -18,6 +18,7 @@ export interface RhineProject {
   fps: number;
   width: number;
   height: number;
+  player_profiles?: Record<string, any>;
   scenes: RhineScene[];
 }
 

@@ -178,14 +178,22 @@ const draw = () => {
         const bx = badgeStartX + idx * 144;
         const by = py + ph - 42;
         const owned = p.status === 'confirmed_owned' || p.own === true;
-        ctx.fillStyle = owned ? '#234e52' : '#1a202c';
-        ctx.fillRect(bx, by, 130, 26);
-        ctx.strokeStyle = owned ? '#38b2ac' : '#4a5568';
-        ctx.strokeRect(bx, by, 130, 26);
-        ctx.fillStyle = owned ? '#81e6d9' : '#718096';
-        ctx.font = '14px monospace';
-        const label = `${p.player_id || `P${idx+1}`}: ${owned ? 'OWN' : 'NO INFO'}`;
-        ctx.fillText(label, bx + 12, by + 18);
+        ctx.fillStyle = owned ? '#1a4149' : '#141c22';
+        ctx.fillRect(bx, by, 140, 30);
+        ctx.strokeStyle = owned ? '#38b2ac' : '#32404e';
+        ctx.lineWidth = 1.5;
+        ctx.strokeRect(bx, by, 140, 30);
+
+        ctx.fillStyle = owned ? '#4fd1c5' : '#718096';
+        ctx.font = 'bold 12px monospace';
+        const pid = p.player_id || `P${idx+1}`;
+        const dName = p.display_name ? p.display_name.slice(0, 4) : pid;
+        ctx.fillText(`${pid} ${dName}`, bx + 8, by + 14);
+
+        ctx.fillStyle = owned ? '#b2f5ea' : '#4a5568';
+        ctx.font = '11px monospace';
+        const st = owned ? `E${p.elite ?? 2} L${p.level ?? 60} P${p.potential ?? 1}` : 'NO INFO';
+        ctx.fillText(st, bx + 8, by + 26);
       });
 
     } else if (mode === 'card_art') {
@@ -305,15 +313,17 @@ const draw = () => {
 
         ctx.fillStyle = owned ? '#81e6d9' : '#718096';
         ctx.font = 'bold 15px monospace';
-        ctx.fillText(p.player_id || `P${idx+1}`, dx0 + 46, pyRow + 24);
+        const pid = p.player_id || `P${idx+1}`;
+        const dName = p.display_name ? ` (${p.display_name})` : '';
+        ctx.fillText(`${pid}${dName}`, dx0 + 46, pyRow + 24);
 
         ctx.font = '14px monospace';
         if (owned) {
           ctx.fillStyle = '#b2f5ea';
-          ctx.fillText(`STATUS: CONFIRMED OWNED   ELITE:${p.elite ?? 2}   LV:${p.level ?? 60}   POT:${p.potential ?? 1}`, dx0 + 100, pyRow + 24);
+          ctx.fillText(`OWNED  •  E${p.elite ?? 2} LV.${p.level ?? 60} POT.${p.potential ?? 1}`, dx0 + 200, pyRow + 24);
         } else {
           ctx.fillStyle = '#4a5568';
-          ctx.fillText('STATUS: UNOWNED / NO INFO', dx0 + 100, pyRow + 24);
+          ctx.fillText('UNOWNED // NO DATA', dx0 + 200, pyRow + 24);
         }
       });
 

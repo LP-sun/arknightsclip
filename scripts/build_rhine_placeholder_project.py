@@ -34,10 +34,34 @@ def resolve_art_path(raw_path: str | None) -> tuple[str, str]:
             return str(p), "ready"
     return "", "placeholder_asset"
 
+def load_player_profiles() -> dict:
+    fp = ROOT / "data/normalized/five_players.json"
+    if fp.exists():
+        with open(fp, encoding="utf-8") as f:
+            data = json.load(f)
+        profiles = {}
+        for pid, pdata in data.get("players", {}).items():
+            prof = pdata.get("profile", {})
+            profiles[pid] = {
+                "player_id": pid,
+                "display_name": prof.get("display_name", pid),
+                "doctor_level": prof.get("doctor_level", 120),
+                "operator_count": len(pdata.get("operators", {})),
+            }
+        return profiles
+    return {
+        "P1": {"player_id": "P1", "display_name": "暮春之阳", "doctor_level": 120, "operator_count": 146},
+        "P2": {"player_id": "P2", "display_name": "黄金之梦", "doctor_level": 120, "operator_count": 221},
+        "P3": {"player_id": "P3", "display_name": "卡牌嗣枫", "doctor_level": 120, "operator_count": 124},
+        "P4": {"player_id": "P4", "display_name": "Hermit", "doctor_level": 120, "operator_count": 122},
+        "P5": {"player_id": "P5", "display_name": "yzx", "doctor_level": 120, "operator_count": 120},
+    }
+
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     PUBLIC_OUT.mkdir(parents=True, exist_ok=True)
 
+    profiles = load_player_profiles()
     scenes, inventory = [], []
     for i, path in enumerate(SELECTED):
         data = json.loads(path.read_text(encoding="utf-8"))
@@ -64,6 +88,7 @@ def main() -> None:
                 })
             players.append({
                 "player_id": pid,
+                "display_name": profiles.get(pid, {}).get("display_name", pid),
                 "status": status,
                 "placeholder": status not in {"confirmed_owned", "confirmed_unowned"},
                 "own": raw.get("own"),
@@ -116,6 +141,7 @@ def main() -> None:
         "fps": FPS,
         "width": 1920,
         "height": 1080,
+        "player_profiles": profiles,
         "source_manifest_count": len(MANIFESTS),
         "scene_count": len(scenes),
         "frames_per_scene": FPS,
