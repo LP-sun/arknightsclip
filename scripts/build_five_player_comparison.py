@@ -61,23 +61,17 @@ def build_manifest():
     return ops, total_frames, durations
 
 def render_video(ops, total_frames):
-    OUT.joinpath('frames').mkdir(parents=True, exist_ok=True)
+    scenes_dir = OUT / 'scenes'
+    scenes_dir.mkdir(parents=True, exist_ok=True)
 
-    def draw(i):
+    def draw_scene(op=None):
         im = Image.new('RGB', (W, H), (8, 18, 28))
         d0 = ImageDraw.Draw(im)
         d0.rectangle((42, 38, 1878, 1042), outline=(55, 160, 160), width=3)
-        if i < 50:
+        if op is None:
             d0.text((610, 430), 'RHINE LAB', font=ft(110), fill=(220, 245, 235))
             d0.text((610, 585), 'FIVE PLAYER COMPARISON', font=ft(38), fill=(110, 220, 204))
             return im
-
-        x = i - 50
-        acc = 0
-        for op in ops:
-            if x < acc + op['duration_frames']:
-                break
-            acc += op['duration_frames']
 
         if op['operator_id']:
             art = ROOT / 'assets/operators' / op['operator_id'] / 'full.png'
@@ -89,7 +83,7 @@ def render_video(ops, total_frames):
 
         d0 = ImageDraw.Draw(im)
         d0.text((75, 62), f"FIVE PLAYER ARCHIVE  //  NO.{op['index']:03d}  {op['name']}", font=ft(30), fill=(225, 245, 235), stroke_width=2, stroke_fill=(10, 50, 80))
-        d0.text((80, 105), f"FRAME {i:04d}   {op['duration_frames']}F SEGMENT   HARD CUT", font=ft(21), fill=(120, 210, 200))
+        d0.text((80, 105), f"{op['duration_frames']}F SEGMENT   HARD CUT", font=ft(21), fill=(120, 210, 200))
 
         for j, pid in enumerate(['P1', 'P2', 'P3', 'P4', 'P5']):
             x0 = 70 + j * 370
@@ -106,16 +100,23 @@ def render_video(ops, total_frames):
 
         return im
 
-    print(f"[Render] 开始渲染全量帧 (共 {total_frames} 帧)...")
-    for i in range(total_frames):
-        draw(i).save(OUT / 'frames' / f'{i:06d}.png')
-        if i % 500 == 0:
-            print(f"  - 已渲染 {i}/{total_frames} 帧")
+    print(f"[Render] 生成 {len(ops)+1} 张场景图，再按精确帧长拼接...")
+    intro = scenes_dir / 'scene_000_intro.png'; draw_scene().save(intro)
+    concat = OUT / 'concat.txt'
+    lines = [f"file '{intro.as_posix()}'", f"duration {50/24:.9f}"]
+    for op in ops:
+        p = scenes_dir / f"scene_{op['index']:03d}.png"
+        draw_scene(op).save(p)
+        lines += [f"file '{p.as_posix()}'", f"duration {op['duration_frames']/24:.9f}"]
+    # concat demuxer needs the final file repeated to retain its duration.
+    last_scene = scenes_dir / f"scene_{ops[-1]['index']:03d}.png"
+    lines.append(f"file '{last_scene.as_posix()}'")
+    concat.write_text('\n'.join(lines), encoding='utf8')
 
     mp4 = OUT / 'rhine_five_player_comparison.mp4'
     bgm = ROOT / 'bgm及使用指南/明日方舟报菜名（女神异闻录3  月行水上）.mp3'
     cmd = [
-        'ffmpeg', '-y', '-framerate', '24', '-i', str(OUT / 'frames/%06d.png'),
+        'ffmpeg', '-y', '-f', 'concat', '-safe', '0', '-i', str(concat),
         '-i', str(bgm), '-map', '0:v', '-map', '1:a',
         '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-r', '24', '-c:a', 'aac',
         '-t', '186.25', str(mp4)
@@ -134,4 +135,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

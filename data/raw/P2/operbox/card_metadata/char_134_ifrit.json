@@ -3,7 +3,7 @@
   "name": "伊芙利特",
   "scan_id": "replay_1789661290_P2",
   "player_id": "P2",
-  "source_page": "page_0004.png",
+  "source_page": "page_0004.png + page_0005.png (stitched)",
   "page_index": 4,
   "card_index": 7,
   "roi": [
@@ -13,8 +13,8 @@
     447
   ],
   "capture_timestamp": "2026-09-18T00:10:40.663293",
-  "recognition_method": "MaaCore OperBoxImageAnalyzer",
-  "recognition_confidence": null,
-  "candidate_count": 1,
-  "selected_reason": "best_quality_score_0.80"
+  "recognition_method": "Auto-stitched seamless alignment",
+  "recognition_confidence": 0.99,
+  "candidate_count": 2,
+  "selected_reason": "stitched_seamless_from_page4_and_page5_quality_1.00"
 }
