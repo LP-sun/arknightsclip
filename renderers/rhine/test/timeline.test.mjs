@@ -71,4 +71,20 @@ for (const testFrame of [0, 1, 12, 23, 24, 25, 47, 48, 500, lastValidFrame]) {
   assert.deepEqual(resultA, resultB, `Determinism check failed on frame ${testFrame}`);
 }
 
-console.log('Production timeline evaluator: all 9 test categories passed successfully.');
+// 10. Continuous motion dynamics and smooth transition momentum
+const fEnter = evaluate(0);
+assert.equal(fEnter.motion.phase, 'enter', 'Frame 0 must be in entrance transition phase');
+assert(fEnter.motion.shiftX > 0, 'Entrance must have positive decelerating shift');
+assert(fEnter.motion.alpha >= 0.6, 'Entrance alpha must be smoothly ramping');
+
+const fSteady = evaluate(12);
+assert.equal(fSteady.motion.phase, 'steady', 'Frame 12 must be in steady showcase phase');
+assert.equal(fSteady.motion.shiftX, 0, 'Steady phase panel must be locked in position');
+assert.equal(fSteady.motion.alpha, 1.0, 'Steady phase alpha must be full opacity');
+
+const fExit = evaluate(23);
+assert.equal(fExit.motion.phase, 'exit', 'Frame 23 must be in exit transition phase');
+assert(fExit.motion.shiftX < 0, 'Exit must have forward handoff velocity shift');
+assert(fExit.motion.alpha <= 1.0, 'Exit alpha must be gently fading');
+
+console.log('Production timeline evaluator: all 10 test categories passed successfully.');

@@ -33,6 +33,13 @@ export interface FrameEvaluation {
     y: number;
     roll: number;
   };
+  motion?: {
+    phase: 'enter' | 'steady' | 'exit';
+    progress: number;
+    shiftX: number;
+    alpha: number;
+    zoom: number;
+  };
 }
 
 export interface Rect {

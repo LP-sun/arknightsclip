@@ -66,26 +66,31 @@ const draw = () => {
     ctx.fillStyle = '#06131a';
     ctx.fillRect(0, 0, 1920, 1080);
 
-    // Dynamic grid lines with subtle wave pulsation
+    // Dynamic continuous grid lines with flowing parallax across transitions
     ctx.strokeStyle = '#0f2c38';
     ctx.lineWidth = 1;
+    const gridShiftX = (frame * 1.2) % 160;
     for (let y = 100; y < 1000; y += 120) {
       ctx.beginPath();
       ctx.moveTo(60, y);
       ctx.lineTo(1860, y);
       ctx.stroke();
     }
-    for (let x = 100; x < 1900; x += 160) {
-      ctx.beginPath();
-      ctx.moveTo(x, 100);
-      ctx.lineTo(x, 1000);
-      ctx.stroke();
+    for (let x = -60; x < 2000; x += 160) {
+      const gx = x + gridShiftX;
+      if (gx >= 60 && gx <= 1860) {
+        ctx.beginPath();
+        ctx.moveTo(gx, 100);
+        ctx.lineTo(gx, 1000);
+        ctx.stroke();
+      }
     }
 
-    // Ambient scan wave animation
+    // Ambient continuous scan wave animation across timeline
     for (let y = 90; y < 1000; y += 150) {
       for (let x = 80; x < 2000; x += 170) {
-        const w = Math.exp(-((x / 170 - (s.active * 1.8 + frame * 0.035)) ** 2) / 0.7);
+        const continuousPhase = (frame * 0.045) % 12;
+        const w = Math.exp(-((x / 170 - continuousPhase) ** 2) / 0.85);
         ctx.strokeStyle = '#1d5a6a';
         ctx.globalAlpha = 0.12 + 0.28 * w;
         ctx.strokeRect(x + (y % 300) / 6, y + w * 28, 120, 90);
@@ -114,8 +119,21 @@ const draw = () => {
     ctx.font = '18px monospace';
     ctx.fillText('SYSTEM STATUS: NOMINAL  •  SECURITY CLEARANCE LV.3', zones.header.x + zones.header.width - 520, zones.header.y + 36);
 
-    // 3. Bottom Footer Telemetry
+    // Continuous timeline progress ribbon across sequence
     const totalFrames = project.scenes.length * project.fps;
+    const timelineProgress = Math.min(1.0, frame / Math.max(1, totalFrames));
+    const ribbonW = 320;
+    const ribbonH = 6;
+    const ribbonX = zones.header.x + zones.header.width - ribbonW;
+    const ribbonY = zones.header.y + 48;
+    ctx.fillStyle = '#142834';
+    ctx.fillRect(ribbonX, ribbonY, ribbonW, ribbonH);
+    ctx.fillStyle = '#4fd1c5';
+    ctx.fillRect(ribbonX, ribbonY, ribbonW * timelineProgress, ribbonH);
+    ctx.fillStyle = '#81e6d9';
+    ctx.fillRect(ribbonX + ribbonW * timelineProgress - 2, ribbonY - 2, 4, ribbonH + 4);
+
+    // 3. Bottom Footer Telemetry
     ctx.fillStyle = '#718096';
     ctx.font = '18px monospace';
     ctx.fillText(
@@ -123,11 +141,16 @@ const draw = () => {
       zones.footer.x,
       zones.footer.y + 28
     );
-    ctx.fillText('1920x1080  •  24.0 FPS  •  DETERMINISTIC EVALUATOR', zones.footer.x + zones.footer.width - 440, zones.footer.y + 28);
+    ctx.fillText('1920x1080  •  24.0 FPS  •  CONTINUOUS FLOW ENGINE', zones.footer.x + zones.footer.width - 440, zones.footer.y + 28);
 
-    // Central camera-responsive positioning
-    const cx = 960 + s.camera.x;
+    // Central camera-responsive positioning with smooth transition momentum
+    const shiftX = s.motion?.shiftX ?? 0;
+    const panelAlpha = s.motion?.alpha ?? 1.0;
+    const cx = 960 + s.camera.x + shiftX;
     const cy = 540 + s.camera.y;
+
+    // Apply smooth opacity momentum
+    ctx.globalAlpha = panelAlpha;
 
     // 4. Render Modes: hero-art mode vs first-class card-art fallback mode
     if (mode === 'hero_art') {
@@ -369,6 +392,9 @@ const draw = () => {
       ctx.font = '20px monospace';
       ctx.fillText(`OPERATOR ID: ${op.operator_id}   •   STATUS: RECORD ACTIVE (METADATA ONLY)`, mx0 + 40, my0 + 110);
     }
+
+    // Reset alpha after panel rendering
+    ctx.globalAlpha = 1.0;
 
     // Frame rendered successfully
     (window as any).__RHINE_RENDER_READY__ = true;
