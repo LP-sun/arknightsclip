@@ -38,6 +38,7 @@ from tests.test_operbox_dedup import TestOperBoxDedup
 from tests.test_operbox_asset_state_join import TestOperBoxAssetStateJoin
 from tests.test_scene_builder import TestSceneBuilder
 from tests.test_fcpxml_timeline import TestTimelineGenerators
+from tests.test_card_normalizer import TestCardNormalizer
 
 def run_all():
     tests = [
@@ -59,6 +60,8 @@ def run_all():
     ts_builder.setUp()
     ts_timeline = TestTimelineGenerators()
     ts_timeline.setUp()
+    ts_normalizer = TestCardNormalizer()
+    ts_normalizer.setUp()
 
     tests_with_fixtures = [
         ("test_registry_resolution", lambda: test_registry_resolution(reg)),
@@ -78,6 +81,9 @@ def run_all():
         ("test_scene_builder_contract", lambda: ts_builder.test_build_scene_contract()),
         ("test_scene_builder_persistence", lambda: ts_builder.test_build_all_scenes_persistence()),
         ("test_rhine_fallback_modes_and_full_dataset_coverage", lambda: ts_builder.test_rhine_fallback_modes_and_full_dataset_coverage()),
+        ("test_card_normalizer_dimensions_and_aspect", lambda: ts_normalizer.test_normalize_card_dimensions_and_aspect_ratio()),
+        ("test_card_normalizer_reproducibility", lambda: ts_normalizer.test_normalize_card_reproducibility()),
+        ("test_card_normalizer_immutable_source", lambda: ts_normalizer.test_preserve_original_immutable()),
         ("test_timeline_fcpxml_structure", lambda: ts_timeline.test_fcpxml_structure_and_integrity()),
         ("test_timeline_otio_generation", lambda: ts_timeline.test_otio_generation()),
     ]
