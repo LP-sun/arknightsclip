@@ -24,6 +24,12 @@ const rootRelativeUrl = (value) => {
   fs.copyFileSync(absolute, destination);
   return `/${relative}`;
 };
+const repairedCard = (value) => {
+  if (!value) return value;
+  const ext = path.extname(value);
+  const candidate = `${value.slice(0, -ext.length)}_enhanced${ext}`;
+  return fs.existsSync(candidate) ? candidate : value;
+};
 
 const readJson = (file) => JSON.parse(fs.readFileSync(file, 'utf8'));
 const profileNames = Object.fromEntries(['P1','P2','P3','P4','P5'].flatMap(id => {
@@ -50,7 +56,7 @@ for (const item of source.operators ?? []) {
       level: state.level ?? null,
       potential: state.potential ?? null,
       rarity: Number(state.rarity ?? 6),
-      card: rootRelativeUrl(item.cards?.[id]),
+      card: rootRelativeUrl(repairedCard(item.cards?.[id])),
       // Only the portrait region may be reused: donor cards contain another
       // player's embedded levels and must never be displayed as this record.
       // Never borrow another player's card or portrait. A missing source card

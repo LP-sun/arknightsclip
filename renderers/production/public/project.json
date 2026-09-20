@@ -59,7 +59,7 @@
           "level": 60,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_103_angel.png",
+          "card": "/data/raw/P1/operbox/cards_raw/char_103_angel_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -95,7 +95,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_103_angel.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_103_angel_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -133,7 +133,7 @@
           "level": 1,
           "potential": 3,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_112_siege.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -169,7 +169,7 @@
           "level": 50,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_112_siege.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_112_siege_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -207,7 +207,7 @@
           "level": 60,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_134_ifrit.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -243,7 +243,7 @@
           "level": 30,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_134_ifrit.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_134_ifrit_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -281,7 +281,7 @@
           "level": 60,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_180_amgoat.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -317,7 +317,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_180_amgoat.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_180_amgoat_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -391,7 +391,7 @@
           "level": 13,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_291_aglina.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_291_aglina_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -465,7 +465,7 @@
           "level": 30,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_147_shining.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_147_shining_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -539,7 +539,7 @@
           "level": 70,
           "potential": 3,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_179_cgbird.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_179_cgbird_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -577,7 +577,7 @@
           "level": 60,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_136_hsguma.png",
+          "card": "/data/raw/P1/operbox/cards_raw/char_136_hsguma_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -613,7 +613,7 @@
           "level": 60,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_136_hsguma.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_136_hsguma_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -651,7 +651,7 @@
           "level": 60,
           "potential": 3,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_202_demkni.png",
+          "card": "/data/raw/P1/operbox/cards_raw/char_202_demkni_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -687,7 +687,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_202_demkni.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_202_demkni_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -725,7 +725,7 @@
           "level": null,
           "potential": null,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_172_svrash.png",
+          "card": "/data/raw/P1/operbox/cards_raw/char_172_svrash_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -761,7 +761,7 @@
           "level": 1,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_172_svrash.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_172_svrash_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -835,7 +835,7 @@
           "level": 60,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_263_skadi.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_263_skadi_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -909,7 +909,7 @@
           "level": 60,
           "potential": 4,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_010_chen.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_010_chen_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -983,7 +983,7 @@
           "level": 1,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_340_shwaz.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_340_shwaz_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -1057,7 +1057,7 @@
           "level": 50,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_188_helage.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_188_helage_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -1131,7 +1131,7 @@
           "level": 61,
           "potential": 3,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_248_mgllan.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_248_mgllan_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -1205,7 +1205,7 @@
           "level": 30,
           "potential": 3,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_213_mostma.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_213_mostma_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -1243,7 +1243,7 @@
           "level": 60,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_017_huang.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -1255,7 +1255,7 @@
           "level": 60,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P2/operbox/cards_raw/char_017_huang.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -1279,7 +1279,7 @@
           "level": 70,
           "potential": 4,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_017_huang.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_017_huang_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -1317,7 +1317,7 @@
           "level": 60,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_225_haak.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -1353,7 +1353,7 @@
           "level": 1,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_225_haak.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_225_haak_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -1427,7 +1427,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_2014_nian.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_2014_nian_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -1501,7 +1501,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_2013_cerber.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_2013_cerber_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -1575,7 +1575,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_222_bpipe.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_222_bpipe_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -1613,7 +1613,7 @@
           "level": 60,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_250_phatom.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -1649,7 +1649,7 @@
           "level": 80,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_250_phatom.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_250_phatom_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -1687,7 +1687,7 @@
           "level": 1,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_400_weedy.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -1723,7 +1723,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_400_weedy.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_400_weedy_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -1909,7 +1909,7 @@
           "level": 80,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_358_lisa.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -1945,7 +1945,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_358_lisa.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_358_lisa_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -2019,7 +2019,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_293_thorns.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_293_thorns_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -2057,7 +2057,7 @@
           "level": 1,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_416_zumama.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -2167,7 +2167,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_350_surtr.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_350_surtr_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -2205,7 +2205,7 @@
           "level": 1,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_423_blemsh.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -2241,7 +2241,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_423_blemsh.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_423_blemsh_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -2279,7 +2279,7 @@
           "level": null,
           "potential": null,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_311_mudrok.png",
+          "card": "/data/raw/P1/operbox/cards_raw/char_311_mudrok_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -2315,7 +2315,7 @@
           "level": 70,
           "potential": 4,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_311_mudrok.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_311_mudrok_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -2353,7 +2353,7 @@
           "level": 60,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_391_rosmon.png",
+          "card": "/data/raw/P1/operbox/cards_raw/char_391_rosmon_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -2389,7 +2389,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_391_rosmon.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_391_rosmon_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -2463,7 +2463,7 @@
           "level": 1,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_264_f12yin.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_264_f12yin_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -2501,7 +2501,7 @@
           "level": 1,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_332_archet.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -2537,7 +2537,7 @@
           "level": 1,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_332_archet.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_332_archet_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -2611,7 +2611,7 @@
           "level": 30,
           "potential": 4,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_362_saga.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_362_saga_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -2685,7 +2685,7 @@
           "level": 70,
           "potential": 4,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_2015_dusk.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_2015_dusk_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -2759,7 +2759,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_456_ash.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_456_ash_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -2907,7 +2907,7 @@
           "level": 60,
           "potential": 6,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_474_glady.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_474_glady_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -2981,7 +2981,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_003_kalts.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_003_kalts_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -3055,7 +3055,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1012_skadi2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1012_skadi2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -3203,7 +3203,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_485_pallas.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_485_pallas_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -3241,7 +3241,7 @@
           "level": 60,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_437_mizuki.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -3351,7 +3351,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1013_chen2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1013_chen2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -3389,7 +3389,7 @@
           "level": 80,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_479_sleach.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -3425,7 +3425,7 @@
           "level": 70,
           "potential": 3,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_479_sleach.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_479_sleach_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -3463,7 +3463,7 @@
           "level": 1,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_430_fartth.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -3499,7 +3499,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_430_fartth.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_430_fartth_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -3573,7 +3573,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_420_flamtl.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_420_flamtl_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -3647,7 +3647,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1014_nearl2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1014_nearl2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -3721,7 +3721,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_206_gnosis.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_206_gnosis_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -3759,7 +3759,7 @@
           "level": 60,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_322_lmlee.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -3795,7 +3795,7 @@
           "level": 1,
           "potential": 3,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_322_lmlee.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_322_lmlee_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -3869,7 +3869,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_2023_ling.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_2023_ling_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -3907,7 +3907,7 @@
           "level": 60,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_377_gdglow.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -3943,7 +3943,7 @@
           "level": 70,
           "potential": 3,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_377_gdglow.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_377_gdglow_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -3981,7 +3981,7 @@
           "level": 60,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_300_phenxi.png",
+          "card": "/data/raw/P1/operbox/cards_raw/char_300_phenxi_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -4017,7 +4017,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_300_phenxi.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_300_phenxi_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -4055,7 +4055,7 @@
           "level": null,
           "potential": null,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_4039_horn.png",
+          "card": "/data/raw/P1/operbox/cards_raw/char_4039_horn_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -4091,7 +4091,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4039_horn.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4039_horn_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -4165,7 +4165,7 @@
           "level": 30,
           "potential": 6,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4042_lumen.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4042_lumen_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -4239,7 +4239,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4009_irene.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4009_irene_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -4277,7 +4277,7 @@
           "level": 60,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_1023_ghost2.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -4313,7 +4313,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1023_ghost2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1023_ghost2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -4461,7 +4461,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4048_doroth.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4048_doroth_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -4499,7 +4499,7 @@
           "level": 1,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_4055_bgsnow.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -4535,7 +4535,7 @@
           "level": 70,
           "potential": 3,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4055_bgsnow.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4055_bgsnow_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -4609,7 +4609,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1026_gvial2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1026_gvial2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -4683,7 +4683,7 @@
           "level": 70,
           "potential": 3,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4064_mlynar.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4064_mlynar_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -4757,7 +4757,7 @@
           "level": 1,
           "potential": 3,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4072_ironmn.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4072_ironmn_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -4795,7 +4795,7 @@
           "level": 1,
           "potential": 6,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_427_vigil.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -4831,7 +4831,7 @@
           "level": 50,
           "potential": 6,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_427_vigil.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_427_vigil_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -4869,7 +4869,7 @@
           "level": null,
           "potential": null,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_4065_judge.png",
+          "card": "/data/raw/P1/operbox/cards_raw/char_4065_judge_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -4905,7 +4905,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4065_judge.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4065_judge_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -4979,7 +4979,7 @@
           "level": 70,
           "potential": 3,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1028_texas2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1028_texas2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -5053,7 +5053,7 @@
           "level": 70,
           "potential": 3,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1020_reed2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1020_reed2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -5127,7 +5127,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4080_lin.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4080_lin_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -5165,7 +5165,7 @@
           "level": 60,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_2024_chyue.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -5201,7 +5201,7 @@
           "level": 70,
           "potential": 3,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_2024_chyue.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_2024_chyue_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -5239,7 +5239,7 @@
           "level": 1,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_4082_qiubai.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -5275,7 +5275,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4082_qiubai.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4082_qiubai_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -5313,7 +5313,7 @@
           "level": 60,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_1029_yato2.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -5349,7 +5349,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1029_yato2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1029_yato2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -5423,7 +5423,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4087_ines.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4087_ines_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -5497,7 +5497,7 @@
           "level": 1,
           "potential": 6,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1031_slent2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1031_slent2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -5571,7 +5571,7 @@
           "level": 70,
           "potential": 5,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4027_heyak.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4027_heyak_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -5609,7 +5609,7 @@
           "level": 60,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_249_mlyss.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -5621,7 +5621,7 @@
           "level": 90,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P2/operbox/cards_raw/char_249_mlyss.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -5645,7 +5645,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_249_mlyss.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_249_mlyss_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -5719,7 +5719,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1032_excu2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1032_excu2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -5757,7 +5757,7 @@
           "level": 60,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_2012_typhon.png",
+          "card": "/data/raw/P1/operbox/cards_raw/char_2012_typhon_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -5793,7 +5793,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_2012_typhon.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_2012_typhon_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -5867,7 +5867,7 @@
           "level": 50,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1033_swire2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1033_swire2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -5941,7 +5941,7 @@
           "level": 70,
           "potential": 4,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1016_agoat2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1016_agoat2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -6015,7 +6015,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1034_jesca2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1034_jesca2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -6053,7 +6053,7 @@
           "level": 1,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_4088_hodrer.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -6089,7 +6089,7 @@
           "level": 70,
           "potential": 3,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4088_hodrer.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4088_hodrer_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -6127,7 +6127,7 @@
           "level": 1,
           "potential": 6,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_4011_lessng.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -6163,7 +6163,7 @@
           "level": 1,
           "potential": 6,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4011_lessng.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4011_lessng_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -6201,7 +6201,7 @@
           "level": 1,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_4098_vvana.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -6237,7 +6237,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4098_vvana.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4098_vvana_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -6311,7 +6311,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_245_cello.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_245_cello_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -6385,7 +6385,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4116_blkkgt.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4116_blkkgt_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -6423,7 +6423,7 @@
           "level": 1,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_4117_ray.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -6459,7 +6459,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4117_ray.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4117_ray_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -6497,7 +6497,7 @@
           "level": 1,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_4121_zuole.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -6533,7 +6533,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4121_zuole.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4121_zuole_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -6571,7 +6571,7 @@
           "level": 60,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_2025_shu.png",
+          "card": "/data/raw/P1/operbox/cards_raw/char_2025_shu_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -6607,7 +6607,7 @@
           "level": 70,
           "potential": 3,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_2025_shu.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_2025_shu_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -6645,7 +6645,7 @@
           "level": 60,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_4123_ela.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -6681,7 +6681,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4123_ela.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4123_ela_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -6755,7 +6755,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4132_ascln.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4132_ascln_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -6829,7 +6829,7 @@
           "level": 70,
           "potential": 6,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4134_cetsyr.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4134_cetsyr_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -6867,7 +6867,7 @@
           "level": 60,
           "potential": 3,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_4133_logos.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -6903,7 +6903,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4133_logos.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4133_logos_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -6977,7 +6977,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1035_wisdel.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1035_wisdel_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -7051,7 +7051,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4145_ulpia.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4145_ulpia_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -7089,7 +7089,7 @@
           "level": 80,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_4146_nymph.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -7125,7 +7125,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4146_nymph.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4146_nymph_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -7273,7 +7273,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4058_pepe.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4058_pepe_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -7311,7 +7311,7 @@
           "level": 80,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_4141_marcil.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -7347,7 +7347,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4141_marcil.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4141_marcil_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -7385,7 +7385,7 @@
           "level": 1,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_1019_siege2.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -7421,7 +7421,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1019_siege2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1019_siege2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -7459,7 +7459,7 @@
           "level": 1,
           "potential": 6,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_1502_crosly.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -7495,7 +7495,7 @@
           "level": 1,
           "potential": 6,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1502_crosly.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1502_crosly_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -7569,7 +7569,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4026_vulpis.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4026_vulpis_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -7643,7 +7643,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1038_whitw2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1038_whitw2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -7681,7 +7681,7 @@
           "level": 1,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_1039_thorn2.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -7717,7 +7717,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1039_thorn2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1039_thorn2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -7829,7 +7829,7 @@
           "level": 60,
           "potential": 6,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_2026_yu.png",
+          "card": "/data/raw/P1/operbox/cards_raw/char_2026_yu_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -7865,7 +7865,7 @@
           "level": 70,
           "potential": 5,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_2026_yu.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_2026_yu_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -8013,7 +8013,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_450_necras.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_450_necras_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -8125,7 +8125,7 @@
           "level": 1,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_4194_rmixer.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -8161,7 +8161,7 @@
           "level": 50,
           "potential": 6,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4194_rmixer.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4194_rmixer_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -8235,7 +8235,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4193_lemuen.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4193_lemuen_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -8309,7 +8309,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1041_angel2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1041_angel2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -8383,7 +8383,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1042_phatm2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1042_phatm2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -8457,7 +8457,7 @@
           "level": 70,
           "potential": 5,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1043_leizi2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1043_leizi2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -8531,7 +8531,7 @@
           "level": 90,
           "potential": 6,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4195_radian.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4195_radian_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -8605,7 +8605,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4202_haruka.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4202_haruka_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -8643,7 +8643,7 @@
           "level": 60,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_1044_hsgma2.png",
+          "card": "/data/raw/P1/operbox/cards_raw/char_1044_hsgma2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -8679,7 +8679,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1044_hsgma2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1044_hsgma2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -8717,7 +8717,7 @@
           "level": 60,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_4182_oblvns.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -8753,7 +8753,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4182_oblvns.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4182_oblvns_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -8901,7 +8901,7 @@
           "level": 1,
           "potential": 6,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1047_halo2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1047_halo2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -8975,7 +8975,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1046_sbell2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1046_sbell2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -9049,7 +9049,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1045_svash2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1045_svash2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -9123,7 +9123,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4212_nasti.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4212_nasti_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -9197,7 +9197,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4056_titi.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4056_titi_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -9271,7 +9271,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1050_chen3.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1050_chen3_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -9345,7 +9345,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_2027_wang.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_2027_wang_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -9493,7 +9493,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1051_headb2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1051_headb2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -9567,7 +9567,7 @@
           "level": 1,
           "potential": 5,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4226_veen.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4226_veen_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -9641,7 +9641,7 @@
           "level": 70,
           "potential": 3,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4228_closur.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4228_closur_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -9753,7 +9753,7 @@
           "level": 60,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_1048_orchd2.png",
+          "card": "/data/raw/P1/operbox/cards_raw/char_1048_orchd2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -9789,7 +9789,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1048_orchd2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1048_orchd2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -9937,7 +9937,7 @@
           "level": 89,
           "potential": 6,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4230_mcnist.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4230_mcnist_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -10011,7 +10011,7 @@
           "level": 70,
           "potential": 2,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4235_thumpy.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4235_thumpy_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -10049,7 +10049,7 @@
           "level": 1,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P1/operbox/cards_raw/char_1015_aglna2.png",
+          "card": null,
           "portraitFallback": null,
           "art": null,
           "needsReview": true
@@ -10085,7 +10085,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_1015_aglna2.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_1015_aglna2_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
@@ -10159,7 +10159,7 @@
           "level": 70,
           "potential": 1,
           "rarity": 6,
-          "card": "/data/raw/P4/operbox/cards_raw/char_4217_makoto.png",
+          "card": "/data/raw/P4/operbox/cards_raw/char_4217_makoto_enhanced.png",
           "portraitFallback": null,
           "art": null,
           "needsReview": false
