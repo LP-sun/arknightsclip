@@ -1,0 +1,25 @@
+{
+  "file": "E:\\明日方舟报菜名\\generated\\rhine\\astra_p1_real_cards_final\\rhine_operator_archive_final.mp4",
+  "duration": 186.25,
+  "width": 1920,
+  "height": 1080,
+  "fps": "24/1",
+  "frames": "4470",
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "audio_channels": 2,
+  "audio_sample_rate": "48000",
+  "full_decode": "passed",
+  "black_events": [],
+  "sample_times": [
+    0.8,
+    2.9,
+    25,
+    64,
+    100,
+    141,
+    175,
+    185.75
+  ],
+  "visual_review": "pending human/model inspection of extracted frames"
+}
