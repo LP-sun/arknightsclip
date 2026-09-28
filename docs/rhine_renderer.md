@@ -58,7 +58,7 @@ python scripts/build_rhine_placeholder_project.py
 * 导航后使用 `page.waitForFunction()` 等待 `window.__RHINE_RENDER_READY__ === true`；
 * 若页面设置了 `window.__RHINE_RENDER_ERROR__`，抛出异常并以非零状态码退出。
 
-> 当前 smoke/full render 的目标帧范围仍包含 Phase 1 固定值，后续应改为完全由 project contract 的 `total_frames` 驱动；该项记录为 TODO。
+> smoke/full render 会先读取 project contract 的 `total_frames`，再生成目标帧范围；smoke 模式保留场景边界帧和最后一帧用于快速检查。
 
 ---
 
@@ -90,7 +90,6 @@ npm run render:phase1
 当前 renderer 相关事项明确视为**未完成**：
 
 * contract builder 对历史 Windows 绝对路径的跨平台归一化；
-* `render-phase1.mjs` 从 project contract 动态读取 `total_frames`，移除 `1008/1007` 固定值；
 * build contract 阶段与实际 rendered 状态的严格状态机区分；
 * `psd2pen` accepted Box layer 的正式浏览器合成；
 * 自动化 ffmpeg 视频编码；

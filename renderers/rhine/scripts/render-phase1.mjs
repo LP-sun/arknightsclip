@@ -11,16 +11,36 @@ fs.mkdirSync(out, { recursive: true });
 
 const baseUrl = process.env.RHINE_BASE_URL || 'http://127.0.0.1:5173';
 const isSmoke = process.env.RHINE_SMOKE === '1' || process.argv.includes('--smoke');
-const targetFrames = isSmoke
-  ? [0, 23, 24, 47, 48, 1007]
-  : Array.from({ length: 1008 }, (_, i) => i);
 
-console.log(`Starting Rhine render (${targetFrames.length} frames, mode: ${isSmoke ? 'SMOKE' : 'FULL'}) against ${baseUrl}`);
+async function loadProjectFrameCount(page) {
+  const response = await page.request.get(`${baseUrl}/project.json`);
+  if (!response.ok()) {
+    throw new Error(`Unable to load project contract (${response.status()} ${response.statusText()})`);
+  }
+
+  const project = await response.json();
+  const totalFrames = project?.total_frames;
+  if (!Number.isInteger(totalFrames) || totalFrames <= 0) {
+    throw new Error(`Project contract has invalid total_frames: ${JSON.stringify(totalFrames)}`);
+  }
+  return totalFrames;
+}
+
 
 const browser = await chromium.launch({ headless: true });
 const page = await browser.newPage({ viewport: { width: 1920, height: 1080 } });
 
 try {
+  const totalFrames = await loadProjectFrameCount(page);
+  const smokeFrames = [0, 23, 24, 47, 48, totalFrames - 1]
+    .filter((frame) => frame >= 0 && frame < totalFrames)
+    .filter((frame, index, frames) => frames.indexOf(frame) === index);
+  const targetFrames = isSmoke
+    ? smokeFrames
+    : Array.from({ length: totalFrames }, (_, i) => i);
+
+  console.log(`Starting Rhine render (${targetFrames.length} frames, total_frames: ${totalFrames}, mode: ${isSmoke ? 'SMOKE' : 'FULL'}) against ${baseUrl}`);
+
   for (const frame of targetFrames) {
     // 1. Explicitly reset READY flag before navigating so state is not inherited
     await page.evaluate(() => {
