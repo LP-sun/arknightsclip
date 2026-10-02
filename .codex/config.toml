@@ -26,6 +26,10 @@ config_file = "agents/repo-researcher.toml"
 description = "Implementation worker. Workspace writes with on-request approval."
 config_file = "agents/implementation-worker.toml"
 
+[agents."visual-director"]
+description = "Astra visual director."
+config_file = "agents/visual-director.toml"
+
 [agents."visual-reviewer"]
 description = "Visual reviewer. Recommends Pencil MCP; on-request approval."
 config_file = "agents/visual-reviewer.toml"
