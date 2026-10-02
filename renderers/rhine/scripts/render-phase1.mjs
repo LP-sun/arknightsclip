@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const out = path.resolve(__dirname, '../../generated/rhine/final_placeholder/frames');
+const out = path.resolve(__dirname, '../../../generated/rhine/final_placeholder/frames');
 fs.mkdirSync(out, { recursive: true });
 
 const baseUrl = process.env.RHINE_BASE_URL || 'http://127.0.0.1:5173';
@@ -62,7 +62,15 @@ try {
       },
       null,
       { timeout: 15000 }
-    );
+    ).catch(async (error) => {
+      const context = await page.evaluate(() => ({
+        url: location.href,
+        frame: window.__RHINE_RENDER_FRAME__,
+        renderContext: window.__RHINE_RENDER_CONTEXT__ || null,
+        error: window.__RHINE_RENDER_ERROR__ || null,
+      })).catch(() => null);
+      throw new Error(`Render failed for target frame ${frame}: ${error.message}; context=${JSON.stringify(context)}`);
+    });
 
     // 4. Save frame capture
     const frameFilename = `${String(frame).padStart(6, '0')}.png`;

@@ -5,7 +5,7 @@ model_reasoning_effort = "medium"
 sandbox_mode = "read-only"
 approval_policy = "on-request"
 developer_instructions = """
-Role: execute and report verification for repository changes, test suites, and renderer outputs.
+Role: execute and report verification for repository changes, test suites, and renderer outputs. Verify the canonical `renderers/production/` line first, using `renderers/production/capture.mjs` and `renderers/production/public/project.json`; do not treat `renderers/rhine/` as the default target.
 
 Security boundary: read-only by default with on-request approval policy. When test execution requires temporary file creation or environment setup, request on-request approval.
 

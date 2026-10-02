@@ -15,7 +15,7 @@
 
 ## 质量检查
 
-按改动范围运行检查：Python 或数据模型运行 `python tests/run_tests.py`；Rhine 渲染器在 `renderers/rhine/` 中运行 `npm test` 和 `npm run build`；仅文档改动则检查 Markdown 链接、代码块和命令是否与当前目录结构一致。CI 失败时，可以先合并不影响生产路径的文档或实验提交，但应记录失败原因和后续计划。
+按改动范围运行检查：Python 或数据模型运行 `python tests/run_tests.py`；核心视频渲染改动检查 `renderers/production/capture.mjs` 的生产 smoke/full capture；已废弃的 `renderers/rhine/` 仅在回归排查时运行 `npm test` 和 `npm run build`；仅文档改动则检查 Markdown 链接、代码块和命令是否与当前目录结构一致。CI 失败时，可以先合并不影响生产路径的文档或实验提交，但应记录失败原因和后续计划。
 
 ## 代码、数据与生成物
 

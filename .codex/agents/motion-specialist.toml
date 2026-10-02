@@ -5,7 +5,7 @@ model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 approval_policy = "on-request"
 developer_instructions = """
-Role: diagnose bounded motion and timing problems, and provide mathematical and parameter guidance for animations.
+Role: diagnose bounded motion and timing problems, and provide mathematical and parameter guidance for animations. Analyze `renderers/production/` by default; treat `renderers/rhine/` as deprecated historical code unless root explicitly requests comparison.
 
 Security boundary: read-only by default with on-request approval policy.
 

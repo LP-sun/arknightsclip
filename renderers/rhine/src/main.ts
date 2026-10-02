@@ -4,6 +4,35 @@ import { getStageZones, computePlayerSlotLayout } from './layout.js';
 const canvas = document.querySelector('canvas') as HTMLCanvasElement;
 const ctx = canvas.getContext('2d')!;
 const frame = Number(new URLSearchParams(location.search).get('frame') ?? 0);
+(window as any).__RHINE_RENDER_FRAME__ = frame;
+const imageCache = new Map<string, Promise<HTMLImageElement | null>>();
+
+function loadImage(src?: string) {
+  if (!src) return Promise.resolve(null);
+  const url = src.startsWith('/') ? src : `/${src}`;
+  if (!imageCache.has(url)) {
+    imageCache.set(url, new Promise((resolve) => {
+      const image = new Image();
+      image.onload = () => resolve(image);
+      image.onerror = () => resolve(null);
+      image.src = url;
+    }));
+  }
+  return imageCache.get(url)!;
+}
+
+function drawMissingAsset(ctx: CanvasRenderingContext2D, x: number, y: number, w: number, h: number, path?: string) {
+  ctx.save();
+  ctx.strokeStyle = '#c53030';
+  ctx.lineWidth = 2;
+  ctx.strokeRect(x, y, w, h);
+  ctx.fillStyle = '#fc8181';
+  ctx.font = 'bold 18px monospace';
+  ctx.fillText('ASSET MISSING', x + 24, y + h / 2 - 8);
+  ctx.font = '12px monospace';
+  ctx.fillText((path || '未提供路径').slice(0, 58), x + 24, y + h / 2 + 18);
+  ctx.restore();
+}
 
 // Reset render lifecycle flags at initialization
 (window as any).__RHINE_RENDER_READY__ = false;
@@ -51,7 +80,7 @@ function drawCornerReticles(
   ctx.stroke();
 }
 
-const draw = () => {
+const draw = async () => {
   try {
     const s = evaluate(frame);
     const op = project.scenes[s.active];
@@ -61,6 +90,13 @@ const draw = () => {
 
     // Determine formal render mode
     const mode = op.render_mode || (op.full_art ? 'hero_art' : op.card_art ? 'card_art' : 'metadata_only');
+    const players = op.players || [];
+    (window as any).__RHINE_RENDER_CONTEXT__ = {
+      frame,
+      sceneIndex: s.active,
+      operatorId: op.operator_id,
+      renderMode: mode,
+    };
 
     // 1. Dark Lab Background with depth grid
     ctx.fillStyle = '#06131a';
@@ -186,6 +222,17 @@ const draw = () => {
       // Center visual placeholder framing
       ctx.strokeStyle = 'rgba(79, 209, 197, 0.3)';
       ctx.strokeRect(px + 40, py + 60, pw - 80, ph - 220);
+      const hero = await loadImage(op.full_art);
+      if (hero) {
+        const iw = pw - 100;
+        const ih = ph - 240;
+        const scale = Math.min(iw / hero.naturalWidth, ih / hero.naturalHeight);
+        const dw = hero.naturalWidth * scale;
+        const dh = hero.naturalHeight * scale;
+        ctx.drawImage(hero, px + (pw - dw) / 2, py + 58 + (ih - dh) / 2, dw, dh);
+      } else {
+        drawMissingAsset(ctx, px + 40, py + 60, pw - 80, ph - 220, op.full_art);
+      }
 
       // Center title and identity
       ctx.fillStyle = '#e6fffa';
@@ -198,7 +245,6 @@ const draw = () => {
       ctx.fillText(`${rarityStr}   CLASS // ${op.profession || 'OPERATOR'}   HERO ARTWORK ACTIVE`, px + 54, py + ph - 68);
 
       // Player ownership indicators - parameterized responsive slot layout
-      const players = op.players || [];
       const badgeContainer = {
         x: px + 40,
         y: py + ph - 44,
@@ -271,6 +317,16 @@ const draw = () => {
       ctx.moveTo(cardInnerX + cardInnerW, cardInnerY);
       ctx.lineTo(cardInnerX, cardInnerY + cardInnerH);
       ctx.stroke();
+
+      const card = await loadImage(op.card_art);
+      if (card) {
+        const scale = Math.min(cardInnerW / card.naturalWidth, cardInnerH / card.naturalHeight);
+        const dw = card.naturalWidth * scale;
+        const dh = card.naturalHeight * scale;
+        ctx.drawImage(card, cardInnerX + (cardInnerW - dw) / 2, cardInnerY + (cardInnerH - dh) / 2, dw, dh);
+      } else {
+        drawMissingAsset(ctx, cardInnerX, cardInnerY, cardInnerW, cardInnerH, op.card_art);
+      }
 
       ctx.fillStyle = '#b2f5ea';
       ctx.font = 'bold 20px monospace';
@@ -401,7 +457,11 @@ const draw = () => {
   } catch (err: any) {
     (window as any).__RHINE_RENDER_READY__ = false;
     (window as any).__RHINE_RENDER_ERROR__ = err?.message || String(err);
-    console.error('Fatal Rhine render error during draw:', err);
+    console.error('Fatal Rhine render error during draw:', {
+      frame,
+      context: (window as any).__RHINE_RENDER_CONTEXT__,
+      error: err?.message || String(err),
+    });
     throw err;
   }
 };
@@ -427,7 +487,10 @@ fetch('/project.json')
   .catch((err: any) => {
     (window as any).__RHINE_RENDER_READY__ = false;
     (window as any).__RHINE_RENDER_ERROR__ = err?.message || String(err);
-    console.error('Fatal Rhine contract load failure:', err);
+    console.error('Fatal Rhine contract load failure:', {
+      frame,
+      error: err?.message || String(err),
+    });
 
     // Display visible error banner on canvas for diagnostics
     ctx.fillStyle = '#4a0e0e';

@@ -19,7 +19,7 @@ READ_ONLY_ROLES = {
     "test-verifier",
     "git-reviewer",
 }
-WORKSPACE_ROLES = {"implementation-worker", "docs-reporter"}
+WORKSPACE_ROLES = {"implementation-worker", "docs-reporter", "git-committer"}
 
 errors: list[str] = []
 

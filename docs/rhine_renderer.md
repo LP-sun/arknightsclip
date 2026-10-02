@@ -1,6 +1,8 @@
 # Rhine Renderer (WIP / 未完成)
 
-> **状态：未完成（WIP）**。`renderers/rhine/` 是当前唯一继续维护的 Rhine 风格动态 renderer 实现，但**尚未达到 production-ready / delivery-ready 状态**。当前允许保留已实现的 contract、timeline、Vite/Canvas 与 Playwright 基础设施；未完成的动态渲染、跨平台 contract 重建、完整帧范围驱动、视频编码与 Resolve 集成均作为后续 TODO，不作为当前主干稳定性的阻塞条件。
+> **已废弃（Deprecated）**：本目录仅保留历史逐帧实验和回归排查资料。核心视频渲染与 MP4 导出统一使用 [`renderers/production/`](../renderers/production/) 及 [`capture.mjs`](../renderers/production/capture.mjs)。不要在本 renderer 上开始新功能或最终交付工作。
+
+> **状态：已废弃（Deprecated WIP）**。本目录只保留历史 contract、timeline、Vite/Canvas 与 Playwright 实验，供回归排查使用。核心生产渲染、素材合成、视频编码和交付统一转到 `renderers/production/`。
 
 Python 核心层负责数据采集、标准化、`SceneManifest` 与时间线；动态渲染管线消费薄项目契约，并以帧寻址方式执行确定性图形渲染；后续目标是导出时间线与序列帧供 DaVinci Resolve 进行调色与母带制作。
 

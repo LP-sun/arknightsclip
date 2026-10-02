@@ -9,7 +9,8 @@
 
 | 模块 | 定位 | 角色与权责 | 变动约束 |
 |---|---|---|---|
-| **Rhine Renderer** (`renderers/rhine/`) | **主执行视频渲染链路 (Primary Pipeline)** | 负责全量 1920x1080 @ 24fps 确定性帧渲染、动态转场动势、响应式玩家槽位矩阵与最终视频交付。 | 唯一主维护渲染实现，解耦自所有旧 Pen 坐标。 |
+| **Production Renderer** (`renderers/production/`) | **主执行视频渲染链路 (Primary Pipeline)** | 负责全量 1920x1080 @ 24fps 确定性帧渲染、玩家卡片、档案信息和最终 MP4 导出。 | 唯一主维护视频实现。 |
+| **Deprecated Rhine Renderer** (`renderers/rhine/`) | 历史逐帧实验 | 仅保留 WIP Canvas/Playwright 实验和回归参考。 | 禁止作为新功能或交付入口。 |
 | **Pen Design System** (`psd2pen/`, `.pen`) | **设计参考与辅助资产 (Design Reference & Lab)** | 负责离线 UI 视觉原型、组件探索与参考标定。 | **严格只读审计**，绝不直接二进制覆盖损坏；依赖通过 portable manifest 显式映射。 |
 | **Data & Asset Facts** (`data/`, `cards_raw/`) | **唯一事实源 (Single Source of Truth)** | `five_players.json`、`data/manifests/`、原始卡片切片与立绘。 | **不可破坏**，严禁私自篡改、重命名或静默覆盖。 |
 

@@ -350,7 +350,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -362,7 +362,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -398,7 +398,7 @@
         },
         {
           "id": "P5",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -424,7 +424,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -498,7 +498,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -584,7 +584,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -720,7 +720,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -794,7 +794,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -842,7 +842,7 @@
         },
         {
           "id": "P5",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -868,7 +868,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -880,7 +880,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -942,7 +942,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -954,7 +954,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -1016,7 +1016,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -1064,7 +1064,7 @@
         },
         {
           "id": "P5",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -1090,7 +1090,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -1114,7 +1114,7 @@
         },
         {
           "id": "P3",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -1164,7 +1164,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -1176,7 +1176,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -1286,7 +1286,7 @@
         },
         {
           "id": "P5",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -1324,7 +1324,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -1360,7 +1360,7 @@
         },
         {
           "id": "P5",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -1386,7 +1386,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -1460,7 +1460,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -1756,7 +1756,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -1792,7 +1792,7 @@
         },
         {
           "id": "P4",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -1830,7 +1830,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -1866,7 +1866,7 @@
         },
         {
           "id": "P4",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -2088,7 +2088,7 @@
         },
         {
           "id": "P4",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -2100,7 +2100,7 @@
         },
         {
           "id": "P5",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -2126,7 +2126,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -2212,7 +2212,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -2274,7 +2274,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -2422,7 +2422,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -2508,7 +2508,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -2644,7 +2644,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -2718,7 +2718,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -2730,7 +2730,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -2792,7 +2792,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -2828,7 +2828,7 @@
         },
         {
           "id": "P4",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -2866,7 +2866,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -3014,7 +3014,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -3088,7 +3088,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -3124,7 +3124,7 @@
         },
         {
           "id": "P4",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -3162,7 +3162,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -3174,7 +3174,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -3210,7 +3210,7 @@
         },
         {
           "id": "P5",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -3272,7 +3272,7 @@
         },
         {
           "id": "P4",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -3310,7 +3310,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -3470,7 +3470,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -3532,7 +3532,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -3544,7 +3544,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -3606,7 +3606,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -3680,7 +3680,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -3704,7 +3704,7 @@
         },
         {
           "id": "P3",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -3840,7 +3840,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -4050,7 +4050,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -4124,7 +4124,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -4198,7 +4198,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -4246,7 +4246,7 @@
         },
         {
           "id": "P5",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -4320,7 +4320,7 @@
         },
         {
           "id": "P5",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -4346,7 +4346,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -4382,7 +4382,7 @@
         },
         {
           "id": "P4",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -4420,7 +4420,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -4468,7 +4468,7 @@
         },
         {
           "id": "P5",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -4568,7 +4568,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -4716,7 +4716,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -4864,7 +4864,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -4938,7 +4938,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -4986,7 +4986,7 @@
         },
         {
           "id": "P5",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -5012,7 +5012,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -5110,7 +5110,7 @@
         },
         {
           "id": "P3",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -5172,7 +5172,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -5258,7 +5258,7 @@
         },
         {
           "id": "P3",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -5282,7 +5282,7 @@
         },
         {
           "id": "P5",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -5382,7 +5382,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -5456,7 +5456,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -5530,7 +5530,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -5678,7 +5678,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -5826,7 +5826,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -5900,7 +5900,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -5912,7 +5912,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -5974,7 +5974,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -6220,7 +6220,7 @@
         },
         {
           "id": "P3",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -6270,7 +6270,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -6344,7 +6344,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -6466,7 +6466,7 @@
         },
         {
           "id": "P5",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -6652,7 +6652,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -6714,7 +6714,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -6788,7 +6788,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -7010,7 +7010,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -7158,7 +7158,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -7170,7 +7170,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -7182,7 +7182,7 @@
         },
         {
           "id": "P3",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -7194,7 +7194,7 @@
         },
         {
           "id": "P4",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -7232,7 +7232,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -7318,7 +7318,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -7528,7 +7528,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -7602,7 +7602,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -7750,7 +7750,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -7786,7 +7786,7 @@
         },
         {
           "id": "P4",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -7898,7 +7898,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -7934,7 +7934,7 @@
         },
         {
           "id": "P4",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -7972,7 +7972,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -7984,7 +7984,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -7996,7 +7996,7 @@
         },
         {
           "id": "P3",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -8020,7 +8020,7 @@
         },
         {
           "id": "P5",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -8046,7 +8046,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -8082,7 +8082,7 @@
         },
         {
           "id": "P4",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -8194,7 +8194,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -8268,7 +8268,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -8342,7 +8342,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -8366,7 +8366,7 @@
         },
         {
           "id": "P3",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -8416,7 +8416,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -8428,7 +8428,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -8564,7 +8564,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -8786,7 +8786,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -8822,7 +8822,7 @@
         },
         {
           "id": "P4",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -8860,7 +8860,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9082,7 +9082,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9094,7 +9094,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9106,7 +9106,7 @@
         },
         {
           "id": "P3",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9156,7 +9156,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9168,7 +9168,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9180,7 +9180,7 @@
         },
         {
           "id": "P3",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9204,7 +9204,7 @@
         },
         {
           "id": "P5",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9230,7 +9230,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9304,7 +9304,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9378,7 +9378,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9390,7 +9390,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9402,7 +9402,7 @@
         },
         {
           "id": "P3",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9414,7 +9414,7 @@
         },
         {
           "id": "P4",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9452,7 +9452,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9464,7 +9464,7 @@
         },
         {
           "id": "P2",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9476,7 +9476,7 @@
         },
         {
           "id": "P3",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9526,7 +9526,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9648,7 +9648,7 @@
         },
         {
           "id": "P5",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9674,7 +9674,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9710,7 +9710,7 @@
         },
         {
           "id": "P4",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9822,7 +9822,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9846,7 +9846,7 @@
         },
         {
           "id": "P3",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9858,7 +9858,7 @@
         },
         {
           "id": "P4",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9896,7 +9896,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -9970,7 +9970,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -10018,7 +10018,7 @@
         },
         {
           "id": "P5",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,
@@ -10118,7 +10118,7 @@
       "players": [
         {
           "id": "P1",
-          "owned": null,
+          "owned": false,
           "elite": null,
           "level": null,
           "potential": null,

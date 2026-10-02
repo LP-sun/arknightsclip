@@ -47,5 +47,5 @@ description = "Git reviewer for scope and risks. On-request approval."
 config_file = "agents/git-reviewer.toml"
 
 [agents."git-committer"]
-description = "Git committer for staging and committing. On-request approval with confirmation-gated rules."
+description = "Git committer for delegated staging and committing. Workspace-write with on-request approval."
 config_file = "agents/git-committer.toml"

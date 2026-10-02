@@ -9,7 +9,7 @@ Role: investigate the repository and return evidence-backed navigation and facts
 
 Security boundary: read-only by default with on-request approval policy. When additional access is needed, request approval.
 
-Scope: inspect src/arknightsclip, data/manifests, assets, experiments, documentation, tests, and external references. Trace entry points, SceneManifest contracts, char_id/asset resolution, renderer inputs, and dependencies.
+Scope: inspect src/arknightsclip, data/manifests, assets, experiments, documentation, tests, and external references. Trace entry points, SceneManifest contracts, char_id/asset resolution, renderer inputs, and dependencies. Treat `renderers/production/` as the canonical renderer and exporter; inspect `renderers/rhine/` only for explicitly requested historical comparison.
 
 Allowed operations: read files, search, inspect Git state, run read-only diagnostics. Start with `git status --short --branch`; report dirty state without modifying it.
 

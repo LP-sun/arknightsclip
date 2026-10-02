@@ -1,5 +1,4 @@
 # Project subagent strategy — permission-hardened baseline
-# Project subagent strategy — permission-hardened baseline
 
 ## Scope and source of truth
 
@@ -7,14 +6,15 @@ These project-level agents support the current `arknightsclip` repository. The c
 
 * `src/arknightsclip/`: Production data collection, OperBox analysis, normalization, and timeline export pipeline.
 * `psd2pen/`: Production static Box and Pencil visual source of truth (Pencil MCP recommended for `.pen` layout and editing; programmatic scripting permitted). Note that for Rhine video production, `psd2pen` is optional: creators may choose either `psd2pen` layered components or raw screenshot-cropped rectangular cards (`data/raw/*/operbox/cards_raw/`).
-* `renderers/rhine/`: Active Rhine-style dynamic renderer **work in progress (WIP)**. It is the only maintained Rhine renderer path, but it is **not yet production-ready or delivery-ready**. Known renderer limitations and TODOs are documented in `docs/rhine_renderer.md` and must not be described as completed.
+* `renderers/production/`: **Canonical production video renderer and exporter**. It owns the production contract, browser frame capture, and ffmpeg MP4 assembly.
+* `renderers/rhine/`: **Deprecated WIP renderer** retained only for historical frame experiments and regression diagnosis. Do not start new visual or delivery work there.
 * `experiments/rhine_pillow_mockup/`: Historical and rapid visual mockup exploration only; not a production renderer.
 
 Scene data is built into `data/manifests/` from the normalized dataset in `data/normalized/five_players.json`, which draws from the reproducible public dataset in `data/raw/`.
 
 Custom agent files use Codex's project-level `.codex/agents/*.toml` schema. They are intentionally narrow: root retains architecture, shared-file ownership, visual direction, Git integration, Pen/MCP state, permission elevation, and final acceptance.
 
-This hardened package uses the stable `sandbox_mode` presets in `.codex/agents/*.toml` as the primary security mechanism. Granular permission profiles described here represent repository policy guidance rather than an active schema enforcement file; experimental permission profiles have not been committed as executable configs to prevent unverified configuration drift. Do not assume a project-level `.codex/config.toml` exists.
+This hardened package uses the stable `sandbox_mode` presets in `.codex/agents/*.toml` as the primary security mechanism. The checked-in `PERMISSION_PROFILES_EXPERIMENTAL.toml.example` is documentation only and is not loaded by Codex. Granular permission profiles described there represent repository policy guidance rather than active schema enforcement. Do not assume a project-level `.codex/config.toml` is honored by every Codex build.
 
 ## Roles
 
@@ -27,7 +27,7 @@ This hardened package uses the stable `sandbox_mode` presets in `.codex/agents/*
 | `test-verifier` | GPT-5.6 Luna | Tests, determinism, asset, smoke verification | read-only / on-request | none; can request temp/cache writes if needed |
 | `docs-reporter` | GPT-5.6 Luna | Evidence-based documentation/reports | workspace-write / on-request | exact delegated docs paths only (behavioral constraint) |
 | `git-reviewer` | GPT-5.6 Luna | Branch/diff safety review | read-only / on-request | none |
-| `git-committer` | GPT-5.6 Luna | Staging & committing delegated changes | read-only / on-request | staging and commits via on-request approval |
+| `git-committer` | GPT-5.6 Luna | Staging & committing delegated changes | workspace-write / on-request | delegated Git metadata and paths only |
 
 The root agent uses `danger-full-access` so it can perform Git metadata writes; child roles retain their narrower settings.
 
@@ -56,13 +56,13 @@ Child runtime permissions can be affected by the parent/session mode. In particu
 
 ## Read-only roles
 
-`repo-researcher`, `visual-reviewer`, `motion-specialist`, `test-verifier`, and `git-reviewer` use `approval_policy = "on-request"`. If a task requires an elevation (e.g., executing a targeted diagnostic, creating a temporary test artifact, or proposing a visual patch), the role requests explicit approval rather than silently failing.
+`repo-researcher`, `visual-reviewer`, `motion-specialist`, `test-verifier`, and `git-reviewer` use `sandbox_mode = "read-only"` with `approval_policy = "on-request"`. If a task requires an elevation, the role requests explicit approval rather than silently failing.
 
 `test-verifier` should distinguish `FAIL` from environment/permission barriers. It may request temporary cache or artifact writing permissions when necessary to execute test suites reliably.
 
 ## Workspace-write roles
 
-`implementation-worker` and `docs-reporter` use `workspace-write` with `approval_policy = "on-request"`.
+`implementation-worker`, `docs-reporter`, and `git-committer` use `workspace-write` with `approval_policy = "on-request"`. The committer may write only delegated Git metadata and explicitly delegated files.
 
 Their delegated write scopes are managed through explicit root instructions and review:
 - Root explicitly enumerates writable paths in the delegation;
@@ -99,6 +99,19 @@ Codex discovers role files directly from `.codex/agents/*.toml`. Do not assume a
 Keep the root session on `on-request` approvals and avoid Full Access when spawning read-only children. The package caps concurrent subagent threads at 4. Git commit remains serialized regardless of that cap.
 
 Recommended smoke tests:
+
+For every renderer task, include this contract in the delegation prompt before asking for visual or causal analysis:
+
+```text
+ENTRYPOINT=renderers/production/capture.mjs
+CONTRACT=renderers/production/public/project.json
+OUTPUT=<absolute output directory>
+FRAME_BASE=zero-based
+CHECK_BOUNDARIES=<first frame, last frame, and every mode transition>
+REPORT=<frame path, frame number, scene index, operator id, render mode, severity>
+```
+
+Use `model = "gpt-6-astra"` explicitly when dispatching an Astra visual-design review; Astra is a dispatch choice, not a registered project role. Use `visual-reviewer` or `motion-specialist` with the Sol model for causal and timing analysis. Do not infer the active renderer from the word “Rhine” alone.
 
 1. Ask `repo-researcher`: "Find the current renderer-related entry point and list its main files. Do not modify anything."
 2. Ask `git-reviewer`: "Inspect current Git status and report unrelated changes. Do not modify Git state."

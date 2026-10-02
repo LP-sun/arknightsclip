@@ -10,7 +10,17 @@ export interface RhineScene {
   profession?: string;
   rarity?: number;
   cards?: { mode: string; path: string };
-  players?: any[];
+  players: PlayerState[];
+}
+
+export interface PlayerState {
+  player_id: string;
+  display_name?: string;
+  status?: 'confirmed_owned' | 'confirmed_unowned' | string;
+  own?: boolean;
+  elite?: number;
+  level?: number;
+  potential?: number;
 }
 
 export interface RhineProject {
@@ -18,6 +28,7 @@ export interface RhineProject {
   fps: number;
   width: number;
   height: number;
+  total_frames?: number;
   player_profiles?: Record<string, any>;
   scenes: RhineScene[];
 }
